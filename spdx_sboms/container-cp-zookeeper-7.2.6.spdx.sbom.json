@@ -1,0 +1,45 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "spdxVersion": "SPDX-2.2",
+  "creationInfo": {
+    "comment": "This SPDX document has been converted from CycloneDX format.",
+    "created": "2023-07-11T11:04:56.8231513Z",
+    "creators": [
+      "Tool: trivy-0.42.1",
+      "Tool: trivy-0.42.1"
+    ]
+  },
+  "name": "cp-zookeeper-7.2.6",
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/cp-zookeeper-7.2.6-920ee402-c28a-4ede-9a1a-eb32d74188e2",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-cp-base-new-7.2.6-rc230710101344-latest.tgz@:c0a7b9f7-b73c-45c6-b9a5-2b814fef3a41",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "cp-base-new-7.2.6-rc230710101344-latest.tgz",
+      "originator": "NOASSERTION",
+      "supplier": "NOASSERTION"
+    },
+    {
+      "SPDXID": "SPDXRef-confluent-kafka-7.2.6-1@:51d91ad3-fc0d-411d-a0c6-4e8b8bc2a144",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "confluent-kafka-7.2.6-1",
+      "originator": "NOASSERTION",
+      "supplier": "NOASSERTION"
+    }
+  ]
+}

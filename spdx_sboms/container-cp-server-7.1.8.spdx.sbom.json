@@ -1,0 +1,180 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "spdxVersion": "SPDX-2.2",
+  "creationInfo": {
+    "comment": "This SPDX document has been converted from CycloneDX format.",
+    "created": "2023-07-11T11:31:21.2030125Z",
+    "creators": [
+      "Tool: trivy-0.42.1",
+      "Tool: trivy-0.42.1",
+      "Tool: trivy-0.42.1",
+      "Tool: trivy-0.42.1",
+      "Tool: trivy-0.42.1",
+      "Tool: trivy-0.42.1",
+      "Tool: trivy-0.42.1",
+      "Tool: trivy-0.42.1",
+      "Tool: trivy-0.42.1",
+      "Tool: trivy-0.42.1",
+      "Tool: trivy-0.42.1"
+    ]
+  },
+  "name": "cp-server-7.1.8",
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/cp-server-7.1.8-6d921fd6-cd1a-43ae-bb0a-e66e5faad7b3",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-cp-base-new-7.1.8-rc230710101344-latest.tgz@:78530417-8032-413d-a0ba-4cee16565f59",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "cp-base-new-7.1.8-rc230710101344-latest.tgz",
+      "originator": "NOASSERTION",
+      "supplier": "NOASSERTION"
+    },
+    {
+      "SPDXID": "SPDXRef-confluent-ce-kafka-http-server-7.1.8-1@:4a367729-2038-429c-8089-77ae0eccd4e1",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "confluent-ce-kafka-http-server-7.1.8-1",
+      "originator": "NOASSERTION",
+      "supplier": "NOASSERTION"
+    },
+    {
+      "SPDXID": "SPDXRef-confluent-common-7.1.8-1@:6de62463-f50d-46f6-8dd0-545f3c049afc",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "confluent-common-7.1.8-1",
+      "originator": "NOASSERTION",
+      "supplier": "NOASSERTION"
+    },
+    {
+      "SPDXID": "SPDXRef-confluent-kafka-rest-7.1.8-1@:e1baa7aa-1fe1-4d72-9b56-e748e850164a",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "confluent-kafka-rest-7.1.8-1",
+      "originator": "NOASSERTION",
+      "supplier": "NOASSERTION"
+    },
+    {
+      "SPDXID": "SPDXRef-confluent-metadata-service-7.1.8-1@:1eca49a1-8744-4b7e-b42d-b9ee0bad14fa",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "confluent-metadata-service-7.1.8-1",
+      "originator": "NOASSERTION",
+      "supplier": "NOASSERTION"
+    },
+    {
+      "SPDXID": "SPDXRef-confluent-rebalancer-7.1.8-1@:6ec82177-1009-4522-a116-90e08216b91b",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "confluent-rebalancer-7.1.8-1",
+      "originator": "NOASSERTION",
+      "supplier": "NOASSERTION"
+    },
+    {
+      "SPDXID": "SPDXRef-confluent-rest-utils-7.1.8-1@:f1356f62-630f-4914-a339-34c0ed522cf1",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "confluent-rest-utils-7.1.8-1",
+      "originator": "NOASSERTION",
+      "supplier": "NOASSERTION"
+    },
+    {
+      "SPDXID": "SPDXRef-confluent-security-7.1.8-1@:8cb91657-2f52-494d-8f8f-3dfe9f8b149f",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "confluent-security-7.1.8-1",
+      "originator": "NOASSERTION",
+      "supplier": "NOASSERTION"
+    },
+    {
+      "SPDXID": "SPDXRef-confluent-server-7.1.8-1@:683056fe-73fc-486d-a473-351cafaf5248",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "confluent-server-7.1.8-1",
+      "originator": "NOASSERTION",
+      "supplier": "NOASSERTION"
+    },
+    {
+      "SPDXID": "SPDXRef-confluent-server-rest-7.1.8-1@:6afeaa3b-fac0-4ef4-9a7e-450d38b0cd34",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "confluent-server-rest-7.1.8-1",
+      "originator": "NOASSERTION",
+      "supplier": "NOASSERTION"
+    },
+    {
+      "SPDXID": "SPDXRef-confluent-telemetry-7.1.8-1@:c6666aba-315f-4d32-bbe5-6bcae8fefc26",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "confluent-telemetry-7.1.8-1",
+      "originator": "NOASSERTION",
+      "supplier": "NOASSERTION"
+    }
+  ]
+}

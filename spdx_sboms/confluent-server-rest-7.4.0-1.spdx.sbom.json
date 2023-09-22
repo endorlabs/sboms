@@ -1,0 +1,355 @@
+{
+	"SPDXID": "SPDXRef-DOCUMENT",
+	"creationInfo": {
+		"created": "2023-05-03T17:26:57Z",
+		"creators": [
+			"Tool: trivy-0.39.0",
+			"Organization: aquasecurity"
+		]
+	},
+	"dataLicense": "CC0-1.0",
+	"documentDescribes": [
+		"SPDXRef-Filesystem-3878071eeab56c78"
+	],
+	"documentNamespace": "http://aquasecurity.github.io/trivy/filesystem/confluent-server-rest-7.4.0-1-651902b3-ad8e-4608-a170-5c4d78e83ae7",
+	"files": [
+		{
+			"SPDXID": "SPDXRef-File-14b351f3a7aa97e6",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "6c62681a2f655b49963a5983b8b0950a6120ae14"
+				}
+			],
+			"fileName": "usr/share/java/ce-kafka-rest-extensions/slf4j-api-1.7.36.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-4a0725bfbe90da19",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "4230b821fb875307f82ad86bb0bb899e0f8b535d"
+				}
+			],
+			"fileName": "usr/share/java/ce-kafka-rest-servlet/ce-kafka-rest-servlet-7.4.0.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-6c2b30547c85fcf9",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "d3466bc9321fe84f268a1adb3b90373fc14b0eb5"
+				}
+			],
+			"fileName": "usr/share/java/ce-kafka-rest-extensions/javax.ws.rs-api-2.1.1.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-73530c1108228891",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "a9da42675aab19a462da5573898fb492057f10eb"
+				}
+			],
+			"fileName": "usr/share/java/ce-kafka-rest-extensions/ce-kafka-rest-extensions-7.4.0.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-74dd023fa1f8ec8f",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "4b986a99445e49ea5fbf5d149c4b63f6ed6c6780"
+				}
+			],
+			"fileName": "usr/share/java/ce-kafka-rest-extensions/lz4-java-1.8.0.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-84c9348d9538362e",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "fad786abc1d1b81570e8d9a2fc8a1ef479bc27b6"
+				}
+			],
+			"fileName": "usr/share/java/ce-kafka-rest-extensions/zstd-jni-1.5.2-1.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-a5836e3257732de5",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "5e75e7afbb4ed7dec9a8234ffbcd5c06942bf5aa"
+				}
+			],
+			"fileName": "usr/share/java/ce-kafka-rest-extensions/common-utils-7.4.0.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-ca2ea3e2d6a04b70",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "daa395afd9f3affaaad3a16b0d5bebf45bcc0bca"
+				}
+			],
+			"fileName": "usr/share/java/ce-kafka-rest-extensions/kafka-clients-7.4.0-ce.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-d26fcffb1d6714b3",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "66f0d56454509f6e36175f2331572e250e04a6cc"
+				}
+			],
+			"fileName": "usr/share/java/ce-kafka-rest-extensions/snappy-java-1.1.8.4.jar"
+		}
+	],
+	"name": "confluent-server-rest-7.4.0-1",
+	"packages": [
+		{
+			"SPDXID": "SPDXRef-Application-150e605f5f17224d",
+			"downloadLocation": "NONE",
+			"filesAnalyzed": false,
+			"name": "jar",
+			"sourceInfo": "Java"
+		},
+		{
+			"SPDXID": "SPDXRef-Filesystem-3878071eeab56c78",
+			"attributionTexts": [
+				"SchemaVersion: 2"
+			],
+			"downloadLocation": "NONE",
+			"filesAnalyzed": false,
+			"name": "confluent-server-rest-7.4.0-1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-478d36023b4fc22f",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/io.confluent/ce-kafka-rest-servlet@7.4.0",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-4a0725bfbe90da19"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "io.confluent:ce-kafka-rest-servlet",
+			"versionInfo": "7.4.0"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-4e7c4688d2f810ab",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/org.lz4/lz4-java@1.8.0",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-74dd023fa1f8ec8f"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "org.lz4:lz4-java",
+			"versionInfo": "1.8.0"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-799451dc2228b637",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/com.github.luben/zstd-jni@1.5.2-1",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-84c9348d9538362e"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "com.github.luben:zstd-jni",
+			"versionInfo": "1.5.2-1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-88426c5108e89135",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/org.xerial.snappy/snappy-java@1.1.8.4",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-d26fcffb1d6714b3"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "org.xerial.snappy:snappy-java",
+			"versionInfo": "1.1.8.4"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-ac56fed860f8ca6d",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/org.apache.kafka/kafka-clients@7.4.0-ce",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-ca2ea3e2d6a04b70"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "org.apache.kafka:kafka-clients",
+			"versionInfo": "7.4.0-ce"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-b07c9609c2f35d43",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/io.confluent/common-utils@7.4.0",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-a5836e3257732de5"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "io.confluent:common-utils",
+			"versionInfo": "7.4.0"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-b77d57df45ee1a0c",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/javax.ws.rs/javax.ws.rs-api@2.1.1",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-6c2b30547c85fcf9"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "javax.ws.rs:javax.ws.rs-api",
+			"versionInfo": "2.1.1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-c54fd03bf2e86627",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/io.confluent/ce-kafka-rest-extensions@7.4.0",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-73530c1108228891"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "io.confluent:ce-kafka-rest-extensions",
+			"versionInfo": "7.4.0"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-ee305b7e4ef26f47",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/org.slf4j/slf4j-api@1.7.36",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-14b351f3a7aa97e6"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "org.slf4j:slf4j-api",
+			"versionInfo": "1.7.36"
+		}
+	],
+	"relationships": [
+		{
+			"relatedSpdxElement": "SPDXRef-Filesystem-3878071eeab56c78",
+			"relationshipType": "DESCRIBES",
+			"spdxElementId": "SPDXRef-DOCUMENT"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Application-150e605f5f17224d",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Filesystem-3878071eeab56c78"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-88426c5108e89135",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-799451dc2228b637",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-c54fd03bf2e86627",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-b07c9609c2f35d43",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-b77d57df45ee1a0c",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-ac56fed860f8ca6d",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-4e7c4688d2f810ab",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-ee305b7e4ef26f47",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-478d36023b4fc22f",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		}
+	],
+	"spdxVersion": "SPDX-2.2"
+}

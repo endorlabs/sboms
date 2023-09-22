@@ -1,0 +1,128 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "created": "2023-09-05T21:05:00Z",
+    "creators": [
+      "Organization: Red Hat Product Security (secalert@redhat.com)"
+    ],
+    "licenseListVersion": "3.8"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentDescribes": [
+    "SPDXRef-b98615ee-80af-4b9f-beae-9bd0f5839744"
+  ],
+  "documentNamespace": "https://access.redhat.com/security/data/sbom/beta/spdx/rosa-cli-1-b98615ee-80af-4b9f-beae-9bd0f5839744",
+  "name": "rosa-cli-1",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-02269ef5-b00c-4fac-aea1-f9fc7f1a80a2",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://access.redhat.com/downloads/content/package-browser",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:rpm/redhat/rosa@1.2.26-cf972fb.el8?arch=src",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "NOASSERTION",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "ASL-2.0",
+      "name": "rosa",
+      "originator": "NOASSERTION",
+      "packageFileName": "rosa-1.2.26-cf972fb.el8.src.rpm",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "rosa-1.2.26-cf972fb.el8.src"
+    },
+    {
+      "SPDXID": "SPDXRef-778553a7-047f-4e3f-84ab-416615cd06d8",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://access.redhat.com/downloads/content/package-browser",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:rpm/redhat/rosa-redistributable@1.2.26-cf972fb.el8?arch=x86_64",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "NOASSERTION",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "ASL-2.0",
+      "name": "rosa-redistributable",
+      "originator": "NOASSERTION",
+      "packageFileName": "rosa-redistributable-1.2.26-cf972fb.el8.x86_64.rpm",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "rosa-redistributable-1.2.26-cf972fb.el8.x86_64"
+    },
+    {
+      "SPDXID": "SPDXRef-ec6c0069-55f7-4afd-bd47-d801db170b98",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://access.redhat.com/downloads/content/package-browser",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:rpm/redhat/rosa@1.2.26-cf972fb.el8?arch=x86_64",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "NOASSERTION",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "ASL-2.0",
+      "name": "rosa",
+      "originator": "NOASSERTION",
+      "packageFileName": "rosa-1.2.26-cf972fb.el8.x86_64.rpm",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "rosa-1.2.26-cf972fb.el8.x86_64"
+    },
+    {
+      "SPDXID": "SPDXRef-b98615ee-80af-4b9f-beae-9bd0f5839744",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:/a:redhat:openshift_service_on_aws:1::el8",
+          "referenceType": "cpe22Type"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://www.redhat.com/",
+      "licenseComments": "Licensing information is provided for individual components only at this time.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "rosa-cli-1",
+      "packageFileName": "NOASSERTION",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "1"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "SPDXRef-02269ef5-b00c-4fac-aea1-f9fc7f1a80a2",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-778553a7-047f-4e3f-84ab-416615cd06d8"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-02269ef5-b00c-4fac-aea1-f9fc7f1a80a2",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-ec6c0069-55f7-4afd-bd47-d801db170b98"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-b98615ee-80af-4b9f-beae-9bd0f5839744",
+      "relationshipType": "PACKAGE_OF",
+      "spdxElementId": "SPDXRef-02269ef5-b00c-4fac-aea1-f9fc7f1a80a2"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-b98615ee-80af-4b9f-beae-9bd0f5839744",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

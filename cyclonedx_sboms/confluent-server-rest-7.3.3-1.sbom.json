@@ -1,0 +1,199 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "serialNumber": "urn:uuid:2140a4e4-e521-4793-8d84-9f572e421aa5",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2023-03-29T00:58:05+00:00",
+    "tools": [
+      {
+        "vendor": "aquasecurity",
+        "name": "trivy",
+        "version": "0.38.3"
+      }
+    ],
+    "component": {
+      "bom-ref": "767d4679-6b79-47c9-bdbd-53740ad08095",
+      "type": "application",
+      "name": "confluent-server-rest-7.3.3-1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:SchemaVersion",
+          "value": "2"
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "pkg:maven/org.apache.kafka/kafka-clients@7.3.3-ce?file_path=usr%2Fshare%2Fjava%2Fce-kafka-rest-extensions%2Fkafka-clients-7.3.3-ce.jar",
+      "type": "library",
+      "name": "org.apache.kafka:kafka-clients",
+      "version": "7.3.3-ce",
+      "purl": "pkg:maven/org.apache.kafka/kafka-clients@7.3.3-ce",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        },
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/ce-kafka-rest-extensions/kafka-clients-7.3.3-ce.jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.lz4/lz4-java@1.8.0?file_path=usr%2Fshare%2Fjava%2Fce-kafka-rest-extensions%2Flz4-java-1.8.0.jar",
+      "type": "library",
+      "name": "org.lz4:lz4-java",
+      "version": "1.8.0",
+      "purl": "pkg:maven/org.lz4/lz4-java@1.8.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        },
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/ce-kafka-rest-extensions/lz4-java-1.8.0.jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.slf4j/slf4j-api@1.7.36?file_path=usr%2Fshare%2Fjava%2Fce-kafka-rest-extensions%2Fslf4j-api-1.7.36.jar",
+      "type": "library",
+      "name": "org.slf4j:slf4j-api",
+      "version": "1.7.36",
+      "purl": "pkg:maven/org.slf4j/slf4j-api@1.7.36",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        },
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/ce-kafka-rest-extensions/slf4j-api-1.7.36.jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.xerial.snappy/snappy-java@1.1.8.4?file_path=usr%2Fshare%2Fjava%2Fce-kafka-rest-extensions%2Fsnappy-java-1.1.8.4.jar",
+      "type": "library",
+      "name": "org.xerial.snappy:snappy-java",
+      "version": "1.1.8.4",
+      "purl": "pkg:maven/org.xerial.snappy/snappy-java@1.1.8.4",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        },
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/ce-kafka-rest-extensions/snappy-java-1.1.8.4.jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.github.luben/zstd-jni@1.5.2-1?file_path=usr%2Fshare%2Fjava%2Fce-kafka-rest-extensions%2Fzstd-jni-1.5.2-1.jar",
+      "type": "library",
+      "name": "com.github.luben:zstd-jni",
+      "version": "1.5.2-1",
+      "purl": "pkg:maven/com.github.luben/zstd-jni@1.5.2-1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        },
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/ce-kafka-rest-extensions/zstd-jni-1.5.2-1.jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/io.confluent/ce-kafka-rest-extensions@7.3.3?file_path=usr%2Fshare%2Fjava%2Fce-kafka-rest-extensions%2Fce-kafka-rest-extensions-7.3.3.jar",
+      "type": "library",
+      "name": "io.confluent:ce-kafka-rest-extensions",
+      "version": "7.3.3",
+      "purl": "pkg:maven/io.confluent/ce-kafka-rest-extensions@7.3.3",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        },
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/ce-kafka-rest-extensions/ce-kafka-rest-extensions-7.3.3.jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/io.confluent/common-utils@7.3.3?file_path=usr%2Fshare%2Fjava%2Fce-kafka-rest-extensions%2Fcommon-utils-7.3.3.jar",
+      "type": "library",
+      "name": "io.confluent:common-utils",
+      "version": "7.3.3",
+      "purl": "pkg:maven/io.confluent/common-utils@7.3.3",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        },
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/ce-kafka-rest-extensions/common-utils-7.3.3.jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/javax.ws.rs/javax.ws.rs-api@2.1.1?file_path=usr%2Fshare%2Fjava%2Fce-kafka-rest-extensions%2Fjavax.ws.rs-api-2.1.1.jar",
+      "type": "library",
+      "name": "javax.ws.rs:javax.ws.rs-api",
+      "version": "2.1.1",
+      "purl": "pkg:maven/javax.ws.rs/javax.ws.rs-api@2.1.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        },
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/ce-kafka-rest-extensions/javax.ws.rs-api-2.1.1.jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/io.confluent/ce-kafka-rest-servlet@7.3.3?file_path=usr%2Fshare%2Fjava%2Fce-kafka-rest-servlet%2Fce-kafka-rest-servlet-7.3.3.jar",
+      "type": "library",
+      "name": "io.confluent:ce-kafka-rest-servlet",
+      "version": "7.3.3",
+      "purl": "pkg:maven/io.confluent/ce-kafka-rest-servlet@7.3.3",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        },
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/ce-kafka-rest-servlet/ce-kafka-rest-servlet-7.3.3.jar"
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "767d4679-6b79-47c9-bdbd-53740ad08095",
+      "dependsOn": [
+        "pkg:maven/org.apache.kafka/kafka-clients@7.3.3-ce?file_path=usr%2Fshare%2Fjava%2Fce-kafka-rest-extensions%2Fkafka-clients-7.3.3-ce.jar",
+        "pkg:maven/org.lz4/lz4-java@1.8.0?file_path=usr%2Fshare%2Fjava%2Fce-kafka-rest-extensions%2Flz4-java-1.8.0.jar",
+        "pkg:maven/org.slf4j/slf4j-api@1.7.36?file_path=usr%2Fshare%2Fjava%2Fce-kafka-rest-extensions%2Fslf4j-api-1.7.36.jar",
+        "pkg:maven/org.xerial.snappy/snappy-java@1.1.8.4?file_path=usr%2Fshare%2Fjava%2Fce-kafka-rest-extensions%2Fsnappy-java-1.1.8.4.jar",
+        "pkg:maven/com.github.luben/zstd-jni@1.5.2-1?file_path=usr%2Fshare%2Fjava%2Fce-kafka-rest-extensions%2Fzstd-jni-1.5.2-1.jar",
+        "pkg:maven/io.confluent/ce-kafka-rest-extensions@7.3.3?file_path=usr%2Fshare%2Fjava%2Fce-kafka-rest-extensions%2Fce-kafka-rest-extensions-7.3.3.jar",
+        "pkg:maven/io.confluent/common-utils@7.3.3?file_path=usr%2Fshare%2Fjava%2Fce-kafka-rest-extensions%2Fcommon-utils-7.3.3.jar",
+        "pkg:maven/javax.ws.rs/javax.ws.rs-api@2.1.1?file_path=usr%2Fshare%2Fjava%2Fce-kafka-rest-extensions%2Fjavax.ws.rs-api-2.1.1.jar",
+        "pkg:maven/io.confluent/ce-kafka-rest-servlet@7.3.3?file_path=usr%2Fshare%2Fjava%2Fce-kafka-rest-servlet%2Fce-kafka-rest-servlet-7.3.3.jar"
+      ]
+    }
+  ],
+  "vulnerabilities": []
+}

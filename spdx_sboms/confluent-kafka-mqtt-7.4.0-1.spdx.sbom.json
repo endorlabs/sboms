@@ -1,0 +1,4355 @@
+{
+	"SPDXID": "SPDXRef-DOCUMENT",
+	"creationInfo": {
+		"created": "2023-05-03T17:25:06Z",
+		"creators": [
+			"Tool: trivy-0.39.0",
+			"Organization: aquasecurity"
+		]
+	},
+	"dataLicense": "CC0-1.0",
+	"documentDescribes": [
+		"SPDXRef-Filesystem-f1dd7cc8bdd633"
+	],
+	"documentNamespace": "http://aquasecurity.github.io/trivy/filesystem/confluent-kafka-mqtt-7.4.0-1-91874b20-59ef-4db8-a8f4-4a3d449185d0",
+	"files": [
+		{
+			"SPDXID": "SPDXRef-File-1461ae823dffbcd8",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "32bff4fa4099cf642b8bfd0a22527a6eed0daf49"
+				}
+			],
+			"fileName": "usr/share/java/confluent-kafka-mqtt/netty-codec-memcache-4.1.86.Final.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-14cbf97c87847ef3",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "daa395afd9f3affaaad3a16b0d5bebf45bcc0bca"
+				}
+			],
+			"fileName": "usr/share/java/confluent-kafka-mqtt/kafka-clients-7.4.0-ce.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-16174882acbc4ee2",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "c4c1ed859e2aa7bd87f5826e85e2414b78033c96"
+				}
+			],
+			"fileName": "usr/share/java/confluent-kafka-mqtt/netty-codec-redis-4.1.86.Final.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-1941e020f6646f20",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "e0bcf286427e181553385bc1b576fc1a47194591"
+				}
+			],
+			"fileName": "usr/share/java/confluent-kafka-mqtt/bctls-fips-1.0.13.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-19e8baa2ad9729ee",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "cc9a25c1f4212562dcb2fa33dd8ae179ba0e6a4e"
+				}
+			],
+			"fileName": "usr/share/java/confluent-kafka-mqtt/jackson-dataformat-yaml-2.14.2.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-1f2005c5f0438908",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "f61d71fb0aec1761a9b86dd26c6139d7261af242"
+				}
+			],
+			"fileName": "usr/share/java/confluent-kafka-mqtt/netty-codec-haproxy-4.1.86.Final.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-1fe44baa67ad5840",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "854264e7ad75887bc25b82eb38e4ee65c8b44dc3"
+				}
+			],
+			"fileName": "usr/share/java/confluent-kafka-mqtt/netty-codec-socks-4.1.86.Final.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-2086768b5a8f5de7",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "8ddbc8769f73309fe09b54c5951163f10b0d89fa"
+				}
+			],
+			"fileName": "usr/share/java/confluent-kafka-mqtt/guava-30.0-jre.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-20a96020e9e72c15",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "ba035118bc8bac37d7eff77700720999acd9986d"
+				}
+			],
+			"fileName": "usr/share/java/confluent-kafka-mqtt/j2objc-annotations-1.3.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-20c3e45b8b5d85db",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "9c14a88a9690890dead384ca82748be4bc335256"
+				}
+			],
+			"fileName": "usr/share/java/confluent-kafka-mqtt/authorizer-7.4.0-ce.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-226c35f00baba1f7",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "404f8a4159d7d6034c3e515e3f673f19c6a100ee"
+				}
+			],
+			"fileName": "usr/share/java/confluent-kafka-mqtt/swagger-annotations-2.2.0.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-2291a0d2662a07c6",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "a871477a2e6596694fef886fcf2d431967567892"
+				}
+			],
+			"fileName": "usr/share/java/confluent-kafka-mqtt/cel-generated-antlr-0.3.5.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-23fe1cec719ddc1e",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "6114f92529e9cff489528e6be77b48526a92d577"
+				}
+			],
+			"fileName": "usr/share/java/confluent-kafka-mqtt/jetty-security-9.4.48.v20220622.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-26bb982df9d2484",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "d0572c8460eb26adf8420e78535d95859c89a936"
+				}
+			],
+			"fileName": "usr/share/java/confluent-kafka-mqtt/jetty-server-9.4.51.v20230217.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-281c6ad8de9c54d8",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "992630431704cf3144fb83fdac8e3c365c811c0a"
+				}
+			],
+			"fileName": "usr/share/java/confluent-kafka-mqtt/jetty-client-9.4.51.v20230217.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-28dd5eb22d1f3a40",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "d3466bc9321fe84f268a1adb3b90373fc14b0eb5"
+				}
+			],
+			"fileName": "usr/share/java/confluent-kafka-mqtt/javax.ws.rs-api-2.1.1.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-2f3b9eae590a6087",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "a11a0713b17334a5b6e694602fbd1a9457cb5fdd"
+				}
+			],
+			"fileName": "usr/share/java/confluent-kafka-mqtt/jetty-io-9.4.51.v20230217.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-303eb800e77759fe",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "8134f8babbfbb18373110ea0b5871fd34b9c77bf"
+				}
+			],
+			"fileName": "usr/share/java/confluent-kafka-mqtt/minimal-json-0.9.5.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-315bfb1cc5202c95",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "9dedf9d2022e38ec0743ed44c1ac94ad6149acdd"
+				}
+			],
+			"fileName": "usr/share/java/confluent-kafka-mqtt/hk2-locator-2.6.1.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-31d5d6d3cb620916",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "6f0621d0c3888de39e0f06d01f37ba53a798e657"
+				}
+			],
+			"fileName": "usr/share/java/confluent-kafka-mqtt/argparse4j-0.7.0.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-3563a072c3c35524",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "a1e2ef79e4944b5d38092328c36c68e677a4b5f3"
+				}
+			],
+			"fileName": "usr/share/java/confluent-kafka-mqtt/netty-resolver-dns-4.1.86.Final.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-381e1ca4f1293f0a",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "9afb5797a8e53ccc09971e24e13a096a7b4ce35e"
+				}
+			],
+			"fileName": "usr/share/java/confluent-kafka-mqtt/connect-runtime-7.4.0-ccs.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-3856a2306120d51f",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "b421526c5f297295adef1c886e5246c39d4ac629"
+				}
+			],
+			"fileName": "usr/share/java/confluent-kafka-mqtt/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-3a9d9b4cb0db0eac",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "8a1167e089096758b49f9b34066ef98b2f4b37aa"
+				}
+			],
+			"fileName": "usr/share/java/confluent-kafka-mqtt/gson-2.9.0.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-3c1152e20e2c6b7f",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "7be67795fff13a52dfdc4d0b024578103e6ab3f5"
+				}
+			],
+			"fileName": "usr/share/java/confluent-kafka-mqtt/netty-transport-native-epoll-4.1.86.Final-linux-x86_64.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-3f1869381e6eb5c0",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "b2eb0a83bcbb44cc5d25f8b18f23be116313a638"
+				}
+			],
+			"fileName": "usr/share/java/confluent-kafka-mqtt/aopalliance-repackaged-2.6.1.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-3fe504279b2e4327",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "1b2f3462b66c31ed63376ff2f76691df6a4e7aaa"
+				}
+			],
+			"fileName": "usr/share/java/confluent-kafka-mqtt/netty-transport-classes-kqueue-4.1.86.Final.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-4025836b41a3123f",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "540bd047e99ef58bec83c59bdde5eeb63527d358"
+				}
+			],
+			"fileName": "usr/share/java/confluent-kafka-mqtt/logredactor-1.0.11.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-4184527d7d9bd7d",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "03006ab2f6786b419893cae56b9f6ec58d1e8aec"
+				}
+			],
+			"fileName": "usr/share/java/confluent-kafka-mqtt/jackson-jaxrs-base-2.14.2.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-43deac13910690eb",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "442dc1f9fd520130bd18da938622f4f9b2e5fba3"
+				}
+			],
+			"fileName": "usr/share/java/confluent-kafka-mqtt/javassist-3.25.0-GA.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-476c434542ab98cb",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "578a2070b8106d3ea350fc737e777262bdc796b1"
+				}
+			],
+			"fileName": "usr/share/java/confluent-kafka-mqtt/protobuf-java-3.19.6.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-4b099761784b34b6",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "c8de479f36a8457541fcbb0016c851bde3e67693"
+				}
+			],
+			"fileName": "usr/share/java/confluent-kafka-mqtt/netty-codec-dns-4.1.86.Final.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-4b740cc7e432131e",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "bad83d479f7bd8ea84eefd77c316435be4c97270"
+				}
+			],
+			"fileName": "usr/share/java/confluent-kafka-mqtt/netty-resolver-4.1.86.Final.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-4f9a2d840007952c",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "89e9e180cf7e9e6e6dd8af9a8d3c1563a02bdde6"
+				}
+			],
+			"fileName": "usr/share/java/confluent-kafka-mqtt/netty-resolver-dns-native-macos-4.1.86.Final-osx-aarch_64.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-555f4718d1d47df",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "4c9ec3fb31b1c0f0827773d5e477a48153d1284f"
+				}
+			],
+			"fileName": "usr/share/java/confluent-kafka-mqtt/connect-json-7.4.0-ce.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-56b7f6e845e2353c",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "fa07e79f9f81776bc8f33191e91ec8971b5e12b3"
+				}
+			],
+			"fileName": "usr/share/java/confluent-kafka-mqtt/protobuf-java-util-3.19.6.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-5963b85f17a1d79a",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "e65b3030a5a476e123a09a370db920c1075bdd1e"
+				}
+			],
+			"fileName": "usr/share/java/confluent-kafka-mqtt/netty-transport-rxtx-4.1.86.Final.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-5a7b74fd655b11e3",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "cea85e85b1c19657ec3ea41b26351a53a40caa3c"
+				}
+			],
+			"fileName": "usr/share/java/confluent-kafka-mqtt/jersey-common-2.34.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-5c1a0508b1ce5e04",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "99f53adba383cb1bf7c3862844488574b559621f"
+				}
+			],
+			"fileName": "usr/share/java/confluent-kafka-mqtt/jakarta.activation-api-1.2.2.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-5c2fa9352f9d04a4",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "934c04d3cfef185a8008e7bf34331b79730a9d43"
+				}
+			],
+			"fileName": "usr/share/java/confluent-kafka-mqtt/javax.annotation-api-1.3.2.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-5c82e88e17bb736b",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "883713e746a0b190ba98d102546e7c0c2f7ae4a5"
+				}
+			],
+			"fileName": "usr/share/java/confluent-kafka-mqtt/connect-api-7.4.0-ce.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-5ee89866e1d3fe4f",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "fe37568aded59dd8e437e0f670fe5f809071fe8f"
+				}
+			],
+			"fileName": "usr/share/java/confluent-kafka-mqtt/jetty-http-9.4.51.v20230217.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-62d23ef9b9f566e3",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "7d1e9da902603d2ef0786957167cdb5a80337ef0"
+				}
+			],
+			"fileName": "usr/share/java/confluent-kafka-mqtt/connect-transforms-7.4.0-ccs.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-6675751f87f93f76",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "949391a8e576cb38783f5d31675a2ea70c8753fa"
+				}
+			],
+			"fileName": "usr/share/java/confluent-kafka-mqtt/jackson-jaxrs-json-provider-2.14.2.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-68b7da4ffe8cfbfa",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "db708f7d959dee1857ac524636e85ecf2e1781c1"
+				}
+			],
+			"fileName": "usr/share/java/confluent-kafka-mqtt/slf4j-reload4j-1.7.36.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-697b43c9f108d9f5",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "6c62681a2f655b49963a5983b8b0950a6120ae14"
+				}
+			],
+			"fileName": "usr/share/java/confluent-kafka-mqtt/slf4j-api-1.7.36.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-6a987dc6c0635474",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "8096ebf722902e75fbd4f532a751e514f02e1eb7"
+				}
+			],
+			"fileName": "usr/share/java/confluent-kafka-mqtt/jakarta.inject-2.6.1.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-6f31ba0b51332450",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "931d37c09b8c370ed237ec2dc418810b79f0c911"
+				}
+			],
+			"fileName": "usr/share/java/confluent-kafka-mqtt/netty-codec-stomp-4.1.86.Final.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-7005ee2a9b56527a",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "98a29ae51949736377171dc5b3226a5690eb959a"
+				}
+			],
+			"fileName": "usr/share/java/confluent-kafka-mqtt/netty-transport-sctp-4.1.86.Final.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-7097a832df7a3f04",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "5eacc6522521f7eacb081f95cee1e231648461e7"
+				}
+			],
+			"fileName": "usr/share/java/confluent-kafka-mqtt/jakarta.validation-api-2.0.2.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-711da52eff735132",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "de3b21279df7e755e38275137539be5e2c80dd58"
+				}
+			],
+			"fileName": "usr/share/java/confluent-kafka-mqtt/osgi-resource-locator-1.0.3.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-73d97e3c534976d1",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "dac170e4594de319655ffb62f41cbd6dbb5e601e"
+				}
+			],
+			"fileName": "usr/share/java/confluent-kafka-mqtt/error_prone_annotations-2.3.4.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-7768b30b3c9a5a4",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "29fef425da96f3efb659b4533a4625b1bd04efa1"
+				}
+			],
+			"fileName": "usr/share/java/confluent-kafka-mqtt/netty-codec-xml-4.1.86.Final.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-7ba9b6a2af256a4f",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "e71fb899349874cb2877656680508a257947601c"
+				}
+			],
+			"fileName": "usr/share/java/confluent-kafka-mqtt/jersey-container-servlet-core-2.34.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-7ef287ef03b00d04",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "91de8555f0677ad012118287381e6a389edcdd4c"
+				}
+			],
+			"fileName": "usr/share/java/confluent-kafka-mqtt/kafka-server-common-7.4.0-ce.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-7f7d9bc9d208ba5d",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2d4e7e73b5240ed5d222bea1f5eb6562ba0f8278"
+				}
+			],
+			"fileName": "usr/share/java/confluent-kafka-mqtt/kafka-log4j-appender-7.4.0-ce.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-80884b80624a0a99",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2f3c71211b6ea7a978eba33574d7135d536e07fb"
+				}
+			],
+			"fileName": "usr/share/java/confluent-kafka-mqtt/jackson-datatype-jdk8-2.14.2.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-814837a3338f64e5",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "c69ba80edc70acb18a89bbf8c38b057e1609befb"
+				}
+			],
+			"fileName": "usr/share/java/confluent-kafka-mqtt/netty-transport-udt-4.1.86.Final.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-8182cd75f0ae915b",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "f82c035cfa786d3cbec362c38c22a5f5b1bc8724"
+				}
+			],
+			"fileName": "usr/share/java/confluent-kafka-mqtt/metrics-core-2.2.0.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-8295c5ee0415861a",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "b97b8637e89fcd816a17b8e7b9b0536e548f125f"
+				}
+			],
+			"fileName": "usr/share/java/confluent-kafka-mqtt/netty-transport-native-epoll-4.1.86.Final-linux-aarch_64.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-8cdac9c3a3347b23",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "7c7739c41fd110c3576e9faace332ee957f27203"
+				}
+			],
+			"fileName": "usr/share/java/confluent-kafka-mqtt/netty-transport-4.1.86.Final.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-970163f82ad95fae",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "1dcf1de382a0bf95a3d8b0849546c88bac1292c9"
+				}
+			],
+			"fileName": "usr/share/java/confluent-kafka-mqtt/failureaccess-1.0.1.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-98555595a6f90f59",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "a7aae9525864930723e3453ab799521fdfd9d873"
+				}
+			],
+			"fileName": "usr/share/java/confluent-kafka-mqtt/jackson-annotations-2.14.2.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-9863c4b0b9767668",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "5561f52debc0cbcbdab08eadbdc3c1d0c25810a3"
+				}
+			],
+			"fileName": "usr/share/java/confluent-kafka-mqtt/cel-core-0.3.5.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-98f46bb1b768ffd0",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "01e71fddbc80bb86f71a6345ac1e8ab8a00e7134"
+				}
+			],
+			"fileName": "usr/share/java/confluent-kafka-mqtt/jackson-databind-2.14.2.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-995fc0f7848d264e",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "b113da58158c96d6dd8df440bb79c1c0b5e2056e"
+				}
+			],
+			"fileName": "usr/share/java/confluent-kafka-mqtt/jetty-servlets-9.4.48.v20220622.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-9a17368a3a1e6661",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "3f3ad63ce2b51ff565d3ba85eeb8202983e9be13"
+				}
+			],
+			"fileName": "usr/share/java/confluent-kafka-mqtt/jersey-server-2.34.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-9d3e560a7b877e0e",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "da62b32cb72591f5b4d322e6ab0ce7de3247b534"
+				}
+			],
+			"fileName": "usr/share/java/confluent-kafka-mqtt/bc-fips-1.0.2.3.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-9f0703e82e62dd5e",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "6505a72a097d9270f7a9e7bf42c4238283247755"
+				}
+			],
+			"fileName": "usr/share/java/confluent-kafka-mqtt/commons-lang3-3.8.1.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-9fa49deb63a0130f",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2da1287dfc76d01418cc4b716d20154941b841ed"
+				}
+			],
+			"fileName": "usr/share/java/confluent-kafka-mqtt/jetty-continuation-9.4.48.v20220622.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-a1ccb5dd1b2aefc3",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "114bd7afb4a1bd9993527f52a08a252b5d2acac5"
+				}
+			],
+			"fileName": "usr/share/java/confluent-kafka-mqtt/hk2-api-2.6.1.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-a41b8368cc07e86b",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "def39454993d094df10b1689592d235e636d7dde"
+				}
+			],
+			"fileName": "usr/share/java/confluent-kafka-mqtt/jetty-util-ajax-9.4.48.v20220622.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-a5a84a22adb4d529",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "fad786abc1d1b81570e8d9a2fc8a1ef479bc27b6"
+				}
+			],
+			"fileName": "usr/share/java/confluent-kafka-mqtt/zstd-jni-1.5.2-1.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-a76e07000ef1c771",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "59eb84ee0d616332ff44aba065f3888cf002cd2d"
+				}
+			],
+			"fileName": "usr/share/java/confluent-kafka-mqtt/jakarta.annotation-api-1.3.5.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-aafd921667ba058a",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "5e0e7fc1c337485cabcf7971faefe692b76f93a2"
+				}
+			],
+			"fileName": "usr/share/java/confluent-kafka-mqtt/netty-transport-native-unix-common-4.1.86.Final.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-adcd0d4f07f45b77",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "485de3a253e23f645037828c07f1d7f1af40763a"
+				}
+			],
+			"fileName": "usr/share/java/confluent-kafka-mqtt/activation-1.1.1.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-ae471eb9ea43c5c6",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "0bcb65230218286e6456b5d085cb42e67776eb70"
+				}
+			],
+			"fileName": "usr/share/java/confluent-kafka-mqtt/netty-handler-4.1.86.Final.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-af342153a2245449",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "1dceab4662a9cc93faf87b237bb41103b1bc7f0e"
+				}
+			],
+			"fileName": "usr/share/java/confluent-kafka-mqtt/netty-common-4.1.86.Final.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-afaa616f3d1da3dd",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "0b1c323028fcbd4ea757087038797f331c828959"
+				}
+			],
+			"fileName": "usr/share/java/confluent-kafka-mqtt/netty-transport-classes-epoll-4.1.86.Final.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-b5745c7913725bf5",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "5d72f1896cb9dab1fb7c41470cb30a9e63a65643"
+				}
+			],
+			"fileName": "usr/share/java/confluent-kafka-mqtt/netty-resolver-dns-classes-macos-4.1.86.Final.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-b725afd45eb161e1",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "48e3b9cfc10752fba3521d6511f4165bea951801"
+				}
+			],
+			"fileName": "usr/share/java/confluent-kafka-mqtt/jakarta.xml.bind-api-2.3.3.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-b89b68798a9bacc8",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "396513aa96c1d5a10aa4f75c4dcbf259a698d62d"
+				}
+			],
+			"fileName": "usr/share/java/confluent-kafka-mqtt/hk2-utils-2.6.1.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-bbb5e22cb497048d",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "f9c6c7c6429a1ede8e73cf077bdca28ebff67681"
+				}
+			],
+			"fileName": "usr/share/java/confluent-kafka-mqtt/jersey-client-2.34.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-bd5f7ef39dca035a",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "a66fa0ed2687eb33a2e53a17a6df61bfe3b3f2bd"
+				}
+			],
+			"fileName": "usr/share/java/confluent-kafka-mqtt/netty-buffer-4.1.86.Final.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-bfc2ffa128ab18d0",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "1c9d44c563eebe9b8a3afebd29ed5c4646db800c"
+				}
+			],
+			"fileName": "usr/share/java/confluent-kafka-mqtt/reflections-0.9.12.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-c33349cd43416d10",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "f804090e6399ce0cf78242db086017512dd71fcc"
+				}
+			],
+			"fileName": "usr/share/java/confluent-kafka-mqtt/jackson-core-2.14.2.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-c4b64cc4a2cb1ae8",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "4eae9978468c5e885a6fb44df7e2bbc07a20e6ce"
+				}
+			],
+			"fileName": "usr/share/java/confluent-kafka-mqtt/reload4j-1.2.19.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-c4f163c115bea7b",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "8a9a53e0aad3f194a4cc9940f7e9d5619254bf62"
+				}
+			],
+			"fileName": "usr/share/java/confluent-kafka-mqtt/jetty-servlet-9.4.48.v20220622.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-c58614e6fd1149da",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "66f0d56454509f6e36175f2331572e250e04a6cc"
+				}
+			],
+			"fileName": "usr/share/java/confluent-kafka-mqtt/snappy-java-1.1.8.4.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-c7e4453171fe2ef1",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "23674593f004959ae002ec348626eecf677191ae"
+				}
+			],
+			"fileName": "usr/share/java/confluent-kafka-mqtt/netty-codec-http-4.1.86.Final.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-c9b85524523c255d",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "6dba6d03ac7abd8b895595b0ee7000ce35c3d421"
+				}
+			],
+			"fileName": "usr/share/java/confluent-kafka-mqtt/maven-artifact-3.8.4.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-cb0800fc70f38bea",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "1e4e56581a27d969551058115453e4f07a21f15c"
+				}
+			],
+			"fileName": "usr/share/java/confluent-kafka-mqtt/netty-transport-native-kqueue-4.1.86.Final-osx-aarch_64.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-cc1bb1d07e5090a9",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "99f802e0cb3e953ba3d6e698795c4aeb98d37c48"
+				}
+			],
+			"fileName": "usr/share/java/confluent-kafka-mqtt/jaxb-api-2.3.0.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-cc3a43d5f4537873",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "ac0ca067e4118533ad1038776fcd9d5f3058b7d4"
+				}
+			],
+			"fileName": "usr/share/java/confluent-kafka-mqtt/netty-codec-http2-4.1.86.Final.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-d1555f5c99daa4d5",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "15bb093c57c0cac880ad7b474f7fd653cac840a1"
+				}
+			],
+			"fileName": "usr/share/java/confluent-kafka-mqtt/jersey-hk2-2.34.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-d4e7544c9180fba0",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "ee126da926ea202da3b21eb737788ef83b1db772"
+				}
+			],
+			"fileName": "usr/share/java/confluent-kafka-mqtt/netty-codec-4.1.86.Final.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-d69ed222d433621f",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "4f015877bba8d866d5fcd62159708a082f669e23"
+				}
+			],
+			"fileName": "usr/share/java/confluent-kafka-mqtt/kafka-tools-7.4.0-ccs.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-d9395aae367c265c",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "a13e879fd7971738d06020fefeb108cc14e14169"
+				}
+			],
+			"fileName": "usr/share/java/confluent-kafka-mqtt/re2j-1.6.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-daef633922fef983",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2515d76be9671cc248bab77352edddd16bfa9436"
+				}
+			],
+			"fileName": "usr/share/java/confluent-kafka-mqtt/netty-handler-proxy-4.1.86.Final.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-dbe76538a7ff5095",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "cbec1f5c35a1466a8d998f3419c5c493ef5063ee"
+				}
+			],
+			"fileName": "usr/share/java/confluent-kafka-mqtt/netty-resolver-dns-native-macos-4.1.86.Final-osx-x86_64.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-e1050c4b4ca6bf17",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "c07ce97a13ebbee9551f7469370839b43baeb449"
+				}
+			],
+			"fileName": "usr/share/java/confluent-kafka-mqtt/bcpkix-fips-1.0.6.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-e1fc75052a9c6cfb",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "e44e745b742e47934534d218f3f04c4caa994bb9"
+				}
+			],
+			"fileName": "usr/share/java/confluent-kafka-mqtt/netty-handler-ssl-ocsp-4.1.86.Final.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-e2dfb965a1a6148d",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "fdbebf5875c24d667f9443e949ec40162a31ec35"
+				}
+			],
+			"fileName": "usr/share/java/confluent-kafka-mqtt/agrona-1.15.2.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-e4d9e57349c98abd",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "a6395c3d2f8699e8dc4fd1e38171f82045f4af7b"
+				}
+			],
+			"fileName": "usr/share/java/confluent-kafka-mqtt/netty-all-4.1.86.Final.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-e5d0dfe717fa5abc",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "f7a5457c02d83103710973a4ffdce430ccdc1fd2"
+				}
+			],
+			"fileName": "usr/share/java/confluent-kafka-mqtt/jackson-module-jaxb-annotations-2.14.2.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-e5d5d2353e7ab51a",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "3cd63d075497751784b2fa84be59432f4905bf7c"
+				}
+			],
+			"fileName": "usr/share/java/confluent-kafka-mqtt/javax.servlet-api-3.1.0.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-e6785df986c9219d",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "cf43b5391de623b36fe066a21127baef82c64022"
+				}
+			],
+			"fileName": "usr/share/java/confluent-kafka-mqtt/plexus-utils-3.3.0.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-e7a654a2e1e16b0f",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "f7ef49dd47698be50608c72630828fbf8662823f"
+				}
+			],
+			"fileName": "usr/share/java/confluent-kafka-mqtt/netty-transport-native-kqueue-4.1.86.Final-osx-x86_64.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-e832e6540155a9b5",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "1dcb770bce80a490dff49729b99c7a60e9ecb122"
+				}
+			],
+			"fileName": "usr/share/java/confluent-kafka-mqtt/jakarta.ws.rs-api-2.1.6.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-eb89bc3db6066d27",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "41c9894a2fbd4c56b1281863bb36d5465b463ad4"
+				}
+			],
+			"fileName": "usr/share/java/confluent-kafka-mqtt/netty-codec-mqtt-4.1.86.Final.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-ebb89beba1656d30",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "4b986a99445e49ea5fbf5d149c4b63f6ed6c6780"
+				}
+			],
+			"fileName": "usr/share/java/confluent-kafka-mqtt/lz4-java-1.8.0.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-ec705a455c20d79b",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "5d75b1e03ac8a87032adef75c765bfd900b19405"
+				}
+			],
+			"fileName": "usr/share/java/confluent-kafka-mqtt/cel-generated-pb-0.3.5.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-ed1abb3e47735ce6",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "25ea2e8b0c338a877313bd4672d3fe056ea78f0d"
+				}
+			],
+			"fileName": "usr/share/java/confluent-kafka-mqtt/jsr305-3.0.2.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-ee3fa00ec5a702b3",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "a11df06530a3a28c9af7ff336730a2f8e18e7205"
+				}
+			],
+			"fileName": "usr/share/java/confluent-kafka-mqtt/jetty-util-9.4.51.v20230217.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-f275a165930cbc5b",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "73b5f45fd9a9056266c82633c267914086f00209"
+				}
+			],
+			"fileName": "usr/share/java/confluent-kafka-mqtt/logredactor-metrics-1.0.11.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-f2e903b8b1b0ac3b",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "b44a2235728ab1cad9ffd06013500f09a5f1d241"
+				}
+			],
+			"fileName": "usr/share/java/confluent-kafka-mqtt/jose4j-0.7.9.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-f4169f2330b80924",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "9145d431c3fde4139921ef83d94dd18685d9f1d1"
+				}
+			],
+			"fileName": "usr/share/java/confluent-kafka-mqtt/kafka-mqtt-7.4.0.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-fccb93c9426091b3",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "3aab2116756442bf0d4cd1c089b24d34c3baa253"
+				}
+			],
+			"fileName": "usr/share/java/confluent-kafka-mqtt/snakeyaml-2.0.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-fe282ffc77897545",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2dad98e089156a3c6ab9590edef0986ca7060cda"
+				}
+			],
+			"fileName": "usr/share/java/confluent-kafka-mqtt/netty-codec-smtp-4.1.86.Final.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-ffa4884d0a215fcf",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2f50520c8abea66fbd8d26e481d3aef5c673b510"
+				}
+			],
+			"fileName": "usr/share/java/confluent-kafka-mqtt/checker-qual-3.5.0.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-ffd2713ab6d2e76b",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "6848a8321cfa554de4456a8230e141cf410feadb"
+				}
+			],
+			"fileName": "usr/share/java/confluent-kafka-mqtt/jersey-container-servlet-2.34.jar"
+		}
+	],
+	"name": "confluent-kafka-mqtt-7.4.0-1",
+	"packages": [
+		{
+			"SPDXID": "SPDXRef-Application-150e605f5f17224d",
+			"downloadLocation": "NONE",
+			"filesAnalyzed": false,
+			"name": "jar",
+			"sourceInfo": "Java"
+		},
+		{
+			"SPDXID": "SPDXRef-Filesystem-f1dd7cc8bdd633",
+			"attributionTexts": [
+				"SchemaVersion: 2"
+			],
+			"downloadLocation": "NONE",
+			"filesAnalyzed": false,
+			"name": "confluent-kafka-mqtt-7.4.0-1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-10b20199dc058d39",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/io.netty/netty-codec-http2@4.1.86.Final",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-cc3a43d5f4537873"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "io.netty:netty-codec-http2",
+			"versionInfo": "4.1.86.Final"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-11ffb6198bad224d",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/jakarta.xml.bind/jakarta.xml.bind-api@2.3.3",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-b725afd45eb161e1"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "jakarta.xml.bind:jakarta.xml.bind-api",
+			"versionInfo": "2.3.3"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-1339acec9f80b824",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/io.netty/netty-transport-native-epoll@4.1.86.Final",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-8295c5ee0415861a"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "io.netty:netty-transport-native-epoll",
+			"versionInfo": "4.1.86.Final"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-16237c47f941e20e",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/org.apache.commons/commons-lang3@3.8.1",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-9f0703e82e62dd5e"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "org.apache.commons:commons-lang3",
+			"versionInfo": "3.8.1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-16ab42f1d3d3fef7",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/org.glassfish.jersey.core/jersey-server@2.34",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-9a17368a3a1e6661"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "org.glassfish.jersey.core:jersey-server",
+			"versionInfo": "2.34"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-18dfa25e4de830bc",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/io.netty/netty-transport-sctp@4.1.86.Final",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-7005ee2a9b56527a"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "io.netty:netty-transport-sctp",
+			"versionInfo": "4.1.86.Final"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-1936edd714817120",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/org.glassfish.jersey.core/jersey-common@2.34",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-5a7b74fd655b11e3"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "org.glassfish.jersey.core:jersey-common",
+			"versionInfo": "2.34"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-1a2bb31c23d74e4f",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/org.bouncycastle/bc-fips@1.0.2.3",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-9d3e560a7b877e0e"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "org.bouncycastle:bc-fips",
+			"versionInfo": "1.0.2.3"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-1b1fc10b443fa0aa",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/org.lz4/lz4-java@1.8.0",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-ebb89beba1656d30"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "org.lz4:lz4-java",
+			"versionInfo": "1.8.0"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-1e703bdeb6c10e6f",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/com.google.guava/listenablefuture@9999.0-empty-to-avoid-conflict-with-guava",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-3856a2306120d51f"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "com.google.guava:listenablefuture",
+			"versionInfo": "9999.0-empty-to-avoid-conflict-with-guava"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-2051dbb3f97c2ff1",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/io.netty/netty-codec-stomp@4.1.86.Final",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-6f31ba0b51332450"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "io.netty:netty-codec-stomp",
+			"versionInfo": "4.1.86.Final"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-223389b9d7cadfe9",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/io.netty/netty-codec-socks@4.1.86.Final",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-1fe44baa67ad5840"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "io.netty:netty-codec-socks",
+			"versionInfo": "4.1.86.Final"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-225696dc0c48b4a",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/org.glassfish.hk2.external/aopalliance-repackaged@2.6.1",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-3f1869381e6eb5c0"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "org.glassfish.hk2.external:aopalliance-repackaged",
+			"versionInfo": "2.6.1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-2d06c02d831facce",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/org.yaml/snakeyaml@2.0",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-fccb93c9426091b3"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "org.yaml:snakeyaml",
+			"versionInfo": "2.0"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-2d21740ce4858b0f",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.14.2",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-98555595a6f90f59"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "com.fasterxml.jackson.core:jackson-annotations",
+			"versionInfo": "2.14.2"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-2d7029e08a2fd215",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/org.projectnessie.cel/cel-core@0.3.5",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-9863c4b0b9767668"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "org.projectnessie.cel:cel-core",
+			"versionInfo": "0.3.5"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-302918c7d9ca0600",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/io.swagger.core.v3/swagger-annotations@2.2.0",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-226c35f00baba1f7"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "io.swagger.core.v3:swagger-annotations",
+			"versionInfo": "2.2.0"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-3245ebd32ce52b18",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/io.netty/netty-codec@4.1.86.Final",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-d4e7544c9180fba0"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "io.netty:netty-codec",
+			"versionInfo": "4.1.86.Final"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-33c5aaae46fe5caf",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/com.google.guava/guava@30.0-jre",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-2086768b5a8f5de7"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "com.google.guava:guava",
+			"versionInfo": "30.0-jre"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-3e9f2942515f3a91",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/io.netty/netty-codec-redis@4.1.86.Final",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-16174882acbc4ee2"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "io.netty:netty-codec-redis",
+			"versionInfo": "4.1.86.Final"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-3f49fd7c7efb5c8e",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/com.google.code.findbugs/jsr305@3.0.2",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-ed1abb3e47735ce6"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "com.google.code.findbugs:jsr305",
+			"versionInfo": "3.0.2"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-3f4bc875d07e1908",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/org.apache.kafka/kafka-server-common@7.4.0-ce",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-7ef287ef03b00d04"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "org.apache.kafka:kafka-server-common",
+			"versionInfo": "7.4.0-ce"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-40046ee04198cacb",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/org.projectnessie.cel/cel-generated-antlr@0.3.5",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-2291a0d2662a07c6"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "org.projectnessie.cel:cel-generated-antlr",
+			"versionInfo": "0.3.5"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-41a5d1aa2f768726",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/org.slf4j/slf4j-api@1.7.36",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-697b43c9f108d9f5"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "org.slf4j:slf4j-api",
+			"versionInfo": "1.7.36"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-42a2ca2d3eb1ba31",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/org.eclipse.jetty/jetty-continuation@9.4.48.v20220622",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-9fa49deb63a0130f"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "org.eclipse.jetty:jetty-continuation",
+			"versionInfo": "9.4.48.v20220622"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-4317ca35dafa0870",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/org.apache.kafka/connect-runtime@7.4.0-ccs",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-381e1ca4f1293f0a"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "org.apache.kafka:connect-runtime",
+			"versionInfo": "7.4.0-ccs"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-44adcbb3e01e2f82",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/io.netty/netty-codec-haproxy@4.1.86.Final",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-1f2005c5f0438908"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "io.netty:netty-codec-haproxy",
+			"versionInfo": "4.1.86.Final"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-472c85af1f74032c",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/io.confluent/logredactor-metrics@1.0.11",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-f275a165930cbc5b"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "io.confluent:logredactor-metrics",
+			"versionInfo": "1.0.11"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-4789cf2b37040186",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/io.netty/netty-codec-dns@4.1.86.Final",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-4b099761784b34b6"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "io.netty:netty-codec-dns",
+			"versionInfo": "4.1.86.Final"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-47a245f0fac7db68",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/io.netty/netty-codec-mqtt@4.1.86.Final",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-eb89bc3db6066d27"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "io.netty:netty-codec-mqtt",
+			"versionInfo": "4.1.86.Final"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-499758e7258c9e65",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/jakarta.annotation/jakarta.annotation-api@1.3.5",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-a76e07000ef1c771"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "jakarta.annotation:jakarta.annotation-api",
+			"versionInfo": "1.3.5"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-4a83c73c955e57ca",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/org.glassfish.hk2.external/jakarta.inject@2.6.1",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-6a987dc6c0635474"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "org.glassfish.hk2.external:jakarta.inject",
+			"versionInfo": "2.6.1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-4b2e599337cf1673",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/io.netty/netty-transport-classes-epoll@4.1.86.Final",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-afaa616f3d1da3dd"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "io.netty:netty-transport-classes-epoll",
+			"versionInfo": "4.1.86.Final"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-4b77171fab26c025",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/org.eclipse.jetty/jetty-util-ajax@9.4.48.v20220622",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-a41b8368cc07e86b"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "org.eclipse.jetty:jetty-util-ajax",
+			"versionInfo": "9.4.48.v20220622"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-4bf3f3e4f29f3434",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/io.netty/netty-handler-proxy@4.1.86.Final",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-daef633922fef983"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "io.netty:netty-handler-proxy",
+			"versionInfo": "4.1.86.Final"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-4c8544248f707586",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/javax.ws.rs/javax.ws.rs-api@2.1.1",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-28dd5eb22d1f3a40"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "javax.ws.rs:javax.ws.rs-api",
+			"versionInfo": "2.1.1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-50181400b29242fa",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/com.google.re2j/re2j@1.6",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-d9395aae367c265c"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "com.google.re2j:re2j",
+			"versionInfo": "1.6"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-5351e71a97616957",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/io.netty/netty-transport-native-kqueue@4.1.86.Final",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-e7a654a2e1e16b0f"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "io.netty:netty-transport-native-kqueue",
+			"versionInfo": "4.1.86.Final"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-557f947050dbcb27",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/org.apache.kafka/kafka-tools@7.4.0-ccs",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-d69ed222d433621f"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "org.apache.kafka:kafka-tools",
+			"versionInfo": "7.4.0-ccs"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-57bce484ee770478",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/io.netty/netty-common@4.1.86.Final",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-af342153a2245449"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "io.netty:netty-common",
+			"versionInfo": "4.1.86.Final"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-5a9f96658fff4730",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/io.netty/netty-codec-smtp@4.1.86.Final",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-fe282ffc77897545"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "io.netty:netty-codec-smtp",
+			"versionInfo": "4.1.86.Final"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-5b1886ccdf99230e",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/org.jctools/jctools-core@3.1.0",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-af342153a2245449"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "org.jctools:jctools-core",
+			"versionInfo": "3.1.0"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-5b21a808c431f047",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/javax.annotation/javax.annotation-api@1.3.2",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-5c2fa9352f9d04a4"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "javax.annotation:javax.annotation-api",
+			"versionInfo": "1.3.2"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-5b5b5579b5db7456",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/org.slf4j/slf4j-reload4j@1.7.36",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-68b7da4ffe8cfbfa"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "org.slf4j:slf4j-reload4j",
+			"versionInfo": "1.7.36"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-5b8c4c28c170fb54",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.14.2",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-98f46bb1b768ffd0"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "com.fasterxml.jackson.core:jackson-databind",
+			"versionInfo": "2.14.2"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-5da55094f5a0cf1",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/io.netty/netty-resolver-dns-native-macos@4.1.86.Final",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-4f9a2d840007952c"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "io.netty:netty-resolver-dns-native-macos",
+			"versionInfo": "4.1.86.Final"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-60a9d95cdc9ee7ce",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/io.netty/netty-resolver-dns-native-macos@4.1.86.Final-osx-x86_64",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-dbe76538a7ff5095"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "io.netty:netty-resolver-dns-native-macos",
+			"versionInfo": "4.1.86.Final-osx-x86_64"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-6211db0916d49215",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/io.netty/netty-transport-native-kqueue@4.1.86.Final-osx-x86_64",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-e7a654a2e1e16b0f"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "io.netty:netty-transport-native-kqueue",
+			"versionInfo": "4.1.86.Final-osx-x86_64"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-63435f685251aa58",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/com.google.j2objc/j2objc-annotations@1.3",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-20a96020e9e72c15"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "com.google.j2objc:j2objc-annotations",
+			"versionInfo": "1.3"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-6491a9cb5721722b",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/org.eclipse.jetty/jetty-http@9.4.51.v20230217",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-5ee89866e1d3fe4f"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "org.eclipse.jetty:jetty-http",
+			"versionInfo": "9.4.51.v20230217"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-689e338e83c95e3a",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/org.javassist/javassist@3.25.0-GA",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-43deac13910690eb"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "org.javassist:javassist",
+			"versionInfo": "3.25.0-GA"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-69abd121710af1b9",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/org.glassfish.hk2/hk2-locator@2.6.1",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-315bfb1cc5202c95"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "org.glassfish.hk2:hk2-locator",
+			"versionInfo": "2.6.1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-6ee3de1734da602",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/org.xerial.snappy/snappy-java@1.1.8.4",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-c58614e6fd1149da"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "org.xerial.snappy:snappy-java",
+			"versionInfo": "1.1.8.4"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-6f4ffa3cc896af06",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/io.confluent/kafka-mqtt@7.4.0",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-f4169f2330b80924"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "io.confluent:kafka-mqtt",
+			"versionInfo": "7.4.0"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-6f5f2b839450ee0a",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/io.netty/netty-transport-native-epoll@4.1.86.Final-linux-x86_64",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-3c1152e20e2c6b7f"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "io.netty:netty-transport-native-epoll",
+			"versionInfo": "4.1.86.Final-linux-x86_64"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-6fe64516b0ef24cb",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/javax.xml.bind/jaxb-api@2.3.0",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-cc1bb1d07e5090a9"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "javax.xml.bind:jaxb-api",
+			"versionInfo": "2.3.0"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-724d169f6eb374e5",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/io.netty/netty-transport-classes-kqueue@4.1.86.Final",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-3fe504279b2e4327"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "io.netty:netty-transport-classes-kqueue",
+			"versionInfo": "4.1.86.Final"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-74d107e861b765dd",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/org.eclipse.jetty/jetty-security@9.4.48.v20220622",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-23fe1cec719ddc1e"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "org.eclipse.jetty:jetty-security",
+			"versionInfo": "9.4.48.v20220622"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-755a1f7fd8d43053",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/org.glassfish.jersey.core/jersey-client@2.34",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-bbb5e22cb497048d"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "org.glassfish.jersey.core:jersey-client",
+			"versionInfo": "2.34"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-775243450ea8b248",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/io.netty/netty-codec-memcache@4.1.86.Final",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-1461ae823dffbcd8"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "io.netty:netty-codec-memcache",
+			"versionInfo": "4.1.86.Final"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-7c40bc6bf120019e",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/org.apache.kafka/kafka-clients@7.4.0-ce",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-14cbf97c87847ef3"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "org.apache.kafka:kafka-clients",
+			"versionInfo": "7.4.0-ce"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-7e2e18966e1463c0",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/org.bouncycastle/bctls-fips@1.0.13",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-1941e020f6646f20"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "org.bouncycastle:bctls-fips",
+			"versionInfo": "1.0.13"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-809fc0b1e4bf1505",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/jakarta.validation/jakarta.validation-api@2.0.2",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-7097a832df7a3f04"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "jakarta.validation:jakarta.validation-api",
+			"versionInfo": "2.0.2"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-833ab496f2d6697f",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/org.bitbucket.b_c/jose4j@0.7.9",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-f2e903b8b1b0ac3b"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "org.bitbucket.b_c:jose4j",
+			"versionInfo": "0.7.9"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-84709644179a51df",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/com.fasterxml.jackson.jaxrs/jackson-jaxrs-json-provider@2.14.2",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-6675751f87f93f76"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider",
+			"versionInfo": "2.14.2"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-852cebd94e85081f",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/org.apache.kafka/connect-json@7.4.0-ce",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-555f4718d1d47df"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "org.apache.kafka:connect-json",
+			"versionInfo": "7.4.0-ce"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-8a2f99f48fa5923c",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/org.projectnessie.cel/cel-generated-pb@0.3.5",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-ec705a455c20d79b"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "org.projectnessie.cel:cel-generated-pb",
+			"versionInfo": "0.3.5"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-8abfb263c6a76d02",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/io.netty/netty-resolver-dns-classes-macos@4.1.86.Final",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-b5745c7913725bf5"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "io.netty:netty-resolver-dns-classes-macos",
+			"versionInfo": "4.1.86.Final"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-8defc950f8c86bb9",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/io.netty/netty-resolver-dns@4.1.86.Final",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-3563a072c3c35524"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "io.netty:netty-resolver-dns",
+			"versionInfo": "4.1.86.Final"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-917f6f757c45ac67",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/org.eclipse.jetty/jetty-io@9.4.51.v20230217",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-2f3b9eae590a6087"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "org.eclipse.jetty:jetty-io",
+			"versionInfo": "9.4.51.v20230217"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-96fea388eca2ffcf",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/io.netty/netty-resolver@4.1.86.Final",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-4b740cc7e432131e"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "io.netty:netty-resolver",
+			"versionInfo": "4.1.86.Final"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-9769581017410ce8",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/com.google.code.gson/gson@2.9.0",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-3a9d9b4cb0db0eac"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "com.google.code.gson:gson",
+			"versionInfo": "2.9.0"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-97cfbb7b789e79e7",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/org.apache.kafka/connect-transforms@7.4.0-ccs",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-62d23ef9b9f566e3"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "org.apache.kafka:connect-transforms",
+			"versionInfo": "7.4.0-ccs"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-98ea299b756b5495",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/javax.servlet/javax.servlet-api@3.1.0",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-e5d5d2353e7ab51a"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "javax.servlet:javax.servlet-api",
+			"versionInfo": "3.1.0"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-9a4dfb798a4ac11b",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-jdk8@2.14.2",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-80884b80624a0a99"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "com.fasterxml.jackson.datatype:jackson-datatype-jdk8",
+			"versionInfo": "2.14.2"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-9a568f8d943c0f51",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/net.sourceforge.argparse4j/argparse4j@0.7.0",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-31d5d6d3cb620916"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "net.sourceforge.argparse4j:argparse4j",
+			"versionInfo": "0.7.0"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-9f42d32ee8fe5065",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/com.eclipsesource.minimal-json/minimal-json@0.9.5",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-303eb800e77759fe"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "com.eclipsesource.minimal-json:minimal-json",
+			"versionInfo": "0.9.5"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-9f705624797ff70b",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/com.google.guava/failureaccess@1.0.1",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-970163f82ad95fae"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "com.google.guava:failureaccess",
+			"versionInfo": "1.0.1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-a377c9a2c645f12b",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/org.eclipse.jetty/jetty-util@9.4.51.v20230217",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-ee3fa00ec5a702b3"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "org.eclipse.jetty:jetty-util",
+			"versionInfo": "9.4.51.v20230217"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-a448b1653da8271b",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/org.eclipse.jetty/jetty-servlets@9.4.48.v20220622",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-995fc0f7848d264e"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "org.eclipse.jetty:jetty-servlets",
+			"versionInfo": "9.4.48.v20220622"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-a6c5ad9148ba94d1",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/org.apache.kafka/connect-api@7.4.0-ce",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-5c82e88e17bb736b"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "org.apache.kafka:connect-api",
+			"versionInfo": "7.4.0-ce"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-aabfe7ac20925e39",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/org.antlr/antlr4-runtime@4.10.1",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-2291a0d2662a07c6"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "org.antlr:antlr4-runtime",
+			"versionInfo": "4.10.1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-ac548d4e3465f9ec",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/com.google.errorprone/error_prone_annotations@2.3.4",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-73d97e3c534976d1"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "com.google.errorprone:error_prone_annotations",
+			"versionInfo": "2.3.4"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-ae5e963ee9321c98",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/ch.qos.reload4j/reload4j@1.2.19",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-c4b64cc4a2cb1ae8"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "ch.qos.reload4j:reload4j",
+			"versionInfo": "1.2.19"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-aea8e4032e14ea81",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/io.netty/netty-transport-rxtx@4.1.86.Final",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-5963b85f17a1d79a"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "io.netty:netty-transport-rxtx",
+			"versionInfo": "4.1.86.Final"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-affa002e9f67f9ac",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/io.netty/netty-transport-native-epoll@4.1.86.Final-linux-aarch_64",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-8295c5ee0415861a"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "io.netty:netty-transport-native-epoll",
+			"versionInfo": "4.1.86.Final-linux-aarch_64"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-b1ac97e7e0e31306",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/org.agrona/agrona@1.15.2",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-e2dfb965a1a6148d"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "org.agrona:agrona",
+			"versionInfo": "1.15.2"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-b26edd5fe2f958f0",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.14.2",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-c33349cd43416d10"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "com.fasterxml.jackson.core:jackson-core",
+			"versionInfo": "2.14.2"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-b316adcaf84e9f1a",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/io.netty/netty-transport-native-unix-common@4.1.86.Final",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-aafd921667ba058a"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "io.netty:netty-transport-native-unix-common",
+			"versionInfo": "4.1.86.Final"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-b689f22719e28c16",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/org.eclipse.jetty/jetty-server@9.4.51.v20230217",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-26bb982df9d2484"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "org.eclipse.jetty:jetty-server",
+			"versionInfo": "9.4.51.v20230217"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-b7444bfc76fbd479",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/jakarta.ws.rs/jakarta.ws.rs-api@2.1.6",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-e832e6540155a9b5"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "jakarta.ws.rs:jakarta.ws.rs-api",
+			"versionInfo": "2.1.6"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-b75932cd1e75404a",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/com.fasterxml.jackson.jaxrs/jackson-jaxrs-base@2.14.2",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-4184527d7d9bd7d"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "com.fasterxml.jackson.jaxrs:jackson-jaxrs-base",
+			"versionInfo": "2.14.2"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-b776b804e89a97ef",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/io.netty/netty-transport-udt@4.1.86.Final",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-814837a3338f64e5"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "io.netty:netty-transport-udt",
+			"versionInfo": "4.1.86.Final"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-b9875aae033855b7",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/io.netty/netty-transport-native-kqueue@4.1.86.Final-osx-aarch_64",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-cb0800fc70f38bea"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "io.netty:netty-transport-native-kqueue",
+			"versionInfo": "4.1.86.Final-osx-aarch_64"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-b9a3a0ca1f4dd314",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/org.glassfish.jersey.containers/jersey-container-servlet@2.34",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-ffd2713ab6d2e76b"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "org.glassfish.jersey.containers:jersey-container-servlet",
+			"versionInfo": "2.34"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-bc5659a71215a848",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/org.codehaus.plexus/plexus-utils@3.3.0",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-e6785df986c9219d"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "org.codehaus.plexus:plexus-utils",
+			"versionInfo": "3.3.0"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-bd96d1fcd506c4fa",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/org.bouncycastle/bcpkix-fips@1.0.6",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-e1050c4b4ca6bf17"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "org.bouncycastle:bcpkix-fips",
+			"versionInfo": "1.0.6"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-bdd4573d6f8bfa29",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/org.apache.kafka/kafka-log4j-appender@7.4.0-ce",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-7f7d9bc9d208ba5d"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "org.apache.kafka:kafka-log4j-appender",
+			"versionInfo": "7.4.0-ce"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-c5fc9cd0d29fe168",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/org.reflections/reflections@0.9.12",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-bfc2ffa128ab18d0"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "org.reflections:reflections",
+			"versionInfo": "0.9.12"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-c73641d942196152",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/com.yammer.metrics/metrics-core@2.2.0",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-8182cd75f0ae915b"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "com.yammer.metrics:metrics-core",
+			"versionInfo": "2.2.0"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-c91e4c06c1de30f6",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/io.netty/netty-transport-native-epoll@4.1.86.Final",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-3c1152e20e2c6b7f"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "io.netty:netty-transport-native-epoll",
+			"versionInfo": "4.1.86.Final"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-cb3e712683100a92",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/io.netty/netty-resolver-dns-native-macos@4.1.86.Final",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-dbe76538a7ff5095"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "io.netty:netty-resolver-dns-native-macos",
+			"versionInfo": "4.1.86.Final"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-d247c774e0fbaa7e",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/jakarta.activation/jakarta.activation-api@1.2.2",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-5c1a0508b1ce5e04"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "jakarta.activation:jakarta.activation-api",
+			"versionInfo": "1.2.2"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-d7ade2ab48e1fd72",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/com.google.protobuf/protobuf-java-util@3.19.6",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-56b7f6e845e2353c"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "com.google.protobuf:protobuf-java-util",
+			"versionInfo": "3.19.6"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-d9e5319c4083a6e7",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/javax.activation/activation@1.1.1",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-adcd0d4f07f45b77"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "javax.activation:activation",
+			"versionInfo": "1.1.1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-dbcbdf895ec2923f",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/io.netty/netty-buffer@4.1.86.Final",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-bd5f7ef39dca035a"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "io.netty:netty-buffer",
+			"versionInfo": "4.1.86.Final"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-dda9b8b5605e5bd3",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/io.netty/netty-codec-http@4.1.86.Final",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-c7e4453171fe2ef1"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "io.netty:netty-codec-http",
+			"versionInfo": "4.1.86.Final"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-ddfcb438080a8efa",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/io.netty/netty-transport@4.1.86.Final",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-8cdac9c3a3347b23"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "io.netty:netty-transport",
+			"versionInfo": "4.1.86.Final"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-de4f1e7f5f716b87",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/org.glassfish.jersey.containers/jersey-container-servlet-core@2.34",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-7ba9b6a2af256a4f"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "org.glassfish.jersey.containers:jersey-container-servlet-core",
+			"versionInfo": "2.34"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-de896429167b99d3",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/org.checkerframework/checker-qual@3.5.0",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-ffa4884d0a215fcf"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "org.checkerframework:checker-qual",
+			"versionInfo": "3.5.0"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-dfca1f6f4f88fe7c",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/io.netty/netty-codec-xml@4.1.86.Final",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-7768b30b3c9a5a4"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "io.netty:netty-codec-xml",
+			"versionInfo": "4.1.86.Final"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-e0812063e8da6692",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/com.fasterxml.jackson.module/jackson-module-jaxb-annotations@2.14.2",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-e5d0dfe717fa5abc"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "com.fasterxml.jackson.module:jackson-module-jaxb-annotations",
+			"versionInfo": "2.14.2"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-e1496bd5f02787f9",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/org.glassfish.jersey.inject/jersey-hk2@2.34",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-d1555f5c99daa4d5"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "org.glassfish.jersey.inject:jersey-hk2",
+			"versionInfo": "2.34"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-e293ba76fc2123c9",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/com.google.protobuf/protobuf-java@3.19.6",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-476c434542ab98cb"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "com.google.protobuf:protobuf-java",
+			"versionInfo": "3.19.6"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-e442119011c8a16b",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/org.glassfish.hk2/hk2-utils@2.6.1",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-b89b68798a9bacc8"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "org.glassfish.hk2:hk2-utils",
+			"versionInfo": "2.6.1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-e5ba47c97fbb7373",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/io.netty/netty-resolver-dns-native-macos@4.1.86.Final-osx-aarch_64",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-4f9a2d840007952c"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "io.netty:netty-resolver-dns-native-macos",
+			"versionInfo": "4.1.86.Final-osx-aarch_64"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-e5da93f03c7e179a",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/com.github.luben/zstd-jni@1.5.2-1",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-a5a84a22adb4d529"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "com.github.luben:zstd-jni",
+			"versionInfo": "1.5.2-1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-eb4fbb8162a03860",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/org.eclipse.jetty/jetty-client@9.4.51.v20230217",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-281c6ad8de9c54d8"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "org.eclipse.jetty:jetty-client",
+			"versionInfo": "9.4.51.v20230217"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-f39b7c2296a53687",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/io.netty/netty-all@4.1.86.Final",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-e4d9e57349c98abd"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "io.netty:netty-all",
+			"versionInfo": "4.1.86.Final"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-f4a09767a56c9d1",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/io.netty/netty-transport-native-kqueue@4.1.86.Final",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-cb0800fc70f38bea"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "io.netty:netty-transport-native-kqueue",
+			"versionInfo": "4.1.86.Final"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-f63140c089c719c4",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/io.netty/netty-handler-ssl-ocsp@4.1.86.Final",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-e1fc75052a9c6cfb"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "io.netty:netty-handler-ssl-ocsp",
+			"versionInfo": "4.1.86.Final"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-f6679b41d6625b11",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/io.netty/netty-handler@4.1.86.Final",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-ae471eb9ea43c5c6"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "io.netty:netty-handler",
+			"versionInfo": "4.1.86.Final"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-f702165a2ab4d0e7",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/org.glassfish.hk2/osgi-resource-locator@1.0.3",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-711da52eff735132"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "org.glassfish.hk2:osgi-resource-locator",
+			"versionInfo": "1.0.3"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-f74861909dd8501e",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/org.glassfish.hk2/hk2-api@2.6.1",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-a1ccb5dd1b2aefc3"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "org.glassfish.hk2:hk2-api",
+			"versionInfo": "2.6.1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-fb369a23f0f925cc",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/io.confluent/logredactor@1.0.11",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-4025836b41a3123f"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "io.confluent:logredactor",
+			"versionInfo": "1.0.11"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-fd96a0a25a00f070",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/org.eclipse.jetty/jetty-servlet@9.4.48.v20220622",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-c4f163c115bea7b"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "org.eclipse.jetty:jetty-servlet",
+			"versionInfo": "9.4.48.v20220622"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-fdd345d1a5df621d",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/com.google.cloud.broker/authorizer@7.4.0-ce",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-20c3e45b8b5d85db"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "com.google.cloud.broker:authorizer",
+			"versionInfo": "7.4.0-ce"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-ff43221cc5ca2f68",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/com.fasterxml.jackson.dataformat/jackson-dataformat-yaml@2.14.2",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-19e8baa2ad9729ee"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "com.fasterxml.jackson.dataformat:jackson-dataformat-yaml",
+			"versionInfo": "2.14.2"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-ff81555d8065b499",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/org.apache.maven/maven-artifact@3.8.4",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-c9b85524523c255d"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "org.apache.maven:maven-artifact",
+			"versionInfo": "3.8.4"
+		}
+	],
+	"relationships": [
+		{
+			"relatedSpdxElement": "SPDXRef-Filesystem-f1dd7cc8bdd633",
+			"relationshipType": "DESCRIBES",
+			"spdxElementId": "SPDXRef-DOCUMENT"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Application-150e605f5f17224d",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Filesystem-f1dd7cc8bdd633"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-f74861909dd8501e",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-4a83c73c955e57ca",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-dbcbdf895ec2923f",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-809fc0b1e4bf1505",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-ddfcb438080a8efa",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-bdd4573d6f8bfa29",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-9f42d32ee8fe5065",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-f6679b41d6625b11",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-5b5b5579b5db7456",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-e442119011c8a16b",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-57bce484ee770478",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-5b1886ccdf99230e",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-f4a09767a56c9d1",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-b9875aae033855b7",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-c5fc9cd0d29fe168",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-2d21740ce4858b0f",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-d247c774e0fbaa7e",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-b9a3a0ca1f4dd314",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-2051dbb3f97c2ff1",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-96fea388eca2ffcf",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-8abfb263c6a76d02",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-c91e4c06c1de30f6",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-6f5f2b839450ee0a",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-fb369a23f0f925cc",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-3e9f2942515f3a91",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-1339acec9f80b824",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-affa002e9f67f9ac",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-d7ade2ab48e1fd72",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-6ee3de1734da602",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-8a2f99f48fa5923c",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-4b77171fab26c025",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-47a245f0fac7db68",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-ac548d4e3465f9ec",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-b689f22719e28c16",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-a448b1653da8271b",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-dfca1f6f4f88fe7c",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-41a5d1aa2f768726",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-aabfe7ac20925e39",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-40046ee04198cacb",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-6fe64516b0ef24cb",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-cb3e712683100a92",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-60a9d95cdc9ee7ce",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-9a568f8d943c0f51",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-5b8c4c28c170fb54",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-3245ebd32ce52b18",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-10b20199dc058d39",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-3f4bc875d07e1908",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-4b2e599337cf1673",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-a377c9a2c645f12b",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-f702165a2ab4d0e7",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-a6c5ad9148ba94d1",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-63435f685251aa58",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-3f49fd7c7efb5c8e",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-4789cf2b37040186",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-2d7029e08a2fd215",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-ff43221cc5ca2f68",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-6491a9cb5721722b",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-bd96d1fcd506c4fa",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-98ea299b756b5495",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-4c8544248f707586",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-de4f1e7f5f716b87",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-4bf3f3e4f29f3434",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-f63140c089c719c4",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-e293ba76fc2123c9",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-9769581017410ce8",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-b7444bfc76fbd479",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-11ffb6198bad224d",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-44adcbb3e01e2f82",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-50181400b29242fa",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-ae5e963ee9321c98",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-1a2bb31c23d74e4f",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-de896429167b99d3",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-852cebd94e85081f",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-499758e7258c9e65",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-302918c7d9ca0600",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-4317ca35dafa0870",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-6f4ffa3cc896af06",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-223389b9d7cadfe9",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-bc5659a71215a848",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-f39b7c2296a53687",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-b316adcaf84e9f1a",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-9f705624797ff70b",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-74d107e861b765dd",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-fd96a0a25a00f070",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-c73641d942196152",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-8defc950f8c86bb9",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-d9e5319c4083a6e7",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-b26edd5fe2f958f0",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-18dfa25e4de830bc",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-aea8e4032e14ea81",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-225696dc0c48b4a",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-e0812063e8da6692",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-16ab42f1d3d3fef7",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-42a2ca2d3eb1ba31",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-dda9b8b5605e5bd3",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-775243450ea8b248",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-5351e71a97616957",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-6211db0916d49215",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-16237c47f941e20e",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-69abd121710af1b9",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-e1496bd5f02787f9",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-ff81555d8065b499",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-b1ac97e7e0e31306",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-755a1f7fd8d43053",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-7e2e18966e1463c0",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-9a4dfb798a4ac11b",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-472c85af1f74032c",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-5da55094f5a0cf1",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-e5ba47c97fbb7373",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-b776b804e89a97ef",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-2d06c02d831facce",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-689e338e83c95e3a",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-5b21a808c431f047",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-1936edd714817120",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-fdd345d1a5df621d",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-33c5aaae46fe5caf",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-b75932cd1e75404a",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-7c40bc6bf120019e",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-724d169f6eb374e5",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-97cfbb7b789e79e7",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-84709644179a51df",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-917f6f757c45ac67",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-833ab496f2d6697f",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-557f947050dbcb27",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-1b1fc10b443fa0aa",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-eb4fbb8162a03860",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-e5da93f03c7e179a",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-1e703bdeb6c10e6f",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-5a9f96658fff4730",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		}
+	],
+	"spdxVersion": "SPDX-2.2"
+}

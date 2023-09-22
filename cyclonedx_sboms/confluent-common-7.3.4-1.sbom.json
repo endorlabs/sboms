@@ -1,0 +1,147 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "serialNumber": "urn:uuid:961d5ded-b522-43c0-97e8-4699cd3462c0",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2023-07-11T10:58:22+00:00",
+    "tools": [
+      {
+        "vendor": "aquasecurity",
+        "name": "trivy",
+        "version": "0.42.1"
+      }
+    ],
+    "component": {
+      "bom-ref": "c9164745-e2e8-433e-8e8b-022993bba675",
+      "type": "application",
+      "name": "confluent-common-7.3.4-1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:SchemaVersion",
+          "value": "2"
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "pkg:maven/io.confluent/build-tools@7.3.4?file_path=usr%2Fshare%2Fjava%2Fconfluent-common%2Fbuild-tools-7.3.4.jar",
+      "type": "library",
+      "name": "io.confluent:build-tools",
+      "version": "7.3.4",
+      "purl": "pkg:maven/io.confluent/build-tools@7.3.4",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/confluent-common/build-tools-7.3.4.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/io.confluent/common-config@7.3.4?file_path=usr%2Fshare%2Fjava%2Fconfluent-common%2Fcommon-config-7.3.4.jar",
+      "type": "library",
+      "name": "io.confluent:common-config",
+      "version": "7.3.4",
+      "purl": "pkg:maven/io.confluent/common-config@7.3.4",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/confluent-common/common-config-7.3.4.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/io.confluent/common-metrics@7.3.4?file_path=usr%2Fshare%2Fjava%2Fconfluent-common%2Fcommon-metrics-7.3.4.jar",
+      "type": "library",
+      "name": "io.confluent:common-metrics",
+      "version": "7.3.4",
+      "purl": "pkg:maven/io.confluent/common-metrics@7.3.4",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/confluent-common/common-metrics-7.3.4.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/io.confluent/common-utils@7.3.4?file_path=usr%2Fshare%2Fjava%2Fconfluent-common%2Fcommon-utils-7.3.4.jar",
+      "type": "library",
+      "name": "io.confluent:common-utils",
+      "version": "7.3.4",
+      "purl": "pkg:maven/io.confluent/common-utils@7.3.4",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/confluent-common/common-utils-7.3.4.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.slf4j/slf4j-api@1.7.36?file_path=usr%2Fshare%2Fjava%2Fconfluent-common%2Fslf4j-api-1.7.36.jar",
+      "type": "library",
+      "name": "org.slf4j:slf4j-api",
+      "version": "1.7.36",
+      "purl": "pkg:maven/org.slf4j/slf4j-api@1.7.36",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/confluent-common/slf4j-api-1.7.36.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "c9164745-e2e8-433e-8e8b-022993bba675",
+      "dependsOn": [
+        "pkg:maven/io.confluent/build-tools@7.3.4?file_path=usr%2Fshare%2Fjava%2Fconfluent-common%2Fbuild-tools-7.3.4.jar",
+        "pkg:maven/io.confluent/common-config@7.3.4?file_path=usr%2Fshare%2Fjava%2Fconfluent-common%2Fcommon-config-7.3.4.jar",
+        "pkg:maven/io.confluent/common-metrics@7.3.4?file_path=usr%2Fshare%2Fjava%2Fconfluent-common%2Fcommon-metrics-7.3.4.jar",
+        "pkg:maven/io.confluent/common-utils@7.3.4?file_path=usr%2Fshare%2Fjava%2Fconfluent-common%2Fcommon-utils-7.3.4.jar",
+        "pkg:maven/org.slf4j/slf4j-api@1.7.36?file_path=usr%2Fshare%2Fjava%2Fconfluent-common%2Fslf4j-api-1.7.36.jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/io.confluent/build-tools@7.3.4?file_path=usr%2Fshare%2Fjava%2Fconfluent-common%2Fbuild-tools-7.3.4.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/io.confluent/common-config@7.3.4?file_path=usr%2Fshare%2Fjava%2Fconfluent-common%2Fcommon-config-7.3.4.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/io.confluent/common-metrics@7.3.4?file_path=usr%2Fshare%2Fjava%2Fconfluent-common%2Fcommon-metrics-7.3.4.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/io.confluent/common-utils@7.3.4?file_path=usr%2Fshare%2Fjava%2Fconfluent-common%2Fcommon-utils-7.3.4.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.slf4j/slf4j-api@1.7.36?file_path=usr%2Fshare%2Fjava%2Fconfluent-common%2Fslf4j-api-1.7.36.jar",
+      "dependsOn": []
+    }
+  ],
+  "vulnerabilities": []
+}

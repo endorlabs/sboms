@@ -1,0 +1,3773 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "created": "2023-09-05T20:35:00Z",
+    "creators": [
+      "Organization: Red Hat Product Security (secalert@redhat.com)"
+    ],
+    "licenseListVersion": "3.8"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentDescribes": [
+    "SPDXRef-16f7b547-962e-4e3b-84e9-e444923cb29a"
+  ],
+  "documentNamespace": "https://access.redhat.com/security/data/sbom/beta/spdx/directory_server_11.5-16f7b547-962e-4e3b-84e9-e444923cb29a",
+  "name": "directory_server_11.5",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-45f1c1b5-8786-4faf-86f3-dc74f8375714",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://access.redhat.com/downloads/content/package-browser",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:rpm/redhat/389-ds-base@1.4.3.31-11.module%2Bel8dsrv%2B17815%2B4f95348d?arch=src",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "NOASSERTION",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPLV3+ AND (ASL-2.0 OR MIT)",
+      "name": "389-ds-base",
+      "originator": "NOASSERTION",
+      "packageFileName": "389-ds-base-1.4.3.31-11.module+el8dsrv+17815+4f95348d.src.rpm",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "389-ds-base-1.4.3.31-11.module+el8dsrv+17815+4f95348d.src"
+    },
+    {
+      "SPDXID": "SPDXRef-01114c8b-d54f-4c8a-90ff-afb4076636af",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://crates.io/api/v1/crates/toml/0.5.10/download",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:cargo/toml@0.5.10",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://crates.io/crates/toml/0.5.10",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "toml",
+      "originator": "NOASSERTION",
+      "packageFileName": "NOASSERTION",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "toml-0.5.10.noarch"
+    },
+    {
+      "SPDXID": "SPDXRef-03a2fcc5-5507-4637-821d-822405d32d17",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://access.redhat.com/downloads/content/package-browser",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:rpm/redhat/389-ds-base-legacy-tools-debuginfo@1.4.3.31-11.module%2Bel8dsrv%2B17815%2B4f95348d?arch=ppc64le",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "NOASSERTION",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPLV3+ AND (ASL-2.0 OR MIT)",
+      "name": "389-ds-base-legacy-tools-debuginfo",
+      "originator": "NOASSERTION",
+      "packageFileName": "389-ds-base-legacy-tools-debuginfo-1.4.3.31-11.module+el8dsrv+17815+4f95348d.ppc64le.rpm",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "389-ds-base-legacy-tools-debuginfo-1.4.3.31-11.module+el8dsrv+17815+4f95348d.ppc64le"
+    },
+    {
+      "SPDXID": "SPDXRef-08943b87-2885-45ac-945d-cbd677036383",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://crates.io/api/v1/crates/ppv-lite86/0.2.17/download",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:cargo/ppv-lite86@0.2.17",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://crates.io/crates/ppv-lite86/0.2.17",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "ppv-lite86",
+      "originator": "NOASSERTION",
+      "packageFileName": "NOASSERTION",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "ppv-lite86-0.2.17.noarch"
+    },
+    {
+      "SPDXID": "SPDXRef-095ffd92-6a9f-4abe-a5c1-d44609ea06db",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://crates.io/api/v1/crates/libc/0.2.139/download",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:cargo/libc@0.2.139",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://crates.io/crates/libc/0.2.139",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "libc",
+      "originator": "NOASSERTION",
+      "packageFileName": "NOASSERTION",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "libc-0.2.139.noarch"
+    },
+    {
+      "SPDXID": "SPDXRef-09ec8fdb-a47b-4610-867e-e89056a36120",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://crates.io/api/v1/crates/windows-sys/0.42.0/download",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:cargo/windows-sys@0.42.0",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://crates.io/crates/windows-sys/0.42.0",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "windows-sys",
+      "originator": "NOASSERTION",
+      "packageFileName": "NOASSERTION",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "windows-sys-0.42.0.noarch"
+    },
+    {
+      "SPDXID": "SPDXRef-0c715725-a769-4cd4-8bbb-1d3a29aacaed",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://crates.io/api/v1/crates/ahash/0.7.6/download",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:cargo/ahash@0.7.6",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://crates.io/crates/ahash/0.7.6",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "ahash",
+      "originator": "NOASSERTION",
+      "packageFileName": "NOASSERTION",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "ahash-0.7.6.noarch"
+    },
+    {
+      "SPDXID": "SPDXRef-0d575ffe-f705-4494-a108-f8cb7650a372",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://crates.io/api/v1/crates/winapi-x86_64-pc-windows-gnu/0.4.0/download",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:cargo/winapi-x86_64-pc-windows-gnu@0.4.0",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://crates.io/crates/winapi-x86_64-pc-windows-gnu/0.4.0",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "winapi-x86_64-pc-windows-gnu",
+      "originator": "NOASSERTION",
+      "packageFileName": "NOASSERTION",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "winapi-x86_64-pc-windows-gnu-0.4.0.noarch"
+    },
+    {
+      "SPDXID": "SPDXRef-0f66911b-426c-4071-af12-6057dbfdd153",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://access.redhat.com/downloads/content/package-browser",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:rpm/redhat/389-ds-base-libs@1.4.3.31-11.module%2Bel8dsrv%2B17815%2B4f95348d?arch=ppc64le",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "NOASSERTION",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPLV3+ AND (ASL-2.0 OR MIT)",
+      "name": "389-ds-base-libs",
+      "originator": "NOASSERTION",
+      "packageFileName": "389-ds-base-libs-1.4.3.31-11.module+el8dsrv+17815+4f95348d.ppc64le.rpm",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "389-ds-base-libs-1.4.3.31-11.module+el8dsrv+17815+4f95348d.ppc64le"
+    },
+    {
+      "SPDXID": "SPDXRef-1684622f-570b-410a-a9c4-5e774f880852",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://access.redhat.com/downloads/content/package-browser",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:rpm/redhat/389-ds-base-legacy-tools@1.4.3.31-11.module%2Bel8dsrv%2B17815%2B4f95348d?arch=aarch64",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "NOASSERTION",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPLV3+ AND (ASL-2.0 OR MIT)",
+      "name": "389-ds-base-legacy-tools",
+      "originator": "NOASSERTION",
+      "packageFileName": "389-ds-base-legacy-tools-1.4.3.31-11.module+el8dsrv+17815+4f95348d.aarch64.rpm",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "389-ds-base-legacy-tools-1.4.3.31-11.module+el8dsrv+17815+4f95348d.aarch64"
+    },
+    {
+      "SPDXID": "SPDXRef-17304ed9-8fde-45aa-9452-8b5b125ebd52",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://crates.io/api/v1/crates/windows_x86_64_gnu/0.42.0/download",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:cargo/windows_x86_64_gnu@0.42.0",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://crates.io/crates/windows_x86_64_gnu/0.42.0",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "windows_x86_64_gnu",
+      "originator": "NOASSERTION",
+      "packageFileName": "NOASSERTION",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "windows_x86_64_gnu-0.42.0.noarch"
+    },
+    {
+      "SPDXID": "SPDXRef-174bd2bd-70a3-4f63-b76e-12b661f2284b",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://access.redhat.com/downloads/content/package-browser",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:rpm/redhat/389-ds-base-legacy-tools-debuginfo@1.4.3.31-11.module%2Bel8dsrv%2B17815%2B4f95348d?arch=x86_64",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "NOASSERTION",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPLV3+ AND (ASL-2.0 OR MIT)",
+      "name": "389-ds-base-legacy-tools-debuginfo",
+      "originator": "NOASSERTION",
+      "packageFileName": "389-ds-base-legacy-tools-debuginfo-1.4.3.31-11.module+el8dsrv+17815+4f95348d.x86_64.rpm",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "389-ds-base-legacy-tools-debuginfo-1.4.3.31-11.module+el8dsrv+17815+4f95348d.x86_64"
+    },
+    {
+      "SPDXID": "SPDXRef-1acdbd9d-f8e7-4cc9-ae51-6f2df8d926a2",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://crates.io/api/v1/crates/lru/0.7.8/download",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:cargo/lru@0.7.8",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://crates.io/crates/lru/0.7.8",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "lru",
+      "originator": "NOASSERTION",
+      "packageFileName": "NOASSERTION",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "lru-0.7.8.noarch"
+    },
+    {
+      "SPDXID": "SPDXRef-1bbdf9e1-8797-439e-8256-a0d5f6cf2173",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://crates.io/api/v1/crates/tokio-macros/1.8.2/download",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:cargo/tokio-macros@1.8.2",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://crates.io/crates/tokio-macros/1.8.2",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "tokio-macros",
+      "originator": "NOASSERTION",
+      "packageFileName": "NOASSERTION",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "tokio-macros-1.8.2.noarch"
+    },
+    {
+      "SPDXID": "SPDXRef-1de97d60-142b-40ec-9cbf-4bf26edf8862",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://access.redhat.com/downloads/content/package-browser",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:rpm/redhat/389-ds-base-legacy-tools-debuginfo@1.4.3.31-11.module%2Bel8dsrv%2B17815%2B4f95348d?arch=s390x",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "NOASSERTION",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPLV3+ AND (ASL-2.0 OR MIT)",
+      "name": "389-ds-base-legacy-tools-debuginfo",
+      "originator": "NOASSERTION",
+      "packageFileName": "389-ds-base-legacy-tools-debuginfo-1.4.3.31-11.module+el8dsrv+17815+4f95348d.s390x.rpm",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "389-ds-base-legacy-tools-debuginfo-1.4.3.31-11.module+el8dsrv+17815+4f95348d.s390x"
+    },
+    {
+      "SPDXID": "SPDXRef-1f47c5ed-e395-4e6b-a5d5-0c5da398aa0d",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://crates.io/api/v1/crates/ryu/1.0.12/download",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:cargo/ryu@1.0.12",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://crates.io/crates/ryu/1.0.12",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "ryu",
+      "originator": "NOASSERTION",
+      "packageFileName": "NOASSERTION",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "ryu-1.0.12.noarch"
+    },
+    {
+      "SPDXID": "SPDXRef-229ee4ab-12a8-4fdf-87fa-23a06e017d6d",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://access.redhat.com/downloads/content/package-browser",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:rpm/redhat/389-ds-base-debugsource@1.4.3.31-11.module%2Bel8dsrv%2B17815%2B4f95348d?arch=x86_64",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "NOASSERTION",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPLV3+ AND (ASL-2.0 OR MIT)",
+      "name": "389-ds-base-debugsource",
+      "originator": "NOASSERTION",
+      "packageFileName": "389-ds-base-debugsource-1.4.3.31-11.module+el8dsrv+17815+4f95348d.x86_64.rpm",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "389-ds-base-debugsource-1.4.3.31-11.module+el8dsrv+17815+4f95348d.x86_64"
+    },
+    {
+      "SPDXID": "SPDXRef-25cf3fbd-0d2e-41c1-ac96-15c3848af617",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://crates.io/api/v1/crates/openssl-sys/0.9.80/download",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:cargo/openssl-sys@0.9.80",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://crates.io/crates/openssl-sys/0.9.80",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "openssl-sys",
+      "originator": "NOASSERTION",
+      "packageFileName": "NOASSERTION",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "openssl-sys-0.9.80.noarch"
+    },
+    {
+      "SPDXID": "SPDXRef-265131da-bbca-4ec5-94a1-354fa3ded192",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://crates.io/api/v1/crates/once_cell/1.17.0/download",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:cargo/once_cell@1.17.0",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://crates.io/crates/once_cell/1.17.0",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "once_cell",
+      "originator": "NOASSERTION",
+      "packageFileName": "NOASSERTION",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "once_cell-1.17.0.noarch"
+    },
+    {
+      "SPDXID": "SPDXRef-28ee0c5d-2118-455c-bc96-ecdd2562d759",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://access.redhat.com/downloads/content/package-browser",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:rpm/redhat/python3-lib389@1.4.3.31-11.module%2Bel8dsrv%2B17815%2B4f95348d?arch=noarch",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "NOASSERTION",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPLV3+ AND (ASL-2.0 OR MIT)",
+      "name": "python3-lib389",
+      "originator": "NOASSERTION",
+      "packageFileName": "python3-lib389-1.4.3.31-11.module+el8dsrv+17815+4f95348d.noarch.rpm",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "python3-lib389-1.4.3.31-11.module+el8dsrv+17815+4f95348d.noarch"
+    },
+    {
+      "SPDXID": "SPDXRef-2a77caac-672c-4654-8cbe-8a80cf62f97d",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://crates.io/api/v1/crates/crossbeam-epoch/0.9.13/download",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:cargo/crossbeam-epoch@0.9.13",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://crates.io/crates/crossbeam-epoch/0.9.13",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "crossbeam-epoch",
+      "originator": "NOASSERTION",
+      "packageFileName": "NOASSERTION",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "crossbeam-epoch-0.9.13.noarch"
+    },
+    {
+      "SPDXID": "SPDXRef-2adb57f3-32e2-4f05-92c4-f974eed7ea43",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://crates.io/api/v1/crates/atty/0.2.14/download",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:cargo/atty@0.2.14",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://crates.io/crates/atty/0.2.14",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "atty",
+      "originator": "NOASSERTION",
+      "packageFileName": "NOASSERTION",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "atty-0.2.14.noarch"
+    },
+    {
+      "SPDXID": "SPDXRef-2c98c0ac-147b-4578-8735-ba6afe6ce159",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://crates.io/api/v1/crates/lock_api/0.4.9/download",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:cargo/lock_api@0.4.9",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://crates.io/crates/lock_api/0.4.9",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "lock_api",
+      "originator": "NOASSERTION",
+      "packageFileName": "NOASSERTION",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "lock_api-0.4.9.noarch"
+    },
+    {
+      "SPDXID": "SPDXRef-3127cd04-a7c1-4aa4-a47a-39754fcb8fe3",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://crates.io/api/v1/crates/fastrand/1.8.0/download",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:cargo/fastrand@1.8.0",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://crates.io/crates/fastrand/1.8.0",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "fastrand",
+      "originator": "NOASSERTION",
+      "packageFileName": "NOASSERTION",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "fastrand-1.8.0.noarch"
+    },
+    {
+      "SPDXID": "SPDXRef-31546c9d-0183-4ee7-8b91-746a796a90a7",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://crates.io/api/v1/crates/cbindgen/0.9.1/download",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:cargo/cbindgen@0.9.1",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://crates.io/crates/cbindgen/0.9.1",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "cbindgen",
+      "originator": "NOASSERTION",
+      "packageFileName": "NOASSERTION",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "cbindgen-0.9.1.noarch"
+    },
+    {
+      "SPDXID": "SPDXRef-31956a5f-65bc-4db3-bfb9-b544110386e9",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://crates.io/api/v1/crates/pwdchan/0.1.0/download",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:cargo/pwdchan@0.1.0",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://crates.io/crates/pwdchan/0.1.0",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "pwdchan",
+      "originator": "NOASSERTION",
+      "packageFileName": "NOASSERTION",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "pwdchan-0.1.0.noarch"
+    },
+    {
+      "SPDXID": "SPDXRef-33f0cc6d-1cf1-4c29-95f9-9511585cea47",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://crates.io/api/v1/crates/crossbeam-queue/0.3.8/download",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:cargo/crossbeam-queue@0.3.8",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://crates.io/crates/crossbeam-queue/0.3.8",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "crossbeam-queue",
+      "originator": "NOASSERTION",
+      "packageFileName": "NOASSERTION",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "crossbeam-queue-0.3.8.noarch"
+    },
+    {
+      "SPDXID": "SPDXRef-3518c2e4-1e13-4910-9254-0b234850935e",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://access.redhat.com/downloads/content/package-browser",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:rpm/redhat/389-ds-base-snmp-debuginfo@1.4.3.31-11.module%2Bel8dsrv%2B17815%2B4f95348d?arch=x86_64",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "NOASSERTION",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPLV3+ AND (ASL-2.0 OR MIT)",
+      "name": "389-ds-base-snmp-debuginfo",
+      "originator": "NOASSERTION",
+      "packageFileName": "389-ds-base-snmp-debuginfo-1.4.3.31-11.module+el8dsrv+17815+4f95348d.x86_64.rpm",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "389-ds-base-snmp-debuginfo-1.4.3.31-11.module+el8dsrv+17815+4f95348d.x86_64"
+    },
+    {
+      "SPDXID": "SPDXRef-39d5006d-4ef7-4ae1-80bb-abc7a9f9e43c",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://access.redhat.com/downloads/content/package-browser",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:rpm/redhat/389-ds-base-debuginfo@1.4.3.31-11.module%2Bel8dsrv%2B17815%2B4f95348d?arch=ppc64le",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "NOASSERTION",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPLV3+ AND (ASL-2.0 OR MIT)",
+      "name": "389-ds-base-debuginfo",
+      "originator": "NOASSERTION",
+      "packageFileName": "389-ds-base-debuginfo-1.4.3.31-11.module+el8dsrv+17815+4f95348d.ppc64le.rpm",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "389-ds-base-debuginfo-1.4.3.31-11.module+el8dsrv+17815+4f95348d.ppc64le"
+    },
+    {
+      "SPDXID": "SPDXRef-3c3bc4c1-0d96-496f-9bcd-17f5edfc2d80",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://crates.io/api/v1/crates/crossbeam-deque/0.8.2/download",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:cargo/crossbeam-deque@0.8.2",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://crates.io/crates/crossbeam-deque/0.8.2",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "crossbeam-deque",
+      "originator": "NOASSERTION",
+      "packageFileName": "NOASSERTION",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "crossbeam-deque-0.8.2.noarch"
+    },
+    {
+      "SPDXID": "SPDXRef-40c7c455-aa99-48ae-bb98-a25c049c197b",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://crates.io/api/v1/crates/entryuuid/0.1.0/download",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:cargo/entryuuid@0.1.0",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://crates.io/crates/entryuuid/0.1.0",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "entryuuid",
+      "originator": "NOASSERTION",
+      "packageFileName": "NOASSERTION",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "entryuuid-0.1.0.noarch"
+    },
+    {
+      "SPDXID": "SPDXRef-40f4fd4f-3c24-4bce-9ca2-261f1b164c43",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://access.redhat.com/downloads/content/package-browser",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:rpm/redhat/389-ds-base-snmp@1.4.3.31-11.module%2Bel8dsrv%2B17815%2B4f95348d?arch=ppc64le",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "NOASSERTION",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPLV3+ AND (ASL-2.0 OR MIT)",
+      "name": "389-ds-base-snmp",
+      "originator": "NOASSERTION",
+      "packageFileName": "389-ds-base-snmp-1.4.3.31-11.module+el8dsrv+17815+4f95348d.ppc64le.rpm",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "389-ds-base-snmp-1.4.3.31-11.module+el8dsrv+17815+4f95348d.ppc64le"
+    },
+    {
+      "SPDXID": "SPDXRef-443700c2-fc94-4171-8656-c87884ee265f",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://access.redhat.com/downloads/content/package-browser",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:rpm/redhat/389-ds-base-snmp-debuginfo@1.4.3.31-11.module%2Bel8dsrv%2B17815%2B4f95348d?arch=s390x",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "NOASSERTION",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPLV3+ AND (ASL-2.0 OR MIT)",
+      "name": "389-ds-base-snmp-debuginfo",
+      "originator": "NOASSERTION",
+      "packageFileName": "389-ds-base-snmp-debuginfo-1.4.3.31-11.module+el8dsrv+17815+4f95348d.s390x.rpm",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "389-ds-base-snmp-debuginfo-1.4.3.31-11.module+el8dsrv+17815+4f95348d.s390x"
+    },
+    {
+      "SPDXID": "SPDXRef-45dc9dcf-6933-402a-b095-f92a9e2c06fe",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://access.redhat.com/downloads/content/package-browser",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:rpm/redhat/389-ds-base-libs-debuginfo@1.4.3.31-11.module%2Bel8dsrv%2B17815%2B4f95348d?arch=aarch64",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "NOASSERTION",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPLV3+ AND (ASL-2.0 OR MIT)",
+      "name": "389-ds-base-libs-debuginfo",
+      "originator": "NOASSERTION",
+      "packageFileName": "389-ds-base-libs-debuginfo-1.4.3.31-11.module+el8dsrv+17815+4f95348d.aarch64.rpm",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "389-ds-base-libs-debuginfo-1.4.3.31-11.module+el8dsrv+17815+4f95348d.aarch64"
+    },
+    {
+      "SPDXID": "SPDXRef-45df36a8-1204-4738-83cf-ec505f780cb1",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://access.redhat.com/downloads/content/package-browser",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:rpm/redhat/389-ds-base@1.4.3.31-11.module%2Bel8dsrv%2B17815%2B4f95348d?arch=s390x",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "NOASSERTION",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPLV3+ AND (ASL-2.0 OR MIT)",
+      "name": "389-ds-base",
+      "originator": "NOASSERTION",
+      "packageFileName": "389-ds-base-1.4.3.31-11.module+el8dsrv+17815+4f95348d.s390x.rpm",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "389-ds-base-1.4.3.31-11.module+el8dsrv+17815+4f95348d.s390x"
+    },
+    {
+      "SPDXID": "SPDXRef-4ab4324a-5549-4d50-a8ef-2c720a3c67cf",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://crates.io/api/v1/crates/windows_aarch64_gnullvm/0.42.0/download",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:cargo/windows_aarch64_gnullvm@0.42.0",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://crates.io/crates/windows_aarch64_gnullvm/0.42.0",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "windows_aarch64_gnullvm",
+      "originator": "NOASSERTION",
+      "packageFileName": "NOASSERTION",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "windows_aarch64_gnullvm-0.42.0.noarch"
+    },
+    {
+      "SPDXID": "SPDXRef-4d38dab2-21a5-44e4-ab3f-7573dac3b655",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://crates.io/api/v1/crates/itoa/1.0.5/download",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:cargo/itoa@1.0.5",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://crates.io/crates/itoa/1.0.5",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "itoa",
+      "originator": "NOASSERTION",
+      "packageFileName": "NOASSERTION",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "itoa-1.0.5.noarch"
+    },
+    {
+      "SPDXID": "SPDXRef-4da6c49d-2c75-42bc-af16-e9ff8e21fec9",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://crates.io/api/v1/crates/foreign-types-shared/0.1.1/download",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:cargo/foreign-types-shared@0.1.1",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://crates.io/crates/foreign-types-shared/0.1.1",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "foreign-types-shared",
+      "originator": "NOASSERTION",
+      "packageFileName": "NOASSERTION",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "foreign-types-shared-0.1.1.noarch"
+    },
+    {
+      "SPDXID": "SPDXRef-523ebe94-d480-4a98-a571-5754f84bcec7",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://access.redhat.com/downloads/content/package-browser",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:rpm/redhat/389-ds-base-snmp@1.4.3.31-11.module%2Bel8dsrv%2B17815%2B4f95348d?arch=s390x",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "NOASSERTION",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPLV3+ AND (ASL-2.0 OR MIT)",
+      "name": "389-ds-base-snmp",
+      "originator": "NOASSERTION",
+      "packageFileName": "389-ds-base-snmp-1.4.3.31-11.module+el8dsrv+17815+4f95348d.s390x.rpm",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "389-ds-base-snmp-1.4.3.31-11.module+el8dsrv+17815+4f95348d.s390x"
+    },
+    {
+      "SPDXID": "SPDXRef-527dd7c2-2012-4d0c-8fb5-2b98bf04ddf7",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://crates.io/api/v1/crates/hermit-abi/0.1.19/download",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:cargo/hermit-abi@0.1.19",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://crates.io/crates/hermit-abi/0.1.19",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "hermit-abi",
+      "originator": "NOASSERTION",
+      "packageFileName": "NOASSERTION",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "hermit-abi-0.1.19.noarch"
+    },
+    {
+      "SPDXID": "SPDXRef-52fc8ba1-0c77-41a9-a835-90be84c7bd4d",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://access.redhat.com/downloads/content/package-browser",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:rpm/redhat/389-ds-base-libs@1.4.3.31-11.module%2Bel8dsrv%2B17815%2B4f95348d?arch=x86_64",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "NOASSERTION",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPLV3+ AND (ASL-2.0 OR MIT)",
+      "name": "389-ds-base-libs",
+      "originator": "NOASSERTION",
+      "packageFileName": "389-ds-base-libs-1.4.3.31-11.module+el8dsrv+17815+4f95348d.x86_64.rpm",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "389-ds-base-libs-1.4.3.31-11.module+el8dsrv+17815+4f95348d.x86_64"
+    },
+    {
+      "SPDXID": "SPDXRef-53ce1242-3d59-4e53-87a5-7014f7a11faf",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://crates.io/api/v1/crates/syn/1.0.107/download",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:cargo/syn@1.0.107",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://crates.io/crates/syn/1.0.107",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "syn",
+      "originator": "NOASSERTION",
+      "packageFileName": "NOASSERTION",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "syn-1.0.107.noarch"
+    },
+    {
+      "SPDXID": "SPDXRef-55639d9e-c37a-4d33-8d30-ded29f41aeff",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://crates.io/api/v1/crates/pkg-config/0.3.26/download",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:cargo/pkg-config@0.3.26",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://crates.io/crates/pkg-config/0.3.26",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "pkg-config",
+      "originator": "NOASSERTION",
+      "packageFileName": "NOASSERTION",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "pkg-config-0.3.26.noarch"
+    },
+    {
+      "SPDXID": "SPDXRef-565be87f-01b1-47fb-8ee1-c3a2d42e4710",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://crates.io/api/v1/crates/smallvec/1.10.0/download",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:cargo/smallvec@1.10.0",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://crates.io/crates/smallvec/1.10.0",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "smallvec",
+      "originator": "NOASSERTION",
+      "packageFileName": "NOASSERTION",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "smallvec-1.10.0.noarch"
+    },
+    {
+      "SPDXID": "SPDXRef-56c99376-2c02-4b4c-afea-eab5b04a2ac7",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://access.redhat.com/downloads/content/package-browser",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:rpm/redhat/389-ds-base-snmp-debuginfo@1.4.3.31-11.module%2Bel8dsrv%2B17815%2B4f95348d?arch=ppc64le",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "NOASSERTION",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPLV3+ AND (ASL-2.0 OR MIT)",
+      "name": "389-ds-base-snmp-debuginfo",
+      "originator": "NOASSERTION",
+      "packageFileName": "389-ds-base-snmp-debuginfo-1.4.3.31-11.module+el8dsrv+17815+4f95348d.ppc64le.rpm",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "389-ds-base-snmp-debuginfo-1.4.3.31-11.module+el8dsrv+17815+4f95348d.ppc64le"
+    },
+    {
+      "SPDXID": "SPDXRef-56ecc5cb-c456-4c43-a9de-20e3ddcfc662",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://crates.io/api/v1/crates/cc/1.0.78/download",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:cargo/cc@1.0.78",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://crates.io/crates/cc/1.0.78",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "cc",
+      "originator": "NOASSERTION",
+      "packageFileName": "NOASSERTION",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "cc-1.0.78.noarch"
+    },
+    {
+      "SPDXID": "SPDXRef-5a54448d-f8c7-4e8b-ba33-60aef18ded40",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://crates.io/api/v1/crates/serde_derive/1.0.152/download",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:cargo/serde_derive@1.0.152",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://crates.io/crates/serde_derive/1.0.152",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "serde_derive",
+      "originator": "NOASSERTION",
+      "packageFileName": "NOASSERTION",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "serde_derive-1.0.152.noarch"
+    },
+    {
+      "SPDXID": "SPDXRef-5a8d446f-3240-4af7-ac1f-a57e1a451d5b",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://access.redhat.com/downloads/content/package-browser",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:rpm/redhat/389-ds-base-libs-debuginfo@1.4.3.31-11.module%2Bel8dsrv%2B17815%2B4f95348d?arch=x86_64",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "NOASSERTION",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPLV3+ AND (ASL-2.0 OR MIT)",
+      "name": "389-ds-base-libs-debuginfo",
+      "originator": "NOASSERTION",
+      "packageFileName": "389-ds-base-libs-debuginfo-1.4.3.31-11.module+el8dsrv+17815+4f95348d.x86_64.rpm",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "389-ds-base-libs-debuginfo-1.4.3.31-11.module+el8dsrv+17815+4f95348d.x86_64"
+    },
+    {
+      "SPDXID": "SPDXRef-5b3ac368-2a7a-4305-8f02-0c1ff072318a",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://crates.io/api/v1/crates/quote/1.0.23/download",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:cargo/quote@1.0.23",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://crates.io/crates/quote/1.0.23",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "quote",
+      "originator": "NOASSERTION",
+      "packageFileName": "NOASSERTION",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "quote-1.0.23.noarch"
+    },
+    {
+      "SPDXID": "SPDXRef-5b74f21c-f98e-451a-89d7-e3503545bbbc",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://access.redhat.com/downloads/content/package-browser",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:rpm/redhat/389-ds-base-devel@1.4.3.31-11.module%2Bel8dsrv%2B17815%2B4f95348d?arch=ppc64le",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "NOASSERTION",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPLV3+ AND (ASL-2.0 OR MIT)",
+      "name": "389-ds-base-devel",
+      "originator": "NOASSERTION",
+      "packageFileName": "389-ds-base-devel-1.4.3.31-11.module+el8dsrv+17815+4f95348d.ppc64le.rpm",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "389-ds-base-devel-1.4.3.31-11.module+el8dsrv+17815+4f95348d.ppc64le"
+    },
+    {
+      "SPDXID": "SPDXRef-5ca4998d-4fd3-4002-a94f-1735745f2d6f",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://crates.io/api/v1/crates/wasi/0.11.0+wasi_snapshot_preview1/download",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:cargo/wasi@0.11.0%2Bwasi_snapshot_preview1",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://crates.io/crates/wasi/0.11.0+wasi_snapshot_preview1",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "wasi",
+      "originator": "NOASSERTION",
+      "packageFileName": "NOASSERTION",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "wasi-0.11.0+wasi_snapshot_preview1.noarch"
+    },
+    {
+      "SPDXID": "SPDXRef-5ce64516-0f3f-491d-be7f-35c2a61c7e19",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://crates.io/api/v1/crates/clap/2.34.0/download",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:cargo/clap@2.34.0",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://crates.io/crates/clap/2.34.0",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "clap",
+      "originator": "NOASSERTION",
+      "packageFileName": "NOASSERTION",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "clap-2.34.0.noarch"
+    },
+    {
+      "SPDXID": "SPDXRef-6300373a-d210-474c-8ef1-5a663104ab98",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://access.redhat.com/downloads/content/package-browser",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:rpm/redhat/389-ds-base-legacy-tools@1.4.3.31-11.module%2Bel8dsrv%2B17815%2B4f95348d?arch=x86_64",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "NOASSERTION",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPLV3+ AND (ASL-2.0 OR MIT)",
+      "name": "389-ds-base-legacy-tools",
+      "originator": "NOASSERTION",
+      "packageFileName": "389-ds-base-legacy-tools-1.4.3.31-11.module+el8dsrv+17815+4f95348d.x86_64.rpm",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "389-ds-base-legacy-tools-1.4.3.31-11.module+el8dsrv+17815+4f95348d.x86_64"
+    },
+    {
+      "SPDXID": "SPDXRef-633b9167-8fcb-4b2f-974a-381386578c20",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://crates.io/api/v1/crates/windows_x86_64_msvc/0.42.0/download",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:cargo/windows_x86_64_msvc@0.42.0",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://crates.io/crates/windows_x86_64_msvc/0.42.0",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "windows_x86_64_msvc",
+      "originator": "NOASSERTION",
+      "packageFileName": "NOASSERTION",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "windows_x86_64_msvc-0.42.0.noarch"
+    },
+    {
+      "SPDXID": "SPDXRef-642aaf73-74f4-4e6e-97df-f739107a4cc2",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://crates.io/api/v1/crates/concread/0.2.21/download",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:cargo/concread@0.2.21",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://crates.io/crates/concread/0.2.21",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "concread",
+      "originator": "NOASSERTION",
+      "packageFileName": "NOASSERTION",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "concread-0.2.21.noarch"
+    },
+    {
+      "SPDXID": "SPDXRef-645fa889-8766-4e00-bb99-bb065380207d",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://crates.io/api/v1/crates/entryuuid_syntax/0.1.0/download",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:cargo/entryuuid_syntax@0.1.0",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://crates.io/crates/entryuuid_syntax/0.1.0",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "entryuuid_syntax",
+      "originator": "NOASSERTION",
+      "packageFileName": "NOASSERTION",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "entryuuid_syntax-0.1.0.noarch"
+    },
+    {
+      "SPDXID": "SPDXRef-653a7d04-0c3c-4383-97d6-f850484ea814",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://access.redhat.com/downloads/content/package-browser",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:rpm/redhat/389-ds-base-legacy-tools@1.4.3.31-11.module%2Bel8dsrv%2B17815%2B4f95348d?arch=ppc64le",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "NOASSERTION",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPLV3+ AND (ASL-2.0 OR MIT)",
+      "name": "389-ds-base-legacy-tools",
+      "originator": "NOASSERTION",
+      "packageFileName": "389-ds-base-legacy-tools-1.4.3.31-11.module+el8dsrv+17815+4f95348d.ppc64le.rpm",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "389-ds-base-legacy-tools-1.4.3.31-11.module+el8dsrv+17815+4f95348d.ppc64le"
+    },
+    {
+      "SPDXID": "SPDXRef-67255588-c185-401e-8e45-f3075b1aedd1",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://access.redhat.com/downloads/content/package-browser",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:rpm/redhat/cockpit-389-ds@1.4.3.31-11.module%2Bel8dsrv%2B17815%2B4f95348d?arch=noarch",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "NOASSERTION",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPLV3+ AND (ASL-2.0 OR MIT)",
+      "name": "cockpit-389-ds",
+      "originator": "NOASSERTION",
+      "packageFileName": "cockpit-389-ds-1.4.3.31-11.module+el8dsrv+17815+4f95348d.noarch.rpm",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "cockpit-389-ds-1.4.3.31-11.module+el8dsrv+17815+4f95348d.noarch"
+    },
+    {
+      "SPDXID": "SPDXRef-6a89a90a-d58a-43f3-a87b-b9668cbc6b01",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://crates.io/api/v1/crates/memoffset/0.7.1/download",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:cargo/memoffset@0.7.1",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://crates.io/crates/memoffset/0.7.1",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "memoffset",
+      "originator": "NOASSERTION",
+      "packageFileName": "NOASSERTION",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "memoffset-0.7.1.noarch"
+    },
+    {
+      "SPDXID": "SPDXRef-6b79e2ec-7195-4484-bd10-d09c7c3af4b4",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://crates.io/api/v1/crates/windows_aarch64_msvc/0.42.0/download",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:cargo/windows_aarch64_msvc@0.42.0",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://crates.io/crates/windows_aarch64_msvc/0.42.0",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "windows_aarch64_msvc",
+      "originator": "NOASSERTION",
+      "packageFileName": "NOASSERTION",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "windows_aarch64_msvc-0.42.0.noarch"
+    },
+    {
+      "SPDXID": "SPDXRef-6b8f8d2c-3343-4079-a31f-04abb96e3c66",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://crates.io/api/v1/crates/synstructure/0.12.6/download",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:cargo/synstructure@0.12.6",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://crates.io/crates/synstructure/0.12.6",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "synstructure",
+      "originator": "NOASSERTION",
+      "packageFileName": "NOASSERTION",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "synstructure-0.12.6.noarch"
+    },
+    {
+      "SPDXID": "SPDXRef-6bdaf047-60dc-41bc-8a74-50f15a3ba377",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://access.redhat.com/downloads/content/package-browser",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:rpm/redhat/389-ds-base-debugsource@1.4.3.31-11.module%2Bel8dsrv%2B17815%2B4f95348d?arch=ppc64le",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "NOASSERTION",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPLV3+ AND (ASL-2.0 OR MIT)",
+      "name": "389-ds-base-debugsource",
+      "originator": "NOASSERTION",
+      "packageFileName": "389-ds-base-debugsource-1.4.3.31-11.module+el8dsrv+17815+4f95348d.ppc64le.rpm",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "389-ds-base-debugsource-1.4.3.31-11.module+el8dsrv+17815+4f95348d.ppc64le"
+    },
+    {
+      "SPDXID": "SPDXRef-6c201cc0-467f-4893-96a2-8b45c73575a4",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://access.redhat.com/downloads/content/package-browser",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:rpm/redhat/389-ds-base-debuginfo@1.4.3.31-11.module%2Bel8dsrv%2B17815%2B4f95348d?arch=aarch64",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "NOASSERTION",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPLV3+ AND (ASL-2.0 OR MIT)",
+      "name": "389-ds-base-debuginfo",
+      "originator": "NOASSERTION",
+      "packageFileName": "389-ds-base-debuginfo-1.4.3.31-11.module+el8dsrv+17815+4f95348d.aarch64.rpm",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "389-ds-base-debuginfo-1.4.3.31-11.module+el8dsrv+17815+4f95348d.aarch64"
+    },
+    {
+      "SPDXID": "SPDXRef-6cc14a98-b2f9-4df8-a7ea-6f87a4df904d",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://crates.io/api/v1/crates/openssl-macros/0.1.0/download",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:cargo/openssl-macros@0.1.0",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://crates.io/crates/openssl-macros/0.1.0",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "openssl-macros",
+      "originator": "NOASSERTION",
+      "packageFileName": "NOASSERTION",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "openssl-macros-0.1.0.noarch"
+    },
+    {
+      "SPDXID": "SPDXRef-6e2796dc-bf29-4ffd-98e8-dd0c42e7146a",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://crates.io/api/v1/crates/scopeguard/1.1.0/download",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:cargo/scopeguard@1.1.0",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://crates.io/crates/scopeguard/1.1.0",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "scopeguard",
+      "originator": "NOASSERTION",
+      "packageFileName": "NOASSERTION",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "scopeguard-1.1.0.noarch"
+    },
+    {
+      "SPDXID": "SPDXRef-6e519a3b-3498-4742-b40b-55c9a8a8cd70",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://crates.io/api/v1/crates/cfg-if/1.0.0/download",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:cargo/cfg-if@1.0.0",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://crates.io/crates/cfg-if/1.0.0",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "cfg-if",
+      "originator": "NOASSERTION",
+      "packageFileName": "NOASSERTION",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "cfg-if-1.0.0.noarch"
+    },
+    {
+      "SPDXID": "SPDXRef-6e70cc3a-4178-4b2f-9f8b-67475af4358b",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://crates.io/api/v1/crates/uuid/0.8.2/download",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:cargo/uuid@0.8.2",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://crates.io/crates/uuid/0.8.2",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "uuid",
+      "originator": "NOASSERTION",
+      "packageFileName": "NOASSERTION",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "uuid-0.8.2.noarch"
+    },
+    {
+      "SPDXID": "SPDXRef-7006170b-6d14-42ac-9864-d0a25b1480bb",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://crates.io/api/v1/crates/slapi_r_plugin/0.1.0/download",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:cargo/slapi_r_plugin@0.1.0",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://crates.io/crates/slapi_r_plugin/0.1.0",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "slapi_r_plugin",
+      "originator": "NOASSERTION",
+      "packageFileName": "NOASSERTION",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "slapi_r_plugin-0.1.0.noarch"
+    },
+    {
+      "SPDXID": "SPDXRef-717b198f-ce5c-45cc-a061-663d00a46278",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://crates.io/api/v1/crates/parking_lot/0.11.2/download",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:cargo/parking_lot@0.11.2",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://crates.io/crates/parking_lot/0.11.2",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "parking_lot",
+      "originator": "NOASSERTION",
+      "packageFileName": "NOASSERTION",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "parking_lot-0.11.2.noarch"
+    },
+    {
+      "SPDXID": "SPDXRef-724a6807-b6ca-4034-b653-c72242cb5d49",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://crates.io/api/v1/crates/parking_lot_core/0.8.6/download",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:cargo/parking_lot_core@0.8.6",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://crates.io/crates/parking_lot_core/0.8.6",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "parking_lot_core",
+      "originator": "NOASSERTION",
+      "packageFileName": "NOASSERTION",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "parking_lot_core-0.8.6.noarch"
+    },
+    {
+      "SPDXID": "SPDXRef-7470e24d-4f9d-4f79-80bf-b915b0745d04",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://crates.io/api/v1/crates/base64/0.13.1/download",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:cargo/base64@0.13.1",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://crates.io/crates/base64/0.13.1",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "base64",
+      "originator": "NOASSERTION",
+      "packageFileName": "NOASSERTION",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "base64-0.13.1.noarch"
+    },
+    {
+      "SPDXID": "SPDXRef-780d7813-9acd-4779-ad50-8bb7ef3814bd",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://crates.io/api/v1/crates/bitflags/1.3.2/download",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:cargo/bitflags@1.3.2",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://crates.io/crates/bitflags/1.3.2",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "bitflags",
+      "originator": "NOASSERTION",
+      "packageFileName": "NOASSERTION",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "bitflags-1.3.2.noarch"
+    },
+    {
+      "SPDXID": "SPDXRef-7891f9f8-3e99-4925-93fa-dff7292afb1b",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://access.redhat.com/downloads/content/package-browser",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:rpm/redhat/389-ds-base-debuginfo@1.4.3.31-11.module%2Bel8dsrv%2B17815%2B4f95348d?arch=s390x",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "NOASSERTION",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPLV3+ AND (ASL-2.0 OR MIT)",
+      "name": "389-ds-base-debuginfo",
+      "originator": "NOASSERTION",
+      "packageFileName": "389-ds-base-debuginfo-1.4.3.31-11.module+el8dsrv+17815+4f95348d.s390x.rpm",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "389-ds-base-debuginfo-1.4.3.31-11.module+el8dsrv+17815+4f95348d.s390x"
+    },
+    {
+      "SPDXID": "SPDXRef-8170cb9b-eaaa-4e67-8469-ab65369a6d61",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://crates.io/api/v1/crates/windows_x86_64_gnullvm/0.42.0/download",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:cargo/windows_x86_64_gnullvm@0.42.0",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://crates.io/crates/windows_x86_64_gnullvm/0.42.0",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "windows_x86_64_gnullvm",
+      "originator": "NOASSERTION",
+      "packageFileName": "NOASSERTION",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "windows_x86_64_gnullvm-0.42.0.noarch"
+    },
+    {
+      "SPDXID": "SPDXRef-83b26bd9-d673-4705-9c27-fdcac49cb5c1",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://crates.io/api/v1/crates/vec_map/0.8.2/download",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:cargo/vec_map@0.8.2",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://crates.io/crates/vec_map/0.8.2",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "vec_map",
+      "originator": "NOASSERTION",
+      "packageFileName": "NOASSERTION",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "vec_map-0.8.2.noarch"
+    },
+    {
+      "SPDXID": "SPDXRef-86310eeb-34b0-4a83-8264-a224aff5a7d8",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://crates.io/api/v1/crates/crossbeam/0.8.2/download",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:cargo/crossbeam@0.8.2",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://crates.io/crates/crossbeam/0.8.2",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "crossbeam",
+      "originator": "NOASSERTION",
+      "packageFileName": "NOASSERTION",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "crossbeam-0.8.2.noarch"
+    },
+    {
+      "SPDXID": "SPDXRef-86872b11-951d-424d-ab74-efd5d062e901",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://crates.io/api/v1/crates/librnsslapd/0.1.0/download",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:cargo/librnsslapd@0.1.0",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://crates.io/crates/librnsslapd/0.1.0",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "librnsslapd",
+      "originator": "NOASSERTION",
+      "packageFileName": "NOASSERTION",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "librnsslapd-0.1.0.noarch"
+    },
+    {
+      "SPDXID": "SPDXRef-893148af-9de0-4fdf-8c3f-4fc6227690ba",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://access.redhat.com/downloads/content/package-browser",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:rpm/redhat/389-ds-base@1.4.3.31-11.module%2Bel8dsrv%2B17815%2B4f95348d?arch=ppc64le",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "NOASSERTION",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPLV3+ AND (ASL-2.0 OR MIT)",
+      "name": "389-ds-base",
+      "originator": "NOASSERTION",
+      "packageFileName": "389-ds-base-1.4.3.31-11.module+el8dsrv+17815+4f95348d.ppc64le.rpm",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "389-ds-base-1.4.3.31-11.module+el8dsrv+17815+4f95348d.ppc64le"
+    },
+    {
+      "SPDXID": "SPDXRef-89969b2d-c0c2-42c9-b4d5-36d8b04a9cd1",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://crates.io/api/v1/crates/unicode-xid/0.2.4/download",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:cargo/unicode-xid@0.2.4",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://crates.io/crates/unicode-xid/0.2.4",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "unicode-xid",
+      "originator": "NOASSERTION",
+      "packageFileName": "NOASSERTION",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "unicode-xid-0.2.4.noarch"
+    },
+    {
+      "SPDXID": "SPDXRef-8ab3d618-ca42-49a5-b811-ba9cb4835e3e",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://crates.io/api/v1/crates/unicode-ident/1.0.6/download",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:cargo/unicode-ident@1.0.6",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://crates.io/crates/unicode-ident/1.0.6",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "unicode-ident",
+      "originator": "NOASSERTION",
+      "packageFileName": "NOASSERTION",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "unicode-ident-1.0.6.noarch"
+    },
+    {
+      "SPDXID": "SPDXRef-8b2bc1c7-fa1e-4921-9506-fe56c5ca6f86",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://crates.io/api/v1/crates/proc-macro2/1.0.49/download",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:cargo/proc-macro2@1.0.49",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://crates.io/crates/proc-macro2/1.0.49",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "proc-macro2",
+      "originator": "NOASSERTION",
+      "packageFileName": "NOASSERTION",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "proc-macro2-1.0.49.noarch"
+    },
+    {
+      "SPDXID": "SPDXRef-8d7a862b-c6bb-4a11-9871-557bdbe3dc9a",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://crates.io/api/v1/crates/fernet/0.1.4/download",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:cargo/fernet@0.1.4",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://crates.io/crates/fernet/0.1.4",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "fernet",
+      "originator": "NOASSERTION",
+      "packageFileName": "NOASSERTION",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "fernet-0.1.4.noarch"
+    },
+    {
+      "SPDXID": "SPDXRef-922c31b3-78a9-41f8-a81e-109ca9ed68ba",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://access.redhat.com/downloads/content/package-browser",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:rpm/redhat/389-ds-base-devel@1.4.3.31-11.module%2Bel8dsrv%2B17815%2B4f95348d?arch=aarch64",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "NOASSERTION",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPLV3+ AND (ASL-2.0 OR MIT)",
+      "name": "389-ds-base-devel",
+      "originator": "NOASSERTION",
+      "packageFileName": "389-ds-base-devel-1.4.3.31-11.module+el8dsrv+17815+4f95348d.aarch64.rpm",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "389-ds-base-devel-1.4.3.31-11.module+el8dsrv+17815+4f95348d.aarch64"
+    },
+    {
+      "SPDXID": "SPDXRef-93176376-f06e-43a2-ae81-d0b00ca53337",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://access.redhat.com/downloads/content/package-browser",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:rpm/redhat/389-ds-base-snmp@1.4.3.31-11.module%2Bel8dsrv%2B17815%2B4f95348d?arch=aarch64",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "NOASSERTION",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPLV3+ AND (ASL-2.0 OR MIT)",
+      "name": "389-ds-base-snmp",
+      "originator": "NOASSERTION",
+      "packageFileName": "389-ds-base-snmp-1.4.3.31-11.module+el8dsrv+17815+4f95348d.aarch64.rpm",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "389-ds-base-snmp-1.4.3.31-11.module+el8dsrv+17815+4f95348d.aarch64"
+    },
+    {
+      "SPDXID": "SPDXRef-93e2fb61-0687-4cb8-bae1-431536ec8d83",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://crates.io/api/v1/crates/version_check/0.9.4/download",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:cargo/version_check@0.9.4",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://crates.io/crates/version_check/0.9.4",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "version_check",
+      "originator": "NOASSERTION",
+      "packageFileName": "NOASSERTION",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "version_check-0.9.4.noarch"
+    },
+    {
+      "SPDXID": "SPDXRef-95bd3cd3-5bc7-449e-94c2-45841745729d",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://crates.io/api/v1/crates/strsim/0.8.0/download",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:cargo/strsim@0.8.0",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://crates.io/crates/strsim/0.8.0",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "strsim",
+      "originator": "NOASSERTION",
+      "packageFileName": "NOASSERTION",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "strsim-0.8.0.noarch"
+    },
+    {
+      "SPDXID": "SPDXRef-9d764773-de8d-4f82-90af-34af5f11ef8a",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://crates.io/api/v1/crates/remove_dir_all/0.5.3/download",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:cargo/remove_dir_all@0.5.3",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://crates.io/crates/remove_dir_all/0.5.3",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "remove_dir_all",
+      "originator": "NOASSERTION",
+      "packageFileName": "NOASSERTION",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "remove_dir_all-0.5.3.noarch"
+    },
+    {
+      "SPDXID": "SPDXRef-9daf5a96-2142-4c37-8c0c-a78d30d794cd",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://access.redhat.com/downloads/content/package-browser",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:rpm/redhat/389-ds-base-libs@1.4.3.31-11.module%2Bel8dsrv%2B17815%2B4f95348d?arch=s390x",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "NOASSERTION",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPLV3+ AND (ASL-2.0 OR MIT)",
+      "name": "389-ds-base-libs",
+      "originator": "NOASSERTION",
+      "packageFileName": "389-ds-base-libs-1.4.3.31-11.module+el8dsrv+17815+4f95348d.s390x.rpm",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "389-ds-base-libs-1.4.3.31-11.module+el8dsrv+17815+4f95348d.s390x"
+    },
+    {
+      "SPDXID": "SPDXRef-9e556c6b-cdea-4cb6-9f24-6130e9fddd6f",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://crates.io/api/v1/crates/tempfile/3.3.0/download",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:cargo/tempfile@3.3.0",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://crates.io/crates/tempfile/3.3.0",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "tempfile",
+      "originator": "NOASSERTION",
+      "packageFileName": "NOASSERTION",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "tempfile-3.3.0.noarch"
+    },
+    {
+      "SPDXID": "SPDXRef-9fcf23d9-4554-410d-a83d-5e33f2e76009",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://crates.io/api/v1/crates/zeroize_derive/1.3.3/download",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:cargo/zeroize_derive@1.3.3",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://crates.io/crates/zeroize_derive/1.3.3",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "zeroize_derive",
+      "originator": "NOASSERTION",
+      "packageFileName": "NOASSERTION",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "zeroize_derive-1.3.3.noarch"
+    },
+    {
+      "SPDXID": "SPDXRef-a19e7142-0426-47e7-a1d2-b2460f40db23",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://crates.io/api/v1/crates/tokio/1.23.0/download",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:cargo/tokio@1.23.0",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://crates.io/crates/tokio/1.23.0",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "tokio",
+      "originator": "NOASSERTION",
+      "packageFileName": "NOASSERTION",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "tokio-1.23.0.noarch"
+    },
+    {
+      "SPDXID": "SPDXRef-a242c911-696e-4a05-bbd6-635e2d43c6e9",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://access.redhat.com/downloads/content/package-browser",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:rpm/redhat/389-ds-base-debugsource@1.4.3.31-11.module%2Bel8dsrv%2B17815%2B4f95348d?arch=s390x",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "NOASSERTION",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPLV3+ AND (ASL-2.0 OR MIT)",
+      "name": "389-ds-base-debugsource",
+      "originator": "NOASSERTION",
+      "packageFileName": "389-ds-base-debugsource-1.4.3.31-11.module+el8dsrv+17815+4f95348d.s390x.rpm",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "389-ds-base-debugsource-1.4.3.31-11.module+el8dsrv+17815+4f95348d.s390x"
+    },
+    {
+      "SPDXID": "SPDXRef-a312df1f-272d-469c-91fd-a549b473016e",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://crates.io/api/v1/crates/windows_i686_gnu/0.42.0/download",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:cargo/windows_i686_gnu@0.42.0",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://crates.io/crates/windows_i686_gnu/0.42.0",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "windows_i686_gnu",
+      "originator": "NOASSERTION",
+      "packageFileName": "NOASSERTION",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "windows_i686_gnu-0.42.0.noarch"
+    },
+    {
+      "SPDXID": "SPDXRef-a574576d-4b25-4ac4-9419-597d6aa99ad9",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://crates.io/api/v1/crates/rand_core/0.6.4/download",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:cargo/rand_core@0.6.4",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://crates.io/crates/rand_core/0.6.4",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "rand_core",
+      "originator": "NOASSERTION",
+      "packageFileName": "NOASSERTION",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "rand_core-0.6.4.noarch"
+    },
+    {
+      "SPDXID": "SPDXRef-a57d0d37-a866-4ee5-ba7a-86b1acaa29f7",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://access.redhat.com/downloads/content/package-browser",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:rpm/redhat/389-ds-base-libs-debuginfo@1.4.3.31-11.module%2Bel8dsrv%2B17815%2B4f95348d?arch=s390x",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "NOASSERTION",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPLV3+ AND (ASL-2.0 OR MIT)",
+      "name": "389-ds-base-libs-debuginfo",
+      "originator": "NOASSERTION",
+      "packageFileName": "389-ds-base-libs-debuginfo-1.4.3.31-11.module+el8dsrv+17815+4f95348d.s390x.rpm",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "389-ds-base-libs-debuginfo-1.4.3.31-11.module+el8dsrv+17815+4f95348d.s390x"
+    },
+    {
+      "SPDXID": "SPDXRef-aa721c5a-60f0-4e33-bdab-85c2c965d5cf",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://crates.io/api/v1/crates/zeroize/1.5.7/download",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:cargo/zeroize@1.5.7",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://crates.io/crates/zeroize/1.5.7",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "zeroize",
+      "originator": "NOASSERTION",
+      "packageFileName": "NOASSERTION",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "zeroize-1.5.7.noarch"
+    },
+    {
+      "SPDXID": "SPDXRef-ab7645e1-11d9-4604-9c84-2bdfb19c20b5",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://access.redhat.com/downloads/content/package-browser",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:rpm/redhat/389-ds-base-libs@1.4.3.31-11.module%2Bel8dsrv%2B17815%2B4f95348d?arch=aarch64",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "NOASSERTION",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPLV3+ AND (ASL-2.0 OR MIT)",
+      "name": "389-ds-base-libs",
+      "originator": "NOASSERTION",
+      "packageFileName": "389-ds-base-libs-1.4.3.31-11.module+el8dsrv+17815+4f95348d.aarch64.rpm",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "389-ds-base-libs-1.4.3.31-11.module+el8dsrv+17815+4f95348d.aarch64"
+    },
+    {
+      "SPDXID": "SPDXRef-b24ec701-4f17-4db9-ad74-193e2e75cca5",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://crates.io/api/v1/crates/textwrap/0.11.0/download",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:cargo/textwrap@0.11.0",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://crates.io/crates/textwrap/0.11.0",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "textwrap",
+      "originator": "NOASSERTION",
+      "packageFileName": "NOASSERTION",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "textwrap-0.11.0.noarch"
+    },
+    {
+      "SPDXID": "SPDXRef-b4cdea31-871b-483a-914e-f03e10a9b172",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://access.redhat.com/downloads/content/package-browser",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:rpm/redhat/389-ds-base-snmp@1.4.3.31-11.module%2Bel8dsrv%2B17815%2B4f95348d?arch=x86_64",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "NOASSERTION",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPLV3+ AND (ASL-2.0 OR MIT)",
+      "name": "389-ds-base-snmp",
+      "originator": "NOASSERTION",
+      "packageFileName": "389-ds-base-snmp-1.4.3.31-11.module+el8dsrv+17815+4f95348d.x86_64.rpm",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "389-ds-base-snmp-1.4.3.31-11.module+el8dsrv+17815+4f95348d.x86_64"
+    },
+    {
+      "SPDXID": "SPDXRef-bb5af134-4500-4854-af25-455bcb388f90",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://crates.io/api/v1/crates/crossbeam-utils/0.8.14/download",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:cargo/crossbeam-utils@0.8.14",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://crates.io/crates/crossbeam-utils/0.8.14",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "crossbeam-utils",
+      "originator": "NOASSERTION",
+      "packageFileName": "NOASSERTION",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "crossbeam-utils-0.8.14.noarch"
+    },
+    {
+      "SPDXID": "SPDXRef-bdb6194b-2520-4acc-9db4-40749eb0f616",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://crates.io/api/v1/crates/winapi/0.3.9/download",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:cargo/winapi@0.3.9",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://crates.io/crates/winapi/0.3.9",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "winapi",
+      "originator": "NOASSERTION",
+      "packageFileName": "NOASSERTION",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "winapi-0.3.9.noarch"
+    },
+    {
+      "SPDXID": "SPDXRef-bdb7e366-540a-4a5f-9e2b-19eb3bc0e1e2",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://crates.io/api/v1/crates/crossbeam-channel/0.5.6/download",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:cargo/crossbeam-channel@0.5.6",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://crates.io/crates/crossbeam-channel/0.5.6",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "crossbeam-channel",
+      "originator": "NOASSERTION",
+      "packageFileName": "NOASSERTION",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "crossbeam-channel-0.5.6.noarch"
+    },
+    {
+      "SPDXID": "SPDXRef-c10698df-9dac-4aa2-8e83-1423c534c4b6",
+      "copyrightText": "Copyright (c) 2014 Benjamin Sago",
+      "downloadLocation": "https://crates.io/api/v1/crates/ansi_term/0.12.1/download",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:cargo/ansi_term@0.12.1",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://crates.io/crates/ansi_term/0.12.1",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "NOASSERTION",
+      "name": "ansi_term",
+      "originator": "NOASSERTION",
+      "packageFileName": "NOASSERTION",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "ansi_term-0.12.1.noarch"
+    },
+    {
+      "SPDXID": "SPDXRef-c2f601e6-a204-45b7-ae50-c0a3fe646a58",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://crates.io/api/v1/crates/rsds/0.1.0/download",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:cargo/rsds@0.1.0",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://crates.io/crates/rsds/0.1.0",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "rsds",
+      "originator": "NOASSERTION",
+      "packageFileName": "NOASSERTION",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "rsds-0.1.0.noarch"
+    },
+    {
+      "SPDXID": "SPDXRef-c34fbabf-82bc-40b0-aedc-abdd79eeebe2",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://crates.io/api/v1/crates/vcpkg/0.2.15/download",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:cargo/vcpkg@0.2.15",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://crates.io/crates/vcpkg/0.2.15",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "vcpkg",
+      "originator": "NOASSERTION",
+      "packageFileName": "NOASSERTION",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "vcpkg-0.2.15.noarch"
+    },
+    {
+      "SPDXID": "SPDXRef-c3f446b1-9fd2-45cc-bff7-99d1b11d38b4",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://crates.io/api/v1/crates/byteorder/1.4.3/download",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:cargo/byteorder@1.4.3",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://crates.io/crates/byteorder/1.4.3",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "byteorder",
+      "originator": "NOASSERTION",
+      "packageFileName": "NOASSERTION",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "byteorder-1.4.3.noarch"
+    },
+    {
+      "SPDXID": "SPDXRef-c7ca9590-1922-48ba-9b82-43bdf7d9fbd8",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://crates.io/api/v1/crates/windows_i686_msvc/0.42.0/download",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:cargo/windows_i686_msvc@0.42.0",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://crates.io/crates/windows_i686_msvc/0.42.0",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "windows_i686_msvc",
+      "originator": "NOASSERTION",
+      "packageFileName": "NOASSERTION",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "windows_i686_msvc-0.42.0.noarch"
+    },
+    {
+      "SPDXID": "SPDXRef-c81c766b-3e47-4c48-ab47-338fc0ddc953",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://access.redhat.com/downloads/content/package-browser",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:rpm/redhat/389-ds-base-debuginfo@1.4.3.31-11.module%2Bel8dsrv%2B17815%2B4f95348d?arch=x86_64",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "NOASSERTION",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPLV3+ AND (ASL-2.0 OR MIT)",
+      "name": "389-ds-base-debuginfo",
+      "originator": "NOASSERTION",
+      "packageFileName": "389-ds-base-debuginfo-1.4.3.31-11.module+el8dsrv+17815+4f95348d.x86_64.rpm",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "389-ds-base-debuginfo-1.4.3.31-11.module+el8dsrv+17815+4f95348d.x86_64"
+    },
+    {
+      "SPDXID": "SPDXRef-cb9a72ac-4c47-45cf-9cd0-8d506f675d6e",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://crates.io/api/v1/crates/autocfg/1.1.0/download",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:cargo/autocfg@1.1.0",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://crates.io/crates/autocfg/1.1.0",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "autocfg",
+      "originator": "NOASSERTION",
+      "packageFileName": "NOASSERTION",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "autocfg-1.1.0.noarch"
+    },
+    {
+      "SPDXID": "SPDXRef-cdf2b383-9c81-4527-8e41-cbbda8a90b7e",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://crates.io/api/v1/crates/redox_syscall/0.2.16/download",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:cargo/redox_syscall@0.2.16",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://crates.io/crates/redox_syscall/0.2.16",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "redox_syscall",
+      "originator": "NOASSERTION",
+      "packageFileName": "NOASSERTION",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "redox_syscall-0.2.16.noarch"
+    },
+    {
+      "SPDXID": "SPDXRef-ce27fcc1-2d72-453f-b3e3-15cd345e2e90",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://crates.io/api/v1/crates/librslapd/0.1.0/download",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:cargo/librslapd@0.1.0",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://crates.io/crates/librslapd/0.1.0",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "librslapd",
+      "originator": "NOASSERTION",
+      "packageFileName": "NOASSERTION",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "librslapd-0.1.0.noarch"
+    },
+    {
+      "SPDXID": "SPDXRef-ce46b497-387c-41d8-a501-841e57a522ba",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://access.redhat.com/downloads/content/package-browser",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:rpm/redhat/389-ds-base-snmp-debuginfo@1.4.3.31-11.module%2Bel8dsrv%2B17815%2B4f95348d?arch=aarch64",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "NOASSERTION",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPLV3+ AND (ASL-2.0 OR MIT)",
+      "name": "389-ds-base-snmp-debuginfo",
+      "originator": "NOASSERTION",
+      "packageFileName": "389-ds-base-snmp-debuginfo-1.4.3.31-11.module+el8dsrv+17815+4f95348d.aarch64.rpm",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "389-ds-base-snmp-debuginfo-1.4.3.31-11.module+el8dsrv+17815+4f95348d.aarch64"
+    },
+    {
+      "SPDXID": "SPDXRef-cf748685-084e-453a-9494-217a9413e0c9",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://crates.io/api/v1/crates/winapi-i686-pc-windows-gnu/0.4.0/download",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:cargo/winapi-i686-pc-windows-gnu@0.4.0",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://crates.io/crates/winapi-i686-pc-windows-gnu/0.4.0",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "winapi-i686-pc-windows-gnu",
+      "originator": "NOASSERTION",
+      "packageFileName": "NOASSERTION",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "winapi-i686-pc-windows-gnu-0.4.0.noarch"
+    },
+    {
+      "SPDXID": "SPDXRef-d37046dc-beb4-4af7-95a6-e7145138fbe4",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://access.redhat.com/downloads/content/package-browser",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:rpm/redhat/389-ds-base-legacy-tools@1.4.3.31-11.module%2Bel8dsrv%2B17815%2B4f95348d?arch=s390x",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "NOASSERTION",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPLV3+ AND (ASL-2.0 OR MIT)",
+      "name": "389-ds-base-legacy-tools",
+      "originator": "NOASSERTION",
+      "packageFileName": "389-ds-base-legacy-tools-1.4.3.31-11.module+el8dsrv+17815+4f95348d.s390x.rpm",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "389-ds-base-legacy-tools-1.4.3.31-11.module+el8dsrv+17815+4f95348d.s390x"
+    },
+    {
+      "SPDXID": "SPDXRef-d59f127e-847c-43ff-81c6-2cd5ea55ddd8",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://access.redhat.com/downloads/content/package-browser",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:rpm/redhat/389-ds-base-devel@1.4.3.31-11.module%2Bel8dsrv%2B17815%2B4f95348d?arch=x86_64",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "NOASSERTION",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPLV3+ AND (ASL-2.0 OR MIT)",
+      "name": "389-ds-base-devel",
+      "originator": "NOASSERTION",
+      "packageFileName": "389-ds-base-devel-1.4.3.31-11.module+el8dsrv+17815+4f95348d.x86_64.rpm",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "389-ds-base-devel-1.4.3.31-11.module+el8dsrv+17815+4f95348d.x86_64"
+    },
+    {
+      "SPDXID": "SPDXRef-d5aa2683-63a5-449a-8d5d-24452d8ffa71",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://crates.io/api/v1/crates/hashbrown/0.12.3/download",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:cargo/hashbrown@0.12.3",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://crates.io/crates/hashbrown/0.12.3",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "hashbrown",
+      "originator": "NOASSERTION",
+      "packageFileName": "NOASSERTION",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "hashbrown-0.12.3.noarch"
+    },
+    {
+      "SPDXID": "SPDXRef-d5f5bead-6644-4635-a6cb-76754febdd10",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://crates.io/api/v1/crates/instant/0.1.12/download",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:cargo/instant@0.1.12",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://crates.io/crates/instant/0.1.12",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "instant",
+      "originator": "NOASSERTION",
+      "packageFileName": "NOASSERTION",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "instant-0.1.12.noarch"
+    },
+    {
+      "SPDXID": "SPDXRef-d8660da0-50ed-4757-bbbf-f7cae6f3c27b",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://crates.io/api/v1/crates/serde/1.0.152/download",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:cargo/serde@1.0.152",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://crates.io/crates/serde/1.0.152",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "serde",
+      "originator": "NOASSERTION",
+      "packageFileName": "NOASSERTION",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "serde-1.0.152.noarch"
+    },
+    {
+      "SPDXID": "SPDXRef-d87d23ea-7d68-4306-81e6-8e785424d177",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://crates.io/api/v1/crates/rand/0.8.5/download",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:cargo/rand@0.8.5",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://crates.io/crates/rand/0.8.5",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "rand",
+      "originator": "NOASSERTION",
+      "packageFileName": "NOASSERTION",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "rand-0.8.5.noarch"
+    },
+    {
+      "SPDXID": "SPDXRef-d8c9576b-129d-422d-9be7-5ca517c3508b",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://crates.io/api/v1/crates/foreign-types/0.3.2/download",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:cargo/foreign-types@0.3.2",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://crates.io/crates/foreign-types/0.3.2",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "foreign-types",
+      "originator": "NOASSERTION",
+      "packageFileName": "NOASSERTION",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "foreign-types-0.3.2.noarch"
+    },
+    {
+      "SPDXID": "SPDXRef-db69e150-1dc7-4731-9ba2-4b63168dc151",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://crates.io/api/v1/crates/serde_json/1.0.91/download",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:cargo/serde_json@1.0.91",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://crates.io/crates/serde_json/1.0.91",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "serde_json",
+      "originator": "NOASSERTION",
+      "packageFileName": "NOASSERTION",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "serde_json-1.0.91.noarch"
+    },
+    {
+      "SPDXID": "SPDXRef-de0ae0a0-e749-4b0b-a8ec-ed5e976d8b9f",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://access.redhat.com/downloads/content/package-browser",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:rpm/redhat/389-ds-base-legacy-tools-debuginfo@1.4.3.31-11.module%2Bel8dsrv%2B17815%2B4f95348d?arch=aarch64",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "NOASSERTION",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPLV3+ AND (ASL-2.0 OR MIT)",
+      "name": "389-ds-base-legacy-tools-debuginfo",
+      "originator": "NOASSERTION",
+      "packageFileName": "389-ds-base-legacy-tools-debuginfo-1.4.3.31-11.module+el8dsrv+17815+4f95348d.aarch64.rpm",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "389-ds-base-legacy-tools-debuginfo-1.4.3.31-11.module+el8dsrv+17815+4f95348d.aarch64"
+    },
+    {
+      "SPDXID": "SPDXRef-ded7b24e-829b-4ca5-984b-dbc05bb8c7b3",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://crates.io/api/v1/crates/getrandom/0.2.8/download",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:cargo/getrandom@0.2.8",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://crates.io/crates/getrandom/0.2.8",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "getrandom",
+      "originator": "NOASSERTION",
+      "packageFileName": "NOASSERTION",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "getrandom-0.2.8.noarch"
+    },
+    {
+      "SPDXID": "SPDXRef-df1007be-9718-4b1f-bcef-96b32bd208d7",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://crates.io/api/v1/crates/unicode-width/0.1.10/download",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:cargo/unicode-width@0.1.10",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://crates.io/crates/unicode-width/0.1.10",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "unicode-width",
+      "originator": "NOASSERTION",
+      "packageFileName": "NOASSERTION",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "unicode-width-0.1.10.noarch"
+    },
+    {
+      "SPDXID": "SPDXRef-ea307be2-049c-428e-9835-ba726f6351ac",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://crates.io/api/v1/crates/paste-impl/0.1.18/download",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:cargo/paste-impl@0.1.18",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://crates.io/crates/paste-impl/0.1.18",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "paste-impl",
+      "originator": "NOASSERTION",
+      "packageFileName": "NOASSERTION",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "paste-impl-0.1.18.noarch"
+    },
+    {
+      "SPDXID": "SPDXRef-ee418fd9-0f38-4ede-8476-196a79e22ef7",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://crates.io/api/v1/crates/log/0.4.17/download",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:cargo/log@0.4.17",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://crates.io/crates/log/0.4.17",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "log",
+      "originator": "NOASSERTION",
+      "packageFileName": "NOASSERTION",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "log-0.4.17.noarch"
+    },
+    {
+      "SPDXID": "SPDXRef-efe3c514-7ead-4f8c-8ba3-db324f0848d5",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://crates.io/api/v1/crates/proc-macro-hack/0.5.20+deprecated/download",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:cargo/proc-macro-hack@0.5.20%2Bdeprecated",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://crates.io/crates/proc-macro-hack/0.5.20+deprecated",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "proc-macro-hack",
+      "originator": "NOASSERTION",
+      "packageFileName": "NOASSERTION",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "proc-macro-hack-0.5.20+deprecated.noarch"
+    },
+    {
+      "SPDXID": "SPDXRef-f0319536-0139-4fa7-8aad-e58b78fafb1c",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://crates.io/api/v1/crates/pin-project-lite/0.2.9/download",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:cargo/pin-project-lite@0.2.9",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://crates.io/crates/pin-project-lite/0.2.9",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "pin-project-lite",
+      "originator": "NOASSERTION",
+      "packageFileName": "NOASSERTION",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "pin-project-lite-0.2.9.noarch"
+    },
+    {
+      "SPDXID": "SPDXRef-f0a27d26-059f-4eb6-9f66-5c26851635b4",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://access.redhat.com/downloads/content/package-browser",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:rpm/redhat/389-ds-base-debugsource@1.4.3.31-11.module%2Bel8dsrv%2B17815%2B4f95348d?arch=aarch64",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "NOASSERTION",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPLV3+ AND (ASL-2.0 OR MIT)",
+      "name": "389-ds-base-debugsource",
+      "originator": "NOASSERTION",
+      "packageFileName": "389-ds-base-debugsource-1.4.3.31-11.module+el8dsrv+17815+4f95348d.aarch64.rpm",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "389-ds-base-debugsource-1.4.3.31-11.module+el8dsrv+17815+4f95348d.aarch64"
+    },
+    {
+      "SPDXID": "SPDXRef-f189be5e-280e-4be1-b6a9-956c891eed1b",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://access.redhat.com/downloads/content/package-browser",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:rpm/redhat/389-ds-base@1.4.3.31-11.module%2Bel8dsrv%2B17815%2B4f95348d?arch=x86_64",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "NOASSERTION",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPLV3+ AND (ASL-2.0 OR MIT)",
+      "name": "389-ds-base",
+      "originator": "NOASSERTION",
+      "packageFileName": "389-ds-base-1.4.3.31-11.module+el8dsrv+17815+4f95348d.x86_64.rpm",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "389-ds-base-1.4.3.31-11.module+el8dsrv+17815+4f95348d.x86_64"
+    },
+    {
+      "SPDXID": "SPDXRef-f1efa0fb-fc2c-4c16-ac36-cebce60e9f07",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://crates.io/api/v1/crates/openssl/0.10.45/download",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:cargo/openssl@0.10.45",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://crates.io/crates/openssl/0.10.45",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "openssl",
+      "originator": "NOASSERTION",
+      "packageFileName": "NOASSERTION",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "openssl-0.10.45.noarch"
+    },
+    {
+      "SPDXID": "SPDXRef-f2d836fa-ed57-494e-91d5-ea51051ca349",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://access.redhat.com/downloads/content/package-browser",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:rpm/redhat/389-ds-base-libs-debuginfo@1.4.3.31-11.module%2Bel8dsrv%2B17815%2B4f95348d?arch=ppc64le",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "NOASSERTION",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPLV3+ AND (ASL-2.0 OR MIT)",
+      "name": "389-ds-base-libs-debuginfo",
+      "originator": "NOASSERTION",
+      "packageFileName": "389-ds-base-libs-debuginfo-1.4.3.31-11.module+el8dsrv+17815+4f95348d.ppc64le.rpm",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "389-ds-base-libs-debuginfo-1.4.3.31-11.module+el8dsrv+17815+4f95348d.ppc64le"
+    },
+    {
+      "SPDXID": "SPDXRef-f3c7d200-dbdd-4a57-be16-488309e8bfe8",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://access.redhat.com/downloads/content/package-browser",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:rpm/redhat/389-ds-base@1.4.3.31-11.module%2Bel8dsrv%2B17815%2B4f95348d?arch=aarch64",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "NOASSERTION",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPLV3+ AND (ASL-2.0 OR MIT)",
+      "name": "389-ds-base",
+      "originator": "NOASSERTION",
+      "packageFileName": "389-ds-base-1.4.3.31-11.module+el8dsrv+17815+4f95348d.aarch64.rpm",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "389-ds-base-1.4.3.31-11.module+el8dsrv+17815+4f95348d.aarch64"
+    },
+    {
+      "SPDXID": "SPDXRef-f6b1a6c6-3c93-485e-84e8-69d09bc0d321",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://crates.io/api/v1/crates/slapd/0.1.0/download",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:cargo/slapd@0.1.0",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://crates.io/crates/slapd/0.1.0",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "slapd",
+      "originator": "NOASSERTION",
+      "packageFileName": "NOASSERTION",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "slapd-0.1.0.noarch"
+    },
+    {
+      "SPDXID": "SPDXRef-f83ca13d-ffd8-4897-841e-df703c28a3c8",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://crates.io/api/v1/crates/jobserver/0.1.25/download",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:cargo/jobserver@0.1.25",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://crates.io/crates/jobserver/0.1.25",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "jobserver",
+      "originator": "NOASSERTION",
+      "packageFileName": "NOASSERTION",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "jobserver-0.1.25.noarch"
+    },
+    {
+      "SPDXID": "SPDXRef-f9c53e86-9daf-4b4a-8e42-9926ed8cee79",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://access.redhat.com/downloads/content/package-browser",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:rpm/redhat/389-ds-base-devel@1.4.3.31-11.module%2Bel8dsrv%2B17815%2B4f95348d?arch=s390x",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "NOASSERTION",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPLV3+ AND (ASL-2.0 OR MIT)",
+      "name": "389-ds-base-devel",
+      "originator": "NOASSERTION",
+      "packageFileName": "389-ds-base-devel-1.4.3.31-11.module+el8dsrv+17815+4f95348d.s390x.rpm",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "389-ds-base-devel-1.4.3.31-11.module+el8dsrv+17815+4f95348d.s390x"
+    },
+    {
+      "SPDXID": "SPDXRef-faa1b195-9e37-428d-b9e4-62411f981a97",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://crates.io/api/v1/crates/paste/0.1.18/download",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:cargo/paste@0.1.18",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://crates.io/crates/paste/0.1.18",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "paste",
+      "originator": "NOASSERTION",
+      "packageFileName": "NOASSERTION",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "paste-0.1.18.noarch"
+    },
+    {
+      "SPDXID": "SPDXRef-faf55d67-b0c8-4171-9f67-658c62b7a1f5",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://crates.io/api/v1/crates/rand_chacha/0.3.1/download",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:cargo/rand_chacha@0.3.1",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://crates.io/crates/rand_chacha/0.3.1",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "rand_chacha",
+      "originator": "NOASSERTION",
+      "packageFileName": "NOASSERTION",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "rand_chacha-0.3.1.noarch"
+    },
+    {
+      "SPDXID": "SPDXRef-16f7b547-962e-4e3b-84e9-e444923cb29a",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:/a:redhat:directory_server:11.5::el8",
+          "referenceType": "cpe22Type"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://www.redhat.com/",
+      "licenseComments": "Licensing information is provided for individual components only at this time.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "directory_server_11.5",
+      "packageFileName": "NOASSERTION",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "11.5"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "SPDXRef-45f1c1b5-8786-4faf-86f3-dc74f8375714",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-01114c8b-d54f-4c8a-90ff-afb4076636af"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-45f1c1b5-8786-4faf-86f3-dc74f8375714",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-03a2fcc5-5507-4637-821d-822405d32d17"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-45f1c1b5-8786-4faf-86f3-dc74f8375714",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-08943b87-2885-45ac-945d-cbd677036383"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-45f1c1b5-8786-4faf-86f3-dc74f8375714",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-095ffd92-6a9f-4abe-a5c1-d44609ea06db"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-45f1c1b5-8786-4faf-86f3-dc74f8375714",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-09ec8fdb-a47b-4610-867e-e89056a36120"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-45f1c1b5-8786-4faf-86f3-dc74f8375714",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-0c715725-a769-4cd4-8bbb-1d3a29aacaed"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-45f1c1b5-8786-4faf-86f3-dc74f8375714",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-0d575ffe-f705-4494-a108-f8cb7650a372"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-45f1c1b5-8786-4faf-86f3-dc74f8375714",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-0f66911b-426c-4071-af12-6057dbfdd153"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-45f1c1b5-8786-4faf-86f3-dc74f8375714",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-1684622f-570b-410a-a9c4-5e774f880852"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-45f1c1b5-8786-4faf-86f3-dc74f8375714",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-17304ed9-8fde-45aa-9452-8b5b125ebd52"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-45f1c1b5-8786-4faf-86f3-dc74f8375714",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-174bd2bd-70a3-4f63-b76e-12b661f2284b"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-45f1c1b5-8786-4faf-86f3-dc74f8375714",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-1acdbd9d-f8e7-4cc9-ae51-6f2df8d926a2"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-45f1c1b5-8786-4faf-86f3-dc74f8375714",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-1bbdf9e1-8797-439e-8256-a0d5f6cf2173"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-45f1c1b5-8786-4faf-86f3-dc74f8375714",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-1de97d60-142b-40ec-9cbf-4bf26edf8862"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-45f1c1b5-8786-4faf-86f3-dc74f8375714",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-1f47c5ed-e395-4e6b-a5d5-0c5da398aa0d"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-45f1c1b5-8786-4faf-86f3-dc74f8375714",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-229ee4ab-12a8-4fdf-87fa-23a06e017d6d"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-45f1c1b5-8786-4faf-86f3-dc74f8375714",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-25cf3fbd-0d2e-41c1-ac96-15c3848af617"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-45f1c1b5-8786-4faf-86f3-dc74f8375714",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-265131da-bbca-4ec5-94a1-354fa3ded192"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-45f1c1b5-8786-4faf-86f3-dc74f8375714",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-28ee0c5d-2118-455c-bc96-ecdd2562d759"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-45f1c1b5-8786-4faf-86f3-dc74f8375714",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-2a77caac-672c-4654-8cbe-8a80cf62f97d"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-45f1c1b5-8786-4faf-86f3-dc74f8375714",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-2adb57f3-32e2-4f05-92c4-f974eed7ea43"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-45f1c1b5-8786-4faf-86f3-dc74f8375714",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-2c98c0ac-147b-4578-8735-ba6afe6ce159"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-45f1c1b5-8786-4faf-86f3-dc74f8375714",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-3127cd04-a7c1-4aa4-a47a-39754fcb8fe3"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-45f1c1b5-8786-4faf-86f3-dc74f8375714",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-31546c9d-0183-4ee7-8b91-746a796a90a7"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-45f1c1b5-8786-4faf-86f3-dc74f8375714",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-31956a5f-65bc-4db3-bfb9-b544110386e9"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-45f1c1b5-8786-4faf-86f3-dc74f8375714",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-33f0cc6d-1cf1-4c29-95f9-9511585cea47"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-45f1c1b5-8786-4faf-86f3-dc74f8375714",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-3518c2e4-1e13-4910-9254-0b234850935e"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-45f1c1b5-8786-4faf-86f3-dc74f8375714",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-39d5006d-4ef7-4ae1-80bb-abc7a9f9e43c"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-45f1c1b5-8786-4faf-86f3-dc74f8375714",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-3c3bc4c1-0d96-496f-9bcd-17f5edfc2d80"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-45f1c1b5-8786-4faf-86f3-dc74f8375714",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-40c7c455-aa99-48ae-bb98-a25c049c197b"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-45f1c1b5-8786-4faf-86f3-dc74f8375714",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-40f4fd4f-3c24-4bce-9ca2-261f1b164c43"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-45f1c1b5-8786-4faf-86f3-dc74f8375714",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-443700c2-fc94-4171-8656-c87884ee265f"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-45f1c1b5-8786-4faf-86f3-dc74f8375714",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-45dc9dcf-6933-402a-b095-f92a9e2c06fe"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-45f1c1b5-8786-4faf-86f3-dc74f8375714",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-45df36a8-1204-4738-83cf-ec505f780cb1"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-45f1c1b5-8786-4faf-86f3-dc74f8375714",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-4ab4324a-5549-4d50-a8ef-2c720a3c67cf"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-45f1c1b5-8786-4faf-86f3-dc74f8375714",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-4d38dab2-21a5-44e4-ab3f-7573dac3b655"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-45f1c1b5-8786-4faf-86f3-dc74f8375714",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-4da6c49d-2c75-42bc-af16-e9ff8e21fec9"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-45f1c1b5-8786-4faf-86f3-dc74f8375714",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-523ebe94-d480-4a98-a571-5754f84bcec7"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-45f1c1b5-8786-4faf-86f3-dc74f8375714",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-527dd7c2-2012-4d0c-8fb5-2b98bf04ddf7"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-45f1c1b5-8786-4faf-86f3-dc74f8375714",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-52fc8ba1-0c77-41a9-a835-90be84c7bd4d"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-45f1c1b5-8786-4faf-86f3-dc74f8375714",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-53ce1242-3d59-4e53-87a5-7014f7a11faf"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-45f1c1b5-8786-4faf-86f3-dc74f8375714",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-55639d9e-c37a-4d33-8d30-ded29f41aeff"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-45f1c1b5-8786-4faf-86f3-dc74f8375714",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-565be87f-01b1-47fb-8ee1-c3a2d42e4710"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-45f1c1b5-8786-4faf-86f3-dc74f8375714",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-56c99376-2c02-4b4c-afea-eab5b04a2ac7"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-45f1c1b5-8786-4faf-86f3-dc74f8375714",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-56ecc5cb-c456-4c43-a9de-20e3ddcfc662"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-45f1c1b5-8786-4faf-86f3-dc74f8375714",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-5a54448d-f8c7-4e8b-ba33-60aef18ded40"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-45f1c1b5-8786-4faf-86f3-dc74f8375714",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-5a8d446f-3240-4af7-ac1f-a57e1a451d5b"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-45f1c1b5-8786-4faf-86f3-dc74f8375714",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-5b3ac368-2a7a-4305-8f02-0c1ff072318a"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-45f1c1b5-8786-4faf-86f3-dc74f8375714",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-5b74f21c-f98e-451a-89d7-e3503545bbbc"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-45f1c1b5-8786-4faf-86f3-dc74f8375714",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-5ca4998d-4fd3-4002-a94f-1735745f2d6f"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-45f1c1b5-8786-4faf-86f3-dc74f8375714",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-5ce64516-0f3f-491d-be7f-35c2a61c7e19"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-45f1c1b5-8786-4faf-86f3-dc74f8375714",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-6300373a-d210-474c-8ef1-5a663104ab98"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-45f1c1b5-8786-4faf-86f3-dc74f8375714",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-633b9167-8fcb-4b2f-974a-381386578c20"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-45f1c1b5-8786-4faf-86f3-dc74f8375714",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-642aaf73-74f4-4e6e-97df-f739107a4cc2"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-45f1c1b5-8786-4faf-86f3-dc74f8375714",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-645fa889-8766-4e00-bb99-bb065380207d"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-45f1c1b5-8786-4faf-86f3-dc74f8375714",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-653a7d04-0c3c-4383-97d6-f850484ea814"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-45f1c1b5-8786-4faf-86f3-dc74f8375714",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-67255588-c185-401e-8e45-f3075b1aedd1"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-45f1c1b5-8786-4faf-86f3-dc74f8375714",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-6a89a90a-d58a-43f3-a87b-b9668cbc6b01"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-45f1c1b5-8786-4faf-86f3-dc74f8375714",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-6b79e2ec-7195-4484-bd10-d09c7c3af4b4"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-45f1c1b5-8786-4faf-86f3-dc74f8375714",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-6b8f8d2c-3343-4079-a31f-04abb96e3c66"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-45f1c1b5-8786-4faf-86f3-dc74f8375714",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-6bdaf047-60dc-41bc-8a74-50f15a3ba377"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-45f1c1b5-8786-4faf-86f3-dc74f8375714",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-6c201cc0-467f-4893-96a2-8b45c73575a4"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-45f1c1b5-8786-4faf-86f3-dc74f8375714",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-6cc14a98-b2f9-4df8-a7ea-6f87a4df904d"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-45f1c1b5-8786-4faf-86f3-dc74f8375714",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-6e2796dc-bf29-4ffd-98e8-dd0c42e7146a"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-45f1c1b5-8786-4faf-86f3-dc74f8375714",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-6e519a3b-3498-4742-b40b-55c9a8a8cd70"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-45f1c1b5-8786-4faf-86f3-dc74f8375714",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-6e70cc3a-4178-4b2f-9f8b-67475af4358b"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-45f1c1b5-8786-4faf-86f3-dc74f8375714",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-7006170b-6d14-42ac-9864-d0a25b1480bb"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-45f1c1b5-8786-4faf-86f3-dc74f8375714",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-717b198f-ce5c-45cc-a061-663d00a46278"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-45f1c1b5-8786-4faf-86f3-dc74f8375714",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-724a6807-b6ca-4034-b653-c72242cb5d49"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-45f1c1b5-8786-4faf-86f3-dc74f8375714",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-7470e24d-4f9d-4f79-80bf-b915b0745d04"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-45f1c1b5-8786-4faf-86f3-dc74f8375714",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-780d7813-9acd-4779-ad50-8bb7ef3814bd"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-45f1c1b5-8786-4faf-86f3-dc74f8375714",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-7891f9f8-3e99-4925-93fa-dff7292afb1b"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-45f1c1b5-8786-4faf-86f3-dc74f8375714",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-8170cb9b-eaaa-4e67-8469-ab65369a6d61"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-45f1c1b5-8786-4faf-86f3-dc74f8375714",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-83b26bd9-d673-4705-9c27-fdcac49cb5c1"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-45f1c1b5-8786-4faf-86f3-dc74f8375714",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-86310eeb-34b0-4a83-8264-a224aff5a7d8"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-45f1c1b5-8786-4faf-86f3-dc74f8375714",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-86872b11-951d-424d-ab74-efd5d062e901"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-45f1c1b5-8786-4faf-86f3-dc74f8375714",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-893148af-9de0-4fdf-8c3f-4fc6227690ba"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-45f1c1b5-8786-4faf-86f3-dc74f8375714",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-89969b2d-c0c2-42c9-b4d5-36d8b04a9cd1"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-45f1c1b5-8786-4faf-86f3-dc74f8375714",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-8ab3d618-ca42-49a5-b811-ba9cb4835e3e"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-45f1c1b5-8786-4faf-86f3-dc74f8375714",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-8b2bc1c7-fa1e-4921-9506-fe56c5ca6f86"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-45f1c1b5-8786-4faf-86f3-dc74f8375714",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-8d7a862b-c6bb-4a11-9871-557bdbe3dc9a"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-45f1c1b5-8786-4faf-86f3-dc74f8375714",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-922c31b3-78a9-41f8-a81e-109ca9ed68ba"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-45f1c1b5-8786-4faf-86f3-dc74f8375714",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-93176376-f06e-43a2-ae81-d0b00ca53337"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-45f1c1b5-8786-4faf-86f3-dc74f8375714",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-93e2fb61-0687-4cb8-bae1-431536ec8d83"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-45f1c1b5-8786-4faf-86f3-dc74f8375714",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-95bd3cd3-5bc7-449e-94c2-45841745729d"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-45f1c1b5-8786-4faf-86f3-dc74f8375714",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-9d764773-de8d-4f82-90af-34af5f11ef8a"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-45f1c1b5-8786-4faf-86f3-dc74f8375714",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-9daf5a96-2142-4c37-8c0c-a78d30d794cd"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-45f1c1b5-8786-4faf-86f3-dc74f8375714",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-9e556c6b-cdea-4cb6-9f24-6130e9fddd6f"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-45f1c1b5-8786-4faf-86f3-dc74f8375714",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-9fcf23d9-4554-410d-a83d-5e33f2e76009"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-45f1c1b5-8786-4faf-86f3-dc74f8375714",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-a19e7142-0426-47e7-a1d2-b2460f40db23"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-45f1c1b5-8786-4faf-86f3-dc74f8375714",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-a242c911-696e-4a05-bbd6-635e2d43c6e9"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-45f1c1b5-8786-4faf-86f3-dc74f8375714",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-a312df1f-272d-469c-91fd-a549b473016e"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-45f1c1b5-8786-4faf-86f3-dc74f8375714",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-a574576d-4b25-4ac4-9419-597d6aa99ad9"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-45f1c1b5-8786-4faf-86f3-dc74f8375714",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-a57d0d37-a866-4ee5-ba7a-86b1acaa29f7"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-45f1c1b5-8786-4faf-86f3-dc74f8375714",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-aa721c5a-60f0-4e33-bdab-85c2c965d5cf"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-45f1c1b5-8786-4faf-86f3-dc74f8375714",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-ab7645e1-11d9-4604-9c84-2bdfb19c20b5"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-45f1c1b5-8786-4faf-86f3-dc74f8375714",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-b24ec701-4f17-4db9-ad74-193e2e75cca5"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-45f1c1b5-8786-4faf-86f3-dc74f8375714",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-b4cdea31-871b-483a-914e-f03e10a9b172"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-45f1c1b5-8786-4faf-86f3-dc74f8375714",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-bb5af134-4500-4854-af25-455bcb388f90"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-45f1c1b5-8786-4faf-86f3-dc74f8375714",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-bdb6194b-2520-4acc-9db4-40749eb0f616"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-45f1c1b5-8786-4faf-86f3-dc74f8375714",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-bdb7e366-540a-4a5f-9e2b-19eb3bc0e1e2"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-45f1c1b5-8786-4faf-86f3-dc74f8375714",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-c10698df-9dac-4aa2-8e83-1423c534c4b6"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-45f1c1b5-8786-4faf-86f3-dc74f8375714",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-c2f601e6-a204-45b7-ae50-c0a3fe646a58"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-45f1c1b5-8786-4faf-86f3-dc74f8375714",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-c34fbabf-82bc-40b0-aedc-abdd79eeebe2"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-45f1c1b5-8786-4faf-86f3-dc74f8375714",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-c3f446b1-9fd2-45cc-bff7-99d1b11d38b4"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-45f1c1b5-8786-4faf-86f3-dc74f8375714",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-c7ca9590-1922-48ba-9b82-43bdf7d9fbd8"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-45f1c1b5-8786-4faf-86f3-dc74f8375714",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-c81c766b-3e47-4c48-ab47-338fc0ddc953"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-45f1c1b5-8786-4faf-86f3-dc74f8375714",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-cb9a72ac-4c47-45cf-9cd0-8d506f675d6e"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-45f1c1b5-8786-4faf-86f3-dc74f8375714",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-cdf2b383-9c81-4527-8e41-cbbda8a90b7e"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-45f1c1b5-8786-4faf-86f3-dc74f8375714",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-ce27fcc1-2d72-453f-b3e3-15cd345e2e90"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-45f1c1b5-8786-4faf-86f3-dc74f8375714",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-ce46b497-387c-41d8-a501-841e57a522ba"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-45f1c1b5-8786-4faf-86f3-dc74f8375714",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-cf748685-084e-453a-9494-217a9413e0c9"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-45f1c1b5-8786-4faf-86f3-dc74f8375714",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-d37046dc-beb4-4af7-95a6-e7145138fbe4"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-45f1c1b5-8786-4faf-86f3-dc74f8375714",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-d59f127e-847c-43ff-81c6-2cd5ea55ddd8"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-45f1c1b5-8786-4faf-86f3-dc74f8375714",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-d5aa2683-63a5-449a-8d5d-24452d8ffa71"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-45f1c1b5-8786-4faf-86f3-dc74f8375714",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-d5f5bead-6644-4635-a6cb-76754febdd10"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-45f1c1b5-8786-4faf-86f3-dc74f8375714",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-d8660da0-50ed-4757-bbbf-f7cae6f3c27b"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-45f1c1b5-8786-4faf-86f3-dc74f8375714",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-d87d23ea-7d68-4306-81e6-8e785424d177"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-45f1c1b5-8786-4faf-86f3-dc74f8375714",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-d8c9576b-129d-422d-9be7-5ca517c3508b"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-45f1c1b5-8786-4faf-86f3-dc74f8375714",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-db69e150-1dc7-4731-9ba2-4b63168dc151"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-45f1c1b5-8786-4faf-86f3-dc74f8375714",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-de0ae0a0-e749-4b0b-a8ec-ed5e976d8b9f"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-45f1c1b5-8786-4faf-86f3-dc74f8375714",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-ded7b24e-829b-4ca5-984b-dbc05bb8c7b3"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-45f1c1b5-8786-4faf-86f3-dc74f8375714",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-df1007be-9718-4b1f-bcef-96b32bd208d7"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-45f1c1b5-8786-4faf-86f3-dc74f8375714",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-ea307be2-049c-428e-9835-ba726f6351ac"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-45f1c1b5-8786-4faf-86f3-dc74f8375714",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-ee418fd9-0f38-4ede-8476-196a79e22ef7"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-45f1c1b5-8786-4faf-86f3-dc74f8375714",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-efe3c514-7ead-4f8c-8ba3-db324f0848d5"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-45f1c1b5-8786-4faf-86f3-dc74f8375714",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-f0319536-0139-4fa7-8aad-e58b78fafb1c"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-45f1c1b5-8786-4faf-86f3-dc74f8375714",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-f0a27d26-059f-4eb6-9f66-5c26851635b4"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-45f1c1b5-8786-4faf-86f3-dc74f8375714",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-f189be5e-280e-4be1-b6a9-956c891eed1b"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-45f1c1b5-8786-4faf-86f3-dc74f8375714",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-f1efa0fb-fc2c-4c16-ac36-cebce60e9f07"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-45f1c1b5-8786-4faf-86f3-dc74f8375714",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-f2d836fa-ed57-494e-91d5-ea51051ca349"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-45f1c1b5-8786-4faf-86f3-dc74f8375714",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-f3c7d200-dbdd-4a57-be16-488309e8bfe8"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-45f1c1b5-8786-4faf-86f3-dc74f8375714",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-f6b1a6c6-3c93-485e-84e8-69d09bc0d321"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-45f1c1b5-8786-4faf-86f3-dc74f8375714",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-f83ca13d-ffd8-4897-841e-df703c28a3c8"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-45f1c1b5-8786-4faf-86f3-dc74f8375714",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-f9c53e86-9daf-4b4a-8e42-9926ed8cee79"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-45f1c1b5-8786-4faf-86f3-dc74f8375714",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-faa1b195-9e37-428d-b9e4-62411f981a97"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-45f1c1b5-8786-4faf-86f3-dc74f8375714",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-faf55d67-b0c8-4171-9f67-658c62b7a1f5"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-16f7b547-962e-4e3b-84e9-e444923cb29a",
+      "relationshipType": "PACKAGE_OF",
+      "spdxElementId": "SPDXRef-45f1c1b5-8786-4faf-86f3-dc74f8375714"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-16f7b547-962e-4e3b-84e9-e444923cb29a",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

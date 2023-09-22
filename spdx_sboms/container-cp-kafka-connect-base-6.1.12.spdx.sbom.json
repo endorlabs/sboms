@@ -1,0 +1,135 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "spdxVersion": "SPDX-2.2",
+  "creationInfo": {
+    "comment": "This SPDX document has been converted from CycloneDX format.",
+    "created": "2023-07-11T14:36:16.3941355Z",
+    "creators": [
+      "Tool: trivy-0.42.1",
+      "Tool: trivy-0.42.1",
+      "Tool: trivy-0.42.1",
+      "Tool: trivy-0.42.1",
+      "Tool: trivy-0.42.1",
+      "Tool: trivy-0.42.1",
+      "Tool: trivy-0.42.1",
+      "Tool: trivy-0.42.1"
+    ]
+  },
+  "name": "cp-kafka-connect-base-6.1.12",
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/cp-kafka-connect-base-6.1.12-ade297a1-9740-4da7-82ba-1e49bfa5c901",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-cp-base-new-6.1.12-rc230710101344-latest.tgz@:4d1fe7be-46b5-4c7c-87e6-7377db8f5dfd",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "cp-base-new-6.1.12-rc230710101344-latest.tgz",
+      "originator": "NOASSERTION",
+      "supplier": "NOASSERTION"
+    },
+    {
+      "SPDXID": "SPDXRef-confluent-common-6.1.12-1@:dc464f93-4f70-43e3-83c4-3ba0daa44721",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "confluent-common-6.1.12-1",
+      "originator": "NOASSERTION",
+      "supplier": "NOASSERTION"
+    },
+    {
+      "SPDXID": "SPDXRef-confluent-control-center-6.1.12-1@:1243e2ac-63e2-4925-acb9-8f3ed334207b",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "confluent-control-center-6.1.12-1",
+      "originator": "NOASSERTION",
+      "supplier": "NOASSERTION"
+    },
+    {
+      "SPDXID": "SPDXRef-confluent-hub-client-6.1.12-1@:4df21a9c-4903-426b-bb57-05da4a74e3d4",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "confluent-hub-client-6.1.12-1",
+      "originator": "NOASSERTION",
+      "supplier": "NOASSERTION"
+    },
+    {
+      "SPDXID": "SPDXRef-confluent-kafka-6.1.12-1@:1d4d2e09-752f-4319-a628-72fc2937db46",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "confluent-kafka-6.1.12-1",
+      "originator": "NOASSERTION",
+      "supplier": "NOASSERTION"
+    },
+    {
+      "SPDXID": "SPDXRef-confluent-rest-utils-6.1.12-1@:d910a23b-a7e8-4278-ad5e-73dacd3ea734",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "confluent-rest-utils-6.1.12-1",
+      "originator": "NOASSERTION",
+      "supplier": "NOASSERTION"
+    },
+    {
+      "SPDXID": "SPDXRef-confluent-schema-registry-6.1.12-1@:a33701b9-9449-402a-9636-c46be0cbfcce",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "confluent-schema-registry-6.1.12-1",
+      "originator": "NOASSERTION",
+      "supplier": "NOASSERTION"
+    },
+    {
+      "SPDXID": "SPDXRef-confluent-telemetry-6.1.12-1@:91d5b3cd-a4c4-4250-a305-999ac4d71317",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "name": "confluent-telemetry-6.1.12-1",
+      "originator": "NOASSERTION",
+      "supplier": "NOASSERTION"
+    }
+  ]
+}

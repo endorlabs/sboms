@@ -1,0 +1,4007 @@
+{
+  "spdxVersion": "SPDX-2.2",
+  "dataLicense": "CC-BY-4.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "openjdk-17",
+  "documentNamespace": "https://access.redhat.com/security/data/sbom/beta/spdx/openjdk-17-55f26d32564f7cdab309bcb8ce9c51c7b1d8ce6b",
+  "creationInfo": {
+    "creators": [
+      "Organization: Red Hat Product Security (secalert@redhat.com)"
+    ],
+    "created": "2023-05-18T18:20:53Z"
+  },
+  "packages": [
+    {
+      "name": "java-11-openjdk",
+      "SPDXID": "SPDXRef-BUILD-8e4e813f6d9eca019df782a4b67c515fb7bd06b1",
+      "versionInfo": "11.0.12.0.7-3.el7openjdkportable",
+      "packageFileName": "java-11-openjdk-11.0.12.0.7-3.el7openjdkportable",
+      "downloadLocation": "git://pkgs.devel.redhat.com/rpms/java-11-openjdk#1911c74b7b30a29e4154ceac1db5640f1ad781fd",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-11-openjdk-11.0.12.0.7-3.el7openjdkportable.src",
+      "SPDXID": "SPDXRef-PKG-62764cdfd1aa26438a4485d501efbda9",
+      "versionInfo": "11.0.12.0.7",
+      "packageFileName": "java-11-openjdk-11.0.12.0.7-3.el7openjdkportable.src.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-11-openjdk-11.0.12.0.7-3.el7openjdkportable.aarch64",
+      "SPDXID": "SPDXRef-PKG-892c6187c93fd5c88a4da9bff8c52cfd",
+      "versionInfo": "11.0.12.0.7",
+      "packageFileName": "java-11-openjdk-11.0.12.0.7-3.el7openjdkportable.aarch64.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-11-openjdk-portable-11.0.12.0.7-3.el7openjdkportable.aarch64",
+      "SPDXID": "SPDXRef-PKG-9202f9dd9732a79a2f7778317422d88b",
+      "versionInfo": "11.0.12.0.7",
+      "packageFileName": "java-11-openjdk-portable-11.0.12.0.7-3.el7openjdkportable.aarch64.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-11-openjdk-portable-devel-11.0.12.0.7-3.el7openjdkportable.aarch64",
+      "SPDXID": "SPDXRef-PKG-39abd431ff97c8777f573a36f9748f8e",
+      "versionInfo": "11.0.12.0.7",
+      "packageFileName": "java-11-openjdk-portable-devel-11.0.12.0.7-3.el7openjdkportable.aarch64.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-11-openjdk-portable-11.0.12.0.7-3.el7openjdkportable.ppc64le",
+      "SPDXID": "SPDXRef-PKG-9e85ba9ed57d5797fd4cff1de4e94704",
+      "versionInfo": "11.0.12.0.7",
+      "packageFileName": "java-11-openjdk-portable-11.0.12.0.7-3.el7openjdkportable.ppc64le.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-11-openjdk-portable-static-libs-11.0.12.0.7-3.el7openjdkportable.aarch64",
+      "SPDXID": "SPDXRef-PKG-1ce60dce0bd6f0203afe66a16a35dd25",
+      "versionInfo": "11.0.12.0.7",
+      "packageFileName": "java-11-openjdk-portable-static-libs-11.0.12.0.7-3.el7openjdkportable.aarch64.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-11-openjdk-portable-slowdebug-11.0.12.0.7-3.el7openjdkportable.aarch64",
+      "SPDXID": "SPDXRef-PKG-cca46ec00223e81a3188ba3e5f5c588a",
+      "versionInfo": "11.0.12.0.7",
+      "packageFileName": "java-11-openjdk-portable-slowdebug-11.0.12.0.7-3.el7openjdkportable.aarch64.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-11-openjdk-portable-devel-slowdebug-11.0.12.0.7-3.el7openjdkportable.aarch64",
+      "SPDXID": "SPDXRef-PKG-c907f1b57c79cf129bf69f7e6d54926f",
+      "versionInfo": "11.0.12.0.7",
+      "packageFileName": "java-11-openjdk-portable-devel-slowdebug-11.0.12.0.7-3.el7openjdkportable.aarch64.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-11-openjdk-portable-static-libs-slowdebug-11.0.12.0.7-3.el7openjdkportable.aarch64",
+      "SPDXID": "SPDXRef-PKG-035d7c7bfbd8911e9d0166db497596ce",
+      "versionInfo": "11.0.12.0.7",
+      "packageFileName": "java-11-openjdk-portable-static-libs-slowdebug-11.0.12.0.7-3.el7openjdkportable.aarch64.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-11-openjdk-portable-11.0.12.0.7-3.el7openjdkportable.x86_64",
+      "SPDXID": "SPDXRef-PKG-3059e622137cfffa8fa80b64041ee76d",
+      "versionInfo": "11.0.12.0.7",
+      "packageFileName": "java-11-openjdk-portable-11.0.12.0.7-3.el7openjdkportable.x86_64.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-11-openjdk-portable-static-libs-slowdebug-11.0.12.0.7-3.el7openjdkportable.x86_64",
+      "SPDXID": "SPDXRef-PKG-005858f0d55d49eee079b7d44d86f4fd",
+      "versionInfo": "11.0.12.0.7",
+      "packageFileName": "java-11-openjdk-portable-static-libs-slowdebug-11.0.12.0.7-3.el7openjdkportable.x86_64.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-11-openjdk-portable-devel-fastdebug-11.0.12.0.7-3.el7openjdkportable.x86_64",
+      "SPDXID": "SPDXRef-PKG-a856b316f83281b647109175ff4fa2b0",
+      "versionInfo": "11.0.12.0.7",
+      "packageFileName": "java-11-openjdk-portable-devel-fastdebug-11.0.12.0.7-3.el7openjdkportable.x86_64.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-11-openjdk-portable-slowdebug-11.0.12.0.7-3.el7openjdkportable.x86_64",
+      "SPDXID": "SPDXRef-PKG-ab9b06e340d19e3bc59e4fe26b175918",
+      "versionInfo": "11.0.12.0.7",
+      "packageFileName": "java-11-openjdk-portable-slowdebug-11.0.12.0.7-3.el7openjdkportable.x86_64.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-11-openjdk-11.0.12.0.7-3.el7openjdkportable.x86_64",
+      "SPDXID": "SPDXRef-PKG-8a10a871ef598d9321b32c62cfeb91ec",
+      "versionInfo": "11.0.12.0.7",
+      "packageFileName": "java-11-openjdk-11.0.12.0.7-3.el7openjdkportable.x86_64.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-11-openjdk-portable-devel-11.0.12.0.7-3.el7openjdkportable.x86_64",
+      "SPDXID": "SPDXRef-PKG-a861321be48e82f92bd56b3eeeddff82",
+      "versionInfo": "11.0.12.0.7",
+      "packageFileName": "java-11-openjdk-portable-devel-11.0.12.0.7-3.el7openjdkportable.x86_64.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-11-openjdk-portable-static-libs-11.0.12.0.7-3.el7openjdkportable.x86_64",
+      "SPDXID": "SPDXRef-PKG-64d250baca74d0ce1f9f15873c613627",
+      "versionInfo": "11.0.12.0.7",
+      "packageFileName": "java-11-openjdk-portable-static-libs-11.0.12.0.7-3.el7openjdkportable.x86_64.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-11-openjdk-portable-static-libs-fastdebug-11.0.12.0.7-3.el7openjdkportable.x86_64",
+      "SPDXID": "SPDXRef-PKG-731d7834f2a68d0c00da7000d432d689",
+      "versionInfo": "11.0.12.0.7",
+      "packageFileName": "java-11-openjdk-portable-static-libs-fastdebug-11.0.12.0.7-3.el7openjdkportable.x86_64.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-11-openjdk-portable-devel-slowdebug-11.0.12.0.7-3.el7openjdkportable.x86_64",
+      "SPDXID": "SPDXRef-PKG-af38ce30cfcb07fb601c46ec65c3e9a0",
+      "versionInfo": "11.0.12.0.7",
+      "packageFileName": "java-11-openjdk-portable-devel-slowdebug-11.0.12.0.7-3.el7openjdkportable.x86_64.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-11-openjdk-portable-fastdebug-11.0.12.0.7-3.el7openjdkportable.x86_64",
+      "SPDXID": "SPDXRef-PKG-b7bdf0e2528e519f2f55df40ee691b88",
+      "versionInfo": "11.0.12.0.7",
+      "packageFileName": "java-11-openjdk-portable-fastdebug-11.0.12.0.7-3.el7openjdkportable.x86_64.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-11-openjdk-portable-slowdebug-11.0.12.0.7-3.el7openjdkportable.ppc64le",
+      "SPDXID": "SPDXRef-PKG-28f603613a39fe5827e4d866b93dd132",
+      "versionInfo": "11.0.12.0.7",
+      "packageFileName": "java-11-openjdk-portable-slowdebug-11.0.12.0.7-3.el7openjdkportable.ppc64le.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-11-openjdk-portable-devel-11.0.12.0.7-3.el7openjdkportable.ppc64le",
+      "SPDXID": "SPDXRef-PKG-ea926732cc1ae05d1e5c54249ad70a5b",
+      "versionInfo": "11.0.12.0.7",
+      "packageFileName": "java-11-openjdk-portable-devel-11.0.12.0.7-3.el7openjdkportable.ppc64le.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-11-openjdk-portable-devel-slowdebug-11.0.12.0.7-3.el7openjdkportable.ppc64le",
+      "SPDXID": "SPDXRef-PKG-9e3465ff499c06d1fbc1137140553e86",
+      "versionInfo": "11.0.12.0.7",
+      "packageFileName": "java-11-openjdk-portable-devel-slowdebug-11.0.12.0.7-3.el7openjdkportable.ppc64le.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-11-openjdk-portable-static-libs-11.0.12.0.7-3.el7openjdkportable.ppc64le",
+      "SPDXID": "SPDXRef-PKG-d7674d452b37813bde472394346b50ef",
+      "versionInfo": "11.0.12.0.7",
+      "packageFileName": "java-11-openjdk-portable-static-libs-11.0.12.0.7-3.el7openjdkportable.ppc64le.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-11-openjdk-portable-static-libs-slowdebug-11.0.12.0.7-3.el7openjdkportable.ppc64le",
+      "SPDXID": "SPDXRef-PKG-300d05496a85b25cdd750c13762b30c8",
+      "versionInfo": "11.0.12.0.7",
+      "packageFileName": "java-11-openjdk-portable-static-libs-slowdebug-11.0.12.0.7-3.el7openjdkportable.ppc64le.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-11-openjdk-11.0.12.0.7-3.el7openjdkportable.ppc64le",
+      "SPDXID": "SPDXRef-PKG-1b4b1b25eace62425213728c3ee741a5",
+      "versionInfo": "11.0.12.0.7",
+      "packageFileName": "java-11-openjdk-11.0.12.0.7-3.el7openjdkportable.ppc64le.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "git://pkgs.devel.redhat.com/rpms/java-11-openjdk#1911c74b7b30a29e4154ceac1db5640f1ad781fd",
+      "SPDXID": "SPDXRef-SRC-1911c74b7b30a29e4154ceac1db5640f1ad781fd",
+      "versionInfo": "",
+      "packageFileName": "",
+      "downloadLocation": "git://pkgs.devel.redhat.com/rpms/java-11-openjdk",
+      "filesAnalyzed": true,
+      "homepage": "openjdk.java.net/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-1.8.0-openjdk",
+      "SPDXID": "SPDXRef-BUILD-7dead7acca83d08adbd90fdccd043bb842e8bb9f",
+      "versionInfo": "1.8.0.302.b08-0.el7openjdkportable",
+      "packageFileName": "java-1.8.0-openjdk-1.8.0.302.b08-0.el7openjdkportable",
+      "downloadLocation": "git://pkgs.devel.redhat.com/rpms/java-1.8.0-openjdk#a54e947b0f87f66e12f9c198c9db5c7b44196b19",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-1.8.0-openjdk-1.8.0.302.b08-0.el7openjdkportable.src",
+      "SPDXID": "SPDXRef-PKG-55e595bdb13cf8621a5c40f08f0f8a8b",
+      "versionInfo": "1.8.0.302.b08",
+      "packageFileName": "java-1.8.0-openjdk-1.8.0.302.b08-0.el7openjdkportable.src.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-1.8.0-openjdk-1.8.0.302.b08-0.el7openjdkportable.aarch64",
+      "SPDXID": "SPDXRef-PKG-1797189a2bf710e7abe338cd22a1cea1",
+      "versionInfo": "1.8.0.302.b08",
+      "packageFileName": "java-1.8.0-openjdk-1.8.0.302.b08-0.el7openjdkportable.aarch64.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-1.8.0-openjdk-portable-1.8.0.302.b08-0.el7openjdkportable.aarch64",
+      "SPDXID": "SPDXRef-PKG-986e64c07e826d40bfddc7f026b56bf3",
+      "versionInfo": "1.8.0.302.b08",
+      "packageFileName": "java-1.8.0-openjdk-portable-1.8.0.302.b08-0.el7openjdkportable.aarch64.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-1.8.0-openjdk-portable-devel-1.8.0.302.b08-0.el7openjdkportable.aarch64",
+      "SPDXID": "SPDXRef-PKG-b4b491464fe6d90526ddd69d5dd93c87",
+      "versionInfo": "1.8.0.302.b08",
+      "packageFileName": "java-1.8.0-openjdk-portable-devel-1.8.0.302.b08-0.el7openjdkportable.aarch64.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-1.8.0-openjdk-portable-slowdebug-1.8.0.302.b08-0.el7openjdkportable.aarch64",
+      "SPDXID": "SPDXRef-PKG-e907e5b4193c562b1d50dbfbb63acbc3",
+      "versionInfo": "1.8.0.302.b08",
+      "packageFileName": "java-1.8.0-openjdk-portable-slowdebug-1.8.0.302.b08-0.el7openjdkportable.aarch64.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-1.8.0-openjdk-portable-devel-slowdebug-1.8.0.302.b08-0.el7openjdkportable.aarch64",
+      "SPDXID": "SPDXRef-PKG-63216b20175d491589c1e50596e66393",
+      "versionInfo": "1.8.0.302.b08",
+      "packageFileName": "java-1.8.0-openjdk-portable-devel-slowdebug-1.8.0.302.b08-0.el7openjdkportable.aarch64.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-1.8.0-openjdk-debuginfo-1.8.0.302.b08-0.el7openjdkportable.aarch64",
+      "SPDXID": "SPDXRef-PKG-3cc06f9ae61cb567fef47b0969ca05d7",
+      "versionInfo": "1.8.0.302.b08",
+      "packageFileName": "java-1.8.0-openjdk-debuginfo-1.8.0.302.b08-0.el7openjdkportable.aarch64.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-1.8.0-openjdk-portable-slowdebug-1.8.0.302.b08-0.el7openjdkportable.x86_64",
+      "SPDXID": "SPDXRef-PKG-5cd787821a05ef83b14c8cc2e17fc0b0",
+      "versionInfo": "1.8.0.302.b08",
+      "packageFileName": "java-1.8.0-openjdk-portable-slowdebug-1.8.0.302.b08-0.el7openjdkportable.x86_64.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-1.8.0-openjdk-portable-devel-fastdebug-1.8.0.302.b08-0.el7openjdkportable.x86_64",
+      "SPDXID": "SPDXRef-PKG-25efc15488c8ac9aec9b23fd6404eee4",
+      "versionInfo": "1.8.0.302.b08",
+      "packageFileName": "java-1.8.0-openjdk-portable-devel-fastdebug-1.8.0.302.b08-0.el7openjdkportable.x86_64.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-1.8.0-openjdk-portable-devel-1.8.0.302.b08-0.el7openjdkportable.x86_64",
+      "SPDXID": "SPDXRef-PKG-dde6437121150df9378928a0a2850595",
+      "versionInfo": "1.8.0.302.b08",
+      "packageFileName": "java-1.8.0-openjdk-portable-devel-1.8.0.302.b08-0.el7openjdkportable.x86_64.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-1.8.0-openjdk-debuginfo-1.8.0.302.b08-0.el7openjdkportable.x86_64",
+      "SPDXID": "SPDXRef-PKG-112e830f45eef4cc7fbeaace0ee5bc29",
+      "versionInfo": "1.8.0.302.b08",
+      "packageFileName": "java-1.8.0-openjdk-debuginfo-1.8.0.302.b08-0.el7openjdkportable.x86_64.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-1.8.0-openjdk-1.8.0.302.b08-0.el7openjdkportable.x86_64",
+      "SPDXID": "SPDXRef-PKG-a69e841dec295cde992733f8f8805899",
+      "versionInfo": "1.8.0.302.b08",
+      "packageFileName": "java-1.8.0-openjdk-1.8.0.302.b08-0.el7openjdkportable.x86_64.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-1.8.0-openjdk-portable-1.8.0.302.b08-0.el7openjdkportable.x86_64",
+      "SPDXID": "SPDXRef-PKG-9a91ceb0db1f16358df34bf0cca21983",
+      "versionInfo": "1.8.0.302.b08",
+      "packageFileName": "java-1.8.0-openjdk-portable-1.8.0.302.b08-0.el7openjdkportable.x86_64.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-1.8.0-openjdk-portable-fastdebug-1.8.0.302.b08-0.el7openjdkportable.x86_64",
+      "SPDXID": "SPDXRef-PKG-1c73b097394e5dae52630fd123e7335d",
+      "versionInfo": "1.8.0.302.b08",
+      "packageFileName": "java-1.8.0-openjdk-portable-fastdebug-1.8.0.302.b08-0.el7openjdkportable.x86_64.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-1.8.0-openjdk-portable-devel-slowdebug-1.8.0.302.b08-0.el7openjdkportable.x86_64",
+      "SPDXID": "SPDXRef-PKG-76d2b4b2d248e942bb04423fd6fbceb8",
+      "versionInfo": "1.8.0.302.b08",
+      "packageFileName": "java-1.8.0-openjdk-portable-devel-slowdebug-1.8.0.302.b08-0.el7openjdkportable.x86_64.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-1.8.0-openjdk-portable-devel-1.8.0.302.b08-0.el7openjdkportable.ppc64le",
+      "SPDXID": "SPDXRef-PKG-019fd93734a5f93079c6d5d94cbc0f65",
+      "versionInfo": "1.8.0.302.b08",
+      "packageFileName": "java-1.8.0-openjdk-portable-devel-1.8.0.302.b08-0.el7openjdkportable.ppc64le.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-1.8.0-openjdk-portable-slowdebug-1.8.0.302.b08-0.el7openjdkportable.ppc64le",
+      "SPDXID": "SPDXRef-PKG-3c3760b54176f2377c1b5ac0af51c6e5",
+      "versionInfo": "1.8.0.302.b08",
+      "packageFileName": "java-1.8.0-openjdk-portable-slowdebug-1.8.0.302.b08-0.el7openjdkportable.ppc64le.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-1.8.0-openjdk-1.8.0.302.b08-0.el7openjdkportable.ppc64le",
+      "SPDXID": "SPDXRef-PKG-abb7cd06d2cd7070b54bde4945863f0b",
+      "versionInfo": "1.8.0.302.b08",
+      "packageFileName": "java-1.8.0-openjdk-1.8.0.302.b08-0.el7openjdkportable.ppc64le.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-1.8.0-openjdk-portable-1.8.0.302.b08-0.el7openjdkportable.ppc64le",
+      "SPDXID": "SPDXRef-PKG-5cae59968553b83a5a09bdaad1d7e88c",
+      "versionInfo": "1.8.0.302.b08",
+      "packageFileName": "java-1.8.0-openjdk-portable-1.8.0.302.b08-0.el7openjdkportable.ppc64le.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-1.8.0-openjdk-portable-devel-slowdebug-1.8.0.302.b08-0.el7openjdkportable.ppc64le",
+      "SPDXID": "SPDXRef-PKG-cef485e8a6e53c439958543c619947b9",
+      "versionInfo": "1.8.0.302.b08",
+      "packageFileName": "java-1.8.0-openjdk-portable-devel-slowdebug-1.8.0.302.b08-0.el7openjdkportable.ppc64le.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-1.8.0-openjdk-debuginfo-1.8.0.302.b08-0.el7openjdkportable.ppc64le",
+      "SPDXID": "SPDXRef-PKG-d110bac826aaebcbc40fc1bc70bda855",
+      "versionInfo": "1.8.0.302.b08",
+      "packageFileName": "java-1.8.0-openjdk-debuginfo-1.8.0.302.b08-0.el7openjdkportable.ppc64le.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "git://pkgs.devel.redhat.com/rpms/java-1.8.0-openjdk#a54e947b0f87f66e12f9c198c9db5c7b44196b19",
+      "SPDXID": "SPDXRef-SRC-a54e947b0f87f66e12f9c198c9db5c7b44196b19",
+      "versionInfo": "",
+      "packageFileName": "",
+      "downloadLocation": "git://pkgs.devel.redhat.com/rpms/java-1.8.0-openjdk",
+      "filesAnalyzed": true,
+      "homepage": "openjdk.java.net/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-17-openjdk-portable",
+      "SPDXID": "SPDXRef-BUILD-9dada07d1ae7ed4ada61e3ba20fc7582a938c793",
+      "versionInfo": "17.0.7.0.7-1.el7openjdkportable",
+      "packageFileName": "java-17-openjdk-portable-17.0.7.0.7-1.el7openjdkportable",
+      "downloadLocation": "git://pkgs.devel.redhat.com/rpms/java-17-openjdk#cc5689cb695f73124baaece5f635005023a07833",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-17-openjdk-portable-17.0.7.0.7-1.el7openjdkportable.src",
+      "SPDXID": "SPDXRef-PKG-9ed77ba41c145f656b494b45ad27172b",
+      "versionInfo": "17.0.7.0.7",
+      "packageFileName": "java-17-openjdk-portable-17.0.7.0.7-1.el7openjdkportable.src.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-17-openjdk-portable-17.0.7.0.7-1.el7openjdkportable.aarch64",
+      "SPDXID": "SPDXRef-PKG-58221297ed5b3ddfef0aee964191b340",
+      "versionInfo": "17.0.7.0.7",
+      "packageFileName": "java-17-openjdk-portable-17.0.7.0.7-1.el7openjdkportable.aarch64.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-17-openjdk-portable-slowdebug-17.0.7.0.7-1.el7openjdkportable.aarch64",
+      "SPDXID": "SPDXRef-PKG-bc85fa59f7cd7aa9d5d5616f75f87e35",
+      "versionInfo": "17.0.7.0.7",
+      "packageFileName": "java-17-openjdk-portable-slowdebug-17.0.7.0.7-1.el7openjdkportable.aarch64.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-17-openjdk-portable-fastdebug-17.0.7.0.7-1.el7openjdkportable.aarch64",
+      "SPDXID": "SPDXRef-PKG-18e2d7e44a1e56a4aeb33e111704e856",
+      "versionInfo": "17.0.7.0.7",
+      "packageFileName": "java-17-openjdk-portable-fastdebug-17.0.7.0.7-1.el7openjdkportable.aarch64.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-17-openjdk-portable-devel-17.0.7.0.7-1.el7openjdkportable.aarch64",
+      "SPDXID": "SPDXRef-PKG-446f02454293f7df8e81aaccb571a2d0",
+      "versionInfo": "17.0.7.0.7",
+      "packageFileName": "java-17-openjdk-portable-devel-17.0.7.0.7-1.el7openjdkportable.aarch64.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-17-openjdk-portable-devel-slowdebug-17.0.7.0.7-1.el7openjdkportable.aarch64",
+      "SPDXID": "SPDXRef-PKG-38f2101fec1533e132ed7968167d4cd3",
+      "versionInfo": "17.0.7.0.7",
+      "packageFileName": "java-17-openjdk-portable-devel-slowdebug-17.0.7.0.7-1.el7openjdkportable.aarch64.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-17-openjdk-portable-devel-fastdebug-17.0.7.0.7-1.el7openjdkportable.aarch64",
+      "SPDXID": "SPDXRef-PKG-c801fba10da5e4a918ec72a41bfbe893",
+      "versionInfo": "17.0.7.0.7",
+      "packageFileName": "java-17-openjdk-portable-devel-fastdebug-17.0.7.0.7-1.el7openjdkportable.aarch64.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-17-openjdk-portable-static-libs-17.0.7.0.7-1.el7openjdkportable.aarch64",
+      "SPDXID": "SPDXRef-PKG-c8327fde0856b370f2f2dfc6ede5f444",
+      "versionInfo": "17.0.7.0.7",
+      "packageFileName": "java-17-openjdk-portable-static-libs-17.0.7.0.7-1.el7openjdkportable.aarch64.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-17-openjdk-portable-static-libs-slowdebug-17.0.7.0.7-1.el7openjdkportable.aarch64",
+      "SPDXID": "SPDXRef-PKG-b19db7ec2ac035a8c959dadd30af6d41",
+      "versionInfo": "17.0.7.0.7",
+      "packageFileName": "java-17-openjdk-portable-static-libs-slowdebug-17.0.7.0.7-1.el7openjdkportable.aarch64.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-17-openjdk-portable-static-libs-fastdebug-17.0.7.0.7-1.el7openjdkportable.aarch64",
+      "SPDXID": "SPDXRef-PKG-152b7951eb097b2d9c4751b6a7b3de0d",
+      "versionInfo": "17.0.7.0.7",
+      "packageFileName": "java-17-openjdk-portable-static-libs-fastdebug-17.0.7.0.7-1.el7openjdkportable.aarch64.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-17-openjdk-portable-unstripped-17.0.7.0.7-1.el7openjdkportable.aarch64",
+      "SPDXID": "SPDXRef-PKG-1d1437f1ee27bb46664ba2417d6fcd28",
+      "versionInfo": "17.0.7.0.7",
+      "packageFileName": "java-17-openjdk-portable-unstripped-17.0.7.0.7-1.el7openjdkportable.aarch64.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-17-openjdk-portable-docs-17.0.7.0.7-1.el7openjdkportable.aarch64",
+      "SPDXID": "SPDXRef-PKG-7d5a6ecb85e49331f3771d0bb345d845",
+      "versionInfo": "17.0.7.0.7",
+      "packageFileName": "java-17-openjdk-portable-docs-17.0.7.0.7-1.el7openjdkportable.aarch64.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-17-openjdk-portable-misc-17.0.7.0.7-1.el7openjdkportable.aarch64",
+      "SPDXID": "SPDXRef-PKG-ffcc33d8529a3a4972e3fb7aa77f991f",
+      "versionInfo": "17.0.7.0.7",
+      "packageFileName": "java-17-openjdk-portable-misc-17.0.7.0.7-1.el7openjdkportable.aarch64.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-17-openjdk-portable-slowdebug-17.0.7.0.7-1.el7openjdkportable.x86_64",
+      "SPDXID": "SPDXRef-PKG-10a0005d69eb024280bf986275cc66f4",
+      "versionInfo": "17.0.7.0.7",
+      "packageFileName": "java-17-openjdk-portable-slowdebug-17.0.7.0.7-1.el7openjdkportable.x86_64.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-17-openjdk-portable-17.0.7.0.7-1.el7openjdkportable.x86_64",
+      "SPDXID": "SPDXRef-PKG-ef3cd1870ba7bfd1cbe87e90e9fbb032",
+      "versionInfo": "17.0.7.0.7",
+      "packageFileName": "java-17-openjdk-portable-17.0.7.0.7-1.el7openjdkportable.x86_64.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-17-openjdk-portable-misc-17.0.7.0.7-1.el7openjdkportable.x86_64",
+      "SPDXID": "SPDXRef-PKG-d1e36c25e476c5052b64ce7a04059595",
+      "versionInfo": "17.0.7.0.7",
+      "packageFileName": "java-17-openjdk-portable-misc-17.0.7.0.7-1.el7openjdkportable.x86_64.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-17-openjdk-portable-fastdebug-17.0.7.0.7-1.el7openjdkportable.x86_64",
+      "SPDXID": "SPDXRef-PKG-17259d9419687b7f43afe6a528e0fd2c",
+      "versionInfo": "17.0.7.0.7",
+      "packageFileName": "java-17-openjdk-portable-fastdebug-17.0.7.0.7-1.el7openjdkportable.x86_64.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-17-openjdk-portable-devel-slowdebug-17.0.7.0.7-1.el7openjdkportable.x86_64",
+      "SPDXID": "SPDXRef-PKG-05ccfb20849218b1b6f27e3dd2c4b797",
+      "versionInfo": "17.0.7.0.7",
+      "packageFileName": "java-17-openjdk-portable-devel-slowdebug-17.0.7.0.7-1.el7openjdkportable.x86_64.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-17-openjdk-portable-static-libs-17.0.7.0.7-1.el7openjdkportable.x86_64",
+      "SPDXID": "SPDXRef-PKG-a5c6d50573001dd587b6fd9fad47a4db",
+      "versionInfo": "17.0.7.0.7",
+      "packageFileName": "java-17-openjdk-portable-static-libs-17.0.7.0.7-1.el7openjdkportable.x86_64.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-17-openjdk-portable-docs-17.0.7.0.7-1.el7openjdkportable.x86_64",
+      "SPDXID": "SPDXRef-PKG-642a4acb43974cee18c834b7efcc299a",
+      "versionInfo": "17.0.7.0.7",
+      "packageFileName": "java-17-openjdk-portable-docs-17.0.7.0.7-1.el7openjdkportable.x86_64.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-17-openjdk-portable-static-libs-slowdebug-17.0.7.0.7-1.el7openjdkportable.x86_64",
+      "SPDXID": "SPDXRef-PKG-e7f8cd041856bb5abdcee1c008fefc67",
+      "versionInfo": "17.0.7.0.7",
+      "packageFileName": "java-17-openjdk-portable-static-libs-slowdebug-17.0.7.0.7-1.el7openjdkportable.x86_64.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-17-openjdk-portable-devel-17.0.7.0.7-1.el7openjdkportable.x86_64",
+      "SPDXID": "SPDXRef-PKG-f4c766a48c7bc18bdcc6d96ee376d63d",
+      "versionInfo": "17.0.7.0.7",
+      "packageFileName": "java-17-openjdk-portable-devel-17.0.7.0.7-1.el7openjdkportable.x86_64.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-17-openjdk-portable-static-libs-fastdebug-17.0.7.0.7-1.el7openjdkportable.x86_64",
+      "SPDXID": "SPDXRef-PKG-9dec75666c7c5a5c2599784e039a00fe",
+      "versionInfo": "17.0.7.0.7",
+      "packageFileName": "java-17-openjdk-portable-static-libs-fastdebug-17.0.7.0.7-1.el7openjdkportable.x86_64.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-17-openjdk-portable-unstripped-17.0.7.0.7-1.el7openjdkportable.x86_64",
+      "SPDXID": "SPDXRef-PKG-400a823ea948248a43b9df1834336462",
+      "versionInfo": "17.0.7.0.7",
+      "packageFileName": "java-17-openjdk-portable-unstripped-17.0.7.0.7-1.el7openjdkportable.x86_64.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-17-openjdk-portable-devel-fastdebug-17.0.7.0.7-1.el7openjdkportable.x86_64",
+      "SPDXID": "SPDXRef-PKG-9b0a252575453d04cd77d3e25c13cd22",
+      "versionInfo": "17.0.7.0.7",
+      "packageFileName": "java-17-openjdk-portable-devel-fastdebug-17.0.7.0.7-1.el7openjdkportable.x86_64.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-17-openjdk-portable-17.0.7.0.7-1.el7openjdkportable.s390x",
+      "SPDXID": "SPDXRef-PKG-87aa0637e3958f3d2406e1d9e2e04537",
+      "versionInfo": "17.0.7.0.7",
+      "packageFileName": "java-17-openjdk-portable-17.0.7.0.7-1.el7openjdkportable.s390x.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-17-openjdk-portable-slowdebug-17.0.7.0.7-1.el7openjdkportable.s390x",
+      "SPDXID": "SPDXRef-PKG-1b41a291bac14561aac55787d03addfe",
+      "versionInfo": "17.0.7.0.7",
+      "packageFileName": "java-17-openjdk-portable-slowdebug-17.0.7.0.7-1.el7openjdkportable.s390x.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-17-openjdk-portable-devel-17.0.7.0.7-1.el7openjdkportable.s390x",
+      "SPDXID": "SPDXRef-PKG-a927cf10958f13e02753e67147a57fb5",
+      "versionInfo": "17.0.7.0.7",
+      "packageFileName": "java-17-openjdk-portable-devel-17.0.7.0.7-1.el7openjdkportable.s390x.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-17-openjdk-portable-devel-slowdebug-17.0.7.0.7-1.el7openjdkportable.s390x",
+      "SPDXID": "SPDXRef-PKG-e87631a404ca1d3e9cb4c4f70f18498f",
+      "versionInfo": "17.0.7.0.7",
+      "packageFileName": "java-17-openjdk-portable-devel-slowdebug-17.0.7.0.7-1.el7openjdkportable.s390x.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-17-openjdk-portable-static-libs-17.0.7.0.7-1.el7openjdkportable.s390x",
+      "SPDXID": "SPDXRef-PKG-44cf77135f2005173ac236581493a5f8",
+      "versionInfo": "17.0.7.0.7",
+      "packageFileName": "java-17-openjdk-portable-static-libs-17.0.7.0.7-1.el7openjdkportable.s390x.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-17-openjdk-portable-static-libs-slowdebug-17.0.7.0.7-1.el7openjdkportable.s390x",
+      "SPDXID": "SPDXRef-PKG-cdda311acae88d4f31e75313d0f0a8c3",
+      "versionInfo": "17.0.7.0.7",
+      "packageFileName": "java-17-openjdk-portable-static-libs-slowdebug-17.0.7.0.7-1.el7openjdkportable.s390x.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-17-openjdk-portable-unstripped-17.0.7.0.7-1.el7openjdkportable.s390x",
+      "SPDXID": "SPDXRef-PKG-db956b653f70402aab468f313a133e07",
+      "versionInfo": "17.0.7.0.7",
+      "packageFileName": "java-17-openjdk-portable-unstripped-17.0.7.0.7-1.el7openjdkportable.s390x.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-17-openjdk-portable-docs-17.0.7.0.7-1.el7openjdkportable.s390x",
+      "SPDXID": "SPDXRef-PKG-7097f470eba2df4e46f82e1c61a12b01",
+      "versionInfo": "17.0.7.0.7",
+      "packageFileName": "java-17-openjdk-portable-docs-17.0.7.0.7-1.el7openjdkportable.s390x.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-17-openjdk-portable-misc-17.0.7.0.7-1.el7openjdkportable.s390x",
+      "SPDXID": "SPDXRef-PKG-6762af6190fd5cf3451c3d5fd00247ae",
+      "versionInfo": "17.0.7.0.7",
+      "packageFileName": "java-17-openjdk-portable-misc-17.0.7.0.7-1.el7openjdkportable.s390x.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-17-openjdk-portable-17.0.7.0.7-1.el7openjdkportable.ppc64le",
+      "SPDXID": "SPDXRef-PKG-8b9ba8d7d209af5d511c2ec30934e2f2",
+      "versionInfo": "17.0.7.0.7",
+      "packageFileName": "java-17-openjdk-portable-17.0.7.0.7-1.el7openjdkportable.ppc64le.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-17-openjdk-portable-slowdebug-17.0.7.0.7-1.el7openjdkportable.ppc64le",
+      "SPDXID": "SPDXRef-PKG-705537913c0e8356f85a94104a70255c",
+      "versionInfo": "17.0.7.0.7",
+      "packageFileName": "java-17-openjdk-portable-slowdebug-17.0.7.0.7-1.el7openjdkportable.ppc64le.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-17-openjdk-portable-fastdebug-17.0.7.0.7-1.el7openjdkportable.ppc64le",
+      "SPDXID": "SPDXRef-PKG-5c893b84f56b34416dbea1821c11a996",
+      "versionInfo": "17.0.7.0.7",
+      "packageFileName": "java-17-openjdk-portable-fastdebug-17.0.7.0.7-1.el7openjdkportable.ppc64le.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-17-openjdk-portable-devel-17.0.7.0.7-1.el7openjdkportable.ppc64le",
+      "SPDXID": "SPDXRef-PKG-8ac23623e973827611ce652941e9b658",
+      "versionInfo": "17.0.7.0.7",
+      "packageFileName": "java-17-openjdk-portable-devel-17.0.7.0.7-1.el7openjdkportable.ppc64le.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-17-openjdk-portable-devel-slowdebug-17.0.7.0.7-1.el7openjdkportable.ppc64le",
+      "SPDXID": "SPDXRef-PKG-e510354c03f5ff6fabcbf1d8850704e1",
+      "versionInfo": "17.0.7.0.7",
+      "packageFileName": "java-17-openjdk-portable-devel-slowdebug-17.0.7.0.7-1.el7openjdkportable.ppc64le.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-17-openjdk-portable-devel-fastdebug-17.0.7.0.7-1.el7openjdkportable.ppc64le",
+      "SPDXID": "SPDXRef-PKG-6060c4dbffbd42656a110a7835e6531c",
+      "versionInfo": "17.0.7.0.7",
+      "packageFileName": "java-17-openjdk-portable-devel-fastdebug-17.0.7.0.7-1.el7openjdkportable.ppc64le.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-17-openjdk-portable-static-libs-17.0.7.0.7-1.el7openjdkportable.ppc64le",
+      "SPDXID": "SPDXRef-PKG-1479eb306bf1e104b4aca24d4b95304c",
+      "versionInfo": "17.0.7.0.7",
+      "packageFileName": "java-17-openjdk-portable-static-libs-17.0.7.0.7-1.el7openjdkportable.ppc64le.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-17-openjdk-portable-static-libs-slowdebug-17.0.7.0.7-1.el7openjdkportable.ppc64le",
+      "SPDXID": "SPDXRef-PKG-6266e60ebbec40e9790200ab3d9bb1a1",
+      "versionInfo": "17.0.7.0.7",
+      "packageFileName": "java-17-openjdk-portable-static-libs-slowdebug-17.0.7.0.7-1.el7openjdkportable.ppc64le.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-17-openjdk-portable-static-libs-fastdebug-17.0.7.0.7-1.el7openjdkportable.ppc64le",
+      "SPDXID": "SPDXRef-PKG-579f0c51cb4249bffd390805fa257d0f",
+      "versionInfo": "17.0.7.0.7",
+      "packageFileName": "java-17-openjdk-portable-static-libs-fastdebug-17.0.7.0.7-1.el7openjdkportable.ppc64le.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-17-openjdk-portable-unstripped-17.0.7.0.7-1.el7openjdkportable.ppc64le",
+      "SPDXID": "SPDXRef-PKG-ac395fcdff7b7f7abfcad6d4a5be918d",
+      "versionInfo": "17.0.7.0.7",
+      "packageFileName": "java-17-openjdk-portable-unstripped-17.0.7.0.7-1.el7openjdkportable.ppc64le.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-17-openjdk-portable-docs-17.0.7.0.7-1.el7openjdkportable.ppc64le",
+      "SPDXID": "SPDXRef-PKG-429a15c60cc12bf21c7fc25527a26f6d",
+      "versionInfo": "17.0.7.0.7",
+      "packageFileName": "java-17-openjdk-portable-docs-17.0.7.0.7-1.el7openjdkportable.ppc64le.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-17-openjdk-portable-misc-17.0.7.0.7-1.el7openjdkportable.ppc64le",
+      "SPDXID": "SPDXRef-PKG-00547119318e6cff89d19d9c3e42fa65",
+      "versionInfo": "17.0.7.0.7",
+      "packageFileName": "java-17-openjdk-portable-misc-17.0.7.0.7-1.el7openjdkportable.ppc64le.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "git://pkgs.devel.redhat.com/rpms/java-17-openjdk#cc5689cb695f73124baaece5f635005023a07833",
+      "SPDXID": "SPDXRef-SRC-cc5689cb695f73124baaece5f635005023a07833",
+      "versionInfo": "",
+      "packageFileName": "",
+      "downloadLocation": "git://pkgs.devel.redhat.com/rpms/java-17-openjdk",
+      "filesAnalyzed": true,
+      "homepage": "openjdk.java.net/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "libjpeg",
+      "SPDXID": "SPDXRef-DEP-a77fdb647f9730d3456ee6f608e8da51a893506e",
+      "versionInfo": "6b",
+      "packageFileName": "",
+      "downloadLocation": "",
+      "filesAnalyzed": true,
+      "homepage": "",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": "Ecosystem: "
+    },
+    {
+      "name": "giflib",
+      "SPDXID": "SPDXRef-DEP-436bed3f74435c07e9605c7cdfeaf3c483de6f8f",
+      "versionInfo": "5.2.1",
+      "packageFileName": "",
+      "downloadLocation": "",
+      "filesAnalyzed": true,
+      "homepage": "",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": "Ecosystem: "
+    },
+    {
+      "name": "lcms2",
+      "SPDXID": "SPDXRef-DEP-03fb900cbdb3cfb1e33e00accc159949fb0e07f8",
+      "versionInfo": "2.12.0",
+      "packageFileName": "",
+      "downloadLocation": "",
+      "filesAnalyzed": true,
+      "homepage": "",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": "Ecosystem: "
+    },
+    {
+      "name": "libpng",
+      "SPDXID": "SPDXRef-DEP-3a469263cb1bcacd4948df2254353446989dadf4",
+      "versionInfo": "1.6.37",
+      "packageFileName": "",
+      "downloadLocation": "",
+      "filesAnalyzed": true,
+      "homepage": "",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": "Ecosystem: "
+    },
+    {
+      "name": "freetype",
+      "SPDXID": "SPDXRef-DEP-50e97009f3685f3be70d0942e07b38320a6154f2",
+      "versionInfo": "2.12.1",
+      "packageFileName": "",
+      "downloadLocation": "",
+      "filesAnalyzed": true,
+      "homepage": "",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": "Ecosystem: "
+    },
+    {
+      "name": "harfbuzz",
+      "SPDXID": "SPDXRef-DEP-7e150c6129919ac6d28359284336d49f5e03ee2e",
+      "versionInfo": "4.4.1",
+      "packageFileName": "",
+      "downloadLocation": "",
+      "filesAnalyzed": true,
+      "homepage": "",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": "Ecosystem: "
+    },
+    {
+      "name": "java-11-openjdk-portable",
+      "SPDXID": "SPDXRef-BUILD-47c9b648a0b0ca1b9df18bc2b170d8b35e6684db",
+      "versionInfo": "11.0.19.0.7-1.el7openjdkportable",
+      "packageFileName": "java-11-openjdk-portable-11.0.19.0.7-1.el7openjdkportable",
+      "downloadLocation": "git://pkgs.devel.redhat.com/rpms/java-11-openjdk#3cd353c4bb8acdfd668a88d9e5ac633429085af6",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-11-openjdk-portable-11.0.19.0.7-1.el7openjdkportable.src",
+      "SPDXID": "SPDXRef-PKG-b8001ff9b12c98c1991356838e44a2f9",
+      "versionInfo": "11.0.19.0.7",
+      "packageFileName": "java-11-openjdk-portable-11.0.19.0.7-1.el7openjdkportable.src.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-11-openjdk-portable-11.0.19.0.7-1.el7openjdkportable.aarch64",
+      "SPDXID": "SPDXRef-PKG-aeda5d5642caa63a7774f58db2e92d06",
+      "versionInfo": "11.0.19.0.7",
+      "packageFileName": "java-11-openjdk-portable-11.0.19.0.7-1.el7openjdkportable.aarch64.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-11-openjdk-portable-slowdebug-11.0.19.0.7-1.el7openjdkportable.aarch64",
+      "SPDXID": "SPDXRef-PKG-5a9de1818be1eec928bd1d7c386a14ec",
+      "versionInfo": "11.0.19.0.7",
+      "packageFileName": "java-11-openjdk-portable-slowdebug-11.0.19.0.7-1.el7openjdkportable.aarch64.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-11-openjdk-portable-fastdebug-11.0.19.0.7-1.el7openjdkportable.aarch64",
+      "SPDXID": "SPDXRef-PKG-89ca80c9edb145e4c946c0c730ccfbc1",
+      "versionInfo": "11.0.19.0.7",
+      "packageFileName": "java-11-openjdk-portable-fastdebug-11.0.19.0.7-1.el7openjdkportable.aarch64.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-11-openjdk-portable-devel-11.0.19.0.7-1.el7openjdkportable.aarch64",
+      "SPDXID": "SPDXRef-PKG-36fb3054264db3034aa5ff6d7e626e66",
+      "versionInfo": "11.0.19.0.7",
+      "packageFileName": "java-11-openjdk-portable-devel-11.0.19.0.7-1.el7openjdkportable.aarch64.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-11-openjdk-portable-devel-slowdebug-11.0.19.0.7-1.el7openjdkportable.aarch64",
+      "SPDXID": "SPDXRef-PKG-4941aaa3bb366163e4f07dbabfe66ccb",
+      "versionInfo": "11.0.19.0.7",
+      "packageFileName": "java-11-openjdk-portable-devel-slowdebug-11.0.19.0.7-1.el7openjdkportable.aarch64.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-11-openjdk-portable-devel-fastdebug-11.0.19.0.7-1.el7openjdkportable.aarch64",
+      "SPDXID": "SPDXRef-PKG-71c5b9504d15fea1f2446519dda4a39f",
+      "versionInfo": "11.0.19.0.7",
+      "packageFileName": "java-11-openjdk-portable-devel-fastdebug-11.0.19.0.7-1.el7openjdkportable.aarch64.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-11-openjdk-portable-static-libs-11.0.19.0.7-1.el7openjdkportable.aarch64",
+      "SPDXID": "SPDXRef-PKG-b21da44c4636e2a7d3928cd4a4886483",
+      "versionInfo": "11.0.19.0.7",
+      "packageFileName": "java-11-openjdk-portable-static-libs-11.0.19.0.7-1.el7openjdkportable.aarch64.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-11-openjdk-portable-static-libs-slowdebug-11.0.19.0.7-1.el7openjdkportable.aarch64",
+      "SPDXID": "SPDXRef-PKG-5bc60059c6f869275e01d2c861126dc7",
+      "versionInfo": "11.0.19.0.7",
+      "packageFileName": "java-11-openjdk-portable-static-libs-slowdebug-11.0.19.0.7-1.el7openjdkportable.aarch64.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-11-openjdk-portable-static-libs-fastdebug-11.0.19.0.7-1.el7openjdkportable.aarch64",
+      "SPDXID": "SPDXRef-PKG-e3d701ac33b96cc94b7bbf54d6d475ab",
+      "versionInfo": "11.0.19.0.7",
+      "packageFileName": "java-11-openjdk-portable-static-libs-fastdebug-11.0.19.0.7-1.el7openjdkportable.aarch64.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-11-openjdk-portable-unstripped-11.0.19.0.7-1.el7openjdkportable.aarch64",
+      "SPDXID": "SPDXRef-PKG-29664fc2b9db8cfb7093d4be06eff936",
+      "versionInfo": "11.0.19.0.7",
+      "packageFileName": "java-11-openjdk-portable-unstripped-11.0.19.0.7-1.el7openjdkportable.aarch64.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-11-openjdk-portable-docs-11.0.19.0.7-1.el7openjdkportable.aarch64",
+      "SPDXID": "SPDXRef-PKG-4de3cb3518a40eb24921199597c086f0",
+      "versionInfo": "11.0.19.0.7",
+      "packageFileName": "java-11-openjdk-portable-docs-11.0.19.0.7-1.el7openjdkportable.aarch64.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-11-openjdk-portable-misc-11.0.19.0.7-1.el7openjdkportable.aarch64",
+      "SPDXID": "SPDXRef-PKG-93e2c5a4098bc4715dcb84087a3dcce7",
+      "versionInfo": "11.0.19.0.7",
+      "packageFileName": "java-11-openjdk-portable-misc-11.0.19.0.7-1.el7openjdkportable.aarch64.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-11-openjdk-portable-devel-slowdebug-11.0.19.0.7-1.el7openjdkportable.x86_64",
+      "SPDXID": "SPDXRef-PKG-01851aa5036e86569055209995529cd2",
+      "versionInfo": "11.0.19.0.7",
+      "packageFileName": "java-11-openjdk-portable-devel-slowdebug-11.0.19.0.7-1.el7openjdkportable.x86_64.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-11-openjdk-portable-misc-11.0.19.0.7-1.el7openjdkportable.x86_64",
+      "SPDXID": "SPDXRef-PKG-30467a6a56e3f692925a188c72a2b531",
+      "versionInfo": "11.0.19.0.7",
+      "packageFileName": "java-11-openjdk-portable-misc-11.0.19.0.7-1.el7openjdkportable.x86_64.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-11-openjdk-portable-static-libs-11.0.19.0.7-1.el7openjdkportable.x86_64",
+      "SPDXID": "SPDXRef-PKG-d1d7d3e734c8751d7698aac92fdf7f5b",
+      "versionInfo": "11.0.19.0.7",
+      "packageFileName": "java-11-openjdk-portable-static-libs-11.0.19.0.7-1.el7openjdkportable.x86_64.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-11-openjdk-portable-static-libs-fastdebug-11.0.19.0.7-1.el7openjdkportable.x86_64",
+      "SPDXID": "SPDXRef-PKG-de4554cb5f7f47b9d080d2fb42288f29",
+      "versionInfo": "11.0.19.0.7",
+      "packageFileName": "java-11-openjdk-portable-static-libs-fastdebug-11.0.19.0.7-1.el7openjdkportable.x86_64.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-11-openjdk-portable-unstripped-11.0.19.0.7-1.el7openjdkportable.x86_64",
+      "SPDXID": "SPDXRef-PKG-a44fc71ac3ef0b705c459a1781c4821d",
+      "versionInfo": "11.0.19.0.7",
+      "packageFileName": "java-11-openjdk-portable-unstripped-11.0.19.0.7-1.el7openjdkportable.x86_64.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-11-openjdk-portable-slowdebug-11.0.19.0.7-1.el7openjdkportable.x86_64",
+      "SPDXID": "SPDXRef-PKG-3a8d658ffefdc623ec43505841b43792",
+      "versionInfo": "11.0.19.0.7",
+      "packageFileName": "java-11-openjdk-portable-slowdebug-11.0.19.0.7-1.el7openjdkportable.x86_64.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-11-openjdk-portable-static-libs-slowdebug-11.0.19.0.7-1.el7openjdkportable.x86_64",
+      "SPDXID": "SPDXRef-PKG-d9117f72c2dc9f988163c603ce51580e",
+      "versionInfo": "11.0.19.0.7",
+      "packageFileName": "java-11-openjdk-portable-static-libs-slowdebug-11.0.19.0.7-1.el7openjdkportable.x86_64.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-11-openjdk-portable-docs-11.0.19.0.7-1.el7openjdkportable.x86_64",
+      "SPDXID": "SPDXRef-PKG-ed65b2fdb8b6275f5a78a2127389f72f",
+      "versionInfo": "11.0.19.0.7",
+      "packageFileName": "java-11-openjdk-portable-docs-11.0.19.0.7-1.el7openjdkportable.x86_64.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-11-openjdk-portable-devel-fastdebug-11.0.19.0.7-1.el7openjdkportable.x86_64",
+      "SPDXID": "SPDXRef-PKG-ff90a7578b11f68b23fe161898aaa53c",
+      "versionInfo": "11.0.19.0.7",
+      "packageFileName": "java-11-openjdk-portable-devel-fastdebug-11.0.19.0.7-1.el7openjdkportable.x86_64.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-11-openjdk-portable-fastdebug-11.0.19.0.7-1.el7openjdkportable.x86_64",
+      "SPDXID": "SPDXRef-PKG-96933657fb3ffe05f014d688ab7e263f",
+      "versionInfo": "11.0.19.0.7",
+      "packageFileName": "java-11-openjdk-portable-fastdebug-11.0.19.0.7-1.el7openjdkportable.x86_64.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-11-openjdk-portable-11.0.19.0.7-1.el7openjdkportable.x86_64",
+      "SPDXID": "SPDXRef-PKG-8cfb99df6514e19e830736fc8141ca74",
+      "versionInfo": "11.0.19.0.7",
+      "packageFileName": "java-11-openjdk-portable-11.0.19.0.7-1.el7openjdkportable.x86_64.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-11-openjdk-portable-devel-11.0.19.0.7-1.el7openjdkportable.x86_64",
+      "SPDXID": "SPDXRef-PKG-56abcb356d6c11922c47ca4cdbfc1385",
+      "versionInfo": "11.0.19.0.7",
+      "packageFileName": "java-11-openjdk-portable-devel-11.0.19.0.7-1.el7openjdkportable.x86_64.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-11-openjdk-portable-11.0.19.0.7-1.el7openjdkportable.s390x",
+      "SPDXID": "SPDXRef-PKG-aacd5a863553a8f0065b5260dbbf7bc8",
+      "versionInfo": "11.0.19.0.7",
+      "packageFileName": "java-11-openjdk-portable-11.0.19.0.7-1.el7openjdkportable.s390x.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-11-openjdk-portable-slowdebug-11.0.19.0.7-1.el7openjdkportable.s390x",
+      "SPDXID": "SPDXRef-PKG-acfad2a018c5c7f8f5d2d6dfc3fac3a3",
+      "versionInfo": "11.0.19.0.7",
+      "packageFileName": "java-11-openjdk-portable-slowdebug-11.0.19.0.7-1.el7openjdkportable.s390x.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-11-openjdk-portable-devel-11.0.19.0.7-1.el7openjdkportable.s390x",
+      "SPDXID": "SPDXRef-PKG-96c12c498c4e3d80732342ff888694ed",
+      "versionInfo": "11.0.19.0.7",
+      "packageFileName": "java-11-openjdk-portable-devel-11.0.19.0.7-1.el7openjdkportable.s390x.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-11-openjdk-portable-devel-slowdebug-11.0.19.0.7-1.el7openjdkportable.s390x",
+      "SPDXID": "SPDXRef-PKG-a4fa5ee2a493d3d47b990811f0f59929",
+      "versionInfo": "11.0.19.0.7",
+      "packageFileName": "java-11-openjdk-portable-devel-slowdebug-11.0.19.0.7-1.el7openjdkportable.s390x.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-11-openjdk-portable-static-libs-11.0.19.0.7-1.el7openjdkportable.s390x",
+      "SPDXID": "SPDXRef-PKG-a8df3e2b9ba904b2ed1d912e465eb1af",
+      "versionInfo": "11.0.19.0.7",
+      "packageFileName": "java-11-openjdk-portable-static-libs-11.0.19.0.7-1.el7openjdkportable.s390x.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-11-openjdk-portable-static-libs-slowdebug-11.0.19.0.7-1.el7openjdkportable.s390x",
+      "SPDXID": "SPDXRef-PKG-a87f1e861a61b6bf67f071bd3687ac15",
+      "versionInfo": "11.0.19.0.7",
+      "packageFileName": "java-11-openjdk-portable-static-libs-slowdebug-11.0.19.0.7-1.el7openjdkportable.s390x.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-11-openjdk-portable-unstripped-11.0.19.0.7-1.el7openjdkportable.s390x",
+      "SPDXID": "SPDXRef-PKG-241b843b39f5e831970d0bcf6c089a4e",
+      "versionInfo": "11.0.19.0.7",
+      "packageFileName": "java-11-openjdk-portable-unstripped-11.0.19.0.7-1.el7openjdkportable.s390x.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-11-openjdk-portable-docs-11.0.19.0.7-1.el7openjdkportable.s390x",
+      "SPDXID": "SPDXRef-PKG-5bd5b943a48faca183f622aee8e511f8",
+      "versionInfo": "11.0.19.0.7",
+      "packageFileName": "java-11-openjdk-portable-docs-11.0.19.0.7-1.el7openjdkportable.s390x.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-11-openjdk-portable-misc-11.0.19.0.7-1.el7openjdkportable.s390x",
+      "SPDXID": "SPDXRef-PKG-9772d10e8b0959b70f2038eaab77bf2a",
+      "versionInfo": "11.0.19.0.7",
+      "packageFileName": "java-11-openjdk-portable-misc-11.0.19.0.7-1.el7openjdkportable.s390x.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-11-openjdk-portable-11.0.19.0.7-1.el7openjdkportable.ppc64le",
+      "SPDXID": "SPDXRef-PKG-6aa9469a4c9739e81e2f551bc27cb007",
+      "versionInfo": "11.0.19.0.7",
+      "packageFileName": "java-11-openjdk-portable-11.0.19.0.7-1.el7openjdkportable.ppc64le.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-11-openjdk-portable-slowdebug-11.0.19.0.7-1.el7openjdkportable.ppc64le",
+      "SPDXID": "SPDXRef-PKG-413b80e5565fa93789bee9c6a7a2319b",
+      "versionInfo": "11.0.19.0.7",
+      "packageFileName": "java-11-openjdk-portable-slowdebug-11.0.19.0.7-1.el7openjdkportable.ppc64le.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-11-openjdk-portable-fastdebug-11.0.19.0.7-1.el7openjdkportable.ppc64le",
+      "SPDXID": "SPDXRef-PKG-558d21701af64df670953226792c2f96",
+      "versionInfo": "11.0.19.0.7",
+      "packageFileName": "java-11-openjdk-portable-fastdebug-11.0.19.0.7-1.el7openjdkportable.ppc64le.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-11-openjdk-portable-devel-11.0.19.0.7-1.el7openjdkportable.ppc64le",
+      "SPDXID": "SPDXRef-PKG-2f7004c78679e1c44ae98279bb5c91fa",
+      "versionInfo": "11.0.19.0.7",
+      "packageFileName": "java-11-openjdk-portable-devel-11.0.19.0.7-1.el7openjdkportable.ppc64le.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-11-openjdk-portable-devel-slowdebug-11.0.19.0.7-1.el7openjdkportable.ppc64le",
+      "SPDXID": "SPDXRef-PKG-d332f98ab5e178ca22df9ff006d95c22",
+      "versionInfo": "11.0.19.0.7",
+      "packageFileName": "java-11-openjdk-portable-devel-slowdebug-11.0.19.0.7-1.el7openjdkportable.ppc64le.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-11-openjdk-portable-devel-fastdebug-11.0.19.0.7-1.el7openjdkportable.ppc64le",
+      "SPDXID": "SPDXRef-PKG-595b174c158d616a6c657330af9d741e",
+      "versionInfo": "11.0.19.0.7",
+      "packageFileName": "java-11-openjdk-portable-devel-fastdebug-11.0.19.0.7-1.el7openjdkportable.ppc64le.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-11-openjdk-portable-static-libs-11.0.19.0.7-1.el7openjdkportable.ppc64le",
+      "SPDXID": "SPDXRef-PKG-270f548b5b775ad913493ea60c7556a0",
+      "versionInfo": "11.0.19.0.7",
+      "packageFileName": "java-11-openjdk-portable-static-libs-11.0.19.0.7-1.el7openjdkportable.ppc64le.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-11-openjdk-portable-static-libs-slowdebug-11.0.19.0.7-1.el7openjdkportable.ppc64le",
+      "SPDXID": "SPDXRef-PKG-e9c547385cef8e317b64902922a0b3a2",
+      "versionInfo": "11.0.19.0.7",
+      "packageFileName": "java-11-openjdk-portable-static-libs-slowdebug-11.0.19.0.7-1.el7openjdkportable.ppc64le.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-11-openjdk-portable-static-libs-fastdebug-11.0.19.0.7-1.el7openjdkportable.ppc64le",
+      "SPDXID": "SPDXRef-PKG-c21ae5dd63cd841865f22bd969f31d25",
+      "versionInfo": "11.0.19.0.7",
+      "packageFileName": "java-11-openjdk-portable-static-libs-fastdebug-11.0.19.0.7-1.el7openjdkportable.ppc64le.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-11-openjdk-portable-unstripped-11.0.19.0.7-1.el7openjdkportable.ppc64le",
+      "SPDXID": "SPDXRef-PKG-58b268a5e4739144a378ee7b1183f138",
+      "versionInfo": "11.0.19.0.7",
+      "packageFileName": "java-11-openjdk-portable-unstripped-11.0.19.0.7-1.el7openjdkportable.ppc64le.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-11-openjdk-portable-docs-11.0.19.0.7-1.el7openjdkportable.ppc64le",
+      "SPDXID": "SPDXRef-PKG-1088d24cd833fd2e8b85945525e1d3e7",
+      "versionInfo": "11.0.19.0.7",
+      "packageFileName": "java-11-openjdk-portable-docs-11.0.19.0.7-1.el7openjdkportable.ppc64le.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-11-openjdk-portable-misc-11.0.19.0.7-1.el7openjdkportable.ppc64le",
+      "SPDXID": "SPDXRef-PKG-5b35dad3c2bff131fc9136ba1f801adf",
+      "versionInfo": "11.0.19.0.7",
+      "packageFileName": "java-11-openjdk-portable-misc-11.0.19.0.7-1.el7openjdkportable.ppc64le.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "git://pkgs.devel.redhat.com/rpms/java-11-openjdk#3cd353c4bb8acdfd668a88d9e5ac633429085af6",
+      "SPDXID": "SPDXRef-SRC-3cd353c4bb8acdfd668a88d9e5ac633429085af6",
+      "versionInfo": "",
+      "packageFileName": "",
+      "downloadLocation": "git://pkgs.devel.redhat.com/rpms/java-11-openjdk",
+      "filesAnalyzed": true,
+      "homepage": "openjdk.java.net/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "libjpeg",
+      "SPDXID": "SPDXRef-DEP-a77fdb647f9730d3456ee6f608e8da51a893506e",
+      "versionInfo": "6b",
+      "packageFileName": "",
+      "downloadLocation": "",
+      "filesAnalyzed": true,
+      "homepage": "",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": "Ecosystem: "
+    },
+    {
+      "name": "giflib",
+      "SPDXID": "SPDXRef-DEP-436bed3f74435c07e9605c7cdfeaf3c483de6f8f",
+      "versionInfo": "5.2.1",
+      "packageFileName": "",
+      "downloadLocation": "",
+      "filesAnalyzed": true,
+      "homepage": "",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": "Ecosystem: "
+    },
+    {
+      "name": "lcms2",
+      "SPDXID": "SPDXRef-DEP-03fb900cbdb3cfb1e33e00accc159949fb0e07f8",
+      "versionInfo": "2.12.0",
+      "packageFileName": "",
+      "downloadLocation": "",
+      "filesAnalyzed": true,
+      "homepage": "",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": "Ecosystem: "
+    },
+    {
+      "name": "libpng",
+      "SPDXID": "SPDXRef-DEP-3a469263cb1bcacd4948df2254353446989dadf4",
+      "versionInfo": "1.6.37",
+      "packageFileName": "",
+      "downloadLocation": "",
+      "filesAnalyzed": true,
+      "homepage": "",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": "Ecosystem: "
+    },
+    {
+      "name": "freetype",
+      "SPDXID": "SPDXRef-DEP-50e97009f3685f3be70d0942e07b38320a6154f2",
+      "versionInfo": "2.12.1",
+      "packageFileName": "",
+      "downloadLocation": "",
+      "filesAnalyzed": true,
+      "homepage": "",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": "Ecosystem: "
+    },
+    {
+      "name": "harfbuzz",
+      "SPDXID": "SPDXRef-DEP-7e150c6129919ac6d28359284336d49f5e03ee2e",
+      "versionInfo": "4.4.1",
+      "packageFileName": "",
+      "downloadLocation": "",
+      "filesAnalyzed": true,
+      "homepage": "",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": "Ecosystem: "
+    },
+    {
+      "name": "java-1.8.0-openjdk-portable",
+      "SPDXID": "SPDXRef-BUILD-3b543f36dd1ad0f34d8d19779b38fa13670d7977",
+      "versionInfo": "1.8.0.372.b07-1.el7openjdkportable",
+      "packageFileName": "java-1.8.0-openjdk-portable-1.8.0.372.b07-1.el7openjdkportable",
+      "downloadLocation": "git://pkgs.devel.redhat.com/rpms/java-1.8.0-openjdk#f9e34d8abe6d5e0bb65bf9680e31548e58d8494b",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-1.8.0-openjdk-portable-1.8.0.372.b07-1.el7openjdkportable.src",
+      "SPDXID": "SPDXRef-PKG-87602c1c00e6072679e0c822fcd2ac4d",
+      "versionInfo": "1.8.0.372.b07",
+      "packageFileName": "java-1.8.0-openjdk-portable-1.8.0.372.b07-1.el7openjdkportable.src.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-1.8.0-openjdk-portable-1.8.0.372.b07-1.el7openjdkportable.aarch64",
+      "SPDXID": "SPDXRef-PKG-598bca9161cb8eddf4dd007867c2a42d",
+      "versionInfo": "1.8.0.372.b07",
+      "packageFileName": "java-1.8.0-openjdk-portable-1.8.0.372.b07-1.el7openjdkportable.aarch64.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-1.8.0-openjdk-portable-devel-1.8.0.372.b07-1.el7openjdkportable.aarch64",
+      "SPDXID": "SPDXRef-PKG-606a682d5a4abe5327bec921aba3b23d",
+      "versionInfo": "1.8.0.372.b07",
+      "packageFileName": "java-1.8.0-openjdk-portable-devel-1.8.0.372.b07-1.el7openjdkportable.aarch64.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-1.8.0-openjdk-portable-slowdebug-1.8.0.372.b07-1.el7openjdkportable.aarch64",
+      "SPDXID": "SPDXRef-PKG-770d3d6fd0a063a396be1c45473d05a6",
+      "versionInfo": "1.8.0.372.b07",
+      "packageFileName": "java-1.8.0-openjdk-portable-slowdebug-1.8.0.372.b07-1.el7openjdkportable.aarch64.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-1.8.0-openjdk-portable-devel-slowdebug-1.8.0.372.b07-1.el7openjdkportable.aarch64",
+      "SPDXID": "SPDXRef-PKG-24f67b96c1e3218bc19434b5885e23e7",
+      "versionInfo": "1.8.0.372.b07",
+      "packageFileName": "java-1.8.0-openjdk-portable-devel-slowdebug-1.8.0.372.b07-1.el7openjdkportable.aarch64.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-1.8.0-openjdk-portable-fastdebug-1.8.0.372.b07-1.el7openjdkportable.aarch64",
+      "SPDXID": "SPDXRef-PKG-c22581bc46ec104c5a049535c4b28f65",
+      "versionInfo": "1.8.0.372.b07",
+      "packageFileName": "java-1.8.0-openjdk-portable-fastdebug-1.8.0.372.b07-1.el7openjdkportable.aarch64.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-1.8.0-openjdk-portable-devel-fastdebug-1.8.0.372.b07-1.el7openjdkportable.aarch64",
+      "SPDXID": "SPDXRef-PKG-3f23dab4e29beb5ea96363e8a00de54c",
+      "versionInfo": "1.8.0.372.b07",
+      "packageFileName": "java-1.8.0-openjdk-portable-devel-fastdebug-1.8.0.372.b07-1.el7openjdkportable.aarch64.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-1.8.0-openjdk-portable-unstripped-1.8.0.372.b07-1.el7openjdkportable.aarch64",
+      "SPDXID": "SPDXRef-PKG-d18ddaffc5c4acbd61b8ad3c5e624baa",
+      "versionInfo": "1.8.0.372.b07",
+      "packageFileName": "java-1.8.0-openjdk-portable-unstripped-1.8.0.372.b07-1.el7openjdkportable.aarch64.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-1.8.0-openjdk-portable-docs-1.8.0.372.b07-1.el7openjdkportable.aarch64",
+      "SPDXID": "SPDXRef-PKG-85754a4d6c9e9771c9d50da8934f7b4f",
+      "versionInfo": "1.8.0.372.b07",
+      "packageFileName": "java-1.8.0-openjdk-portable-docs-1.8.0.372.b07-1.el7openjdkportable.aarch64.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-1.8.0-openjdk-portable-misc-1.8.0.372.b07-1.el7openjdkportable.aarch64",
+      "SPDXID": "SPDXRef-PKG-2ae7873ec3bd39ab139d1fe606b12a91",
+      "versionInfo": "1.8.0.372.b07",
+      "packageFileName": "java-1.8.0-openjdk-portable-misc-1.8.0.372.b07-1.el7openjdkportable.aarch64.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-1.8.0-openjdk-portable-debuginfo-1.8.0.372.b07-1.el7openjdkportable.aarch64",
+      "SPDXID": "SPDXRef-PKG-80b83e979cc9173cf096d36aeb0199c4",
+      "versionInfo": "1.8.0.372.b07",
+      "packageFileName": "java-1.8.0-openjdk-portable-debuginfo-1.8.0.372.b07-1.el7openjdkportable.aarch64.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-1.8.0-openjdk-portable-devel-fastdebug-1.8.0.372.b07-1.el7openjdkportable.x86_64",
+      "SPDXID": "SPDXRef-PKG-84372672c91a354d9b5347095ec8ffaa",
+      "versionInfo": "1.8.0.372.b07",
+      "packageFileName": "java-1.8.0-openjdk-portable-devel-fastdebug-1.8.0.372.b07-1.el7openjdkportable.x86_64.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-1.8.0-openjdk-portable-misc-1.8.0.372.b07-1.el7openjdkportable.x86_64",
+      "SPDXID": "SPDXRef-PKG-e84dff001e65bbb9128a74aeff2cd2d4",
+      "versionInfo": "1.8.0.372.b07",
+      "packageFileName": "java-1.8.0-openjdk-portable-misc-1.8.0.372.b07-1.el7openjdkportable.x86_64.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-1.8.0-openjdk-portable-debuginfo-1.8.0.372.b07-1.el7openjdkportable.x86_64",
+      "SPDXID": "SPDXRef-PKG-643962c73797af6753fd4e79d20447f0",
+      "versionInfo": "1.8.0.372.b07",
+      "packageFileName": "java-1.8.0-openjdk-portable-debuginfo-1.8.0.372.b07-1.el7openjdkportable.x86_64.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-1.8.0-openjdk-portable-unstripped-1.8.0.372.b07-1.el7openjdkportable.x86_64",
+      "SPDXID": "SPDXRef-PKG-061d4cbdb0b1e7300ef708d4f978b1a4",
+      "versionInfo": "1.8.0.372.b07",
+      "packageFileName": "java-1.8.0-openjdk-portable-unstripped-1.8.0.372.b07-1.el7openjdkportable.x86_64.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-1.8.0-openjdk-portable-devel-slowdebug-1.8.0.372.b07-1.el7openjdkportable.x86_64",
+      "SPDXID": "SPDXRef-PKG-31ad6d925337543770635bc247ee5408",
+      "versionInfo": "1.8.0.372.b07",
+      "packageFileName": "java-1.8.0-openjdk-portable-devel-slowdebug-1.8.0.372.b07-1.el7openjdkportable.x86_64.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-1.8.0-openjdk-portable-devel-1.8.0.372.b07-1.el7openjdkportable.x86_64",
+      "SPDXID": "SPDXRef-PKG-c7414de188da5a5efa41ca1167173461",
+      "versionInfo": "1.8.0.372.b07",
+      "packageFileName": "java-1.8.0-openjdk-portable-devel-1.8.0.372.b07-1.el7openjdkportable.x86_64.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-1.8.0-openjdk-portable-docs-1.8.0.372.b07-1.el7openjdkportable.x86_64",
+      "SPDXID": "SPDXRef-PKG-54d44eca132f7e4b81c6b1262641ab8a",
+      "versionInfo": "1.8.0.372.b07",
+      "packageFileName": "java-1.8.0-openjdk-portable-docs-1.8.0.372.b07-1.el7openjdkportable.x86_64.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-1.8.0-openjdk-portable-slowdebug-1.8.0.372.b07-1.el7openjdkportable.x86_64",
+      "SPDXID": "SPDXRef-PKG-8fd9c490c31662ce5516c3430aab7181",
+      "versionInfo": "1.8.0.372.b07",
+      "packageFileName": "java-1.8.0-openjdk-portable-slowdebug-1.8.0.372.b07-1.el7openjdkportable.x86_64.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-1.8.0-openjdk-portable-fastdebug-1.8.0.372.b07-1.el7openjdkportable.x86_64",
+      "SPDXID": "SPDXRef-PKG-c8757a8a5e20a8629e720b9e4bea424b",
+      "versionInfo": "1.8.0.372.b07",
+      "packageFileName": "java-1.8.0-openjdk-portable-fastdebug-1.8.0.372.b07-1.el7openjdkportable.x86_64.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-1.8.0-openjdk-portable-1.8.0.372.b07-1.el7openjdkportable.x86_64",
+      "SPDXID": "SPDXRef-PKG-7cecc4f9a5f8504c7f410cf0b5ca1403",
+      "versionInfo": "1.8.0.372.b07",
+      "packageFileName": "java-1.8.0-openjdk-portable-1.8.0.372.b07-1.el7openjdkportable.x86_64.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-1.8.0-openjdk-portable-1.8.0.372.b07-1.el7openjdkportable.s390x",
+      "SPDXID": "SPDXRef-PKG-9bedff06767efeace0ae9d9c8f6c4211",
+      "versionInfo": "1.8.0.372.b07",
+      "packageFileName": "java-1.8.0-openjdk-portable-1.8.0.372.b07-1.el7openjdkportable.s390x.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-1.8.0-openjdk-portable-devel-1.8.0.372.b07-1.el7openjdkportable.s390x",
+      "SPDXID": "SPDXRef-PKG-f53efa1a8ee2e11c6bde5e3dd7d6a93b",
+      "versionInfo": "1.8.0.372.b07",
+      "packageFileName": "java-1.8.0-openjdk-portable-devel-1.8.0.372.b07-1.el7openjdkportable.s390x.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-1.8.0-openjdk-portable-unstripped-1.8.0.372.b07-1.el7openjdkportable.s390x",
+      "SPDXID": "SPDXRef-PKG-25a81ea2849aeade109355062fbf06c7",
+      "versionInfo": "1.8.0.372.b07",
+      "packageFileName": "java-1.8.0-openjdk-portable-unstripped-1.8.0.372.b07-1.el7openjdkportable.s390x.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-1.8.0-openjdk-portable-docs-1.8.0.372.b07-1.el7openjdkportable.s390x",
+      "SPDXID": "SPDXRef-PKG-0672913af42c1c7e2c314c966f922396",
+      "versionInfo": "1.8.0.372.b07",
+      "packageFileName": "java-1.8.0-openjdk-portable-docs-1.8.0.372.b07-1.el7openjdkportable.s390x.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-1.8.0-openjdk-portable-misc-1.8.0.372.b07-1.el7openjdkportable.s390x",
+      "SPDXID": "SPDXRef-PKG-cd54e6890ed085adc5a6b8684c8bb987",
+      "versionInfo": "1.8.0.372.b07",
+      "packageFileName": "java-1.8.0-openjdk-portable-misc-1.8.0.372.b07-1.el7openjdkportable.s390x.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-1.8.0-openjdk-portable-debuginfo-1.8.0.372.b07-1.el7openjdkportable.s390x",
+      "SPDXID": "SPDXRef-PKG-dcf2d6d3842d64933217e83dbaa272dd",
+      "versionInfo": "1.8.0.372.b07",
+      "packageFileName": "java-1.8.0-openjdk-portable-debuginfo-1.8.0.372.b07-1.el7openjdkportable.s390x.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-1.8.0-openjdk-portable-1.8.0.372.b07-1.el7openjdkportable.ppc64le",
+      "SPDXID": "SPDXRef-PKG-d88e2b5e074899b5dca89d2c21cdb013",
+      "versionInfo": "1.8.0.372.b07",
+      "packageFileName": "java-1.8.0-openjdk-portable-1.8.0.372.b07-1.el7openjdkportable.ppc64le.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-1.8.0-openjdk-portable-devel-1.8.0.372.b07-1.el7openjdkportable.ppc64le",
+      "SPDXID": "SPDXRef-PKG-f75fba853549ffad81dc9c1abe3a6539",
+      "versionInfo": "1.8.0.372.b07",
+      "packageFileName": "java-1.8.0-openjdk-portable-devel-1.8.0.372.b07-1.el7openjdkportable.ppc64le.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-1.8.0-openjdk-portable-slowdebug-1.8.0.372.b07-1.el7openjdkportable.ppc64le",
+      "SPDXID": "SPDXRef-PKG-9a7372a9234346f5b33bea21d4f6b7fa",
+      "versionInfo": "1.8.0.372.b07",
+      "packageFileName": "java-1.8.0-openjdk-portable-slowdebug-1.8.0.372.b07-1.el7openjdkportable.ppc64le.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-1.8.0-openjdk-portable-devel-slowdebug-1.8.0.372.b07-1.el7openjdkportable.ppc64le",
+      "SPDXID": "SPDXRef-PKG-1884d33f8df48f3ad8843d0011933253",
+      "versionInfo": "1.8.0.372.b07",
+      "packageFileName": "java-1.8.0-openjdk-portable-devel-slowdebug-1.8.0.372.b07-1.el7openjdkportable.ppc64le.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-1.8.0-openjdk-portable-fastdebug-1.8.0.372.b07-1.el7openjdkportable.ppc64le",
+      "SPDXID": "SPDXRef-PKG-141945b7b6f60a3949d374c036b46a5d",
+      "versionInfo": "1.8.0.372.b07",
+      "packageFileName": "java-1.8.0-openjdk-portable-fastdebug-1.8.0.372.b07-1.el7openjdkportable.ppc64le.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-1.8.0-openjdk-portable-devel-fastdebug-1.8.0.372.b07-1.el7openjdkportable.ppc64le",
+      "SPDXID": "SPDXRef-PKG-9ecdab09b2885dbca3caff6c6ec0c542",
+      "versionInfo": "1.8.0.372.b07",
+      "packageFileName": "java-1.8.0-openjdk-portable-devel-fastdebug-1.8.0.372.b07-1.el7openjdkportable.ppc64le.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-1.8.0-openjdk-portable-unstripped-1.8.0.372.b07-1.el7openjdkportable.ppc64le",
+      "SPDXID": "SPDXRef-PKG-f25f89b921a452c80745f79c9b58228b",
+      "versionInfo": "1.8.0.372.b07",
+      "packageFileName": "java-1.8.0-openjdk-portable-unstripped-1.8.0.372.b07-1.el7openjdkportable.ppc64le.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-1.8.0-openjdk-portable-docs-1.8.0.372.b07-1.el7openjdkportable.ppc64le",
+      "SPDXID": "SPDXRef-PKG-0cc3ab579480660e50d0dc97afe7811a",
+      "versionInfo": "1.8.0.372.b07",
+      "packageFileName": "java-1.8.0-openjdk-portable-docs-1.8.0.372.b07-1.el7openjdkportable.ppc64le.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-1.8.0-openjdk-portable-misc-1.8.0.372.b07-1.el7openjdkportable.ppc64le",
+      "SPDXID": "SPDXRef-PKG-0195a404bb8405ab87af58bf27f3d985",
+      "versionInfo": "1.8.0.372.b07",
+      "packageFileName": "java-1.8.0-openjdk-portable-misc-1.8.0.372.b07-1.el7openjdkportable.ppc64le.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "java-1.8.0-openjdk-portable-debuginfo-1.8.0.372.b07-1.el7openjdkportable.ppc64le",
+      "SPDXID": "SPDXRef-PKG-33686810c9bfe284e82eb11b0eff6a13",
+      "versionInfo": "1.8.0.372.b07",
+      "packageFileName": "java-1.8.0-openjdk-portable-debuginfo-1.8.0.372.b07-1.el7openjdkportable.ppc64le.rpm",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": true,
+      "homepage": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "git://pkgs.devel.redhat.com/rpms/java-1.8.0-openjdk#f9e34d8abe6d5e0bb65bf9680e31548e58d8494b",
+      "SPDXID": "SPDXRef-SRC-f9e34d8abe6d5e0bb65bf9680e31548e58d8494b",
+      "versionInfo": "",
+      "packageFileName": "",
+      "downloadLocation": "git://pkgs.devel.redhat.com/rpms/java-1.8.0-openjdk",
+      "filesAnalyzed": true,
+      "homepage": "openjdk.java.net/",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": ""
+    },
+    {
+      "name": "libjpeg",
+      "SPDXID": "SPDXRef-DEP-a77fdb647f9730d3456ee6f608e8da51a893506e",
+      "versionInfo": "6b",
+      "packageFileName": "",
+      "downloadLocation": "",
+      "filesAnalyzed": true,
+      "homepage": "",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": "Ecosystem: "
+    },
+    {
+      "name": "giflib",
+      "SPDXID": "SPDXRef-DEP-436bed3f74435c07e9605c7cdfeaf3c483de6f8f",
+      "versionInfo": "5.2.1",
+      "packageFileName": "",
+      "downloadLocation": "",
+      "filesAnalyzed": true,
+      "homepage": "",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": "Ecosystem: "
+    },
+    {
+      "name": "libpng",
+      "SPDXID": "SPDXRef-DEP-3a469263cb1bcacd4948df2254353446989dadf4",
+      "versionInfo": "1.6.37",
+      "packageFileName": "",
+      "downloadLocation": "",
+      "filesAnalyzed": true,
+      "homepage": "",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": "Ecosystem: "
+    },
+    {
+      "name": "lcms2",
+      "SPDXID": "SPDXRef-DEP-6ad89d7a49ff559161c2963afec851547e2d34bc",
+      "versionInfo": "2.10.0",
+      "packageFileName": "",
+      "downloadLocation": "",
+      "filesAnalyzed": true,
+      "homepage": "",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "",
+      "copyrightText": "NOASSERTION",
+      "comment": "Ecosystem: "
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-BUILD-8e4e813f6d9eca019df782a4b67c515fb7bd06b1",
+      "relatedSpdxElement": "SPDXRef-PKG-62764cdfd1aa26438a4485d501efbda9",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-8e4e813f6d9eca019df782a4b67c515fb7bd06b1",
+      "relatedSpdxElement": "SPDXRef-PKG-892c6187c93fd5c88a4da9bff8c52cfd",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-8e4e813f6d9eca019df782a4b67c515fb7bd06b1",
+      "relatedSpdxElement": "SPDXRef-PKG-9202f9dd9732a79a2f7778317422d88b",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-8e4e813f6d9eca019df782a4b67c515fb7bd06b1",
+      "relatedSpdxElement": "SPDXRef-PKG-39abd431ff97c8777f573a36f9748f8e",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-8e4e813f6d9eca019df782a4b67c515fb7bd06b1",
+      "relatedSpdxElement": "SPDXRef-PKG-9e85ba9ed57d5797fd4cff1de4e94704",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-8e4e813f6d9eca019df782a4b67c515fb7bd06b1",
+      "relatedSpdxElement": "SPDXRef-PKG-1ce60dce0bd6f0203afe66a16a35dd25",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-8e4e813f6d9eca019df782a4b67c515fb7bd06b1",
+      "relatedSpdxElement": "SPDXRef-PKG-cca46ec00223e81a3188ba3e5f5c588a",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-8e4e813f6d9eca019df782a4b67c515fb7bd06b1",
+      "relatedSpdxElement": "SPDXRef-PKG-c907f1b57c79cf129bf69f7e6d54926f",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-8e4e813f6d9eca019df782a4b67c515fb7bd06b1",
+      "relatedSpdxElement": "SPDXRef-PKG-035d7c7bfbd8911e9d0166db497596ce",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-8e4e813f6d9eca019df782a4b67c515fb7bd06b1",
+      "relatedSpdxElement": "SPDXRef-PKG-3059e622137cfffa8fa80b64041ee76d",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-8e4e813f6d9eca019df782a4b67c515fb7bd06b1",
+      "relatedSpdxElement": "SPDXRef-PKG-005858f0d55d49eee079b7d44d86f4fd",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-8e4e813f6d9eca019df782a4b67c515fb7bd06b1",
+      "relatedSpdxElement": "SPDXRef-PKG-a856b316f83281b647109175ff4fa2b0",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-8e4e813f6d9eca019df782a4b67c515fb7bd06b1",
+      "relatedSpdxElement": "SPDXRef-PKG-ab9b06e340d19e3bc59e4fe26b175918",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-8e4e813f6d9eca019df782a4b67c515fb7bd06b1",
+      "relatedSpdxElement": "SPDXRef-PKG-8a10a871ef598d9321b32c62cfeb91ec",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-8e4e813f6d9eca019df782a4b67c515fb7bd06b1",
+      "relatedSpdxElement": "SPDXRef-PKG-a861321be48e82f92bd56b3eeeddff82",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-8e4e813f6d9eca019df782a4b67c515fb7bd06b1",
+      "relatedSpdxElement": "SPDXRef-PKG-64d250baca74d0ce1f9f15873c613627",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-8e4e813f6d9eca019df782a4b67c515fb7bd06b1",
+      "relatedSpdxElement": "SPDXRef-PKG-731d7834f2a68d0c00da7000d432d689",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-8e4e813f6d9eca019df782a4b67c515fb7bd06b1",
+      "relatedSpdxElement": "SPDXRef-PKG-af38ce30cfcb07fb601c46ec65c3e9a0",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-8e4e813f6d9eca019df782a4b67c515fb7bd06b1",
+      "relatedSpdxElement": "SPDXRef-PKG-b7bdf0e2528e519f2f55df40ee691b88",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-8e4e813f6d9eca019df782a4b67c515fb7bd06b1",
+      "relatedSpdxElement": "SPDXRef-PKG-28f603613a39fe5827e4d866b93dd132",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-8e4e813f6d9eca019df782a4b67c515fb7bd06b1",
+      "relatedSpdxElement": "SPDXRef-PKG-ea926732cc1ae05d1e5c54249ad70a5b",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-8e4e813f6d9eca019df782a4b67c515fb7bd06b1",
+      "relatedSpdxElement": "SPDXRef-PKG-9e3465ff499c06d1fbc1137140553e86",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-8e4e813f6d9eca019df782a4b67c515fb7bd06b1",
+      "relatedSpdxElement": "SPDXRef-PKG-d7674d452b37813bde472394346b50ef",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-8e4e813f6d9eca019df782a4b67c515fb7bd06b1",
+      "relatedSpdxElement": "SPDXRef-PKG-300d05496a85b25cdd750c13762b30c8",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-8e4e813f6d9eca019df782a4b67c515fb7bd06b1",
+      "relatedSpdxElement": "SPDXRef-PKG-1b4b1b25eace62425213728c3ee741a5",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-8e4e813f6d9eca019df782a4b67c515fb7bd06b1",
+      "relatedSpdxElement": "SPDXRef-SRC-1911c74b7b30a29e4154ceac1db5640f1ad781fd",
+      "relationshipType": "GENERATED_FROM",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-7dead7acca83d08adbd90fdccd043bb842e8bb9f",
+      "relatedSpdxElement": "SPDXRef-PKG-55e595bdb13cf8621a5c40f08f0f8a8b",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-7dead7acca83d08adbd90fdccd043bb842e8bb9f",
+      "relatedSpdxElement": "SPDXRef-PKG-1797189a2bf710e7abe338cd22a1cea1",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-7dead7acca83d08adbd90fdccd043bb842e8bb9f",
+      "relatedSpdxElement": "SPDXRef-PKG-986e64c07e826d40bfddc7f026b56bf3",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-7dead7acca83d08adbd90fdccd043bb842e8bb9f",
+      "relatedSpdxElement": "SPDXRef-PKG-b4b491464fe6d90526ddd69d5dd93c87",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-7dead7acca83d08adbd90fdccd043bb842e8bb9f",
+      "relatedSpdxElement": "SPDXRef-PKG-e907e5b4193c562b1d50dbfbb63acbc3",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-7dead7acca83d08adbd90fdccd043bb842e8bb9f",
+      "relatedSpdxElement": "SPDXRef-PKG-63216b20175d491589c1e50596e66393",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-7dead7acca83d08adbd90fdccd043bb842e8bb9f",
+      "relatedSpdxElement": "SPDXRef-PKG-3cc06f9ae61cb567fef47b0969ca05d7",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-7dead7acca83d08adbd90fdccd043bb842e8bb9f",
+      "relatedSpdxElement": "SPDXRef-PKG-5cd787821a05ef83b14c8cc2e17fc0b0",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-7dead7acca83d08adbd90fdccd043bb842e8bb9f",
+      "relatedSpdxElement": "SPDXRef-PKG-25efc15488c8ac9aec9b23fd6404eee4",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-7dead7acca83d08adbd90fdccd043bb842e8bb9f",
+      "relatedSpdxElement": "SPDXRef-PKG-dde6437121150df9378928a0a2850595",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-7dead7acca83d08adbd90fdccd043bb842e8bb9f",
+      "relatedSpdxElement": "SPDXRef-PKG-112e830f45eef4cc7fbeaace0ee5bc29",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-7dead7acca83d08adbd90fdccd043bb842e8bb9f",
+      "relatedSpdxElement": "SPDXRef-PKG-a69e841dec295cde992733f8f8805899",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-7dead7acca83d08adbd90fdccd043bb842e8bb9f",
+      "relatedSpdxElement": "SPDXRef-PKG-9a91ceb0db1f16358df34bf0cca21983",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-7dead7acca83d08adbd90fdccd043bb842e8bb9f",
+      "relatedSpdxElement": "SPDXRef-PKG-1c73b097394e5dae52630fd123e7335d",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-7dead7acca83d08adbd90fdccd043bb842e8bb9f",
+      "relatedSpdxElement": "SPDXRef-PKG-76d2b4b2d248e942bb04423fd6fbceb8",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-7dead7acca83d08adbd90fdccd043bb842e8bb9f",
+      "relatedSpdxElement": "SPDXRef-PKG-019fd93734a5f93079c6d5d94cbc0f65",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-7dead7acca83d08adbd90fdccd043bb842e8bb9f",
+      "relatedSpdxElement": "SPDXRef-PKG-3c3760b54176f2377c1b5ac0af51c6e5",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-7dead7acca83d08adbd90fdccd043bb842e8bb9f",
+      "relatedSpdxElement": "SPDXRef-PKG-abb7cd06d2cd7070b54bde4945863f0b",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-7dead7acca83d08adbd90fdccd043bb842e8bb9f",
+      "relatedSpdxElement": "SPDXRef-PKG-5cae59968553b83a5a09bdaad1d7e88c",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-7dead7acca83d08adbd90fdccd043bb842e8bb9f",
+      "relatedSpdxElement": "SPDXRef-PKG-cef485e8a6e53c439958543c619947b9",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-7dead7acca83d08adbd90fdccd043bb842e8bb9f",
+      "relatedSpdxElement": "SPDXRef-PKG-d110bac826aaebcbc40fc1bc70bda855",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-7dead7acca83d08adbd90fdccd043bb842e8bb9f",
+      "relatedSpdxElement": "SPDXRef-SRC-a54e947b0f87f66e12f9c198c9db5c7b44196b19",
+      "relationshipType": "GENERATED_FROM",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-9dada07d1ae7ed4ada61e3ba20fc7582a938c793",
+      "relatedSpdxElement": "SPDXRef-PKG-9ed77ba41c145f656b494b45ad27172b",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-9dada07d1ae7ed4ada61e3ba20fc7582a938c793",
+      "relatedSpdxElement": "SPDXRef-PKG-58221297ed5b3ddfef0aee964191b340",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-9dada07d1ae7ed4ada61e3ba20fc7582a938c793",
+      "relatedSpdxElement": "SPDXRef-PKG-bc85fa59f7cd7aa9d5d5616f75f87e35",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-9dada07d1ae7ed4ada61e3ba20fc7582a938c793",
+      "relatedSpdxElement": "SPDXRef-PKG-18e2d7e44a1e56a4aeb33e111704e856",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-9dada07d1ae7ed4ada61e3ba20fc7582a938c793",
+      "relatedSpdxElement": "SPDXRef-PKG-446f02454293f7df8e81aaccb571a2d0",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-9dada07d1ae7ed4ada61e3ba20fc7582a938c793",
+      "relatedSpdxElement": "SPDXRef-PKG-38f2101fec1533e132ed7968167d4cd3",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-9dada07d1ae7ed4ada61e3ba20fc7582a938c793",
+      "relatedSpdxElement": "SPDXRef-PKG-c801fba10da5e4a918ec72a41bfbe893",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-9dada07d1ae7ed4ada61e3ba20fc7582a938c793",
+      "relatedSpdxElement": "SPDXRef-PKG-c8327fde0856b370f2f2dfc6ede5f444",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-9dada07d1ae7ed4ada61e3ba20fc7582a938c793",
+      "relatedSpdxElement": "SPDXRef-PKG-b19db7ec2ac035a8c959dadd30af6d41",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-9dada07d1ae7ed4ada61e3ba20fc7582a938c793",
+      "relatedSpdxElement": "SPDXRef-PKG-152b7951eb097b2d9c4751b6a7b3de0d",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-9dada07d1ae7ed4ada61e3ba20fc7582a938c793",
+      "relatedSpdxElement": "SPDXRef-PKG-1d1437f1ee27bb46664ba2417d6fcd28",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-9dada07d1ae7ed4ada61e3ba20fc7582a938c793",
+      "relatedSpdxElement": "SPDXRef-PKG-7d5a6ecb85e49331f3771d0bb345d845",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-9dada07d1ae7ed4ada61e3ba20fc7582a938c793",
+      "relatedSpdxElement": "SPDXRef-PKG-ffcc33d8529a3a4972e3fb7aa77f991f",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-9dada07d1ae7ed4ada61e3ba20fc7582a938c793",
+      "relatedSpdxElement": "SPDXRef-PKG-10a0005d69eb024280bf986275cc66f4",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-9dada07d1ae7ed4ada61e3ba20fc7582a938c793",
+      "relatedSpdxElement": "SPDXRef-PKG-ef3cd1870ba7bfd1cbe87e90e9fbb032",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-9dada07d1ae7ed4ada61e3ba20fc7582a938c793",
+      "relatedSpdxElement": "SPDXRef-PKG-d1e36c25e476c5052b64ce7a04059595",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-9dada07d1ae7ed4ada61e3ba20fc7582a938c793",
+      "relatedSpdxElement": "SPDXRef-PKG-17259d9419687b7f43afe6a528e0fd2c",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-9dada07d1ae7ed4ada61e3ba20fc7582a938c793",
+      "relatedSpdxElement": "SPDXRef-PKG-05ccfb20849218b1b6f27e3dd2c4b797",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-9dada07d1ae7ed4ada61e3ba20fc7582a938c793",
+      "relatedSpdxElement": "SPDXRef-PKG-a5c6d50573001dd587b6fd9fad47a4db",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-9dada07d1ae7ed4ada61e3ba20fc7582a938c793",
+      "relatedSpdxElement": "SPDXRef-PKG-642a4acb43974cee18c834b7efcc299a",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-9dada07d1ae7ed4ada61e3ba20fc7582a938c793",
+      "relatedSpdxElement": "SPDXRef-PKG-e7f8cd041856bb5abdcee1c008fefc67",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-9dada07d1ae7ed4ada61e3ba20fc7582a938c793",
+      "relatedSpdxElement": "SPDXRef-PKG-f4c766a48c7bc18bdcc6d96ee376d63d",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-9dada07d1ae7ed4ada61e3ba20fc7582a938c793",
+      "relatedSpdxElement": "SPDXRef-PKG-9dec75666c7c5a5c2599784e039a00fe",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-9dada07d1ae7ed4ada61e3ba20fc7582a938c793",
+      "relatedSpdxElement": "SPDXRef-PKG-400a823ea948248a43b9df1834336462",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-9dada07d1ae7ed4ada61e3ba20fc7582a938c793",
+      "relatedSpdxElement": "SPDXRef-PKG-9b0a252575453d04cd77d3e25c13cd22",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-9dada07d1ae7ed4ada61e3ba20fc7582a938c793",
+      "relatedSpdxElement": "SPDXRef-PKG-87aa0637e3958f3d2406e1d9e2e04537",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-9dada07d1ae7ed4ada61e3ba20fc7582a938c793",
+      "relatedSpdxElement": "SPDXRef-PKG-1b41a291bac14561aac55787d03addfe",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-9dada07d1ae7ed4ada61e3ba20fc7582a938c793",
+      "relatedSpdxElement": "SPDXRef-PKG-a927cf10958f13e02753e67147a57fb5",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-9dada07d1ae7ed4ada61e3ba20fc7582a938c793",
+      "relatedSpdxElement": "SPDXRef-PKG-e87631a404ca1d3e9cb4c4f70f18498f",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-9dada07d1ae7ed4ada61e3ba20fc7582a938c793",
+      "relatedSpdxElement": "SPDXRef-PKG-44cf77135f2005173ac236581493a5f8",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-9dada07d1ae7ed4ada61e3ba20fc7582a938c793",
+      "relatedSpdxElement": "SPDXRef-PKG-cdda311acae88d4f31e75313d0f0a8c3",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-9dada07d1ae7ed4ada61e3ba20fc7582a938c793",
+      "relatedSpdxElement": "SPDXRef-PKG-db956b653f70402aab468f313a133e07",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-9dada07d1ae7ed4ada61e3ba20fc7582a938c793",
+      "relatedSpdxElement": "SPDXRef-PKG-7097f470eba2df4e46f82e1c61a12b01",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-9dada07d1ae7ed4ada61e3ba20fc7582a938c793",
+      "relatedSpdxElement": "SPDXRef-PKG-6762af6190fd5cf3451c3d5fd00247ae",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-9dada07d1ae7ed4ada61e3ba20fc7582a938c793",
+      "relatedSpdxElement": "SPDXRef-PKG-8b9ba8d7d209af5d511c2ec30934e2f2",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-9dada07d1ae7ed4ada61e3ba20fc7582a938c793",
+      "relatedSpdxElement": "SPDXRef-PKG-705537913c0e8356f85a94104a70255c",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-9dada07d1ae7ed4ada61e3ba20fc7582a938c793",
+      "relatedSpdxElement": "SPDXRef-PKG-5c893b84f56b34416dbea1821c11a996",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-9dada07d1ae7ed4ada61e3ba20fc7582a938c793",
+      "relatedSpdxElement": "SPDXRef-PKG-8ac23623e973827611ce652941e9b658",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-9dada07d1ae7ed4ada61e3ba20fc7582a938c793",
+      "relatedSpdxElement": "SPDXRef-PKG-e510354c03f5ff6fabcbf1d8850704e1",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-9dada07d1ae7ed4ada61e3ba20fc7582a938c793",
+      "relatedSpdxElement": "SPDXRef-PKG-6060c4dbffbd42656a110a7835e6531c",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-9dada07d1ae7ed4ada61e3ba20fc7582a938c793",
+      "relatedSpdxElement": "SPDXRef-PKG-1479eb306bf1e104b4aca24d4b95304c",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-9dada07d1ae7ed4ada61e3ba20fc7582a938c793",
+      "relatedSpdxElement": "SPDXRef-PKG-6266e60ebbec40e9790200ab3d9bb1a1",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-9dada07d1ae7ed4ada61e3ba20fc7582a938c793",
+      "relatedSpdxElement": "SPDXRef-PKG-579f0c51cb4249bffd390805fa257d0f",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-9dada07d1ae7ed4ada61e3ba20fc7582a938c793",
+      "relatedSpdxElement": "SPDXRef-PKG-ac395fcdff7b7f7abfcad6d4a5be918d",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-9dada07d1ae7ed4ada61e3ba20fc7582a938c793",
+      "relatedSpdxElement": "SPDXRef-PKG-429a15c60cc12bf21c7fc25527a26f6d",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-9dada07d1ae7ed4ada61e3ba20fc7582a938c793",
+      "relatedSpdxElement": "SPDXRef-PKG-00547119318e6cff89d19d9c3e42fa65",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-9dada07d1ae7ed4ada61e3ba20fc7582a938c793",
+      "relatedSpdxElement": "SPDXRef-SRC-cc5689cb695f73124baaece5f635005023a07833",
+      "relationshipType": "GENERATED_FROM",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-SRC-cc5689cb695f73124baaece5f635005023a07833",
+      "relatedSpdxElement": "SPDXRef-DEP-a77fdb647f9730d3456ee6f608e8da51a893506e",
+      "relationshipType": "CONTAINS",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-SRC-cc5689cb695f73124baaece5f635005023a07833",
+      "relatedSpdxElement": "SPDXRef-DEP-436bed3f74435c07e9605c7cdfeaf3c483de6f8f",
+      "relationshipType": "CONTAINS",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-SRC-cc5689cb695f73124baaece5f635005023a07833",
+      "relatedSpdxElement": "SPDXRef-DEP-03fb900cbdb3cfb1e33e00accc159949fb0e07f8",
+      "relationshipType": "CONTAINS",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-SRC-cc5689cb695f73124baaece5f635005023a07833",
+      "relatedSpdxElement": "SPDXRef-DEP-3a469263cb1bcacd4948df2254353446989dadf4",
+      "relationshipType": "CONTAINS",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-SRC-cc5689cb695f73124baaece5f635005023a07833",
+      "relatedSpdxElement": "SPDXRef-DEP-50e97009f3685f3be70d0942e07b38320a6154f2",
+      "relationshipType": "CONTAINS",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-SRC-cc5689cb695f73124baaece5f635005023a07833",
+      "relatedSpdxElement": "SPDXRef-DEP-7e150c6129919ac6d28359284336d49f5e03ee2e",
+      "relationshipType": "CONTAINS",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-47c9b648a0b0ca1b9df18bc2b170d8b35e6684db",
+      "relatedSpdxElement": "SPDXRef-PKG-b8001ff9b12c98c1991356838e44a2f9",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-47c9b648a0b0ca1b9df18bc2b170d8b35e6684db",
+      "relatedSpdxElement": "SPDXRef-PKG-aeda5d5642caa63a7774f58db2e92d06",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-47c9b648a0b0ca1b9df18bc2b170d8b35e6684db",
+      "relatedSpdxElement": "SPDXRef-PKG-5a9de1818be1eec928bd1d7c386a14ec",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-47c9b648a0b0ca1b9df18bc2b170d8b35e6684db",
+      "relatedSpdxElement": "SPDXRef-PKG-89ca80c9edb145e4c946c0c730ccfbc1",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-47c9b648a0b0ca1b9df18bc2b170d8b35e6684db",
+      "relatedSpdxElement": "SPDXRef-PKG-36fb3054264db3034aa5ff6d7e626e66",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-47c9b648a0b0ca1b9df18bc2b170d8b35e6684db",
+      "relatedSpdxElement": "SPDXRef-PKG-4941aaa3bb366163e4f07dbabfe66ccb",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-47c9b648a0b0ca1b9df18bc2b170d8b35e6684db",
+      "relatedSpdxElement": "SPDXRef-PKG-71c5b9504d15fea1f2446519dda4a39f",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-47c9b648a0b0ca1b9df18bc2b170d8b35e6684db",
+      "relatedSpdxElement": "SPDXRef-PKG-b21da44c4636e2a7d3928cd4a4886483",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-47c9b648a0b0ca1b9df18bc2b170d8b35e6684db",
+      "relatedSpdxElement": "SPDXRef-PKG-5bc60059c6f869275e01d2c861126dc7",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-47c9b648a0b0ca1b9df18bc2b170d8b35e6684db",
+      "relatedSpdxElement": "SPDXRef-PKG-e3d701ac33b96cc94b7bbf54d6d475ab",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-47c9b648a0b0ca1b9df18bc2b170d8b35e6684db",
+      "relatedSpdxElement": "SPDXRef-PKG-29664fc2b9db8cfb7093d4be06eff936",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-47c9b648a0b0ca1b9df18bc2b170d8b35e6684db",
+      "relatedSpdxElement": "SPDXRef-PKG-4de3cb3518a40eb24921199597c086f0",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-47c9b648a0b0ca1b9df18bc2b170d8b35e6684db",
+      "relatedSpdxElement": "SPDXRef-PKG-93e2c5a4098bc4715dcb84087a3dcce7",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-47c9b648a0b0ca1b9df18bc2b170d8b35e6684db",
+      "relatedSpdxElement": "SPDXRef-PKG-01851aa5036e86569055209995529cd2",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-47c9b648a0b0ca1b9df18bc2b170d8b35e6684db",
+      "relatedSpdxElement": "SPDXRef-PKG-30467a6a56e3f692925a188c72a2b531",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-47c9b648a0b0ca1b9df18bc2b170d8b35e6684db",
+      "relatedSpdxElement": "SPDXRef-PKG-d1d7d3e734c8751d7698aac92fdf7f5b",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-47c9b648a0b0ca1b9df18bc2b170d8b35e6684db",
+      "relatedSpdxElement": "SPDXRef-PKG-de4554cb5f7f47b9d080d2fb42288f29",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-47c9b648a0b0ca1b9df18bc2b170d8b35e6684db",
+      "relatedSpdxElement": "SPDXRef-PKG-a44fc71ac3ef0b705c459a1781c4821d",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-47c9b648a0b0ca1b9df18bc2b170d8b35e6684db",
+      "relatedSpdxElement": "SPDXRef-PKG-3a8d658ffefdc623ec43505841b43792",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-47c9b648a0b0ca1b9df18bc2b170d8b35e6684db",
+      "relatedSpdxElement": "SPDXRef-PKG-d9117f72c2dc9f988163c603ce51580e",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-47c9b648a0b0ca1b9df18bc2b170d8b35e6684db",
+      "relatedSpdxElement": "SPDXRef-PKG-ed65b2fdb8b6275f5a78a2127389f72f",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-47c9b648a0b0ca1b9df18bc2b170d8b35e6684db",
+      "relatedSpdxElement": "SPDXRef-PKG-ff90a7578b11f68b23fe161898aaa53c",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-47c9b648a0b0ca1b9df18bc2b170d8b35e6684db",
+      "relatedSpdxElement": "SPDXRef-PKG-96933657fb3ffe05f014d688ab7e263f",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-47c9b648a0b0ca1b9df18bc2b170d8b35e6684db",
+      "relatedSpdxElement": "SPDXRef-PKG-8cfb99df6514e19e830736fc8141ca74",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-47c9b648a0b0ca1b9df18bc2b170d8b35e6684db",
+      "relatedSpdxElement": "SPDXRef-PKG-56abcb356d6c11922c47ca4cdbfc1385",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-47c9b648a0b0ca1b9df18bc2b170d8b35e6684db",
+      "relatedSpdxElement": "SPDXRef-PKG-aacd5a863553a8f0065b5260dbbf7bc8",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-47c9b648a0b0ca1b9df18bc2b170d8b35e6684db",
+      "relatedSpdxElement": "SPDXRef-PKG-acfad2a018c5c7f8f5d2d6dfc3fac3a3",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-47c9b648a0b0ca1b9df18bc2b170d8b35e6684db",
+      "relatedSpdxElement": "SPDXRef-PKG-96c12c498c4e3d80732342ff888694ed",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-47c9b648a0b0ca1b9df18bc2b170d8b35e6684db",
+      "relatedSpdxElement": "SPDXRef-PKG-a4fa5ee2a493d3d47b990811f0f59929",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-47c9b648a0b0ca1b9df18bc2b170d8b35e6684db",
+      "relatedSpdxElement": "SPDXRef-PKG-a8df3e2b9ba904b2ed1d912e465eb1af",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-47c9b648a0b0ca1b9df18bc2b170d8b35e6684db",
+      "relatedSpdxElement": "SPDXRef-PKG-a87f1e861a61b6bf67f071bd3687ac15",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-47c9b648a0b0ca1b9df18bc2b170d8b35e6684db",
+      "relatedSpdxElement": "SPDXRef-PKG-241b843b39f5e831970d0bcf6c089a4e",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-47c9b648a0b0ca1b9df18bc2b170d8b35e6684db",
+      "relatedSpdxElement": "SPDXRef-PKG-5bd5b943a48faca183f622aee8e511f8",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-47c9b648a0b0ca1b9df18bc2b170d8b35e6684db",
+      "relatedSpdxElement": "SPDXRef-PKG-9772d10e8b0959b70f2038eaab77bf2a",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-47c9b648a0b0ca1b9df18bc2b170d8b35e6684db",
+      "relatedSpdxElement": "SPDXRef-PKG-6aa9469a4c9739e81e2f551bc27cb007",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-47c9b648a0b0ca1b9df18bc2b170d8b35e6684db",
+      "relatedSpdxElement": "SPDXRef-PKG-413b80e5565fa93789bee9c6a7a2319b",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-47c9b648a0b0ca1b9df18bc2b170d8b35e6684db",
+      "relatedSpdxElement": "SPDXRef-PKG-558d21701af64df670953226792c2f96",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-47c9b648a0b0ca1b9df18bc2b170d8b35e6684db",
+      "relatedSpdxElement": "SPDXRef-PKG-2f7004c78679e1c44ae98279bb5c91fa",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-47c9b648a0b0ca1b9df18bc2b170d8b35e6684db",
+      "relatedSpdxElement": "SPDXRef-PKG-d332f98ab5e178ca22df9ff006d95c22",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-47c9b648a0b0ca1b9df18bc2b170d8b35e6684db",
+      "relatedSpdxElement": "SPDXRef-PKG-595b174c158d616a6c657330af9d741e",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-47c9b648a0b0ca1b9df18bc2b170d8b35e6684db",
+      "relatedSpdxElement": "SPDXRef-PKG-270f548b5b775ad913493ea60c7556a0",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-47c9b648a0b0ca1b9df18bc2b170d8b35e6684db",
+      "relatedSpdxElement": "SPDXRef-PKG-e9c547385cef8e317b64902922a0b3a2",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-47c9b648a0b0ca1b9df18bc2b170d8b35e6684db",
+      "relatedSpdxElement": "SPDXRef-PKG-c21ae5dd63cd841865f22bd969f31d25",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-47c9b648a0b0ca1b9df18bc2b170d8b35e6684db",
+      "relatedSpdxElement": "SPDXRef-PKG-58b268a5e4739144a378ee7b1183f138",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-47c9b648a0b0ca1b9df18bc2b170d8b35e6684db",
+      "relatedSpdxElement": "SPDXRef-PKG-1088d24cd833fd2e8b85945525e1d3e7",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-47c9b648a0b0ca1b9df18bc2b170d8b35e6684db",
+      "relatedSpdxElement": "SPDXRef-PKG-5b35dad3c2bff131fc9136ba1f801adf",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-47c9b648a0b0ca1b9df18bc2b170d8b35e6684db",
+      "relatedSpdxElement": "SPDXRef-SRC-3cd353c4bb8acdfd668a88d9e5ac633429085af6",
+      "relationshipType": "GENERATED_FROM",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-SRC-3cd353c4bb8acdfd668a88d9e5ac633429085af6",
+      "relatedSpdxElement": "SPDXRef-DEP-a77fdb647f9730d3456ee6f608e8da51a893506e",
+      "relationshipType": "CONTAINS",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-SRC-3cd353c4bb8acdfd668a88d9e5ac633429085af6",
+      "relatedSpdxElement": "SPDXRef-DEP-436bed3f74435c07e9605c7cdfeaf3c483de6f8f",
+      "relationshipType": "CONTAINS",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-SRC-3cd353c4bb8acdfd668a88d9e5ac633429085af6",
+      "relatedSpdxElement": "SPDXRef-DEP-03fb900cbdb3cfb1e33e00accc159949fb0e07f8",
+      "relationshipType": "CONTAINS",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-SRC-3cd353c4bb8acdfd668a88d9e5ac633429085af6",
+      "relatedSpdxElement": "SPDXRef-DEP-3a469263cb1bcacd4948df2254353446989dadf4",
+      "relationshipType": "CONTAINS",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-SRC-3cd353c4bb8acdfd668a88d9e5ac633429085af6",
+      "relatedSpdxElement": "SPDXRef-DEP-50e97009f3685f3be70d0942e07b38320a6154f2",
+      "relationshipType": "CONTAINS",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-SRC-3cd353c4bb8acdfd668a88d9e5ac633429085af6",
+      "relatedSpdxElement": "SPDXRef-DEP-7e150c6129919ac6d28359284336d49f5e03ee2e",
+      "relationshipType": "CONTAINS",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-3b543f36dd1ad0f34d8d19779b38fa13670d7977",
+      "relatedSpdxElement": "SPDXRef-PKG-87602c1c00e6072679e0c822fcd2ac4d",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-3b543f36dd1ad0f34d8d19779b38fa13670d7977",
+      "relatedSpdxElement": "SPDXRef-PKG-598bca9161cb8eddf4dd007867c2a42d",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-3b543f36dd1ad0f34d8d19779b38fa13670d7977",
+      "relatedSpdxElement": "SPDXRef-PKG-606a682d5a4abe5327bec921aba3b23d",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-3b543f36dd1ad0f34d8d19779b38fa13670d7977",
+      "relatedSpdxElement": "SPDXRef-PKG-770d3d6fd0a063a396be1c45473d05a6",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-3b543f36dd1ad0f34d8d19779b38fa13670d7977",
+      "relatedSpdxElement": "SPDXRef-PKG-24f67b96c1e3218bc19434b5885e23e7",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-3b543f36dd1ad0f34d8d19779b38fa13670d7977",
+      "relatedSpdxElement": "SPDXRef-PKG-c22581bc46ec104c5a049535c4b28f65",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-3b543f36dd1ad0f34d8d19779b38fa13670d7977",
+      "relatedSpdxElement": "SPDXRef-PKG-3f23dab4e29beb5ea96363e8a00de54c",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-3b543f36dd1ad0f34d8d19779b38fa13670d7977",
+      "relatedSpdxElement": "SPDXRef-PKG-d18ddaffc5c4acbd61b8ad3c5e624baa",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-3b543f36dd1ad0f34d8d19779b38fa13670d7977",
+      "relatedSpdxElement": "SPDXRef-PKG-85754a4d6c9e9771c9d50da8934f7b4f",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-3b543f36dd1ad0f34d8d19779b38fa13670d7977",
+      "relatedSpdxElement": "SPDXRef-PKG-2ae7873ec3bd39ab139d1fe606b12a91",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-3b543f36dd1ad0f34d8d19779b38fa13670d7977",
+      "relatedSpdxElement": "SPDXRef-PKG-80b83e979cc9173cf096d36aeb0199c4",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-3b543f36dd1ad0f34d8d19779b38fa13670d7977",
+      "relatedSpdxElement": "SPDXRef-PKG-84372672c91a354d9b5347095ec8ffaa",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-3b543f36dd1ad0f34d8d19779b38fa13670d7977",
+      "relatedSpdxElement": "SPDXRef-PKG-e84dff001e65bbb9128a74aeff2cd2d4",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-3b543f36dd1ad0f34d8d19779b38fa13670d7977",
+      "relatedSpdxElement": "SPDXRef-PKG-643962c73797af6753fd4e79d20447f0",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-3b543f36dd1ad0f34d8d19779b38fa13670d7977",
+      "relatedSpdxElement": "SPDXRef-PKG-061d4cbdb0b1e7300ef708d4f978b1a4",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-3b543f36dd1ad0f34d8d19779b38fa13670d7977",
+      "relatedSpdxElement": "SPDXRef-PKG-31ad6d925337543770635bc247ee5408",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-3b543f36dd1ad0f34d8d19779b38fa13670d7977",
+      "relatedSpdxElement": "SPDXRef-PKG-c7414de188da5a5efa41ca1167173461",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-3b543f36dd1ad0f34d8d19779b38fa13670d7977",
+      "relatedSpdxElement": "SPDXRef-PKG-54d44eca132f7e4b81c6b1262641ab8a",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-3b543f36dd1ad0f34d8d19779b38fa13670d7977",
+      "relatedSpdxElement": "SPDXRef-PKG-8fd9c490c31662ce5516c3430aab7181",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-3b543f36dd1ad0f34d8d19779b38fa13670d7977",
+      "relatedSpdxElement": "SPDXRef-PKG-c8757a8a5e20a8629e720b9e4bea424b",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-3b543f36dd1ad0f34d8d19779b38fa13670d7977",
+      "relatedSpdxElement": "SPDXRef-PKG-7cecc4f9a5f8504c7f410cf0b5ca1403",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-3b543f36dd1ad0f34d8d19779b38fa13670d7977",
+      "relatedSpdxElement": "SPDXRef-PKG-9bedff06767efeace0ae9d9c8f6c4211",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-3b543f36dd1ad0f34d8d19779b38fa13670d7977",
+      "relatedSpdxElement": "SPDXRef-PKG-f53efa1a8ee2e11c6bde5e3dd7d6a93b",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-3b543f36dd1ad0f34d8d19779b38fa13670d7977",
+      "relatedSpdxElement": "SPDXRef-PKG-25a81ea2849aeade109355062fbf06c7",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-3b543f36dd1ad0f34d8d19779b38fa13670d7977",
+      "relatedSpdxElement": "SPDXRef-PKG-0672913af42c1c7e2c314c966f922396",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-3b543f36dd1ad0f34d8d19779b38fa13670d7977",
+      "relatedSpdxElement": "SPDXRef-PKG-cd54e6890ed085adc5a6b8684c8bb987",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-3b543f36dd1ad0f34d8d19779b38fa13670d7977",
+      "relatedSpdxElement": "SPDXRef-PKG-dcf2d6d3842d64933217e83dbaa272dd",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-3b543f36dd1ad0f34d8d19779b38fa13670d7977",
+      "relatedSpdxElement": "SPDXRef-PKG-d88e2b5e074899b5dca89d2c21cdb013",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-3b543f36dd1ad0f34d8d19779b38fa13670d7977",
+      "relatedSpdxElement": "SPDXRef-PKG-f75fba853549ffad81dc9c1abe3a6539",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-3b543f36dd1ad0f34d8d19779b38fa13670d7977",
+      "relatedSpdxElement": "SPDXRef-PKG-9a7372a9234346f5b33bea21d4f6b7fa",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-3b543f36dd1ad0f34d8d19779b38fa13670d7977",
+      "relatedSpdxElement": "SPDXRef-PKG-1884d33f8df48f3ad8843d0011933253",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-3b543f36dd1ad0f34d8d19779b38fa13670d7977",
+      "relatedSpdxElement": "SPDXRef-PKG-141945b7b6f60a3949d374c036b46a5d",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-3b543f36dd1ad0f34d8d19779b38fa13670d7977",
+      "relatedSpdxElement": "SPDXRef-PKG-9ecdab09b2885dbca3caff6c6ec0c542",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-3b543f36dd1ad0f34d8d19779b38fa13670d7977",
+      "relatedSpdxElement": "SPDXRef-PKG-f25f89b921a452c80745f79c9b58228b",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-3b543f36dd1ad0f34d8d19779b38fa13670d7977",
+      "relatedSpdxElement": "SPDXRef-PKG-0cc3ab579480660e50d0dc97afe7811a",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-3b543f36dd1ad0f34d8d19779b38fa13670d7977",
+      "relatedSpdxElement": "SPDXRef-PKG-0195a404bb8405ab87af58bf27f3d985",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-3b543f36dd1ad0f34d8d19779b38fa13670d7977",
+      "relatedSpdxElement": "SPDXRef-PKG-33686810c9bfe284e82eb11b0eff6a13",
+      "relationshipType": "GENERATES",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-BUILD-3b543f36dd1ad0f34d8d19779b38fa13670d7977",
+      "relatedSpdxElement": "SPDXRef-SRC-f9e34d8abe6d5e0bb65bf9680e31548e58d8494b",
+      "relationshipType": "GENERATED_FROM",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-SRC-f9e34d8abe6d5e0bb65bf9680e31548e58d8494b",
+      "relatedSpdxElement": "SPDXRef-DEP-a77fdb647f9730d3456ee6f608e8da51a893506e",
+      "relationshipType": "CONTAINS",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-SRC-f9e34d8abe6d5e0bb65bf9680e31548e58d8494b",
+      "relatedSpdxElement": "SPDXRef-DEP-436bed3f74435c07e9605c7cdfeaf3c483de6f8f",
+      "relationshipType": "CONTAINS",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-SRC-f9e34d8abe6d5e0bb65bf9680e31548e58d8494b",
+      "relatedSpdxElement": "SPDXRef-DEP-3a469263cb1bcacd4948df2254353446989dadf4",
+      "relationshipType": "CONTAINS",
+      "relationshipComment": ""
+    },
+    {
+      "spdxElementId": "SPDXRef-SRC-f9e34d8abe6d5e0bb65bf9680e31548e58d8494b",
+      "relatedSpdxElement": "SPDXRef-DEP-6ad89d7a49ff559161c2963afec851547e2d34bc",
+      "relationshipType": "CONTAINS",
+      "relationshipComment": ""
+    }
+  ]
+}

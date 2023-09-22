@@ -1,0 +1,2083 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "serialNumber": "urn:uuid:1c717120-d93e-4d29-b0d4-721a88614ef3",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2023-07-11T10:58:19+00:00",
+    "tools": [
+      {
+        "vendor": "aquasecurity",
+        "name": "trivy",
+        "version": "0.42.1"
+      }
+    ],
+    "component": {
+      "bom-ref": "e9e8ca1e-ea98-4bda-ad00-5d907406141e",
+      "type": "application",
+      "name": "confluent-ce-kafka-http-server-7.3.4-1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:SchemaVersion",
+          "value": "2"
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.14.2?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjackson-annotations-2.14.2.jar",
+      "type": "library",
+      "name": "com.fasterxml.jackson.core:jackson-annotations",
+      "version": "2.14.2",
+      "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.14.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/ce-kafka-http-server/jackson-annotations-2.14.2.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.14.2?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjackson-core-2.14.2.jar",
+      "type": "library",
+      "name": "com.fasterxml.jackson.core:jackson-core",
+      "version": "2.14.2",
+      "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.14.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/ce-kafka-http-server/jackson-core-2.14.2.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.14.2?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjackson-databind-2.14.2.jar",
+      "type": "library",
+      "name": "com.fasterxml.jackson.core:jackson-databind",
+      "version": "2.14.2",
+      "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.14.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/ce-kafka-http-server/jackson-databind-2.14.2.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.fasterxml.jackson.jaxrs/jackson-jaxrs-base@2.14.2?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjackson-jaxrs-base-2.14.2.jar",
+      "type": "library",
+      "name": "com.fasterxml.jackson.jaxrs:jackson-jaxrs-base",
+      "version": "2.14.2",
+      "purl": "pkg:maven/com.fasterxml.jackson.jaxrs/jackson-jaxrs-base@2.14.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/ce-kafka-http-server/jackson-jaxrs-base-2.14.2.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.fasterxml.jackson.jaxrs/jackson-jaxrs-json-provider@2.14.2?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjackson-jaxrs-json-provider-2.14.2.jar",
+      "type": "library",
+      "name": "com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider",
+      "version": "2.14.2",
+      "purl": "pkg:maven/com.fasterxml.jackson.jaxrs/jackson-jaxrs-json-provider@2.14.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/ce-kafka-http-server/jackson-jaxrs-json-provider-2.14.2.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.fasterxml.jackson.module/jackson-module-jaxb-annotations@2.14.2?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjackson-module-jaxb-annotations-2.14.2.jar",
+      "type": "library",
+      "name": "com.fasterxml.jackson.module:jackson-module-jaxb-annotations",
+      "version": "2.14.2",
+      "purl": "pkg:maven/com.fasterxml.jackson.module/jackson-module-jaxb-annotations@2.14.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/ce-kafka-http-server/jackson-module-jaxb-annotations-2.14.2.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.fasterxml/classmate@1.3.4?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fclassmate-1.3.4.jar",
+      "type": "library",
+      "name": "com.fasterxml:classmate",
+      "version": "1.3.4",
+      "purl": "pkg:maven/com.fasterxml/classmate@1.3.4",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/ce-kafka-http-server/classmate-1.3.4.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.github.luben/zstd-jni@1.5.2-1?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fzstd-jni-1.5.2-1.jar",
+      "type": "library",
+      "name": "com.github.luben:zstd-jni",
+      "version": "1.5.2-1",
+      "purl": "pkg:maven/com.github.luben/zstd-jni@1.5.2-1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/ce-kafka-http-server/zstd-jni-1.5.2-1.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.google.code.findbugs/jsr305@3.0.2?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjsr305-3.0.2.jar",
+      "type": "library",
+      "name": "com.google.code.findbugs:jsr305",
+      "version": "3.0.2",
+      "purl": "pkg:maven/com.google.code.findbugs/jsr305@3.0.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/ce-kafka-http-server/jsr305-3.0.2.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.google.errorprone/error_prone_annotations@2.5.1?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Ferror_prone_annotations-2.5.1.jar",
+      "type": "library",
+      "name": "com.google.errorprone:error_prone_annotations",
+      "version": "2.5.1",
+      "purl": "pkg:maven/com.google.errorprone/error_prone_annotations@2.5.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/ce-kafka-http-server/error_prone_annotations-2.5.1.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.google.guava/failureaccess@1.0.1?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Ffailureaccess-1.0.1.jar",
+      "type": "library",
+      "name": "com.google.guava:failureaccess",
+      "version": "1.0.1",
+      "purl": "pkg:maven/com.google.guava/failureaccess@1.0.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/ce-kafka-http-server/failureaccess-1.0.1.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.google.guava/guava@30.1.1-jre?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fguava-30.1.1-jre.jar",
+      "type": "library",
+      "name": "com.google.guava:guava",
+      "version": "30.1.1-jre",
+      "purl": "pkg:maven/com.google.guava/guava@30.1.1-jre",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/ce-kafka-http-server/guava-30.1.1-jre.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.google.guava/listenablefuture@9999.0-empty-to-avoid-conflict-with-guava?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Flistenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar",
+      "type": "library",
+      "name": "com.google.guava:listenablefuture",
+      "version": "9999.0-empty-to-avoid-conflict-with-guava",
+      "purl": "pkg:maven/com.google.guava/listenablefuture@9999.0-empty-to-avoid-conflict-with-guava",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/ce-kafka-http-server/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.google.j2objc/j2objc-annotations@1.3?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fj2objc-annotations-1.3.jar",
+      "type": "library",
+      "name": "com.google.j2objc:j2objc-annotations",
+      "version": "1.3",
+      "purl": "pkg:maven/com.google.j2objc/j2objc-annotations@1.3",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/ce-kafka-http-server/j2objc-annotations-1.3.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/commons-codec/commons-codec@1.15?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fcommons-codec-1.15.jar",
+      "type": "library",
+      "name": "commons-codec:commons-codec",
+      "version": "1.15",
+      "purl": "pkg:maven/commons-codec/commons-codec@1.15",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/ce-kafka-http-server/commons-codec-1.15.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/io.confluent/ce-kafka-http-server@7.3.4?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fce-kafka-http-server-7.3.4.jar",
+      "type": "library",
+      "name": "io.confluent:ce-kafka-http-server",
+      "version": "7.3.4",
+      "purl": "pkg:maven/io.confluent/ce-kafka-http-server@7.3.4",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/ce-kafka-http-server/ce-kafka-http-server-7.3.4.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/io.confluent/common-utils@7.3.4?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fcommon-utils-7.3.4.jar",
+      "type": "library",
+      "name": "io.confluent:common-utils",
+      "version": "7.3.4",
+      "purl": "pkg:maven/io.confluent/common-utils@7.3.4",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/ce-kafka-http-server/common-utils-7.3.4.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/io.confluent/rest-utils@7.3.4?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Frest-utils-7.3.4.jar",
+      "type": "library",
+      "name": "io.confluent:rest-utils",
+      "version": "7.3.4",
+      "purl": "pkg:maven/io.confluent/rest-utils@7.3.4",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/ce-kafka-http-server/rest-utils-7.3.4.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/jakarta.activation/jakarta.activation-api@1.2.2?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjakarta.activation-api-1.2.2.jar",
+      "type": "library",
+      "name": "jakarta.activation:jakarta.activation-api",
+      "version": "1.2.2",
+      "purl": "pkg:maven/jakarta.activation/jakarta.activation-api@1.2.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/ce-kafka-http-server/jakarta.activation-api-1.2.2.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/jakarta.annotation/jakarta.annotation-api@1.3.5?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjakarta.annotation-api-1.3.5.jar",
+      "type": "library",
+      "name": "jakarta.annotation:jakarta.annotation-api",
+      "version": "1.3.5",
+      "purl": "pkg:maven/jakarta.annotation/jakarta.annotation-api@1.3.5",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/ce-kafka-http-server/jakarta.annotation-api-1.3.5.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/jakarta.el/jakarta.el-api@4.0.0?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjakarta.el-api-4.0.0.jar",
+      "type": "library",
+      "name": "jakarta.el:jakarta.el-api",
+      "version": "4.0.0",
+      "purl": "pkg:maven/jakarta.el/jakarta.el-api@4.0.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/ce-kafka-http-server/jakarta.el-api-4.0.0.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/jakarta.validation/jakarta.validation-api@2.0.2?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjakarta.validation-api-2.0.2.jar",
+      "type": "library",
+      "name": "jakarta.validation:jakarta.validation-api",
+      "version": "2.0.2",
+      "purl": "pkg:maven/jakarta.validation/jakarta.validation-api@2.0.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/ce-kafka-http-server/jakarta.validation-api-2.0.2.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/jakarta.ws.rs/jakarta.ws.rs-api@2.1.6?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjakarta.ws.rs-api-2.1.6.jar",
+      "type": "library",
+      "name": "jakarta.ws.rs:jakarta.ws.rs-api",
+      "version": "2.1.6",
+      "purl": "pkg:maven/jakarta.ws.rs/jakarta.ws.rs-api@2.1.6",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/ce-kafka-http-server/jakarta.ws.rs-api-2.1.6.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/jakarta.xml.bind/jakarta.xml.bind-api@2.3.3?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjakarta.xml.bind-api-2.3.3.jar",
+      "type": "library",
+      "name": "jakarta.xml.bind:jakarta.xml.bind-api",
+      "version": "2.3.3",
+      "purl": "pkg:maven/jakarta.xml.bind/jakarta.xml.bind-api@2.3.3",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/ce-kafka-http-server/jakarta.xml.bind-api-2.3.3.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/javax.activation/activation@1.1.1?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Factivation-1.1.1.jar",
+      "type": "library",
+      "name": "javax.activation:activation",
+      "version": "1.1.1",
+      "purl": "pkg:maven/javax.activation/activation@1.1.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/ce-kafka-http-server/activation-1.1.1.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/javax.annotation/javax.annotation-api@1.3.2?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjavax.annotation-api-1.3.2.jar",
+      "type": "library",
+      "name": "javax.annotation:javax.annotation-api",
+      "version": "1.3.2",
+      "purl": "pkg:maven/javax.annotation/javax.annotation-api@1.3.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/ce-kafka-http-server/javax.annotation-api-1.3.2.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/javax.servlet/javax.servlet-api@3.1.0?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjavax.servlet-api-3.1.0.jar",
+      "type": "library",
+      "name": "javax.servlet:javax.servlet-api",
+      "version": "3.1.0",
+      "purl": "pkg:maven/javax.servlet/javax.servlet-api@3.1.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/ce-kafka-http-server/javax.servlet-api-3.1.0.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/javax.websocket/javax.websocket-api@1.0?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjavax.websocket-api-1.0.jar",
+      "type": "library",
+      "name": "javax.websocket:javax.websocket-api",
+      "version": "1.0",
+      "purl": "pkg:maven/javax.websocket/javax.websocket-api@1.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/ce-kafka-http-server/javax.websocket-api-1.0.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/javax.websocket/javax.websocket-client-api@1.0?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjavax.websocket-client-api-1.0.jar",
+      "type": "library",
+      "name": "javax.websocket:javax.websocket-client-api",
+      "version": "1.0",
+      "purl": "pkg:maven/javax.websocket/javax.websocket-client-api@1.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/ce-kafka-http-server/javax.websocket-client-api-1.0.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/javax.xml.bind/jaxb-api@2.3.0?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjaxb-api-2.3.0.jar",
+      "type": "library",
+      "name": "javax.xml.bind:jaxb-api",
+      "version": "2.3.0",
+      "purl": "pkg:maven/javax.xml.bind/jaxb-api@2.3.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/ce-kafka-http-server/jaxb-api-2.3.0.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.apache.commons/commons-collections4@4.4?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fcommons-collections4-4.4.jar",
+      "type": "library",
+      "name": "org.apache.commons:commons-collections4",
+      "version": "4.4",
+      "purl": "pkg:maven/org.apache.commons/commons-collections4@4.4",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/ce-kafka-http-server/commons-collections4-4.4.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.apache.commons/commons-lang3@3.12.0?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fcommons-lang3-3.12.0.jar",
+      "type": "library",
+      "name": "org.apache.commons:commons-lang3",
+      "version": "3.12.0",
+      "purl": "pkg:maven/org.apache.commons/commons-lang3@3.12.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/ce-kafka-http-server/commons-lang3-3.12.0.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.apache.directory.api/api-asn1-api@2.1.2?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fapi-asn1-api-2.1.2.jar",
+      "type": "library",
+      "name": "org.apache.directory.api:api-asn1-api",
+      "version": "2.1.2",
+      "purl": "pkg:maven/org.apache.directory.api/api-asn1-api@2.1.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/ce-kafka-http-server/api-asn1-api-2.1.2.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.apache.directory.api/api-asn1-ber@2.1.2?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fapi-asn1-ber-2.1.2.jar",
+      "type": "library",
+      "name": "org.apache.directory.api:api-asn1-ber",
+      "version": "2.1.2",
+      "purl": "pkg:maven/org.apache.directory.api/api-asn1-ber@2.1.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/ce-kafka-http-server/api-asn1-ber-2.1.2.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.apache.directory.api/api-i18n@2.1.2?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fapi-i18n-2.1.2.jar",
+      "type": "library",
+      "name": "org.apache.directory.api:api-i18n",
+      "version": "2.1.2",
+      "purl": "pkg:maven/org.apache.directory.api/api-i18n@2.1.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/ce-kafka-http-server/api-i18n-2.1.2.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.apache.directory.api/api-ldap-model@2.1.2?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fapi-ldap-model-2.1.2.jar",
+      "type": "library",
+      "name": "org.apache.directory.api:api-ldap-model",
+      "version": "2.1.2",
+      "purl": "pkg:maven/org.apache.directory.api/api-ldap-model@2.1.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/ce-kafka-http-server/api-ldap-model-2.1.2.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.apache.directory.api/api-util@2.1.2?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fapi-util-2.1.2.jar",
+      "type": "library",
+      "name": "org.apache.directory.api:api-util",
+      "version": "2.1.2",
+      "purl": "pkg:maven/org.apache.directory.api/api-util@2.1.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/ce-kafka-http-server/api-util-2.1.2.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.apache.kafka/kafka-clients@7.3.4-ce?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fkafka-clients-7.3.4-ce.jar",
+      "type": "library",
+      "name": "org.apache.kafka:kafka-clients",
+      "version": "7.3.4-ce",
+      "purl": "pkg:maven/org.apache.kafka/kafka-clients@7.3.4-ce",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/ce-kafka-http-server/kafka-clients-7.3.4-ce.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.apache.mina/mina-core@2.2.1?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fmina-core-2.2.1.jar",
+      "type": "library",
+      "name": "org.apache.mina:mina-core",
+      "version": "2.2.1",
+      "purl": "pkg:maven/org.apache.mina/mina-core@2.2.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/ce-kafka-http-server/mina-core-2.2.1.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.apache.servicemix.bundles/org.apache.servicemix.bundles.antlr@2.7.7_5?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Forg.apache.servicemix.bundles.antlr-2.7.7_5.jar",
+      "type": "library",
+      "name": "org.apache.servicemix.bundles:org.apache.servicemix.bundles.antlr",
+      "version": "2.7.7_5",
+      "purl": "pkg:maven/org.apache.servicemix.bundles/org.apache.servicemix.bundles.antlr@2.7.7_5",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/ce-kafka-http-server/org.apache.servicemix.bundles.antlr-2.7.7_5.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.checkerframework/checker-qual@3.8.0?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fchecker-qual-3.8.0.jar",
+      "type": "library",
+      "name": "org.checkerframework:checker-qual",
+      "version": "3.8.0",
+      "purl": "pkg:maven/org.checkerframework/checker-qual@3.8.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/ce-kafka-http-server/checker-qual-3.8.0.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.eclipse.jetty.http2/http2-common@9.4.51.v20230217?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fhttp2-common-9.4.51.v20230217.jar",
+      "type": "library",
+      "name": "org.eclipse.jetty.http2:http2-common",
+      "version": "9.4.51.v20230217",
+      "purl": "pkg:maven/org.eclipse.jetty.http2/http2-common@9.4.51.v20230217",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/ce-kafka-http-server/http2-common-9.4.51.v20230217.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.eclipse.jetty.http2/http2-hpack@9.4.51.v20230217?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fhttp2-hpack-9.4.51.v20230217.jar",
+      "type": "library",
+      "name": "org.eclipse.jetty.http2:http2-hpack",
+      "version": "9.4.51.v20230217",
+      "purl": "pkg:maven/org.eclipse.jetty.http2/http2-hpack@9.4.51.v20230217",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/ce-kafka-http-server/http2-hpack-9.4.51.v20230217.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.eclipse.jetty.http2/http2-server@9.4.51.v20230217?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fhttp2-server-9.4.51.v20230217.jar",
+      "type": "library",
+      "name": "org.eclipse.jetty.http2:http2-server",
+      "version": "9.4.51.v20230217",
+      "purl": "pkg:maven/org.eclipse.jetty.http2/http2-server@9.4.51.v20230217",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/ce-kafka-http-server/http2-server-9.4.51.v20230217.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.eclipse.jetty.websocket/javax-websocket-client-impl@9.4.51.v20230217?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjavax-websocket-client-impl-9.4.51.v20230217.jar",
+      "type": "library",
+      "name": "org.eclipse.jetty.websocket:javax-websocket-client-impl",
+      "version": "9.4.51.v20230217",
+      "purl": "pkg:maven/org.eclipse.jetty.websocket/javax-websocket-client-impl@9.4.51.v20230217",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/ce-kafka-http-server/javax-websocket-client-impl-9.4.51.v20230217.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.eclipse.jetty.websocket/javax-websocket-server-impl@9.4.51.v20230217?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjavax-websocket-server-impl-9.4.51.v20230217.jar",
+      "type": "library",
+      "name": "org.eclipse.jetty.websocket:javax-websocket-server-impl",
+      "version": "9.4.51.v20230217",
+      "purl": "pkg:maven/org.eclipse.jetty.websocket/javax-websocket-server-impl@9.4.51.v20230217",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/ce-kafka-http-server/javax-websocket-server-impl-9.4.51.v20230217.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.eclipse.jetty.websocket/websocket-api@9.4.51.v20230217?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fwebsocket-api-9.4.51.v20230217.jar",
+      "type": "library",
+      "name": "org.eclipse.jetty.websocket:websocket-api",
+      "version": "9.4.51.v20230217",
+      "purl": "pkg:maven/org.eclipse.jetty.websocket/websocket-api@9.4.51.v20230217",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/ce-kafka-http-server/websocket-api-9.4.51.v20230217.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.eclipse.jetty.websocket/websocket-client@9.4.51.v20230217?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fwebsocket-client-9.4.51.v20230217.jar",
+      "type": "library",
+      "name": "org.eclipse.jetty.websocket:websocket-client",
+      "version": "9.4.51.v20230217",
+      "purl": "pkg:maven/org.eclipse.jetty.websocket/websocket-client@9.4.51.v20230217",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/ce-kafka-http-server/websocket-client-9.4.51.v20230217.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.eclipse.jetty.websocket/websocket-common@9.4.51.v20230217?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fwebsocket-common-9.4.51.v20230217.jar",
+      "type": "library",
+      "name": "org.eclipse.jetty.websocket:websocket-common",
+      "version": "9.4.51.v20230217",
+      "purl": "pkg:maven/org.eclipse.jetty.websocket/websocket-common@9.4.51.v20230217",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/ce-kafka-http-server/websocket-common-9.4.51.v20230217.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.eclipse.jetty.websocket/websocket-server@9.4.51.v20230217?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fwebsocket-server-9.4.51.v20230217.jar",
+      "type": "library",
+      "name": "org.eclipse.jetty.websocket:websocket-server",
+      "version": "9.4.51.v20230217",
+      "purl": "pkg:maven/org.eclipse.jetty.websocket/websocket-server@9.4.51.v20230217",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/ce-kafka-http-server/websocket-server-9.4.51.v20230217.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.eclipse.jetty.websocket/websocket-servlet@9.4.51.v20230217?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fwebsocket-servlet-9.4.51.v20230217.jar",
+      "type": "library",
+      "name": "org.eclipse.jetty.websocket:websocket-servlet",
+      "version": "9.4.51.v20230217",
+      "purl": "pkg:maven/org.eclipse.jetty.websocket/websocket-servlet@9.4.51.v20230217",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/ce-kafka-http-server/websocket-servlet-9.4.51.v20230217.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.eclipse.jetty/jetty-alpn-java-server@9.4.51.v20230217?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjetty-alpn-java-server-9.4.51.v20230217.jar",
+      "type": "library",
+      "name": "org.eclipse.jetty:jetty-alpn-java-server",
+      "version": "9.4.51.v20230217",
+      "purl": "pkg:maven/org.eclipse.jetty/jetty-alpn-java-server@9.4.51.v20230217",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/ce-kafka-http-server/jetty-alpn-java-server-9.4.51.v20230217.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.eclipse.jetty/jetty-alpn-server@9.4.51.v20230217?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjetty-alpn-server-9.4.51.v20230217.jar",
+      "type": "library",
+      "name": "org.eclipse.jetty:jetty-alpn-server",
+      "version": "9.4.51.v20230217",
+      "purl": "pkg:maven/org.eclipse.jetty/jetty-alpn-server@9.4.51.v20230217",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/ce-kafka-http-server/jetty-alpn-server-9.4.51.v20230217.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.eclipse.jetty/jetty-annotations@9.4.51.v20230217?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjetty-annotations-9.4.51.v20230217.jar",
+      "type": "library",
+      "name": "org.eclipse.jetty:jetty-annotations",
+      "version": "9.4.51.v20230217",
+      "purl": "pkg:maven/org.eclipse.jetty/jetty-annotations@9.4.51.v20230217",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/ce-kafka-http-server/jetty-annotations-9.4.51.v20230217.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.eclipse.jetty/jetty-client@9.4.51.v20230217?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjetty-client-9.4.51.v20230217.jar",
+      "type": "library",
+      "name": "org.eclipse.jetty:jetty-client",
+      "version": "9.4.51.v20230217",
+      "purl": "pkg:maven/org.eclipse.jetty/jetty-client@9.4.51.v20230217",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/ce-kafka-http-server/jetty-client-9.4.51.v20230217.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.eclipse.jetty/jetty-continuation@9.4.51.v20230217?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjetty-continuation-9.4.51.v20230217.jar",
+      "type": "library",
+      "name": "org.eclipse.jetty:jetty-continuation",
+      "version": "9.4.51.v20230217",
+      "purl": "pkg:maven/org.eclipse.jetty/jetty-continuation@9.4.51.v20230217",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/ce-kafka-http-server/jetty-continuation-9.4.51.v20230217.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.eclipse.jetty/jetty-http@9.4.51.v20230217?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjetty-http-9.4.51.v20230217.jar",
+      "type": "library",
+      "name": "org.eclipse.jetty:jetty-http",
+      "version": "9.4.51.v20230217",
+      "purl": "pkg:maven/org.eclipse.jetty/jetty-http@9.4.51.v20230217",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/ce-kafka-http-server/jetty-http-9.4.51.v20230217.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.eclipse.jetty/jetty-io@9.4.51.v20230217?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjetty-io-9.4.51.v20230217.jar",
+      "type": "library",
+      "name": "org.eclipse.jetty:jetty-io",
+      "version": "9.4.51.v20230217",
+      "purl": "pkg:maven/org.eclipse.jetty/jetty-io@9.4.51.v20230217",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/ce-kafka-http-server/jetty-io-9.4.51.v20230217.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.eclipse.jetty/jetty-jaas@9.4.51.v20230217?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjetty-jaas-9.4.51.v20230217.jar",
+      "type": "library",
+      "name": "org.eclipse.jetty:jetty-jaas",
+      "version": "9.4.51.v20230217",
+      "purl": "pkg:maven/org.eclipse.jetty/jetty-jaas@9.4.51.v20230217",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/ce-kafka-http-server/jetty-jaas-9.4.51.v20230217.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.eclipse.jetty/jetty-jmx@9.4.51.v20230217?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjetty-jmx-9.4.51.v20230217.jar",
+      "type": "library",
+      "name": "org.eclipse.jetty:jetty-jmx",
+      "version": "9.4.51.v20230217",
+      "purl": "pkg:maven/org.eclipse.jetty/jetty-jmx@9.4.51.v20230217",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/ce-kafka-http-server/jetty-jmx-9.4.51.v20230217.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.eclipse.jetty/jetty-jndi@9.4.51.v20230217?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjetty-jndi-9.4.51.v20230217.jar",
+      "type": "library",
+      "name": "org.eclipse.jetty:jetty-jndi",
+      "version": "9.4.51.v20230217",
+      "purl": "pkg:maven/org.eclipse.jetty/jetty-jndi@9.4.51.v20230217",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/ce-kafka-http-server/jetty-jndi-9.4.51.v20230217.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.eclipse.jetty/jetty-plus@9.4.51.v20230217?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjetty-plus-9.4.51.v20230217.jar",
+      "type": "library",
+      "name": "org.eclipse.jetty:jetty-plus",
+      "version": "9.4.51.v20230217",
+      "purl": "pkg:maven/org.eclipse.jetty/jetty-plus@9.4.51.v20230217",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/ce-kafka-http-server/jetty-plus-9.4.51.v20230217.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.eclipse.jetty/jetty-security@9.4.51.v20230217?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjetty-security-9.4.51.v20230217.jar",
+      "type": "library",
+      "name": "org.eclipse.jetty:jetty-security",
+      "version": "9.4.51.v20230217",
+      "purl": "pkg:maven/org.eclipse.jetty/jetty-security@9.4.51.v20230217",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/ce-kafka-http-server/jetty-security-9.4.51.v20230217.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.eclipse.jetty/jetty-server@9.4.51.v20230217?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjetty-server-9.4.51.v20230217.jar",
+      "type": "library",
+      "name": "org.eclipse.jetty:jetty-server",
+      "version": "9.4.51.v20230217",
+      "purl": "pkg:maven/org.eclipse.jetty/jetty-server@9.4.51.v20230217",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/ce-kafka-http-server/jetty-server-9.4.51.v20230217.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.eclipse.jetty/jetty-servlet@9.4.51.v20230217?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjetty-servlet-9.4.51.v20230217.jar",
+      "type": "library",
+      "name": "org.eclipse.jetty:jetty-servlet",
+      "version": "9.4.51.v20230217",
+      "purl": "pkg:maven/org.eclipse.jetty/jetty-servlet@9.4.51.v20230217",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/ce-kafka-http-server/jetty-servlet-9.4.51.v20230217.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.eclipse.jetty/jetty-servlets@9.4.51.v20230217?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjetty-servlets-9.4.51.v20230217.jar",
+      "type": "library",
+      "name": "org.eclipse.jetty:jetty-servlets",
+      "version": "9.4.51.v20230217",
+      "purl": "pkg:maven/org.eclipse.jetty/jetty-servlets@9.4.51.v20230217",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/ce-kafka-http-server/jetty-servlets-9.4.51.v20230217.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.eclipse.jetty/jetty-util-ajax@9.4.51.v20230217?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjetty-util-ajax-9.4.51.v20230217.jar",
+      "type": "library",
+      "name": "org.eclipse.jetty:jetty-util-ajax",
+      "version": "9.4.51.v20230217",
+      "purl": "pkg:maven/org.eclipse.jetty/jetty-util-ajax@9.4.51.v20230217",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/ce-kafka-http-server/jetty-util-ajax-9.4.51.v20230217.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.eclipse.jetty/jetty-util@9.4.51.v20230217?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjetty-util-9.4.51.v20230217.jar",
+      "type": "library",
+      "name": "org.eclipse.jetty:jetty-util",
+      "version": "9.4.51.v20230217",
+      "purl": "pkg:maven/org.eclipse.jetty/jetty-util@9.4.51.v20230217",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/ce-kafka-http-server/jetty-util-9.4.51.v20230217.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.eclipse.jetty/jetty-webapp@9.4.51.v20230217?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjetty-webapp-9.4.51.v20230217.jar",
+      "type": "library",
+      "name": "org.eclipse.jetty:jetty-webapp",
+      "version": "9.4.51.v20230217",
+      "purl": "pkg:maven/org.eclipse.jetty/jetty-webapp@9.4.51.v20230217",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/ce-kafka-http-server/jetty-webapp-9.4.51.v20230217.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.eclipse.jetty/jetty-xml@9.4.51.v20230217?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjetty-xml-9.4.51.v20230217.jar",
+      "type": "library",
+      "name": "org.eclipse.jetty:jetty-xml",
+      "version": "9.4.51.v20230217",
+      "purl": "pkg:maven/org.eclipse.jetty/jetty-xml@9.4.51.v20230217",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/ce-kafka-http-server/jetty-xml-9.4.51.v20230217.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.glassfish.hk2.external/aopalliance-repackaged@2.6.1?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Faopalliance-repackaged-2.6.1.jar",
+      "type": "library",
+      "name": "org.glassfish.hk2.external:aopalliance-repackaged",
+      "version": "2.6.1",
+      "purl": "pkg:maven/org.glassfish.hk2.external/aopalliance-repackaged@2.6.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/ce-kafka-http-server/aopalliance-repackaged-2.6.1.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.glassfish.hk2.external/jakarta.inject@2.6.1?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjakarta.inject-2.6.1.jar",
+      "type": "library",
+      "name": "org.glassfish.hk2.external:jakarta.inject",
+      "version": "2.6.1",
+      "purl": "pkg:maven/org.glassfish.hk2.external/jakarta.inject@2.6.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/ce-kafka-http-server/jakarta.inject-2.6.1.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.glassfish.hk2/hk2-api@2.6.1?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fhk2-api-2.6.1.jar",
+      "type": "library",
+      "name": "org.glassfish.hk2:hk2-api",
+      "version": "2.6.1",
+      "purl": "pkg:maven/org.glassfish.hk2/hk2-api@2.6.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/ce-kafka-http-server/hk2-api-2.6.1.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.glassfish.hk2/hk2-locator@2.6.1?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fhk2-locator-2.6.1.jar",
+      "type": "library",
+      "name": "org.glassfish.hk2:hk2-locator",
+      "version": "2.6.1",
+      "purl": "pkg:maven/org.glassfish.hk2/hk2-locator@2.6.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/ce-kafka-http-server/hk2-locator-2.6.1.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.glassfish.hk2/hk2-utils@2.6.1?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fhk2-utils-2.6.1.jar",
+      "type": "library",
+      "name": "org.glassfish.hk2:hk2-utils",
+      "version": "2.6.1",
+      "purl": "pkg:maven/org.glassfish.hk2/hk2-utils@2.6.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/ce-kafka-http-server/hk2-utils-2.6.1.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.glassfish.hk2/osgi-resource-locator@1.0.3?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fosgi-resource-locator-1.0.3.jar",
+      "type": "library",
+      "name": "org.glassfish.hk2:osgi-resource-locator",
+      "version": "1.0.3",
+      "purl": "pkg:maven/org.glassfish.hk2/osgi-resource-locator@1.0.3",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/ce-kafka-http-server/osgi-resource-locator-1.0.3.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.glassfish.jersey.containers/jersey-container-servlet-core@2.36?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjersey-container-servlet-core-2.36.jar",
+      "type": "library",
+      "name": "org.glassfish.jersey.containers:jersey-container-servlet-core",
+      "version": "2.36",
+      "purl": "pkg:maven/org.glassfish.jersey.containers/jersey-container-servlet-core@2.36",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/ce-kafka-http-server/jersey-container-servlet-core-2.36.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.glassfish.jersey.containers/jersey-container-servlet@2.36?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjersey-container-servlet-2.36.jar",
+      "type": "library",
+      "name": "org.glassfish.jersey.containers:jersey-container-servlet",
+      "version": "2.36",
+      "purl": "pkg:maven/org.glassfish.jersey.containers/jersey-container-servlet@2.36",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/ce-kafka-http-server/jersey-container-servlet-2.36.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.glassfish.jersey.core/jersey-client@2.36?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjersey-client-2.36.jar",
+      "type": "library",
+      "name": "org.glassfish.jersey.core:jersey-client",
+      "version": "2.36",
+      "purl": "pkg:maven/org.glassfish.jersey.core/jersey-client@2.36",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/ce-kafka-http-server/jersey-client-2.36.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.glassfish.jersey.core/jersey-common@2.36?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjersey-common-2.36.jar",
+      "type": "library",
+      "name": "org.glassfish.jersey.core:jersey-common",
+      "version": "2.36",
+      "purl": "pkg:maven/org.glassfish.jersey.core/jersey-common@2.36",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/ce-kafka-http-server/jersey-common-2.36.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.glassfish.jersey.core/jersey-server@2.36?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjersey-server-2.36.jar",
+      "type": "library",
+      "name": "org.glassfish.jersey.core:jersey-server",
+      "version": "2.36",
+      "purl": "pkg:maven/org.glassfish.jersey.core/jersey-server@2.36",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/ce-kafka-http-server/jersey-server-2.36.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.glassfish.jersey.ext/jersey-bean-validation@2.36?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjersey-bean-validation-2.36.jar",
+      "type": "library",
+      "name": "org.glassfish.jersey.ext:jersey-bean-validation",
+      "version": "2.36",
+      "purl": "pkg:maven/org.glassfish.jersey.ext/jersey-bean-validation@2.36",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/ce-kafka-http-server/jersey-bean-validation-2.36.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.glassfish.jersey.inject/jersey-hk2@2.36?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjersey-hk2-2.36.jar",
+      "type": "library",
+      "name": "org.glassfish.jersey.inject:jersey-hk2",
+      "version": "2.36",
+      "purl": "pkg:maven/org.glassfish.jersey.inject/jersey-hk2@2.36",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/ce-kafka-http-server/jersey-hk2-2.36.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.glassfish/jakarta.el@3.0.4?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjakarta.el-3.0.4.jar",
+      "type": "library",
+      "name": "org.glassfish:jakarta.el",
+      "version": "3.0.4",
+      "purl": "pkg:maven/org.glassfish/jakarta.el@3.0.4",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/ce-kafka-http-server/jakarta.el-3.0.4.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.hibernate.validator/hibernate-validator@6.1.7.Final?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fhibernate-validator-6.1.7.Final.jar",
+      "type": "library",
+      "name": "org.hibernate.validator:hibernate-validator",
+      "version": "6.1.7.Final",
+      "purl": "pkg:maven/org.hibernate.validator/hibernate-validator@6.1.7.Final",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/ce-kafka-http-server/hibernate-validator-6.1.7.Final.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.javassist/javassist@3.25.0-GA?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjavassist-3.25.0-GA.jar",
+      "type": "library",
+      "name": "org.javassist:javassist",
+      "version": "3.25.0-GA",
+      "purl": "pkg:maven/org.javassist/javassist@3.25.0-GA",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/ce-kafka-http-server/javassist-3.25.0-GA.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.jboss.logging/jboss-logging@3.3.2.Final?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjboss-logging-3.3.2.Final.jar",
+      "type": "library",
+      "name": "org.jboss.logging:jboss-logging",
+      "version": "3.3.2.Final",
+      "purl": "pkg:maven/org.jboss.logging/jboss-logging@3.3.2.Final",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/ce-kafka-http-server/jboss-logging-3.3.2.Final.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.lz4/lz4-java@1.8.0?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Flz4-java-1.8.0.jar",
+      "type": "library",
+      "name": "org.lz4:lz4-java",
+      "version": "1.8.0",
+      "purl": "pkg:maven/org.lz4/lz4-java@1.8.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/ce-kafka-http-server/lz4-java-1.8.0.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.ow2.asm/asm-commons@9.4?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fasm-commons-9.4.jar",
+      "type": "library",
+      "name": "org.ow2.asm:asm-commons",
+      "version": "9.4",
+      "purl": "pkg:maven/org.ow2.asm/asm-commons@9.4",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/ce-kafka-http-server/asm-commons-9.4.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.ow2.asm/asm-tree@9.4?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fasm-tree-9.4.jar",
+      "type": "library",
+      "name": "org.ow2.asm:asm-tree",
+      "version": "9.4",
+      "purl": "pkg:maven/org.ow2.asm/asm-tree@9.4",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/ce-kafka-http-server/asm-tree-9.4.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.ow2.asm/asm@9.4?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fasm-9.4.jar",
+      "type": "library",
+      "name": "org.ow2.asm:asm",
+      "version": "9.4",
+      "purl": "pkg:maven/org.ow2.asm/asm@9.4",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/ce-kafka-http-server/asm-9.4.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.slf4j/slf4j-api@1.7.36?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fslf4j-api-1.7.36.jar",
+      "type": "library",
+      "name": "org.slf4j:slf4j-api",
+      "version": "1.7.36",
+      "purl": "pkg:maven/org.slf4j/slf4j-api@1.7.36",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/ce-kafka-http-server/slf4j-api-1.7.36.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.xerial.snappy/snappy-java@1.1.10.1?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fsnappy-java-1.1.10.1.jar",
+      "type": "library",
+      "name": "org.xerial.snappy:snappy-java",
+      "version": "1.1.10.1",
+      "purl": "pkg:maven/org.xerial.snappy/snappy-java@1.1.10.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/ce-kafka-http-server/snappy-java-1.1.10.1.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "e9e8ca1e-ea98-4bda-ad00-5d907406141e",
+      "dependsOn": [
+        "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.14.2?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjackson-annotations-2.14.2.jar",
+        "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.14.2?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjackson-core-2.14.2.jar",
+        "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.14.2?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjackson-databind-2.14.2.jar",
+        "pkg:maven/com.fasterxml.jackson.jaxrs/jackson-jaxrs-base@2.14.2?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjackson-jaxrs-base-2.14.2.jar",
+        "pkg:maven/com.fasterxml.jackson.jaxrs/jackson-jaxrs-json-provider@2.14.2?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjackson-jaxrs-json-provider-2.14.2.jar",
+        "pkg:maven/com.fasterxml.jackson.module/jackson-module-jaxb-annotations@2.14.2?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjackson-module-jaxb-annotations-2.14.2.jar",
+        "pkg:maven/com.fasterxml/classmate@1.3.4?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fclassmate-1.3.4.jar",
+        "pkg:maven/com.github.luben/zstd-jni@1.5.2-1?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fzstd-jni-1.5.2-1.jar",
+        "pkg:maven/com.google.code.findbugs/jsr305@3.0.2?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjsr305-3.0.2.jar",
+        "pkg:maven/com.google.errorprone/error_prone_annotations@2.5.1?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Ferror_prone_annotations-2.5.1.jar",
+        "pkg:maven/com.google.guava/failureaccess@1.0.1?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Ffailureaccess-1.0.1.jar",
+        "pkg:maven/com.google.guava/guava@30.1.1-jre?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fguava-30.1.1-jre.jar",
+        "pkg:maven/com.google.guava/listenablefuture@9999.0-empty-to-avoid-conflict-with-guava?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Flistenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar",
+        "pkg:maven/com.google.j2objc/j2objc-annotations@1.3?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fj2objc-annotations-1.3.jar",
+        "pkg:maven/commons-codec/commons-codec@1.15?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fcommons-codec-1.15.jar",
+        "pkg:maven/io.confluent/ce-kafka-http-server@7.3.4?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fce-kafka-http-server-7.3.4.jar",
+        "pkg:maven/io.confluent/common-utils@7.3.4?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fcommon-utils-7.3.4.jar",
+        "pkg:maven/io.confluent/rest-utils@7.3.4?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Frest-utils-7.3.4.jar",
+        "pkg:maven/jakarta.activation/jakarta.activation-api@1.2.2?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjakarta.activation-api-1.2.2.jar",
+        "pkg:maven/jakarta.annotation/jakarta.annotation-api@1.3.5?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjakarta.annotation-api-1.3.5.jar",
+        "pkg:maven/jakarta.el/jakarta.el-api@4.0.0?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjakarta.el-api-4.0.0.jar",
+        "pkg:maven/jakarta.validation/jakarta.validation-api@2.0.2?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjakarta.validation-api-2.0.2.jar",
+        "pkg:maven/jakarta.ws.rs/jakarta.ws.rs-api@2.1.6?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjakarta.ws.rs-api-2.1.6.jar",
+        "pkg:maven/jakarta.xml.bind/jakarta.xml.bind-api@2.3.3?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjakarta.xml.bind-api-2.3.3.jar",
+        "pkg:maven/javax.activation/activation@1.1.1?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Factivation-1.1.1.jar",
+        "pkg:maven/javax.annotation/javax.annotation-api@1.3.2?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjavax.annotation-api-1.3.2.jar",
+        "pkg:maven/javax.servlet/javax.servlet-api@3.1.0?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjavax.servlet-api-3.1.0.jar",
+        "pkg:maven/javax.websocket/javax.websocket-api@1.0?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjavax.websocket-api-1.0.jar",
+        "pkg:maven/javax.websocket/javax.websocket-client-api@1.0?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjavax.websocket-client-api-1.0.jar",
+        "pkg:maven/javax.xml.bind/jaxb-api@2.3.0?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjaxb-api-2.3.0.jar",
+        "pkg:maven/org.apache.commons/commons-collections4@4.4?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fcommons-collections4-4.4.jar",
+        "pkg:maven/org.apache.commons/commons-lang3@3.12.0?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fcommons-lang3-3.12.0.jar",
+        "pkg:maven/org.apache.directory.api/api-asn1-api@2.1.2?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fapi-asn1-api-2.1.2.jar",
+        "pkg:maven/org.apache.directory.api/api-asn1-ber@2.1.2?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fapi-asn1-ber-2.1.2.jar",
+        "pkg:maven/org.apache.directory.api/api-i18n@2.1.2?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fapi-i18n-2.1.2.jar",
+        "pkg:maven/org.apache.directory.api/api-ldap-model@2.1.2?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fapi-ldap-model-2.1.2.jar",
+        "pkg:maven/org.apache.directory.api/api-util@2.1.2?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fapi-util-2.1.2.jar",
+        "pkg:maven/org.apache.kafka/kafka-clients@7.3.4-ce?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fkafka-clients-7.3.4-ce.jar",
+        "pkg:maven/org.apache.mina/mina-core@2.2.1?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fmina-core-2.2.1.jar",
+        "pkg:maven/org.apache.servicemix.bundles/org.apache.servicemix.bundles.antlr@2.7.7_5?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Forg.apache.servicemix.bundles.antlr-2.7.7_5.jar",
+        "pkg:maven/org.checkerframework/checker-qual@3.8.0?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fchecker-qual-3.8.0.jar",
+        "pkg:maven/org.eclipse.jetty.http2/http2-common@9.4.51.v20230217?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fhttp2-common-9.4.51.v20230217.jar",
+        "pkg:maven/org.eclipse.jetty.http2/http2-hpack@9.4.51.v20230217?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fhttp2-hpack-9.4.51.v20230217.jar",
+        "pkg:maven/org.eclipse.jetty.http2/http2-server@9.4.51.v20230217?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fhttp2-server-9.4.51.v20230217.jar",
+        "pkg:maven/org.eclipse.jetty.websocket/javax-websocket-client-impl@9.4.51.v20230217?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjavax-websocket-client-impl-9.4.51.v20230217.jar",
+        "pkg:maven/org.eclipse.jetty.websocket/javax-websocket-server-impl@9.4.51.v20230217?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjavax-websocket-server-impl-9.4.51.v20230217.jar",
+        "pkg:maven/org.eclipse.jetty.websocket/websocket-api@9.4.51.v20230217?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fwebsocket-api-9.4.51.v20230217.jar",
+        "pkg:maven/org.eclipse.jetty.websocket/websocket-client@9.4.51.v20230217?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fwebsocket-client-9.4.51.v20230217.jar",
+        "pkg:maven/org.eclipse.jetty.websocket/websocket-common@9.4.51.v20230217?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fwebsocket-common-9.4.51.v20230217.jar",
+        "pkg:maven/org.eclipse.jetty.websocket/websocket-server@9.4.51.v20230217?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fwebsocket-server-9.4.51.v20230217.jar",
+        "pkg:maven/org.eclipse.jetty.websocket/websocket-servlet@9.4.51.v20230217?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fwebsocket-servlet-9.4.51.v20230217.jar",
+        "pkg:maven/org.eclipse.jetty/jetty-alpn-java-server@9.4.51.v20230217?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjetty-alpn-java-server-9.4.51.v20230217.jar",
+        "pkg:maven/org.eclipse.jetty/jetty-alpn-server@9.4.51.v20230217?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjetty-alpn-server-9.4.51.v20230217.jar",
+        "pkg:maven/org.eclipse.jetty/jetty-annotations@9.4.51.v20230217?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjetty-annotations-9.4.51.v20230217.jar",
+        "pkg:maven/org.eclipse.jetty/jetty-client@9.4.51.v20230217?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjetty-client-9.4.51.v20230217.jar",
+        "pkg:maven/org.eclipse.jetty/jetty-continuation@9.4.51.v20230217?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjetty-continuation-9.4.51.v20230217.jar",
+        "pkg:maven/org.eclipse.jetty/jetty-http@9.4.51.v20230217?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjetty-http-9.4.51.v20230217.jar",
+        "pkg:maven/org.eclipse.jetty/jetty-io@9.4.51.v20230217?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjetty-io-9.4.51.v20230217.jar",
+        "pkg:maven/org.eclipse.jetty/jetty-jaas@9.4.51.v20230217?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjetty-jaas-9.4.51.v20230217.jar",
+        "pkg:maven/org.eclipse.jetty/jetty-jmx@9.4.51.v20230217?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjetty-jmx-9.4.51.v20230217.jar",
+        "pkg:maven/org.eclipse.jetty/jetty-jndi@9.4.51.v20230217?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjetty-jndi-9.4.51.v20230217.jar",
+        "pkg:maven/org.eclipse.jetty/jetty-plus@9.4.51.v20230217?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjetty-plus-9.4.51.v20230217.jar",
+        "pkg:maven/org.eclipse.jetty/jetty-security@9.4.51.v20230217?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjetty-security-9.4.51.v20230217.jar",
+        "pkg:maven/org.eclipse.jetty/jetty-server@9.4.51.v20230217?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjetty-server-9.4.51.v20230217.jar",
+        "pkg:maven/org.eclipse.jetty/jetty-servlet@9.4.51.v20230217?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjetty-servlet-9.4.51.v20230217.jar",
+        "pkg:maven/org.eclipse.jetty/jetty-servlets@9.4.51.v20230217?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjetty-servlets-9.4.51.v20230217.jar",
+        "pkg:maven/org.eclipse.jetty/jetty-util-ajax@9.4.51.v20230217?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjetty-util-ajax-9.4.51.v20230217.jar",
+        "pkg:maven/org.eclipse.jetty/jetty-util@9.4.51.v20230217?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjetty-util-9.4.51.v20230217.jar",
+        "pkg:maven/org.eclipse.jetty/jetty-webapp@9.4.51.v20230217?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjetty-webapp-9.4.51.v20230217.jar",
+        "pkg:maven/org.eclipse.jetty/jetty-xml@9.4.51.v20230217?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjetty-xml-9.4.51.v20230217.jar",
+        "pkg:maven/org.glassfish.hk2.external/aopalliance-repackaged@2.6.1?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Faopalliance-repackaged-2.6.1.jar",
+        "pkg:maven/org.glassfish.hk2.external/jakarta.inject@2.6.1?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjakarta.inject-2.6.1.jar",
+        "pkg:maven/org.glassfish.hk2/hk2-api@2.6.1?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fhk2-api-2.6.1.jar",
+        "pkg:maven/org.glassfish.hk2/hk2-locator@2.6.1?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fhk2-locator-2.6.1.jar",
+        "pkg:maven/org.glassfish.hk2/hk2-utils@2.6.1?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fhk2-utils-2.6.1.jar",
+        "pkg:maven/org.glassfish.hk2/osgi-resource-locator@1.0.3?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fosgi-resource-locator-1.0.3.jar",
+        "pkg:maven/org.glassfish.jersey.containers/jersey-container-servlet-core@2.36?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjersey-container-servlet-core-2.36.jar",
+        "pkg:maven/org.glassfish.jersey.containers/jersey-container-servlet@2.36?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjersey-container-servlet-2.36.jar",
+        "pkg:maven/org.glassfish.jersey.core/jersey-client@2.36?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjersey-client-2.36.jar",
+        "pkg:maven/org.glassfish.jersey.core/jersey-common@2.36?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjersey-common-2.36.jar",
+        "pkg:maven/org.glassfish.jersey.core/jersey-server@2.36?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjersey-server-2.36.jar",
+        "pkg:maven/org.glassfish.jersey.ext/jersey-bean-validation@2.36?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjersey-bean-validation-2.36.jar",
+        "pkg:maven/org.glassfish.jersey.inject/jersey-hk2@2.36?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjersey-hk2-2.36.jar",
+        "pkg:maven/org.glassfish/jakarta.el@3.0.4?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjakarta.el-3.0.4.jar",
+        "pkg:maven/org.hibernate.validator/hibernate-validator@6.1.7.Final?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fhibernate-validator-6.1.7.Final.jar",
+        "pkg:maven/org.javassist/javassist@3.25.0-GA?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjavassist-3.25.0-GA.jar",
+        "pkg:maven/org.jboss.logging/jboss-logging@3.3.2.Final?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjboss-logging-3.3.2.Final.jar",
+        "pkg:maven/org.lz4/lz4-java@1.8.0?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Flz4-java-1.8.0.jar",
+        "pkg:maven/org.ow2.asm/asm-commons@9.4?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fasm-commons-9.4.jar",
+        "pkg:maven/org.ow2.asm/asm-tree@9.4?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fasm-tree-9.4.jar",
+        "pkg:maven/org.ow2.asm/asm@9.4?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fasm-9.4.jar",
+        "pkg:maven/org.slf4j/slf4j-api@1.7.36?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fslf4j-api-1.7.36.jar",
+        "pkg:maven/org.xerial.snappy/snappy-java@1.1.10.1?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fsnappy-java-1.1.10.1.jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.14.2?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjackson-annotations-2.14.2.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.14.2?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjackson-core-2.14.2.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.14.2?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjackson-databind-2.14.2.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.fasterxml.jackson.jaxrs/jackson-jaxrs-base@2.14.2?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjackson-jaxrs-base-2.14.2.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.fasterxml.jackson.jaxrs/jackson-jaxrs-json-provider@2.14.2?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjackson-jaxrs-json-provider-2.14.2.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.fasterxml.jackson.module/jackson-module-jaxb-annotations@2.14.2?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjackson-module-jaxb-annotations-2.14.2.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.fasterxml/classmate@1.3.4?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fclassmate-1.3.4.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.github.luben/zstd-jni@1.5.2-1?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fzstd-jni-1.5.2-1.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.google.code.findbugs/jsr305@3.0.2?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjsr305-3.0.2.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.google.errorprone/error_prone_annotations@2.5.1?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Ferror_prone_annotations-2.5.1.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.google.guava/failureaccess@1.0.1?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Ffailureaccess-1.0.1.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.google.guava/guava@30.1.1-jre?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fguava-30.1.1-jre.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.google.guava/listenablefuture@9999.0-empty-to-avoid-conflict-with-guava?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Flistenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.google.j2objc/j2objc-annotations@1.3?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fj2objc-annotations-1.3.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/commons-codec/commons-codec@1.15?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fcommons-codec-1.15.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/io.confluent/ce-kafka-http-server@7.3.4?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fce-kafka-http-server-7.3.4.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/io.confluent/common-utils@7.3.4?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fcommon-utils-7.3.4.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/io.confluent/rest-utils@7.3.4?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Frest-utils-7.3.4.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/jakarta.activation/jakarta.activation-api@1.2.2?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjakarta.activation-api-1.2.2.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/jakarta.annotation/jakarta.annotation-api@1.3.5?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjakarta.annotation-api-1.3.5.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/jakarta.el/jakarta.el-api@4.0.0?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjakarta.el-api-4.0.0.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/jakarta.validation/jakarta.validation-api@2.0.2?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjakarta.validation-api-2.0.2.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/jakarta.ws.rs/jakarta.ws.rs-api@2.1.6?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjakarta.ws.rs-api-2.1.6.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/jakarta.xml.bind/jakarta.xml.bind-api@2.3.3?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjakarta.xml.bind-api-2.3.3.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/javax.activation/activation@1.1.1?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Factivation-1.1.1.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/javax.annotation/javax.annotation-api@1.3.2?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjavax.annotation-api-1.3.2.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/javax.servlet/javax.servlet-api@3.1.0?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjavax.servlet-api-3.1.0.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/javax.websocket/javax.websocket-api@1.0?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjavax.websocket-api-1.0.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/javax.websocket/javax.websocket-client-api@1.0?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjavax.websocket-client-api-1.0.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/javax.xml.bind/jaxb-api@2.3.0?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjaxb-api-2.3.0.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.apache.commons/commons-collections4@4.4?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fcommons-collections4-4.4.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.apache.commons/commons-lang3@3.12.0?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fcommons-lang3-3.12.0.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.apache.directory.api/api-asn1-api@2.1.2?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fapi-asn1-api-2.1.2.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.apache.directory.api/api-asn1-ber@2.1.2?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fapi-asn1-ber-2.1.2.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.apache.directory.api/api-i18n@2.1.2?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fapi-i18n-2.1.2.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.apache.directory.api/api-ldap-model@2.1.2?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fapi-ldap-model-2.1.2.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.apache.directory.api/api-util@2.1.2?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fapi-util-2.1.2.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.apache.kafka/kafka-clients@7.3.4-ce?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fkafka-clients-7.3.4-ce.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.apache.mina/mina-core@2.2.1?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fmina-core-2.2.1.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.apache.servicemix.bundles/org.apache.servicemix.bundles.antlr@2.7.7_5?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Forg.apache.servicemix.bundles.antlr-2.7.7_5.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.checkerframework/checker-qual@3.8.0?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fchecker-qual-3.8.0.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.eclipse.jetty.http2/http2-common@9.4.51.v20230217?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fhttp2-common-9.4.51.v20230217.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.eclipse.jetty.http2/http2-hpack@9.4.51.v20230217?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fhttp2-hpack-9.4.51.v20230217.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.eclipse.jetty.http2/http2-server@9.4.51.v20230217?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fhttp2-server-9.4.51.v20230217.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.eclipse.jetty.websocket/javax-websocket-client-impl@9.4.51.v20230217?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjavax-websocket-client-impl-9.4.51.v20230217.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.eclipse.jetty.websocket/javax-websocket-server-impl@9.4.51.v20230217?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjavax-websocket-server-impl-9.4.51.v20230217.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.eclipse.jetty.websocket/websocket-api@9.4.51.v20230217?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fwebsocket-api-9.4.51.v20230217.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.eclipse.jetty.websocket/websocket-client@9.4.51.v20230217?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fwebsocket-client-9.4.51.v20230217.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.eclipse.jetty.websocket/websocket-common@9.4.51.v20230217?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fwebsocket-common-9.4.51.v20230217.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.eclipse.jetty.websocket/websocket-server@9.4.51.v20230217?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fwebsocket-server-9.4.51.v20230217.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.eclipse.jetty.websocket/websocket-servlet@9.4.51.v20230217?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fwebsocket-servlet-9.4.51.v20230217.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.eclipse.jetty/jetty-alpn-java-server@9.4.51.v20230217?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjetty-alpn-java-server-9.4.51.v20230217.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.eclipse.jetty/jetty-alpn-server@9.4.51.v20230217?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjetty-alpn-server-9.4.51.v20230217.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.eclipse.jetty/jetty-annotations@9.4.51.v20230217?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjetty-annotations-9.4.51.v20230217.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.eclipse.jetty/jetty-client@9.4.51.v20230217?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjetty-client-9.4.51.v20230217.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.eclipse.jetty/jetty-continuation@9.4.51.v20230217?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjetty-continuation-9.4.51.v20230217.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.eclipse.jetty/jetty-http@9.4.51.v20230217?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjetty-http-9.4.51.v20230217.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.eclipse.jetty/jetty-io@9.4.51.v20230217?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjetty-io-9.4.51.v20230217.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.eclipse.jetty/jetty-jaas@9.4.51.v20230217?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjetty-jaas-9.4.51.v20230217.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.eclipse.jetty/jetty-jmx@9.4.51.v20230217?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjetty-jmx-9.4.51.v20230217.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.eclipse.jetty/jetty-jndi@9.4.51.v20230217?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjetty-jndi-9.4.51.v20230217.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.eclipse.jetty/jetty-plus@9.4.51.v20230217?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjetty-plus-9.4.51.v20230217.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.eclipse.jetty/jetty-security@9.4.51.v20230217?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjetty-security-9.4.51.v20230217.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.eclipse.jetty/jetty-server@9.4.51.v20230217?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjetty-server-9.4.51.v20230217.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.eclipse.jetty/jetty-servlet@9.4.51.v20230217?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjetty-servlet-9.4.51.v20230217.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.eclipse.jetty/jetty-servlets@9.4.51.v20230217?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjetty-servlets-9.4.51.v20230217.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.eclipse.jetty/jetty-util-ajax@9.4.51.v20230217?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjetty-util-ajax-9.4.51.v20230217.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.eclipse.jetty/jetty-util@9.4.51.v20230217?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjetty-util-9.4.51.v20230217.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.eclipse.jetty/jetty-webapp@9.4.51.v20230217?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjetty-webapp-9.4.51.v20230217.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.eclipse.jetty/jetty-xml@9.4.51.v20230217?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjetty-xml-9.4.51.v20230217.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.glassfish.hk2.external/aopalliance-repackaged@2.6.1?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Faopalliance-repackaged-2.6.1.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.glassfish.hk2.external/jakarta.inject@2.6.1?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjakarta.inject-2.6.1.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.glassfish.hk2/hk2-api@2.6.1?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fhk2-api-2.6.1.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.glassfish.hk2/hk2-locator@2.6.1?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fhk2-locator-2.6.1.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.glassfish.hk2/hk2-utils@2.6.1?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fhk2-utils-2.6.1.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.glassfish.hk2/osgi-resource-locator@1.0.3?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fosgi-resource-locator-1.0.3.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.glassfish.jersey.containers/jersey-container-servlet-core@2.36?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjersey-container-servlet-core-2.36.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.glassfish.jersey.containers/jersey-container-servlet@2.36?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjersey-container-servlet-2.36.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.glassfish.jersey.core/jersey-client@2.36?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjersey-client-2.36.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.glassfish.jersey.core/jersey-common@2.36?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjersey-common-2.36.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.glassfish.jersey.core/jersey-server@2.36?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjersey-server-2.36.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.glassfish.jersey.ext/jersey-bean-validation@2.36?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjersey-bean-validation-2.36.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.glassfish.jersey.inject/jersey-hk2@2.36?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjersey-hk2-2.36.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.glassfish/jakarta.el@3.0.4?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjakarta.el-3.0.4.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.hibernate.validator/hibernate-validator@6.1.7.Final?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fhibernate-validator-6.1.7.Final.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.javassist/javassist@3.25.0-GA?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjavassist-3.25.0-GA.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.jboss.logging/jboss-logging@3.3.2.Final?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fjboss-logging-3.3.2.Final.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.lz4/lz4-java@1.8.0?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Flz4-java-1.8.0.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.ow2.asm/asm-commons@9.4?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fasm-commons-9.4.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.ow2.asm/asm-tree@9.4?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fasm-tree-9.4.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.ow2.asm/asm@9.4?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fasm-9.4.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.slf4j/slf4j-api@1.7.36?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fslf4j-api-1.7.36.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.xerial.snappy/snappy-java@1.1.10.1?file_path=usr%2Fshare%2Fjava%2Fce-kafka-http-server%2Fsnappy-java-1.1.10.1.jar",
+      "dependsOn": []
+    }
+  ],
+  "vulnerabilities": []
+}

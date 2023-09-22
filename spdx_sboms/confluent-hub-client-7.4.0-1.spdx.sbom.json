@@ -1,0 +1,1345 @@
+{
+	"SPDXID": "SPDXRef-DOCUMENT",
+	"creationInfo": {
+		"created": "2023-05-03T17:24:32Z",
+		"creators": [
+			"Tool: trivy-0.39.0",
+			"Organization: aquasecurity"
+		]
+	},
+	"dataLicense": "CC0-1.0",
+	"documentDescribes": [
+		"SPDXRef-Filesystem-cef28e0903ae0a71"
+	],
+	"documentNamespace": "http://aquasecurity.github.io/trivy/filesystem/confluent-hub-client-7.4.0-1-b058b68c-b4f4-4b66-a1a0-35a34f24ef1a",
+	"files": [
+		{
+			"SPDXID": "SPDXRef-File-12e31bb8d8bd4ac0",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "5e75e7afbb4ed7dec9a8234ffbcd5c06942bf5aa"
+				}
+			],
+			"fileName": "usr/share/java/confluent-hub-client/common-utils-7.4.0.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-13f3e3eaddc7d1d3",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "d9f439dfef726e54eebb390ff38dd27356901528"
+				}
+			],
+			"fileName": "usr/share/java/confluent-hub-client/maven-artifact-3.3.3.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-250e4fcbca7c0d46",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "c42393339809777e668d0b25b41e931eeda23fa0"
+				}
+			],
+			"fileName": "usr/share/java/confluent-hub-client/airline-2.6.0.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-27613411ded6dc5",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "2b36e4adfb66d966c5aef2d73deb6be716389dc9"
+				}
+			],
+			"fileName": "usr/share/java/confluent-hub-client/commons-configuration-1.10.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-2e4bae8199555ec2",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "4eae9978468c5e885a6fb44df7e2bbc07a20e6ce"
+				}
+			],
+			"fileName": "usr/share/java/confluent-hub-client/reload4j-1.2.19.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-325290d853123930",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "8134f8babbfbb18373110ea0b5871fd34b9c77bf"
+				}
+			],
+			"fileName": "usr/share/java/confluent-hub-client/minimal-json-0.9.5.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-3e9c60802fe5e5f5",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "73b5f45fd9a9056266c82633c267914086f00209"
+				}
+			],
+			"fileName": "usr/share/java/confluent-hub-client/logredactor-metrics-1.0.11.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-4b71774df6587852",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "01e71fddbc80bb86f71a6345ac1e8ab8a00e7134"
+				}
+			],
+			"fileName": "usr/share/java/confluent-hub-client/jackson-databind-2.14.2.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-513ccff71875e895",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "0ce1edb914c94ebc388f086c6827e8bdeec71ac2"
+				}
+			],
+			"fileName": "usr/share/java/confluent-hub-client/commons-lang-2.6.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-5146304a0f025467",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "9dedf9d2022e38ec0743ed44c1ac94ad6149acdd"
+				}
+			],
+			"fileName": "usr/share/java/confluent-hub-client/hk2-locator-2.6.1.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-5e68c8d37462c483",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "6c62681a2f655b49963a5983b8b0950a6120ae14"
+				}
+			],
+			"fileName": "usr/share/java/confluent-hub-client/slf4j-api-1.7.36.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-699be093061d2a77",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "59eb84ee0d616332ff44aba065f3888cf002cd2d"
+				}
+			],
+			"fileName": "usr/share/java/confluent-hub-client/jakarta.annotation-api-1.3.5.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-6d4598544e348145",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "1667260c6c74ee94561bb1fa949d1e54fbaeeae1"
+				}
+			],
+			"fileName": "usr/share/java/confluent-hub-client/airline-help-bash-2.6.0.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-6d7da0e3c943dd38",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "6975da39a7040257bd51d21a231b76c915872d38"
+				}
+			],
+			"fileName": "usr/share/java/confluent-hub-client/javax.inject-1.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-72f02227fb9dd468",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "557edd918fd41f9260963583ebf5a61a43a6b423"
+				}
+			],
+			"fileName": "usr/share/java/confluent-hub-client/commons-lang3-3.7.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-73f6086d06a005aa",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "b2eb0a83bcbb44cc5d25f8b18f23be116313a638"
+				}
+			],
+			"fileName": "usr/share/java/confluent-hub-client/aopalliance-repackaged-2.6.1.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-79ac41c2c14a3965",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "114bd7afb4a1bd9993527f52a08a252b5d2acac5"
+				}
+			],
+			"fileName": "usr/share/java/confluent-hub-client/hk2-api-2.6.1.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-8526ac0c751b70e",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "8096ebf722902e75fbd4f532a751e514f02e1eb7"
+				}
+			],
+			"fileName": "usr/share/java/confluent-hub-client/jakarta.inject-2.6.1.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-854cb8dccaaf0c09",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "cea85e85b1c19657ec3ea41b26351a53a40caa3c"
+				}
+			],
+			"fileName": "usr/share/java/confluent-hub-client/jersey-common-2.34.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-87a3d6107479a9ce",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "54ebea0a5b653d3c680131e73fe807bb8f78c4ed"
+				}
+			],
+			"fileName": "usr/share/java/confluent-hub-client/commons-collections4-4.2.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-8b67d017a729597b",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "1dcb770bce80a490dff49729b99c7a60e9ecb122"
+				}
+			],
+			"fileName": "usr/share/java/confluent-hub-client/jakarta.ws.rs-api-2.1.6.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-8d66bafa1c4126a7",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "15bb093c57c0cac880ad7b474f7fd653cac840a1"
+				}
+			],
+			"fileName": "usr/share/java/confluent-hub-client/jersey-hk2-2.34.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-918b0b0c5142fe38",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "db708f7d959dee1857ac524636e85ecf2e1781c1"
+				}
+			],
+			"fileName": "usr/share/java/confluent-hub-client/slf4j-reload4j-1.7.36.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-923d1eedcaecba76",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "396513aa96c1d5a10aa4f75c4dcbf259a698d62d"
+				}
+			],
+			"fileName": "usr/share/java/confluent-hub-client/hk2-utils-2.6.1.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-a34295f70520bd8d",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "442dc1f9fd520130bd18da938622f4f9b2e5fba3"
+				}
+			],
+			"fileName": "usr/share/java/confluent-hub-client/javassist-3.25.0-GA.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-a89feb6d2c5837ef",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "ff377fd4f3c49fb6638436a1efab9c62a33da143"
+				}
+			],
+			"fileName": "usr/share/java/confluent-hub-client/confluent-hub-client-7.4.0.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-accd1a6519c9628e",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "a13e879fd7971738d06020fefeb108cc14e14169"
+				}
+			],
+			"fileName": "usr/share/java/confluent-hub-client/re2j-1.6.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-acfb4c829892b89c",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "3f2bd4ba11c4162733c13cc90ca7c7ea09967102"
+				}
+			],
+			"fileName": "usr/share/java/confluent-hub-client/commons-io-2.7.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-b9c6538714b3bcaf",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "796518148a385b2728d44886cc0f8852eb8eeb53"
+				}
+			],
+			"fileName": "usr/share/java/confluent-hub-client/jackson-datatype-jsr310-2.14.2.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-c1455955b46bf6ff",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "a7aae9525864930723e3453ab799521fdfd9d873"
+				}
+			],
+			"fileName": "usr/share/java/confluent-hub-client/jackson-annotations-2.14.2.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-c55d42a7f78d89de",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "f804090e6399ce0cf78242db086017512dd71fcc"
+				}
+			],
+			"fileName": "usr/share/java/confluent-hub-client/jackson-core-2.14.2.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-c9767c15be6a7dad",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "485de3a253e23f645037828c07f1d7f1af40763a"
+				}
+			],
+			"fileName": "usr/share/java/confluent-hub-client/activation-1.1.1.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-d73d5e986ecc4e4d",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "540bd047e99ef58bec83c59bdde5eeb63527d358"
+				}
+			],
+			"fileName": "usr/share/java/confluent-hub-client/logredactor-1.0.11.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-ecd2013e98b0a78b",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "5043bfebc3db072ed80fbd362e7caf00e885d8ae"
+				}
+			],
+			"fileName": "usr/share/java/confluent-hub-client/commons-logging-1.1.1.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-f6c2254ef36e486f",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "80d7a544045bfe12878bd066db073c932a55afea"
+				}
+			],
+			"fileName": "usr/share/java/confluent-hub-client/airline-io-2.6.0.jar"
+		},
+		{
+			"SPDXID": "SPDXRef-File-fc4b103d3de006c3",
+			"checksums": [
+				{
+					"algorithm": "SHA1",
+					"checksumValue": "f9c6c7c6429a1ede8e73cf077bdca28ebff67681"
+				}
+			],
+			"fileName": "usr/share/java/confluent-hub-client/jersey-client-2.34.jar"
+		}
+	],
+	"name": "confluent-hub-client-7.4.0-1",
+	"packages": [
+		{
+			"SPDXID": "SPDXRef-Application-150e605f5f17224d",
+			"downloadLocation": "NONE",
+			"filesAnalyzed": false,
+			"name": "jar",
+			"sourceInfo": "Java"
+		},
+		{
+			"SPDXID": "SPDXRef-Filesystem-cef28e0903ae0a71",
+			"attributionTexts": [
+				"SchemaVersion: 2"
+			],
+			"downloadLocation": "NONE",
+			"filesAnalyzed": false,
+			"name": "confluent-hub-client-7.4.0-1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-12a2858afe54402",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/org.glassfish.hk2.external/aopalliance-repackaged@2.6.1",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-73f6086d06a005aa"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "org.glassfish.hk2.external:aopalliance-repackaged",
+			"versionInfo": "2.6.1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-1496b17f8b83d283",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/com.eclipsesource.minimal-json/minimal-json@0.9.5",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-325290d853123930"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "com.eclipsesource.minimal-json:minimal-json",
+			"versionInfo": "0.9.5"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-28d6b9e47e99dc7e",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/org.glassfish.jersey.inject/jersey-hk2@2.34",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-8d66bafa1c4126a7"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "org.glassfish.jersey.inject:jersey-hk2",
+			"versionInfo": "2.34"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-3173c1c81c9cc3fb",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/javax.activation/activation@1.1.1",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-c9767c15be6a7dad"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "javax.activation:activation",
+			"versionInfo": "1.1.1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-372e52b6e22dd24f",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/org.slf4j/slf4j-api@1.7.36",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-5e68c8d37462c483"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "org.slf4j:slf4j-api",
+			"versionInfo": "1.7.36"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-3e0ad051a26ab508",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/org.apache.commons/commons-lang3@3.7",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-72f02227fb9dd468"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "org.apache.commons:commons-lang3",
+			"versionInfo": "3.7"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-3e1c5fe40569a2a9",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/io.confluent/confluent-hub-client@7.4.0",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-a89feb6d2c5837ef"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "io.confluent:confluent-hub-client",
+			"versionInfo": "7.4.0"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-3fd03a4af2289dcb",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.14.2",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-4b71774df6587852"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "com.fasterxml.jackson.core:jackson-databind",
+			"versionInfo": "2.14.2"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-447ec069d54beb89",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/com.github.rvesse/airline-io@2.7.0-SNAPSHOT",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-f6c2254ef36e486f"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "com.github.rvesse:airline-io",
+			"versionInfo": "2.7.0-SNAPSHOT"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-4611846b032974e2",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/ch.qos.reload4j/reload4j@1.2.19",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-2e4bae8199555ec2"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "ch.qos.reload4j:reload4j",
+			"versionInfo": "1.2.19"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-4bc2a8cc0d87bb62",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/com.github.rvesse/airline-help-bash@2.6.0",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-6d4598544e348145"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "com.github.rvesse:airline-help-bash",
+			"versionInfo": "2.6.0"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-5086b8be9cbc1ea",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/org.glassfish.hk2/hk2-locator@2.6.1",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-5146304a0f025467"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "org.glassfish.hk2:hk2-locator",
+			"versionInfo": "2.6.1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-54c90a43a9fac067",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/io.confluent/common-utils@7.4.0",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-12e31bb8d8bd4ac0"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "io.confluent:common-utils",
+			"versionInfo": "7.4.0"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-55dfb03ed6b22b18",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/commons-logging/commons-logging@1.1.1",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-ecd2013e98b0a78b"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "commons-logging:commons-logging",
+			"versionInfo": "1.1.1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-64a1d95084c2cfc",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/com.github.rvesse/airline@2.7.0-SNAPSHOT",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-250e4fcbca7c0d46"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "com.github.rvesse:airline",
+			"versionInfo": "2.7.0-SNAPSHOT"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-68584fce6c4d8163",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/jakarta.annotation/jakarta.annotation-api@1.3.5",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-699be093061d2a77"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "jakarta.annotation:jakarta.annotation-api",
+			"versionInfo": "1.3.5"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-761b03b91e6d715",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/com.github.rvesse/airline-help-bash@2.7.0-SNAPSHOT",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-6d4598544e348145"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "com.github.rvesse:airline-help-bash",
+			"versionInfo": "2.7.0-SNAPSHOT"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-7cc19b865f715380",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/commons-configuration/commons-configuration@1.10",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-27613411ded6dc5"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "commons-configuration:commons-configuration",
+			"versionInfo": "1.10"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-8259913a3b7f40e3",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/commons-lang/commons-lang@2.6",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-513ccff71875e895"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "commons-lang:commons-lang",
+			"versionInfo": "2.6"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-93b070beaeda8277",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.14.2",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-c1455955b46bf6ff"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "com.fasterxml.jackson.core:jackson-annotations",
+			"versionInfo": "2.14.2"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-997423105022e50b",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/com.google.re2j/re2j@1.6",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-accd1a6519c9628e"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "com.google.re2j:re2j",
+			"versionInfo": "1.6"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-a6185136d82606a8",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/javax.inject/javax.inject@1",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-6d7da0e3c943dd38"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "javax.inject:javax.inject",
+			"versionInfo": "1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-a8a5f0e61a76834e",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/org.slf4j/slf4j-reload4j@1.7.36",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-918b0b0c5142fe38"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "org.slf4j:slf4j-reload4j",
+			"versionInfo": "1.7.36"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-aff3ed875372b730",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/com.github.rvesse/airline-io@2.6.0",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-f6c2254ef36e486f"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "com.github.rvesse:airline-io",
+			"versionInfo": "2.6.0"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-b2368d012a979e49",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/org.glassfish.hk2/hk2-utils@2.6.1",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-923d1eedcaecba76"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "org.glassfish.hk2:hk2-utils",
+			"versionInfo": "2.6.1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-b2767f73c961c6c4",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/org.glassfish.hk2/hk2-api@2.6.1",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-79ac41c2c14a3965"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "org.glassfish.hk2:hk2-api",
+			"versionInfo": "2.6.1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-b5e936599e3618dc",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/com.github.rvesse/airline@2.6.0",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-250e4fcbca7c0d46"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "com.github.rvesse:airline",
+			"versionInfo": "2.6.0"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-b5ee3c83fd4e89aa",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/org.javassist/javassist@3.25.0-GA",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-a34295f70520bd8d"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "org.javassist:javassist",
+			"versionInfo": "3.25.0-GA"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-b6c88693a32cc21",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/org.glassfish.jersey.core/jersey-client@2.34",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-fc4b103d3de006c3"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "org.glassfish.jersey.core:jersey-client",
+			"versionInfo": "2.34"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-bcef386c5f059d97",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/io.confluent/logredactor-metrics@1.0.11",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-3e9c60802fe5e5f5"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "io.confluent:logredactor-metrics",
+			"versionInfo": "1.0.11"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-bdcedeed7adbcd48",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/io.confluent/logredactor@1.0.11",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-d73d5e986ecc4e4d"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "io.confluent:logredactor",
+			"versionInfo": "1.0.11"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-c7d54ab2ae5677cc",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/org.glassfish.jersey.core/jersey-common@2.34",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-854cb8dccaaf0c09"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "org.glassfish.jersey.core:jersey-common",
+			"versionInfo": "2.34"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-c9894d162622621a",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/org.glassfish.hk2.external/jakarta.inject@2.6.1",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-8526ac0c751b70e"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "org.glassfish.hk2.external:jakarta.inject",
+			"versionInfo": "2.6.1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-cb7132680e6532a2",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.14.2",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-c55d42a7f78d89de"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "com.fasterxml.jackson.core:jackson-core",
+			"versionInfo": "2.14.2"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-dab8f239ab9e1a48",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/org.apache.maven/maven-artifact@3.3.3",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-13f3e3eaddc7d1d3"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "org.apache.maven:maven-artifact",
+			"versionInfo": "3.3.3"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-dc2a16dac10f9599",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/commons-io/commons-io@2.7",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-acfb4c829892b89c"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "commons-io:commons-io",
+			"versionInfo": "2.7"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-e019156c28209b53",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/org.apache.commons/commons-collections4@4.2",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-87a3d6107479a9ce"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "org.apache.commons:commons-collections4",
+			"versionInfo": "4.2"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-e0bcc08f70989f02",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-jsr310@2.14.2",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-b9c6538714b3bcaf"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "com.fasterxml.jackson.datatype:jackson-datatype-jsr310",
+			"versionInfo": "2.14.2"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-e90cad711c32442f",
+			"downloadLocation": "NONE",
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:maven/jakarta.ws.rs/jakarta.ws.rs-api@2.1.6",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"hasFiles": [
+				"SPDXRef-File-8b67d017a729597b"
+			],
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "jakarta.ws.rs:jakarta.ws.rs-api",
+			"versionInfo": "2.1.6"
+		}
+	],
+	"relationships": [
+		{
+			"relatedSpdxElement": "SPDXRef-Filesystem-cef28e0903ae0a71",
+			"relationshipType": "DESCRIBES",
+			"spdxElementId": "SPDXRef-DOCUMENT"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Application-150e605f5f17224d",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Filesystem-cef28e0903ae0a71"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-bdcedeed7adbcd48",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-4bc2a8cc0d87bb62",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-761b03b91e6d715",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-b5ee3c83fd4e89aa",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-c7d54ab2ae5677cc",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-28d6b9e47e99dc7e",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-372e52b6e22dd24f",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-68584fce6c4d8163",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-cb7132680e6532a2",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-dab8f239ab9e1a48",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-b2368d012a979e49",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-93b070beaeda8277",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-e0bcc08f70989f02",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-e90cad711c32442f",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-bcef386c5f059d97",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-b5e936599e3618dc",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-64a1d95084c2cfc",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-8259913a3b7f40e3",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-3e1c5fe40569a2a9",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-4611846b032974e2",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-3173c1c81c9cc3fb",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-3e0ad051a26ab508",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-55dfb03ed6b22b18",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-b2767f73c961c6c4",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-5086b8be9cbc1ea",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-b6c88693a32cc21",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-1496b17f8b83d283",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-a8a5f0e61a76834e",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-54c90a43a9fac067",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-e019156c28209b53",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-c9894d162622621a",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-a6185136d82606a8",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-12a2858afe54402",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-7cc19b865f715380",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-dc2a16dac10f9599",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-3fd03a4af2289dcb",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-997423105022e50b",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-aff3ed875372b730",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-447ec069d54beb89",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-150e605f5f17224d"
+		}
+	],
+	"spdxVersion": "SPDX-2.2"
+}

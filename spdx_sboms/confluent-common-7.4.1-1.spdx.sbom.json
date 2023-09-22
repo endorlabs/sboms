@@ -1,0 +1,244 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "confluent-common-7.4.1-1",
+  "documentNamespace": "http://aquasecurity.github.io/trivy/filesystem/confluent-common-7.4.1-1-a8301acd-93e2-47ed-91e7-8e036b430219",
+  "creationInfo": {
+    "licenseListVersion": "",
+    "creators": [
+      "Organization: aquasecurity",
+      "Tool: trivy-0.42.1"
+    ],
+    "created": "2023-07-11T07:27:51Z"
+  },
+  "packages": [
+    {
+      "name": "confluent-common-7.4.1-1",
+      "SPDXID": "SPDXRef-Filesystem-6a2f68809ac16ade",
+      "downloadLocation": "NONE",
+      "copyrightText": "",
+      "attributionTexts": [
+        "SchemaVersion: 2"
+      ],
+      "primaryPackagePurpose": "SOURCE"
+    },
+    {
+      "name": "io.confluent:build-tools",
+      "SPDXID": "SPDXRef-Package-467487674fb800b6",
+      "versionInfo": "7.4.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "licenseConcluded": "NONE",
+      "licenseDeclared": "NONE",
+      "copyrightText": "",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.confluent/build-tools@7.4.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "io.confluent:common-config",
+      "SPDXID": "SPDXRef-Package-3a996e5b1da11d1c",
+      "versionInfo": "7.4.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "licenseConcluded": "NONE",
+      "licenseDeclared": "NONE",
+      "copyrightText": "",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.confluent/common-config@7.4.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "io.confluent:common-metrics",
+      "SPDXID": "SPDXRef-Package-24108521c9a78215",
+      "versionInfo": "7.4.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "licenseConcluded": "NONE",
+      "licenseDeclared": "NONE",
+      "copyrightText": "",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.confluent/common-metrics@7.4.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "io.confluent:common-utils",
+      "SPDXID": "SPDXRef-Package-e7970038552b3a33",
+      "versionInfo": "7.4.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "licenseConcluded": "NONE",
+      "licenseDeclared": "NONE",
+      "copyrightText": "",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/io.confluent/common-utils@7.4.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "jar",
+      "SPDXID": "SPDXRef-Application-150e605f5f17224d",
+      "downloadLocation": "NONE",
+      "sourceInfo": "Java",
+      "copyrightText": "",
+      "primaryPackagePurpose": "APPLICATION"
+    },
+    {
+      "name": "org.slf4j:slf4j-api",
+      "SPDXID": "SPDXRef-Package-6ab928d7d693d37b",
+      "versionInfo": "1.7.36",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "licenseConcluded": "NONE",
+      "licenseDeclared": "NONE",
+      "copyrightText": "",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.slf4j/slf4j-api@1.7.36"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    }
+  ],
+  "files": [
+    {
+      "fileName": "usr/share/java/confluent-common/common-metrics-7.4.1.jar",
+      "SPDXID": "SPDXRef-File-7440eebb8d3e27c5",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "6f23d5ec650f921d5151835d627c470c5fb97bb0"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "usr/share/java/confluent-common/common-utils-7.4.1.jar",
+      "SPDXID": "SPDXRef-File-d47dc27b9ce37185",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "5e3a83c4933d528ca14c967dbbcab58e8a0b5a62"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "usr/share/java/confluent-common/slf4j-api-1.7.36.jar",
+      "SPDXID": "SPDXRef-File-c0447c8e018ddd4f",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "6c62681a2f655b49963a5983b8b0950a6120ae14"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "usr/share/java/confluent-common/build-tools-7.4.1.jar",
+      "SPDXID": "SPDXRef-File-12b531f9de237470",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "7111ea295c8fd175e1500be3f96726e7a5329745"
+        }
+      ],
+      "copyrightText": ""
+    },
+    {
+      "fileName": "usr/share/java/confluent-common/common-config-7.4.1.jar",
+      "SPDXID": "SPDXRef-File-150306c3b100e2a0",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "33f3bbdc1f46f890340081a081a9558467a87fc7"
+        }
+      ],
+      "copyrightText": ""
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-Filesystem-6a2f68809ac16ade",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-Filesystem-6a2f68809ac16ade",
+      "relatedSpdxElement": "SPDXRef-Application-150e605f5f17224d",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-150e605f5f17224d",
+      "relatedSpdxElement": "SPDXRef-Package-24108521c9a78215",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-24108521c9a78215",
+      "relatedSpdxElement": "SPDXRef-File-7440eebb8d3e27c5",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-150e605f5f17224d",
+      "relatedSpdxElement": "SPDXRef-Package-e7970038552b3a33",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-e7970038552b3a33",
+      "relatedSpdxElement": "SPDXRef-File-d47dc27b9ce37185",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-150e605f5f17224d",
+      "relatedSpdxElement": "SPDXRef-Package-6ab928d7d693d37b",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-6ab928d7d693d37b",
+      "relatedSpdxElement": "SPDXRef-File-c0447c8e018ddd4f",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-150e605f5f17224d",
+      "relatedSpdxElement": "SPDXRef-Package-467487674fb800b6",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-467487674fb800b6",
+      "relatedSpdxElement": "SPDXRef-File-12b531f9de237470",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-150e605f5f17224d",
+      "relatedSpdxElement": "SPDXRef-Package-3a996e5b1da11d1c",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-3a996e5b1da11d1c",
+      "relatedSpdxElement": "SPDXRef-File-150306c3b100e2a0",
+      "relationshipType": "CONTAINS"
+    }
+  ]
+}

@@ -1,0 +1,2875 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "serialNumber": "urn:uuid:ed2ffa84-6b1e-449e-bdb8-0f9e601c0ebb",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2023-07-11T11:00:52+00:00",
+    "tools": [
+      {
+        "vendor": "aquasecurity",
+        "name": "trivy",
+        "version": "0.42.1"
+      }
+    ],
+    "component": {
+      "bom-ref": "5452ad4f-5192-4c36-b44f-db1764101f66",
+      "type": "application",
+      "name": "confluent-schema-registry-7.2.6-1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:SchemaVersion",
+          "value": "2"
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "pkg:maven/ch.qos.reload4j/reload4j@1.2.19?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Freload4j-1.2.19.jar",
+      "type": "library",
+      "name": "ch.qos.reload4j:reload4j",
+      "version": "1.2.19",
+      "purl": "pkg:maven/ch.qos.reload4j/reload4j@1.2.19",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/schema-registry/reload4j-1.2.19.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.damnhandy/handy-uri-templates@2.1.8?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fhandy-uri-templates-2.1.8.jar",
+      "type": "library",
+      "name": "com.damnhandy:handy-uri-templates",
+      "version": "2.1.8",
+      "purl": "pkg:maven/com.damnhandy/handy-uri-templates@2.1.8",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/schema-registry/handy-uri-templates-2.1.8.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.eclipsesource.minimal-json/minimal-json@0.9.5?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fminimal-json-0.9.5.jar",
+      "type": "library",
+      "name": "com.eclipsesource.minimal-json:minimal-json",
+      "version": "0.9.5",
+      "purl": "pkg:maven/com.eclipsesource.minimal-json/minimal-json@0.9.5",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/schema-registry/minimal-json-0.9.5.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.14.2?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fjackson-annotations-2.14.2.jar",
+      "type": "library",
+      "name": "com.fasterxml.jackson.core:jackson-annotations",
+      "version": "2.14.2",
+      "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.14.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/schema-registry/jackson-annotations-2.14.2.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.14.2?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fjackson-core-2.14.2.jar",
+      "type": "library",
+      "name": "com.fasterxml.jackson.core:jackson-core",
+      "version": "2.14.2",
+      "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.14.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/schema-registry/jackson-core-2.14.2.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.14.2?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fjackson-databind-2.14.2.jar",
+      "type": "library",
+      "name": "com.fasterxml.jackson.core:jackson-databind",
+      "version": "2.14.2",
+      "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.14.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/schema-registry/jackson-databind-2.14.2.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.fasterxml.jackson.dataformat/jackson-dataformat-csv@2.14.2?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fjackson-dataformat-csv-2.14.2.jar",
+      "type": "library",
+      "name": "com.fasterxml.jackson.dataformat:jackson-dataformat-csv",
+      "version": "2.14.2",
+      "purl": "pkg:maven/com.fasterxml.jackson.dataformat/jackson-dataformat-csv@2.14.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/schema-registry/jackson-dataformat-csv-2.14.2.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.fasterxml.jackson.dataformat/jackson-dataformat-yaml@2.14.2?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fjackson-dataformat-yaml-2.14.2.jar",
+      "type": "library",
+      "name": "com.fasterxml.jackson.dataformat:jackson-dataformat-yaml",
+      "version": "2.14.2",
+      "purl": "pkg:maven/com.fasterxml.jackson.dataformat/jackson-dataformat-yaml@2.14.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/schema-registry/jackson-dataformat-yaml-2.14.2.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-guava@2.14.2?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fjackson-datatype-guava-2.14.2.jar",
+      "type": "library",
+      "name": "com.fasterxml.jackson.datatype:jackson-datatype-guava",
+      "version": "2.14.2",
+      "purl": "pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-guava@2.14.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/schema-registry/jackson-datatype-guava-2.14.2.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-jdk8@2.14.2?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fjackson-datatype-jdk8-2.14.2.jar",
+      "type": "library",
+      "name": "com.fasterxml.jackson.datatype:jackson-datatype-jdk8",
+      "version": "2.14.2",
+      "purl": "pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-jdk8@2.14.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/schema-registry/jackson-datatype-jdk8-2.14.2.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-joda@2.14.2?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fjackson-datatype-joda-2.14.2.jar",
+      "type": "library",
+      "name": "com.fasterxml.jackson.datatype:jackson-datatype-joda",
+      "version": "2.14.2",
+      "purl": "pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-joda@2.14.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/schema-registry/jackson-datatype-joda-2.14.2.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-jsr310@2.14.2?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fjackson-datatype-jsr310-2.14.2.jar",
+      "type": "library",
+      "name": "com.fasterxml.jackson.datatype:jackson-datatype-jsr310",
+      "version": "2.14.2",
+      "purl": "pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-jsr310@2.14.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/schema-registry/jackson-datatype-jsr310-2.14.2.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.fasterxml.jackson.module/jackson-module-parameter-names@2.14.2?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fjackson-module-parameter-names-2.14.2.jar",
+      "type": "library",
+      "name": "com.fasterxml.jackson.module:jackson-module-parameter-names",
+      "version": "2.14.2",
+      "purl": "pkg:maven/com.fasterxml.jackson.module/jackson-module-parameter-names@2.14.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/schema-registry/jackson-module-parameter-names-2.14.2.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.fasterxml.jackson.module/jackson-module-scala_2.13@2.14.2?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fjackson-module-scala_2.13-2.14.2.jar",
+      "type": "library",
+      "name": "com.fasterxml.jackson.module:jackson-module-scala_2.13",
+      "version": "2.14.2",
+      "purl": "pkg:maven/com.fasterxml.jackson.module/jackson-module-scala_2.13@2.14.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/schema-registry/jackson-module-scala_2.13-2.14.2.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.fasterxml/classmate@1.3.4?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fclassmate-1.3.4.jar",
+      "type": "library",
+      "name": "com.fasterxml:classmate",
+      "version": "1.3.4",
+      "purl": "pkg:maven/com.fasterxml/classmate@1.3.4",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/schema-registry/classmate-1.3.4.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.github.erosb/everit-json-schema@1.14.2?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Feverit-json-schema-1.14.2.jar",
+      "type": "library",
+      "name": "com.github.erosb:everit-json-schema",
+      "version": "1.14.2",
+      "purl": "pkg:maven/com.github.erosb/everit-json-schema@1.14.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/schema-registry/everit-json-schema-1.14.2.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.github.luben/zstd-jni@1.5.2-1?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fzstd-jni-1.5.2-1.jar",
+      "type": "library",
+      "name": "com.github.luben:zstd-jni",
+      "version": "1.5.2-1",
+      "purl": "pkg:maven/com.github.luben/zstd-jni@1.5.2-1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/schema-registry/zstd-jni-1.5.2-1.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.google.api.grpc/proto-google-common-protos@2.5.1?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fproto-google-common-protos-2.5.1.jar",
+      "type": "library",
+      "name": "com.google.api.grpc:proto-google-common-protos",
+      "version": "2.5.1",
+      "purl": "pkg:maven/com.google.api.grpc/proto-google-common-protos@2.5.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/schema-registry/proto-google-common-protos-2.5.1.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.google.code.findbugs/jsr305@3.0.2?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fjsr305-3.0.2.jar",
+      "type": "library",
+      "name": "com.google.code.findbugs:jsr305",
+      "version": "3.0.2",
+      "purl": "pkg:maven/com.google.code.findbugs/jsr305@3.0.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/schema-registry/jsr305-3.0.2.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.google.code.gson/gson@2.9.0?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fgson-2.9.0.jar",
+      "type": "library",
+      "name": "com.google.code.gson:gson",
+      "version": "2.9.0",
+      "purl": "pkg:maven/com.google.code.gson/gson@2.9.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/schema-registry/gson-2.9.0.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.google.errorprone/error_prone_annotations@2.5.1?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Ferror_prone_annotations-2.5.1.jar",
+      "type": "library",
+      "name": "com.google.errorprone:error_prone_annotations",
+      "version": "2.5.1",
+      "purl": "pkg:maven/com.google.errorprone/error_prone_annotations@2.5.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/schema-registry/error_prone_annotations-2.5.1.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.google.guava/failureaccess@1.0.1?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Ffailureaccess-1.0.1.jar",
+      "type": "library",
+      "name": "com.google.guava:failureaccess",
+      "version": "1.0.1",
+      "purl": "pkg:maven/com.google.guava/failureaccess@1.0.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/schema-registry/failureaccess-1.0.1.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.google.guava/guava@30.1.1-jre?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fguava-30.1.1-jre.jar",
+      "type": "library",
+      "name": "com.google.guava:guava",
+      "version": "30.1.1-jre",
+      "purl": "pkg:maven/com.google.guava/guava@30.1.1-jre",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/schema-registry/guava-30.1.1-jre.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.google.guava/listenablefuture@9999.0-empty-to-avoid-conflict-with-guava?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Flistenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar",
+      "type": "library",
+      "name": "com.google.guava:listenablefuture",
+      "version": "9999.0-empty-to-avoid-conflict-with-guava",
+      "purl": "pkg:maven/com.google.guava/listenablefuture@9999.0-empty-to-avoid-conflict-with-guava",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/schema-registry/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.google.j2objc/j2objc-annotations@1.3?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fj2objc-annotations-1.3.jar",
+      "type": "library",
+      "name": "com.google.j2objc:j2objc-annotations",
+      "version": "1.3",
+      "purl": "pkg:maven/com.google.j2objc/j2objc-annotations@1.3",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/schema-registry/j2objc-annotations-1.3.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.google.protobuf/protobuf-java-util@3.19.6?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fprotobuf-java-util-3.19.6.jar",
+      "type": "library",
+      "name": "com.google.protobuf:protobuf-java-util",
+      "version": "3.19.6",
+      "purl": "pkg:maven/com.google.protobuf/protobuf-java-util@3.19.6",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/schema-registry/protobuf-java-util-3.19.6.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.google.protobuf/protobuf-java@3.19.6?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fprotobuf-java-3.19.6.jar",
+      "type": "library",
+      "name": "com.google.protobuf:protobuf-java",
+      "version": "3.19.6",
+      "purl": "pkg:maven/com.google.protobuf/protobuf-java@3.19.6",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/schema-registry/protobuf-java-3.19.6.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.google.re2j/re2j@1.6?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fre2j-1.6.jar",
+      "type": "library",
+      "name": "com.google.re2j:re2j",
+      "version": "1.6",
+      "purl": "pkg:maven/com.google.re2j/re2j@1.6",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/schema-registry/re2j-1.6.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.kjetland/mbknor-jackson-jsonschema_2.13@1.0.39?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fmbknor-jackson-jsonschema_2.13-1.0.39.jar",
+      "type": "library",
+      "name": "com.kjetland:mbknor-jackson-jsonschema_2.13",
+      "version": "1.0.39",
+      "purl": "pkg:maven/com.kjetland/mbknor-jackson-jsonschema_2.13@1.0.39",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/schema-registry/mbknor-jackson-jsonschema_2.13-1.0.39.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.squareup.okio/okio-jvm@3.0.0?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fokio-jvm-3.0.0.jar",
+      "type": "library",
+      "name": "com.squareup.okio:okio-jvm",
+      "version": "3.0.0",
+      "purl": "pkg:maven/com.squareup.okio/okio-jvm@3.0.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/schema-registry/okio-jvm-3.0.0.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.squareup.okio/okio@3.0.0?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fokio-3.0.0.jar",
+      "type": "library",
+      "name": "com.squareup.okio:okio",
+      "version": "3.0.0",
+      "purl": "pkg:maven/com.squareup.okio/okio@3.0.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/schema-registry/okio-3.0.0.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.squareup.wire/wire-runtime-jvm@4.3.0?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fwire-runtime-jvm-4.3.0.jar",
+      "type": "library",
+      "name": "com.squareup.wire:wire-runtime-jvm",
+      "version": "4.3.0",
+      "purl": "pkg:maven/com.squareup.wire/wire-runtime-jvm@4.3.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/schema-registry/wire-runtime-jvm-4.3.0.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.squareup.wire/wire-schema-jvm@4.3.0?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fwire-schema-jvm-4.3.0.jar",
+      "type": "library",
+      "name": "com.squareup.wire:wire-schema-jvm",
+      "version": "4.3.0",
+      "purl": "pkg:maven/com.squareup.wire/wire-schema-jvm@4.3.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/schema-registry/wire-schema-jvm-4.3.0.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.thoughtworks.paranamer/paranamer@2.8?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fparanamer-2.8.jar",
+      "type": "library",
+      "name": "com.thoughtworks.paranamer:paranamer",
+      "version": "2.8",
+      "purl": "pkg:maven/com.thoughtworks.paranamer/paranamer@2.8",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/schema-registry/paranamer-2.8.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.typesafe.scala-logging/scala-logging_2.13@3.9.4?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fscala-logging_2.13-3.9.4.jar",
+      "type": "library",
+      "name": "com.typesafe.scala-logging:scala-logging_2.13",
+      "version": "3.9.4",
+      "purl": "pkg:maven/com.typesafe.scala-logging/scala-logging_2.13@3.9.4",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/schema-registry/scala-logging_2.13-3.9.4.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.yammer.metrics/metrics-core@2.2.0?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fmetrics-core-2.2.0.jar",
+      "type": "library",
+      "name": "com.yammer.metrics:metrics-core",
+      "version": "2.2.0",
+      "purl": "pkg:maven/com.yammer.metrics/metrics-core@2.2.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/schema-registry/metrics-core-2.2.0.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/commons-cli/commons-cli@1.4?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fcommons-cli-1.4.jar",
+      "type": "library",
+      "name": "commons-cli:commons-cli",
+      "version": "1.4",
+      "purl": "pkg:maven/commons-cli/commons-cli@1.4",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/schema-registry/commons-cli-1.4.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/commons-collections/commons-collections@3.2.2?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fcommons-collections-3.2.2.jar",
+      "type": "library",
+      "name": "commons-collections:commons-collections",
+      "version": "3.2.2",
+      "purl": "pkg:maven/commons-collections/commons-collections@3.2.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/schema-registry/commons-collections-3.2.2.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/commons-digester/commons-digester@2.1?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fcommons-digester-2.1.jar",
+      "type": "library",
+      "name": "commons-digester:commons-digester",
+      "version": "2.1",
+      "purl": "pkg:maven/commons-digester/commons-digester@2.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/schema-registry/commons-digester-2.1.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/commons-logging/commons-logging@1.2?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fcommons-logging-1.2.jar",
+      "type": "library",
+      "name": "commons-logging:commons-logging",
+      "version": "1.2",
+      "purl": "pkg:maven/commons-logging/commons-logging@1.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/schema-registry/commons-logging-1.2.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/commons-validator/commons-validator@1.7?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fcommons-validator-1.7.jar",
+      "type": "library",
+      "name": "commons-validator:commons-validator",
+      "version": "1.7",
+      "purl": "pkg:maven/commons-validator/commons-validator@1.7",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/schema-registry/commons-validator-1.7.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/io.confluent/kafka-avro-serializer@7.2.6?file_path=usr%2Fshare%2Fjava%2Fkafka-serde-tools%2Fkafka-avro-serializer-7.2.6.jar",
+      "type": "library",
+      "name": "io.confluent:kafka-avro-serializer",
+      "version": "7.2.6",
+      "purl": "pkg:maven/io.confluent/kafka-avro-serializer@7.2.6",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/kafka-serde-tools/kafka-avro-serializer-7.2.6.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/io.confluent/kafka-connect-avro-converter@7.2.6?file_path=usr%2Fshare%2Fjava%2Fkafka-serde-tools%2Fkafka-connect-avro-converter-7.2.6.jar",
+      "type": "library",
+      "name": "io.confluent:kafka-connect-avro-converter",
+      "version": "7.2.6",
+      "purl": "pkg:maven/io.confluent/kafka-connect-avro-converter@7.2.6",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/kafka-serde-tools/kafka-connect-avro-converter-7.2.6.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/io.confluent/kafka-connect-avro-data@7.2.6?file_path=usr%2Fshare%2Fjava%2Fkafka-serde-tools%2Fkafka-connect-avro-data-7.2.6.jar",
+      "type": "library",
+      "name": "io.confluent:kafka-connect-avro-data",
+      "version": "7.2.6",
+      "purl": "pkg:maven/io.confluent/kafka-connect-avro-data@7.2.6",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/kafka-serde-tools/kafka-connect-avro-data-7.2.6.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/io.confluent/kafka-connect-json-schema-converter@7.2.6?file_path=usr%2Fshare%2Fjava%2Fkafka-serde-tools%2Fkafka-connect-json-schema-converter-7.2.6.jar",
+      "type": "library",
+      "name": "io.confluent:kafka-connect-json-schema-converter",
+      "version": "7.2.6",
+      "purl": "pkg:maven/io.confluent/kafka-connect-json-schema-converter@7.2.6",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/kafka-serde-tools/kafka-connect-json-schema-converter-7.2.6.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/io.confluent/kafka-connect-protobuf-converter@7.2.6?file_path=usr%2Fshare%2Fjava%2Fkafka-serde-tools%2Fkafka-connect-protobuf-converter-7.2.6.jar",
+      "type": "library",
+      "name": "io.confluent:kafka-connect-protobuf-converter",
+      "version": "7.2.6",
+      "purl": "pkg:maven/io.confluent/kafka-connect-protobuf-converter@7.2.6",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/kafka-serde-tools/kafka-connect-protobuf-converter-7.2.6.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/io.confluent/kafka-json-schema-provider@7.2.6?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fkafka-json-schema-provider-7.2.6.jar",
+      "type": "library",
+      "name": "io.confluent:kafka-json-schema-provider",
+      "version": "7.2.6",
+      "purl": "pkg:maven/io.confluent/kafka-json-schema-provider@7.2.6",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/schema-registry/kafka-json-schema-provider-7.2.6.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/io.confluent/kafka-json-schema-serializer@7.2.6?file_path=usr%2Fshare%2Fjava%2Fkafka-serde-tools%2Fkafka-json-schema-serializer-7.2.6.jar",
+      "type": "library",
+      "name": "io.confluent:kafka-json-schema-serializer",
+      "version": "7.2.6",
+      "purl": "pkg:maven/io.confluent/kafka-json-schema-serializer@7.2.6",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/kafka-serde-tools/kafka-json-schema-serializer-7.2.6.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/io.confluent/kafka-json-serializer@7.2.6?file_path=usr%2Fshare%2Fjava%2Fkafka-serde-tools%2Fkafka-json-serializer-7.2.6.jar",
+      "type": "library",
+      "name": "io.confluent:kafka-json-serializer",
+      "version": "7.2.6",
+      "purl": "pkg:maven/io.confluent/kafka-json-serializer@7.2.6",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/kafka-serde-tools/kafka-json-serializer-7.2.6.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/io.confluent/kafka-protobuf-provider@7.2.6?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fkafka-protobuf-provider-7.2.6.jar",
+      "type": "library",
+      "name": "io.confluent:kafka-protobuf-provider",
+      "version": "7.2.6",
+      "purl": "pkg:maven/io.confluent/kafka-protobuf-provider@7.2.6",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/schema-registry/kafka-protobuf-provider-7.2.6.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/io.confluent/kafka-protobuf-serializer@7.2.6?file_path=usr%2Fshare%2Fjava%2Fkafka-serde-tools%2Fkafka-protobuf-serializer-7.2.6.jar",
+      "type": "library",
+      "name": "io.confluent:kafka-protobuf-serializer",
+      "version": "7.2.6",
+      "purl": "pkg:maven/io.confluent/kafka-protobuf-serializer@7.2.6",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/kafka-serde-tools/kafka-protobuf-serializer-7.2.6.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/io.confluent/kafka-protobuf-types@7.2.6?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fkafka-protobuf-types-7.2.6.jar",
+      "type": "library",
+      "name": "io.confluent:kafka-protobuf-types",
+      "version": "7.2.6",
+      "purl": "pkg:maven/io.confluent/kafka-protobuf-types@7.2.6",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/schema-registry/kafka-protobuf-types-7.2.6.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/io.confluent/kafka-schema-converter@7.2.6?file_path=usr%2Fshare%2Fjava%2Fkafka-serde-tools%2Fkafka-schema-converter-7.2.6.jar",
+      "type": "library",
+      "name": "io.confluent:kafka-schema-converter",
+      "version": "7.2.6",
+      "purl": "pkg:maven/io.confluent/kafka-schema-converter@7.2.6",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/kafka-serde-tools/kafka-schema-converter-7.2.6.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/io.confluent/kafka-schema-registry-client@7.2.6?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fkafka-schema-registry-client-7.2.6.jar",
+      "type": "library",
+      "name": "io.confluent:kafka-schema-registry-client",
+      "version": "7.2.6",
+      "purl": "pkg:maven/io.confluent/kafka-schema-registry-client@7.2.6",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/schema-registry/kafka-schema-registry-client-7.2.6.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/io.confluent/kafka-schema-registry@7.2.6?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fkafka-schema-registry-7.2.6.jar",
+      "type": "library",
+      "name": "io.confluent:kafka-schema-registry",
+      "version": "7.2.6",
+      "purl": "pkg:maven/io.confluent/kafka-schema-registry@7.2.6",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/schema-registry/kafka-schema-registry-7.2.6.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/io.confluent/kafka-schema-serializer@7.2.6?file_path=usr%2Fshare%2Fjava%2Fkafka-serde-tools%2Fkafka-schema-serializer-7.2.6.jar",
+      "type": "library",
+      "name": "io.confluent:kafka-schema-serializer",
+      "version": "7.2.6",
+      "purl": "pkg:maven/io.confluent/kafka-schema-serializer@7.2.6",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/kafka-serde-tools/kafka-schema-serializer-7.2.6.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/io.confluent/kafka-streams-avro-serde@7.2.6?file_path=usr%2Fshare%2Fjava%2Fkafka-serde-tools%2Fkafka-streams-avro-serde-7.2.6.jar",
+      "type": "library",
+      "name": "io.confluent:kafka-streams-avro-serde",
+      "version": "7.2.6",
+      "purl": "pkg:maven/io.confluent/kafka-streams-avro-serde@7.2.6",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/kafka-serde-tools/kafka-streams-avro-serde-7.2.6.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/io.confluent/kafka-streams-json-schema-serde@7.2.6?file_path=usr%2Fshare%2Fjava%2Fkafka-serde-tools%2Fkafka-streams-json-schema-serde-7.2.6.jar",
+      "type": "library",
+      "name": "io.confluent:kafka-streams-json-schema-serde",
+      "version": "7.2.6",
+      "purl": "pkg:maven/io.confluent/kafka-streams-json-schema-serde@7.2.6",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/kafka-serde-tools/kafka-streams-json-schema-serde-7.2.6.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/io.confluent/kafka-streams-protobuf-serde@7.2.6?file_path=usr%2Fshare%2Fjava%2Fkafka-serde-tools%2Fkafka-streams-protobuf-serde-7.2.6.jar",
+      "type": "library",
+      "name": "io.confluent:kafka-streams-protobuf-serde",
+      "version": "7.2.6",
+      "purl": "pkg:maven/io.confluent/kafka-streams-protobuf-serde@7.2.6",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/kafka-serde-tools/kafka-streams-protobuf-serde-7.2.6.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/io.confluent/logredactor-metrics@1.0.12?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Flogredactor-metrics-1.0.12.jar",
+      "type": "library",
+      "name": "io.confluent:logredactor-metrics",
+      "version": "1.0.12",
+      "purl": "pkg:maven/io.confluent/logredactor-metrics@1.0.12",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/schema-registry/logredactor-metrics-1.0.12.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/io.confluent/logredactor@1.0.12?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Flogredactor-1.0.12.jar",
+      "type": "library",
+      "name": "io.confluent:logredactor",
+      "version": "1.0.12",
+      "purl": "pkg:maven/io.confluent/logredactor@1.0.12",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/schema-registry/logredactor-1.0.12.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/io.dropwizard.metrics/metrics-core@4.1.12.1?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fmetrics-core-4.1.12.1.jar",
+      "type": "library",
+      "name": "io.dropwizard.metrics:metrics-core",
+      "version": "4.1.12.1",
+      "purl": "pkg:maven/io.dropwizard.metrics/metrics-core@4.1.12.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/schema-registry/metrics-core-4.1.12.1.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/io.github.classgraph/classgraph@4.8.21?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fclassgraph-4.8.21.jar",
+      "type": "library",
+      "name": "io.github.classgraph:classgraph",
+      "version": "4.8.21",
+      "purl": "pkg:maven/io.github.classgraph/classgraph@4.8.21",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/schema-registry/classgraph-4.8.21.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/io.netty/netty-buffer@4.1.86.Final?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fnetty-buffer-4.1.86.Final.jar",
+      "type": "library",
+      "name": "io.netty:netty-buffer",
+      "version": "4.1.86.Final",
+      "purl": "pkg:maven/io.netty/netty-buffer@4.1.86.Final",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/schema-registry/netty-buffer-4.1.86.Final.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/io.netty/netty-codec@4.1.86.Final?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fnetty-codec-4.1.86.Final.jar",
+      "type": "library",
+      "name": "io.netty:netty-codec",
+      "version": "4.1.86.Final",
+      "purl": "pkg:maven/io.netty/netty-codec@4.1.86.Final",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/schema-registry/netty-codec-4.1.86.Final.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/io.netty/netty-common@4.1.86.Final?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fnetty-common-4.1.86.Final.jar",
+      "type": "library",
+      "name": "io.netty:netty-common",
+      "version": "4.1.86.Final",
+      "purl": "pkg:maven/io.netty/netty-common@4.1.86.Final",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/schema-registry/netty-common-4.1.86.Final.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/io.netty/netty-resolver@4.1.86.Final?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fnetty-resolver-4.1.86.Final.jar",
+      "type": "library",
+      "name": "io.netty:netty-resolver",
+      "version": "4.1.86.Final",
+      "purl": "pkg:maven/io.netty/netty-resolver@4.1.86.Final",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/schema-registry/netty-resolver-4.1.86.Final.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/io.netty/netty-transport@4.1.86.Final?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fnetty-transport-4.1.86.Final.jar",
+      "type": "library",
+      "name": "io.netty:netty-transport",
+      "version": "4.1.86.Final",
+      "purl": "pkg:maven/io.netty/netty-transport@4.1.86.Final",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/schema-registry/netty-transport-4.1.86.Final.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/io.swagger.core.v3/swagger-annotations@2.1.10?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fswagger-annotations-2.1.10.jar",
+      "type": "library",
+      "name": "io.swagger.core.v3:swagger-annotations",
+      "version": "2.1.10",
+      "purl": "pkg:maven/io.swagger.core.v3/swagger-annotations@2.1.10",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/schema-registry/swagger-annotations-2.1.10.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/io.swagger.core.v3/swagger-core@2.1.10?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fswagger-core-2.1.10.jar",
+      "type": "library",
+      "name": "io.swagger.core.v3:swagger-core",
+      "version": "2.1.10",
+      "purl": "pkg:maven/io.swagger.core.v3/swagger-core@2.1.10",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/schema-registry/swagger-core-2.1.10.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/io.swagger.core.v3/swagger-models@2.1.10?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fswagger-models-2.1.10.jar",
+      "type": "library",
+      "name": "io.swagger.core.v3:swagger-models",
+      "version": "2.1.10",
+      "purl": "pkg:maven/io.swagger.core.v3/swagger-models@2.1.10",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/schema-registry/swagger-models-2.1.10.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/jakarta.activation/jakarta.activation-api@1.2.1?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fjakarta.activation-api-1.2.1.jar",
+      "type": "library",
+      "name": "jakarta.activation:jakarta.activation-api",
+      "version": "1.2.1",
+      "purl": "pkg:maven/jakarta.activation/jakarta.activation-api@1.2.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/schema-registry/jakarta.activation-api-1.2.1.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/jakarta.annotation/jakarta.annotation-api@1.3.5?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fjakarta.annotation-api-1.3.5.jar",
+      "type": "library",
+      "name": "jakarta.annotation:jakarta.annotation-api",
+      "version": "1.3.5",
+      "purl": "pkg:maven/jakarta.annotation/jakarta.annotation-api@1.3.5",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/schema-registry/jakarta.annotation-api-1.3.5.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/jakarta.el/jakarta.el-api@4.0.0?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fjakarta.el-api-4.0.0.jar",
+      "type": "library",
+      "name": "jakarta.el:jakarta.el-api",
+      "version": "4.0.0",
+      "purl": "pkg:maven/jakarta.el/jakarta.el-api@4.0.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/schema-registry/jakarta.el-api-4.0.0.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/jakarta.validation/jakarta.validation-api@2.0.2?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fjakarta.validation-api-2.0.2.jar",
+      "type": "library",
+      "name": "jakarta.validation:jakarta.validation-api",
+      "version": "2.0.2",
+      "purl": "pkg:maven/jakarta.validation/jakarta.validation-api@2.0.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/schema-registry/jakarta.validation-api-2.0.2.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/jakarta.ws.rs/jakarta.ws.rs-api@2.1.6?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fjakarta.ws.rs-api-2.1.6.jar",
+      "type": "library",
+      "name": "jakarta.ws.rs:jakarta.ws.rs-api",
+      "version": "2.1.6",
+      "purl": "pkg:maven/jakarta.ws.rs/jakarta.ws.rs-api@2.1.6",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/schema-registry/jakarta.ws.rs-api-2.1.6.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/jakarta.xml.bind/jakarta.xml.bind-api@2.3.2?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fjakarta.xml.bind-api-2.3.2.jar",
+      "type": "library",
+      "name": "jakarta.xml.bind:jakarta.xml.bind-api",
+      "version": "2.3.2",
+      "purl": "pkg:maven/jakarta.xml.bind/jakarta.xml.bind-api@2.3.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/schema-registry/jakarta.xml.bind-api-2.3.2.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/javax.validation/validation-api@2.0.1.Final?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fvalidation-api-2.0.1.Final.jar",
+      "type": "library",
+      "name": "javax.validation:validation-api",
+      "version": "2.0.1.Final",
+      "purl": "pkg:maven/javax.validation/validation-api@2.0.1.Final",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/schema-registry/validation-api-2.0.1.Final.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/joda-time/joda-time@2.10.8?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fjoda-time-2.10.8.jar",
+      "type": "library",
+      "name": "joda-time:joda-time",
+      "version": "2.10.8",
+      "purl": "pkg:maven/joda-time/joda-time@2.10.8",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/schema-registry/joda-time-2.10.8.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/net.sf.jopt-simple/jopt-simple@5.0.4?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fjopt-simple-5.0.4.jar",
+      "type": "library",
+      "name": "net.sf.jopt-simple:jopt-simple",
+      "version": "5.0.4",
+      "purl": "pkg:maven/net.sf.jopt-simple/jopt-simple@5.0.4",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/schema-registry/jopt-simple-5.0.4.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/net.sourceforge.argparse4j/argparse4j@0.7.0?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fargparse4j-0.7.0.jar",
+      "type": "library",
+      "name": "net.sourceforge.argparse4j:argparse4j",
+      "version": "0.7.0",
+      "purl": "pkg:maven/net.sourceforge.argparse4j/argparse4j@0.7.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/schema-registry/argparse4j-0.7.0.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.apache.avro/avro@1.11.0?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Favro-1.11.0.jar",
+      "type": "library",
+      "name": "org.apache.avro:avro",
+      "version": "1.11.0",
+      "purl": "pkg:maven/org.apache.avro/avro@1.11.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/schema-registry/avro-1.11.0.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.apache.commons/commons-compress@1.21?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fcommons-compress-1.21.jar",
+      "type": "library",
+      "name": "org.apache.commons:commons-compress",
+      "version": "1.21",
+      "purl": "pkg:maven/org.apache.commons/commons-compress@1.21",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/schema-registry/commons-compress-1.21.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.apache.commons/commons-lang3@3.7?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fcommons-lang3-3.7.jar",
+      "type": "library",
+      "name": "org.apache.commons:commons-lang3",
+      "version": "3.7",
+      "purl": "pkg:maven/org.apache.commons/commons-lang3@3.7",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/schema-registry/commons-lang3-3.7.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.apache.kafka/kafka-clients@7.2.6-ccs?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fkafka-clients-7.2.6-ccs.jar",
+      "type": "library",
+      "name": "org.apache.kafka:kafka-clients",
+      "version": "7.2.6-ccs",
+      "purl": "pkg:maven/org.apache.kafka/kafka-clients@7.2.6-ccs",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/schema-registry/kafka-clients-7.2.6-ccs.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.apache.kafka/kafka-metadata@7.2.6-ccs?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fkafka-metadata-7.2.6-ccs.jar",
+      "type": "library",
+      "name": "org.apache.kafka:kafka-metadata",
+      "version": "7.2.6-ccs",
+      "purl": "pkg:maven/org.apache.kafka/kafka-metadata@7.2.6-ccs",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/schema-registry/kafka-metadata-7.2.6-ccs.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.apache.kafka/kafka-raft@7.2.6-ccs?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fkafka-raft-7.2.6-ccs.jar",
+      "type": "library",
+      "name": "org.apache.kafka:kafka-raft",
+      "version": "7.2.6-ccs",
+      "purl": "pkg:maven/org.apache.kafka/kafka-raft@7.2.6-ccs",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/schema-registry/kafka-raft-7.2.6-ccs.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.apache.kafka/kafka-server-common@7.2.6-ccs?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fkafka-server-common-7.2.6-ccs.jar",
+      "type": "library",
+      "name": "org.apache.kafka:kafka-server-common",
+      "version": "7.2.6-ccs",
+      "purl": "pkg:maven/org.apache.kafka/kafka-server-common@7.2.6-ccs",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/schema-registry/kafka-server-common-7.2.6-ccs.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.apache.kafka/kafka-storage-api@7.2.6-ccs?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fkafka-storage-api-7.2.6-ccs.jar",
+      "type": "library",
+      "name": "org.apache.kafka:kafka-storage-api",
+      "version": "7.2.6-ccs",
+      "purl": "pkg:maven/org.apache.kafka/kafka-storage-api@7.2.6-ccs",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/schema-registry/kafka-storage-api-7.2.6-ccs.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.apache.kafka/kafka-storage@7.2.6-ccs?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fkafka-storage-7.2.6-ccs.jar",
+      "type": "library",
+      "name": "org.apache.kafka:kafka-storage",
+      "version": "7.2.6-ccs",
+      "purl": "pkg:maven/org.apache.kafka/kafka-storage@7.2.6-ccs",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/schema-registry/kafka-storage-7.2.6-ccs.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.apache.kafka/kafka-streams@7.2.6-ccs?file_path=usr%2Fshare%2Fjava%2Fkafka-serde-tools%2Fkafka-streams-7.2.6-ccs.jar",
+      "type": "library",
+      "name": "org.apache.kafka:kafka-streams",
+      "version": "7.2.6-ccs",
+      "purl": "pkg:maven/org.apache.kafka/kafka-streams@7.2.6-ccs",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/kafka-serde-tools/kafka-streams-7.2.6-ccs.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.apache.kafka/kafka_2.13@7.2.6-ccs?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fkafka_2.13-7.2.6-ccs.jar",
+      "type": "library",
+      "name": "org.apache.kafka:kafka_2.13",
+      "version": "7.2.6-ccs",
+      "purl": "pkg:maven/org.apache.kafka/kafka_2.13@7.2.6-ccs",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/schema-registry/kafka_2.13-7.2.6-ccs.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.apache.yetus/audience-annotations@0.5.0?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Faudience-annotations-0.5.0.jar",
+      "type": "library",
+      "name": "org.apache.yetus:audience-annotations",
+      "version": "0.5.0",
+      "purl": "pkg:maven/org.apache.yetus/audience-annotations@0.5.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/schema-registry/audience-annotations-0.5.0.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.apache.zookeeper/zookeeper-jute@3.6.3?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fzookeeper-jute-3.6.3.jar",
+      "type": "library",
+      "name": "org.apache.zookeeper:zookeeper-jute",
+      "version": "3.6.3",
+      "purl": "pkg:maven/org.apache.zookeeper/zookeeper-jute@3.6.3",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/schema-registry/zookeeper-jute-3.6.3.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.apache.zookeeper/zookeeper@3.6.3?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fzookeeper-3.6.3.jar",
+      "type": "library",
+      "name": "org.apache.zookeeper:zookeeper",
+      "version": "3.6.3",
+      "purl": "pkg:maven/org.apache.zookeeper/zookeeper@3.6.3",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/schema-registry/zookeeper-3.6.3.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.bitbucket.b_c/jose4j@0.9.3?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fjose4j-0.9.3.jar",
+      "type": "library",
+      "name": "org.bitbucket.b_c:jose4j",
+      "version": "0.9.3",
+      "purl": "pkg:maven/org.bitbucket.b_c/jose4j@0.9.3",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/schema-registry/jose4j-0.9.3.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.checkerframework/checker-qual@3.8.0?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fchecker-qual-3.8.0.jar",
+      "type": "library",
+      "name": "org.checkerframework:checker-qual",
+      "version": "3.8.0",
+      "purl": "pkg:maven/org.checkerframework/checker-qual@3.8.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/schema-registry/checker-qual-3.8.0.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.glassfish.hk2.external/jakarta.inject@2.6.1?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fjakarta.inject-2.6.1.jar",
+      "type": "library",
+      "name": "org.glassfish.hk2.external:jakarta.inject",
+      "version": "2.6.1",
+      "purl": "pkg:maven/org.glassfish.hk2.external/jakarta.inject@2.6.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/schema-registry/jakarta.inject-2.6.1.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.glassfish.hk2/osgi-resource-locator@1.0.3?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fosgi-resource-locator-1.0.3.jar",
+      "type": "library",
+      "name": "org.glassfish.hk2:osgi-resource-locator",
+      "version": "1.0.3",
+      "purl": "pkg:maven/org.glassfish.hk2/osgi-resource-locator@1.0.3",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/schema-registry/osgi-resource-locator-1.0.3.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.glassfish.jersey.core/jersey-client@2.36?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fjersey-client-2.36.jar",
+      "type": "library",
+      "name": "org.glassfish.jersey.core:jersey-client",
+      "version": "2.36",
+      "purl": "pkg:maven/org.glassfish.jersey.core/jersey-client@2.36",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/schema-registry/jersey-client-2.36.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.glassfish.jersey.core/jersey-common@2.36?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fjersey-common-2.36.jar",
+      "type": "library",
+      "name": "org.glassfish.jersey.core:jersey-common",
+      "version": "2.36",
+      "purl": "pkg:maven/org.glassfish.jersey.core/jersey-common@2.36",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/schema-registry/jersey-common-2.36.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.glassfish.jersey.core/jersey-server@2.36?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fjersey-server-2.36.jar",
+      "type": "library",
+      "name": "org.glassfish.jersey.core:jersey-server",
+      "version": "2.36",
+      "purl": "pkg:maven/org.glassfish.jersey.core/jersey-server@2.36",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/schema-registry/jersey-server-2.36.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.glassfish.jersey.ext/jersey-bean-validation@2.36?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fjersey-bean-validation-2.36.jar",
+      "type": "library",
+      "name": "org.glassfish.jersey.ext:jersey-bean-validation",
+      "version": "2.36",
+      "purl": "pkg:maven/org.glassfish.jersey.ext/jersey-bean-validation@2.36",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/schema-registry/jersey-bean-validation-2.36.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.glassfish/jakarta.el@3.0.4?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fjakarta.el-3.0.4.jar",
+      "type": "library",
+      "name": "org.glassfish:jakarta.el",
+      "version": "3.0.4",
+      "purl": "pkg:maven/org.glassfish/jakarta.el@3.0.4",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/schema-registry/jakarta.el-3.0.4.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.hibernate.validator/hibernate-validator@6.1.7.Final?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fhibernate-validator-6.1.7.Final.jar",
+      "type": "library",
+      "name": "org.hibernate.validator:hibernate-validator",
+      "version": "6.1.7.Final",
+      "purl": "pkg:maven/org.hibernate.validator/hibernate-validator@6.1.7.Final",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/schema-registry/hibernate-validator-6.1.7.Final.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.jboss.logging/jboss-logging@3.3.2.Final?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fjboss-logging-3.3.2.Final.jar",
+      "type": "library",
+      "name": "org.jboss.logging:jboss-logging",
+      "version": "3.3.2.Final",
+      "purl": "pkg:maven/org.jboss.logging/jboss-logging@3.3.2.Final",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/schema-registry/jboss-logging-3.3.2.Final.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.jctools/jctools-core@3.1.0?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fnetty-common-4.1.86.Final.jar",
+      "type": "library",
+      "name": "org.jctools:jctools-core",
+      "version": "3.1.0",
+      "purl": "pkg:maven/org.jctools/jctools-core@3.1.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/schema-registry/netty-common-4.1.86.Final.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.jetbrains.kotlin/kotlin-script-runtime@1.6.0?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fkotlin-script-runtime-1.6.0.jar",
+      "type": "library",
+      "name": "org.jetbrains.kotlin:kotlin-script-runtime",
+      "version": "1.6.0",
+      "purl": "pkg:maven/org.jetbrains.kotlin/kotlin-script-runtime@1.6.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/schema-registry/kotlin-script-runtime-1.6.0.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.jetbrains.kotlin/kotlin-scripting-common@1.6.0?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fkotlin-scripting-common-1.6.0.jar",
+      "type": "library",
+      "name": "org.jetbrains.kotlin:kotlin-scripting-common",
+      "version": "1.6.0",
+      "purl": "pkg:maven/org.jetbrains.kotlin/kotlin-scripting-common@1.6.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/schema-registry/kotlin-scripting-common-1.6.0.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.jetbrains.kotlin/kotlin-scripting-compiler-embeddable@1.6.0?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fkotlin-scripting-compiler-embeddable-1.6.0.jar",
+      "type": "library",
+      "name": "org.jetbrains.kotlin:kotlin-scripting-compiler-embeddable",
+      "version": "1.6.0",
+      "purl": "pkg:maven/org.jetbrains.kotlin/kotlin-scripting-compiler-embeddable@1.6.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/schema-registry/kotlin-scripting-compiler-embeddable-1.6.0.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.jetbrains.kotlin/kotlin-scripting-compiler-impl-embeddable@1.6.0?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fkotlin-scripting-compiler-impl-embeddable-1.6.0.jar",
+      "type": "library",
+      "name": "org.jetbrains.kotlin:kotlin-scripting-compiler-impl-embeddable",
+      "version": "1.6.0",
+      "purl": "pkg:maven/org.jetbrains.kotlin/kotlin-scripting-compiler-impl-embeddable@1.6.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/schema-registry/kotlin-scripting-compiler-impl-embeddable-1.6.0.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.jetbrains.kotlin/kotlin-scripting-jvm@1.6.0?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fkotlin-scripting-jvm-1.6.0.jar",
+      "type": "library",
+      "name": "org.jetbrains.kotlin:kotlin-scripting-jvm",
+      "version": "1.6.0",
+      "purl": "pkg:maven/org.jetbrains.kotlin/kotlin-scripting-jvm@1.6.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/schema-registry/kotlin-scripting-jvm-1.6.0.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib-common@1.6.0?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fkotlin-stdlib-common-1.6.0.jar",
+      "type": "library",
+      "name": "org.jetbrains.kotlin:kotlin-stdlib-common",
+      "version": "1.6.0",
+      "purl": "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib-common@1.6.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/schema-registry/kotlin-stdlib-common-1.6.0.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib-common@1.6.10?file_path=usr%2Fshare%2Fjava%2Fkafka-serde-tools%2Fkotlin-stdlib-common-1.6.10.jar",
+      "type": "library",
+      "name": "org.jetbrains.kotlin:kotlin-stdlib-common",
+      "version": "1.6.10",
+      "purl": "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib-common@1.6.10",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/kafka-serde-tools/kotlin-stdlib-common-1.6.10.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib-jdk7@1.6.10?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fkotlin-stdlib-jdk7-1.6.10.jar",
+      "type": "library",
+      "name": "org.jetbrains.kotlin:kotlin-stdlib-jdk7",
+      "version": "1.6.10",
+      "purl": "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib-jdk7@1.6.10",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/schema-registry/kotlin-stdlib-jdk7-1.6.10.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib-jdk8@1.6.10?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fkotlin-stdlib-jdk8-1.6.10.jar",
+      "type": "library",
+      "name": "org.jetbrains.kotlin:kotlin-stdlib-jdk8",
+      "version": "1.6.10",
+      "purl": "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib-jdk8@1.6.10",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/schema-registry/kotlin-stdlib-jdk8-1.6.10.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib@1.6.0?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fkotlin-stdlib-1.6.0.jar",
+      "type": "library",
+      "name": "org.jetbrains.kotlin:kotlin-stdlib",
+      "version": "1.6.0",
+      "purl": "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib@1.6.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/schema-registry/kotlin-stdlib-1.6.0.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.jetbrains/annotations@13.0?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fannotations-13.0.jar",
+      "type": "library",
+      "name": "org.jetbrains:annotations",
+      "version": "13.0",
+      "purl": "pkg:maven/org.jetbrains/annotations@13.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/schema-registry/annotations-13.0.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.json/json@20230227?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fjson-20230227.jar",
+      "type": "library",
+      "name": "org.json:json",
+      "version": "20230227",
+      "purl": "pkg:maven/org.json/json@20230227",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/schema-registry/json-20230227.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.lz4/lz4-java@1.8.0?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Flz4-java-1.8.0.jar",
+      "type": "library",
+      "name": "org.lz4:lz4-java",
+      "version": "1.8.0",
+      "purl": "pkg:maven/org.lz4/lz4-java@1.8.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/schema-registry/lz4-java-1.8.0.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.rocksdb/rocksdbjni@7.1.2?file_path=usr%2Fshare%2Fjava%2Fkafka-serde-tools%2Frocksdbjni-7.1.2.jar",
+      "type": "library",
+      "name": "org.rocksdb:rocksdbjni",
+      "version": "7.1.2",
+      "purl": "pkg:maven/org.rocksdb/rocksdbjni@7.1.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/kafka-serde-tools/rocksdbjni-7.1.2.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.scala-lang.modules/scala-collection-compat_2.13@2.6.0?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fscala-collection-compat_2.13-2.6.0.jar",
+      "type": "library",
+      "name": "org.scala-lang.modules:scala-collection-compat_2.13",
+      "version": "2.6.0",
+      "purl": "pkg:maven/org.scala-lang.modules/scala-collection-compat_2.13@2.6.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/schema-registry/scala-collection-compat_2.13-2.6.0.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.scala-lang.modules/scala-java8-compat_2.13@1.0.2?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fscala-java8-compat_2.13-1.0.2.jar",
+      "type": "library",
+      "name": "org.scala-lang.modules:scala-java8-compat_2.13",
+      "version": "1.0.2",
+      "purl": "pkg:maven/org.scala-lang.modules/scala-java8-compat_2.13@1.0.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/schema-registry/scala-java8-compat_2.13-1.0.2.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.scala-lang/scala-library@2.13.10?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fscala-library-2.13.10.jar",
+      "type": "library",
+      "name": "org.scala-lang:scala-library",
+      "version": "2.13.10",
+      "purl": "pkg:maven/org.scala-lang/scala-library@2.13.10",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/schema-registry/scala-library-2.13.10.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.scala-lang/scala-reflect@2.13.10?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fscala-reflect-2.13.10.jar",
+      "type": "library",
+      "name": "org.scala-lang:scala-reflect",
+      "version": "2.13.10",
+      "purl": "pkg:maven/org.scala-lang/scala-reflect@2.13.10",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/schema-registry/scala-reflect-2.13.10.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.slf4j/slf4j-api@1.7.36?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fslf4j-api-1.7.36.jar",
+      "type": "library",
+      "name": "org.slf4j:slf4j-api",
+      "version": "1.7.36",
+      "purl": "pkg:maven/org.slf4j/slf4j-api@1.7.36",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/schema-registry/slf4j-api-1.7.36.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.slf4j/slf4j-reload4j@1.7.36?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fslf4j-reload4j-1.7.36.jar",
+      "type": "library",
+      "name": "org.slf4j:slf4j-reload4j",
+      "version": "1.7.36",
+      "purl": "pkg:maven/org.slf4j/slf4j-reload4j@1.7.36",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/schema-registry/slf4j-reload4j-1.7.36.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.xerial.snappy/snappy-java@1.1.10.1?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fsnappy-java-1.1.10.1.jar",
+      "type": "library",
+      "name": "org.xerial.snappy:snappy-java",
+      "version": "1.1.10.1",
+      "purl": "pkg:maven/org.xerial.snappy/snappy-java@1.1.10.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/schema-registry/snappy-java-1.1.10.1.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.yaml/snakeyaml@2.0?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fsnakeyaml-2.0.jar",
+      "type": "library",
+      "name": "org.yaml:snakeyaml",
+      "version": "2.0",
+      "purl": "pkg:maven/org.yaml/snakeyaml@2.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "usr/share/java/schema-registry/snakeyaml-2.0.jar"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "jar"
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "5452ad4f-5192-4c36-b44f-db1764101f66",
+      "dependsOn": [
+        "pkg:maven/ch.qos.reload4j/reload4j@1.2.19?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Freload4j-1.2.19.jar",
+        "pkg:maven/com.damnhandy/handy-uri-templates@2.1.8?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fhandy-uri-templates-2.1.8.jar",
+        "pkg:maven/com.eclipsesource.minimal-json/minimal-json@0.9.5?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fminimal-json-0.9.5.jar",
+        "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.14.2?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fjackson-annotations-2.14.2.jar",
+        "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.14.2?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fjackson-core-2.14.2.jar",
+        "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.14.2?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fjackson-databind-2.14.2.jar",
+        "pkg:maven/com.fasterxml.jackson.dataformat/jackson-dataformat-csv@2.14.2?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fjackson-dataformat-csv-2.14.2.jar",
+        "pkg:maven/com.fasterxml.jackson.dataformat/jackson-dataformat-yaml@2.14.2?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fjackson-dataformat-yaml-2.14.2.jar",
+        "pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-guava@2.14.2?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fjackson-datatype-guava-2.14.2.jar",
+        "pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-jdk8@2.14.2?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fjackson-datatype-jdk8-2.14.2.jar",
+        "pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-joda@2.14.2?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fjackson-datatype-joda-2.14.2.jar",
+        "pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-jsr310@2.14.2?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fjackson-datatype-jsr310-2.14.2.jar",
+        "pkg:maven/com.fasterxml.jackson.module/jackson-module-parameter-names@2.14.2?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fjackson-module-parameter-names-2.14.2.jar",
+        "pkg:maven/com.fasterxml.jackson.module/jackson-module-scala_2.13@2.14.2?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fjackson-module-scala_2.13-2.14.2.jar",
+        "pkg:maven/com.fasterxml/classmate@1.3.4?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fclassmate-1.3.4.jar",
+        "pkg:maven/com.github.erosb/everit-json-schema@1.14.2?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Feverit-json-schema-1.14.2.jar",
+        "pkg:maven/com.github.luben/zstd-jni@1.5.2-1?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fzstd-jni-1.5.2-1.jar",
+        "pkg:maven/com.google.api.grpc/proto-google-common-protos@2.5.1?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fproto-google-common-protos-2.5.1.jar",
+        "pkg:maven/com.google.code.findbugs/jsr305@3.0.2?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fjsr305-3.0.2.jar",
+        "pkg:maven/com.google.code.gson/gson@2.9.0?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fgson-2.9.0.jar",
+        "pkg:maven/com.google.errorprone/error_prone_annotations@2.5.1?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Ferror_prone_annotations-2.5.1.jar",
+        "pkg:maven/com.google.guava/failureaccess@1.0.1?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Ffailureaccess-1.0.1.jar",
+        "pkg:maven/com.google.guava/guava@30.1.1-jre?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fguava-30.1.1-jre.jar",
+        "pkg:maven/com.google.guava/listenablefuture@9999.0-empty-to-avoid-conflict-with-guava?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Flistenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar",
+        "pkg:maven/com.google.j2objc/j2objc-annotations@1.3?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fj2objc-annotations-1.3.jar",
+        "pkg:maven/com.google.protobuf/protobuf-java-util@3.19.6?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fprotobuf-java-util-3.19.6.jar",
+        "pkg:maven/com.google.protobuf/protobuf-java@3.19.6?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fprotobuf-java-3.19.6.jar",
+        "pkg:maven/com.google.re2j/re2j@1.6?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fre2j-1.6.jar",
+        "pkg:maven/com.kjetland/mbknor-jackson-jsonschema_2.13@1.0.39?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fmbknor-jackson-jsonschema_2.13-1.0.39.jar",
+        "pkg:maven/com.squareup.okio/okio-jvm@3.0.0?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fokio-jvm-3.0.0.jar",
+        "pkg:maven/com.squareup.okio/okio@3.0.0?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fokio-3.0.0.jar",
+        "pkg:maven/com.squareup.wire/wire-runtime-jvm@4.3.0?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fwire-runtime-jvm-4.3.0.jar",
+        "pkg:maven/com.squareup.wire/wire-schema-jvm@4.3.0?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fwire-schema-jvm-4.3.0.jar",
+        "pkg:maven/com.thoughtworks.paranamer/paranamer@2.8?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fparanamer-2.8.jar",
+        "pkg:maven/com.typesafe.scala-logging/scala-logging_2.13@3.9.4?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fscala-logging_2.13-3.9.4.jar",
+        "pkg:maven/com.yammer.metrics/metrics-core@2.2.0?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fmetrics-core-2.2.0.jar",
+        "pkg:maven/commons-cli/commons-cli@1.4?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fcommons-cli-1.4.jar",
+        "pkg:maven/commons-collections/commons-collections@3.2.2?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fcommons-collections-3.2.2.jar",
+        "pkg:maven/commons-digester/commons-digester@2.1?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fcommons-digester-2.1.jar",
+        "pkg:maven/commons-logging/commons-logging@1.2?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fcommons-logging-1.2.jar",
+        "pkg:maven/commons-validator/commons-validator@1.7?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fcommons-validator-1.7.jar",
+        "pkg:maven/io.confluent/kafka-avro-serializer@7.2.6?file_path=usr%2Fshare%2Fjava%2Fkafka-serde-tools%2Fkafka-avro-serializer-7.2.6.jar",
+        "pkg:maven/io.confluent/kafka-connect-avro-converter@7.2.6?file_path=usr%2Fshare%2Fjava%2Fkafka-serde-tools%2Fkafka-connect-avro-converter-7.2.6.jar",
+        "pkg:maven/io.confluent/kafka-connect-avro-data@7.2.6?file_path=usr%2Fshare%2Fjava%2Fkafka-serde-tools%2Fkafka-connect-avro-data-7.2.6.jar",
+        "pkg:maven/io.confluent/kafka-connect-json-schema-converter@7.2.6?file_path=usr%2Fshare%2Fjava%2Fkafka-serde-tools%2Fkafka-connect-json-schema-converter-7.2.6.jar",
+        "pkg:maven/io.confluent/kafka-connect-protobuf-converter@7.2.6?file_path=usr%2Fshare%2Fjava%2Fkafka-serde-tools%2Fkafka-connect-protobuf-converter-7.2.6.jar",
+        "pkg:maven/io.confluent/kafka-json-schema-provider@7.2.6?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fkafka-json-schema-provider-7.2.6.jar",
+        "pkg:maven/io.confluent/kafka-json-schema-serializer@7.2.6?file_path=usr%2Fshare%2Fjava%2Fkafka-serde-tools%2Fkafka-json-schema-serializer-7.2.6.jar",
+        "pkg:maven/io.confluent/kafka-json-serializer@7.2.6?file_path=usr%2Fshare%2Fjava%2Fkafka-serde-tools%2Fkafka-json-serializer-7.2.6.jar",
+        "pkg:maven/io.confluent/kafka-protobuf-provider@7.2.6?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fkafka-protobuf-provider-7.2.6.jar",
+        "pkg:maven/io.confluent/kafka-protobuf-serializer@7.2.6?file_path=usr%2Fshare%2Fjava%2Fkafka-serde-tools%2Fkafka-protobuf-serializer-7.2.6.jar",
+        "pkg:maven/io.confluent/kafka-protobuf-types@7.2.6?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fkafka-protobuf-types-7.2.6.jar",
+        "pkg:maven/io.confluent/kafka-schema-converter@7.2.6?file_path=usr%2Fshare%2Fjava%2Fkafka-serde-tools%2Fkafka-schema-converter-7.2.6.jar",
+        "pkg:maven/io.confluent/kafka-schema-registry-client@7.2.6?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fkafka-schema-registry-client-7.2.6.jar",
+        "pkg:maven/io.confluent/kafka-schema-registry@7.2.6?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fkafka-schema-registry-7.2.6.jar",
+        "pkg:maven/io.confluent/kafka-schema-serializer@7.2.6?file_path=usr%2Fshare%2Fjava%2Fkafka-serde-tools%2Fkafka-schema-serializer-7.2.6.jar",
+        "pkg:maven/io.confluent/kafka-streams-avro-serde@7.2.6?file_path=usr%2Fshare%2Fjava%2Fkafka-serde-tools%2Fkafka-streams-avro-serde-7.2.6.jar",
+        "pkg:maven/io.confluent/kafka-streams-json-schema-serde@7.2.6?file_path=usr%2Fshare%2Fjava%2Fkafka-serde-tools%2Fkafka-streams-json-schema-serde-7.2.6.jar",
+        "pkg:maven/io.confluent/kafka-streams-protobuf-serde@7.2.6?file_path=usr%2Fshare%2Fjava%2Fkafka-serde-tools%2Fkafka-streams-protobuf-serde-7.2.6.jar",
+        "pkg:maven/io.confluent/logredactor-metrics@1.0.12?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Flogredactor-metrics-1.0.12.jar",
+        "pkg:maven/io.confluent/logredactor@1.0.12?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Flogredactor-1.0.12.jar",
+        "pkg:maven/io.dropwizard.metrics/metrics-core@4.1.12.1?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fmetrics-core-4.1.12.1.jar",
+        "pkg:maven/io.github.classgraph/classgraph@4.8.21?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fclassgraph-4.8.21.jar",
+        "pkg:maven/io.netty/netty-buffer@4.1.86.Final?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fnetty-buffer-4.1.86.Final.jar",
+        "pkg:maven/io.netty/netty-codec@4.1.86.Final?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fnetty-codec-4.1.86.Final.jar",
+        "pkg:maven/io.netty/netty-common@4.1.86.Final?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fnetty-common-4.1.86.Final.jar",
+        "pkg:maven/io.netty/netty-resolver@4.1.86.Final?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fnetty-resolver-4.1.86.Final.jar",
+        "pkg:maven/io.netty/netty-transport@4.1.86.Final?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fnetty-transport-4.1.86.Final.jar",
+        "pkg:maven/io.swagger.core.v3/swagger-annotations@2.1.10?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fswagger-annotations-2.1.10.jar",
+        "pkg:maven/io.swagger.core.v3/swagger-core@2.1.10?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fswagger-core-2.1.10.jar",
+        "pkg:maven/io.swagger.core.v3/swagger-models@2.1.10?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fswagger-models-2.1.10.jar",
+        "pkg:maven/jakarta.activation/jakarta.activation-api@1.2.1?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fjakarta.activation-api-1.2.1.jar",
+        "pkg:maven/jakarta.annotation/jakarta.annotation-api@1.3.5?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fjakarta.annotation-api-1.3.5.jar",
+        "pkg:maven/jakarta.el/jakarta.el-api@4.0.0?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fjakarta.el-api-4.0.0.jar",
+        "pkg:maven/jakarta.validation/jakarta.validation-api@2.0.2?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fjakarta.validation-api-2.0.2.jar",
+        "pkg:maven/jakarta.ws.rs/jakarta.ws.rs-api@2.1.6?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fjakarta.ws.rs-api-2.1.6.jar",
+        "pkg:maven/jakarta.xml.bind/jakarta.xml.bind-api@2.3.2?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fjakarta.xml.bind-api-2.3.2.jar",
+        "pkg:maven/javax.validation/validation-api@2.0.1.Final?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fvalidation-api-2.0.1.Final.jar",
+        "pkg:maven/joda-time/joda-time@2.10.8?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fjoda-time-2.10.8.jar",
+        "pkg:maven/net.sf.jopt-simple/jopt-simple@5.0.4?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fjopt-simple-5.0.4.jar",
+        "pkg:maven/net.sourceforge.argparse4j/argparse4j@0.7.0?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fargparse4j-0.7.0.jar",
+        "pkg:maven/org.apache.avro/avro@1.11.0?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Favro-1.11.0.jar",
+        "pkg:maven/org.apache.commons/commons-compress@1.21?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fcommons-compress-1.21.jar",
+        "pkg:maven/org.apache.commons/commons-lang3@3.7?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fcommons-lang3-3.7.jar",
+        "pkg:maven/org.apache.kafka/kafka-clients@7.2.6-ccs?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fkafka-clients-7.2.6-ccs.jar",
+        "pkg:maven/org.apache.kafka/kafka-metadata@7.2.6-ccs?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fkafka-metadata-7.2.6-ccs.jar",
+        "pkg:maven/org.apache.kafka/kafka-raft@7.2.6-ccs?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fkafka-raft-7.2.6-ccs.jar",
+        "pkg:maven/org.apache.kafka/kafka-server-common@7.2.6-ccs?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fkafka-server-common-7.2.6-ccs.jar",
+        "pkg:maven/org.apache.kafka/kafka-storage-api@7.2.6-ccs?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fkafka-storage-api-7.2.6-ccs.jar",
+        "pkg:maven/org.apache.kafka/kafka-storage@7.2.6-ccs?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fkafka-storage-7.2.6-ccs.jar",
+        "pkg:maven/org.apache.kafka/kafka-streams@7.2.6-ccs?file_path=usr%2Fshare%2Fjava%2Fkafka-serde-tools%2Fkafka-streams-7.2.6-ccs.jar",
+        "pkg:maven/org.apache.kafka/kafka_2.13@7.2.6-ccs?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fkafka_2.13-7.2.6-ccs.jar",
+        "pkg:maven/org.apache.yetus/audience-annotations@0.5.0?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Faudience-annotations-0.5.0.jar",
+        "pkg:maven/org.apache.zookeeper/zookeeper-jute@3.6.3?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fzookeeper-jute-3.6.3.jar",
+        "pkg:maven/org.apache.zookeeper/zookeeper@3.6.3?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fzookeeper-3.6.3.jar",
+        "pkg:maven/org.bitbucket.b_c/jose4j@0.9.3?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fjose4j-0.9.3.jar",
+        "pkg:maven/org.checkerframework/checker-qual@3.8.0?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fchecker-qual-3.8.0.jar",
+        "pkg:maven/org.glassfish.hk2.external/jakarta.inject@2.6.1?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fjakarta.inject-2.6.1.jar",
+        "pkg:maven/org.glassfish.hk2/osgi-resource-locator@1.0.3?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fosgi-resource-locator-1.0.3.jar",
+        "pkg:maven/org.glassfish.jersey.core/jersey-client@2.36?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fjersey-client-2.36.jar",
+        "pkg:maven/org.glassfish.jersey.core/jersey-common@2.36?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fjersey-common-2.36.jar",
+        "pkg:maven/org.glassfish.jersey.core/jersey-server@2.36?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fjersey-server-2.36.jar",
+        "pkg:maven/org.glassfish.jersey.ext/jersey-bean-validation@2.36?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fjersey-bean-validation-2.36.jar",
+        "pkg:maven/org.glassfish/jakarta.el@3.0.4?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fjakarta.el-3.0.4.jar",
+        "pkg:maven/org.hibernate.validator/hibernate-validator@6.1.7.Final?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fhibernate-validator-6.1.7.Final.jar",
+        "pkg:maven/org.jboss.logging/jboss-logging@3.3.2.Final?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fjboss-logging-3.3.2.Final.jar",
+        "pkg:maven/org.jctools/jctools-core@3.1.0?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fnetty-common-4.1.86.Final.jar",
+        "pkg:maven/org.jetbrains.kotlin/kotlin-script-runtime@1.6.0?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fkotlin-script-runtime-1.6.0.jar",
+        "pkg:maven/org.jetbrains.kotlin/kotlin-scripting-common@1.6.0?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fkotlin-scripting-common-1.6.0.jar",
+        "pkg:maven/org.jetbrains.kotlin/kotlin-scripting-compiler-embeddable@1.6.0?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fkotlin-scripting-compiler-embeddable-1.6.0.jar",
+        "pkg:maven/org.jetbrains.kotlin/kotlin-scripting-compiler-impl-embeddable@1.6.0?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fkotlin-scripting-compiler-impl-embeddable-1.6.0.jar",
+        "pkg:maven/org.jetbrains.kotlin/kotlin-scripting-jvm@1.6.0?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fkotlin-scripting-jvm-1.6.0.jar",
+        "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib-common@1.6.0?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fkotlin-stdlib-common-1.6.0.jar",
+        "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib-common@1.6.10?file_path=usr%2Fshare%2Fjava%2Fkafka-serde-tools%2Fkotlin-stdlib-common-1.6.10.jar",
+        "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib-jdk7@1.6.10?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fkotlin-stdlib-jdk7-1.6.10.jar",
+        "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib-jdk8@1.6.10?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fkotlin-stdlib-jdk8-1.6.10.jar",
+        "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib@1.6.0?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fkotlin-stdlib-1.6.0.jar",
+        "pkg:maven/org.jetbrains/annotations@13.0?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fannotations-13.0.jar",
+        "pkg:maven/org.json/json@20230227?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fjson-20230227.jar",
+        "pkg:maven/org.lz4/lz4-java@1.8.0?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Flz4-java-1.8.0.jar",
+        "pkg:maven/org.rocksdb/rocksdbjni@7.1.2?file_path=usr%2Fshare%2Fjava%2Fkafka-serde-tools%2Frocksdbjni-7.1.2.jar",
+        "pkg:maven/org.scala-lang.modules/scala-collection-compat_2.13@2.6.0?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fscala-collection-compat_2.13-2.6.0.jar",
+        "pkg:maven/org.scala-lang.modules/scala-java8-compat_2.13@1.0.2?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fscala-java8-compat_2.13-1.0.2.jar",
+        "pkg:maven/org.scala-lang/scala-library@2.13.10?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fscala-library-2.13.10.jar",
+        "pkg:maven/org.scala-lang/scala-reflect@2.13.10?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fscala-reflect-2.13.10.jar",
+        "pkg:maven/org.slf4j/slf4j-api@1.7.36?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fslf4j-api-1.7.36.jar",
+        "pkg:maven/org.slf4j/slf4j-reload4j@1.7.36?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fslf4j-reload4j-1.7.36.jar",
+        "pkg:maven/org.xerial.snappy/snappy-java@1.1.10.1?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fsnappy-java-1.1.10.1.jar",
+        "pkg:maven/org.yaml/snakeyaml@2.0?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fsnakeyaml-2.0.jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/ch.qos.reload4j/reload4j@1.2.19?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Freload4j-1.2.19.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.damnhandy/handy-uri-templates@2.1.8?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fhandy-uri-templates-2.1.8.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.eclipsesource.minimal-json/minimal-json@0.9.5?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fminimal-json-0.9.5.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.14.2?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fjackson-annotations-2.14.2.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.14.2?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fjackson-core-2.14.2.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.14.2?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fjackson-databind-2.14.2.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.fasterxml.jackson.dataformat/jackson-dataformat-csv@2.14.2?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fjackson-dataformat-csv-2.14.2.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.fasterxml.jackson.dataformat/jackson-dataformat-yaml@2.14.2?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fjackson-dataformat-yaml-2.14.2.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-guava@2.14.2?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fjackson-datatype-guava-2.14.2.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-jdk8@2.14.2?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fjackson-datatype-jdk8-2.14.2.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-joda@2.14.2?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fjackson-datatype-joda-2.14.2.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-jsr310@2.14.2?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fjackson-datatype-jsr310-2.14.2.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.fasterxml.jackson.module/jackson-module-parameter-names@2.14.2?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fjackson-module-parameter-names-2.14.2.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.fasterxml.jackson.module/jackson-module-scala_2.13@2.14.2?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fjackson-module-scala_2.13-2.14.2.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.fasterxml/classmate@1.3.4?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fclassmate-1.3.4.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.github.erosb/everit-json-schema@1.14.2?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Feverit-json-schema-1.14.2.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.github.luben/zstd-jni@1.5.2-1?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fzstd-jni-1.5.2-1.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.google.api.grpc/proto-google-common-protos@2.5.1?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fproto-google-common-protos-2.5.1.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.google.code.findbugs/jsr305@3.0.2?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fjsr305-3.0.2.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.google.code.gson/gson@2.9.0?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fgson-2.9.0.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.google.errorprone/error_prone_annotations@2.5.1?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Ferror_prone_annotations-2.5.1.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.google.guava/failureaccess@1.0.1?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Ffailureaccess-1.0.1.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.google.guava/guava@30.1.1-jre?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fguava-30.1.1-jre.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.google.guava/listenablefuture@9999.0-empty-to-avoid-conflict-with-guava?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Flistenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.google.j2objc/j2objc-annotations@1.3?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fj2objc-annotations-1.3.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.google.protobuf/protobuf-java-util@3.19.6?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fprotobuf-java-util-3.19.6.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.google.protobuf/protobuf-java@3.19.6?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fprotobuf-java-3.19.6.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.google.re2j/re2j@1.6?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fre2j-1.6.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.kjetland/mbknor-jackson-jsonschema_2.13@1.0.39?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fmbknor-jackson-jsonschema_2.13-1.0.39.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.squareup.okio/okio-jvm@3.0.0?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fokio-jvm-3.0.0.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.squareup.okio/okio@3.0.0?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fokio-3.0.0.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.squareup.wire/wire-runtime-jvm@4.3.0?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fwire-runtime-jvm-4.3.0.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.squareup.wire/wire-schema-jvm@4.3.0?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fwire-schema-jvm-4.3.0.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.thoughtworks.paranamer/paranamer@2.8?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fparanamer-2.8.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.typesafe.scala-logging/scala-logging_2.13@3.9.4?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fscala-logging_2.13-3.9.4.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.yammer.metrics/metrics-core@2.2.0?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fmetrics-core-2.2.0.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/commons-cli/commons-cli@1.4?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fcommons-cli-1.4.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/commons-collections/commons-collections@3.2.2?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fcommons-collections-3.2.2.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/commons-digester/commons-digester@2.1?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fcommons-digester-2.1.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/commons-logging/commons-logging@1.2?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fcommons-logging-1.2.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/commons-validator/commons-validator@1.7?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fcommons-validator-1.7.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/io.confluent/kafka-avro-serializer@7.2.6?file_path=usr%2Fshare%2Fjava%2Fkafka-serde-tools%2Fkafka-avro-serializer-7.2.6.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/io.confluent/kafka-connect-avro-converter@7.2.6?file_path=usr%2Fshare%2Fjava%2Fkafka-serde-tools%2Fkafka-connect-avro-converter-7.2.6.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/io.confluent/kafka-connect-avro-data@7.2.6?file_path=usr%2Fshare%2Fjava%2Fkafka-serde-tools%2Fkafka-connect-avro-data-7.2.6.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/io.confluent/kafka-connect-json-schema-converter@7.2.6?file_path=usr%2Fshare%2Fjava%2Fkafka-serde-tools%2Fkafka-connect-json-schema-converter-7.2.6.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/io.confluent/kafka-connect-protobuf-converter@7.2.6?file_path=usr%2Fshare%2Fjava%2Fkafka-serde-tools%2Fkafka-connect-protobuf-converter-7.2.6.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/io.confluent/kafka-json-schema-provider@7.2.6?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fkafka-json-schema-provider-7.2.6.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/io.confluent/kafka-json-schema-serializer@7.2.6?file_path=usr%2Fshare%2Fjava%2Fkafka-serde-tools%2Fkafka-json-schema-serializer-7.2.6.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/io.confluent/kafka-json-serializer@7.2.6?file_path=usr%2Fshare%2Fjava%2Fkafka-serde-tools%2Fkafka-json-serializer-7.2.6.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/io.confluent/kafka-protobuf-provider@7.2.6?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fkafka-protobuf-provider-7.2.6.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/io.confluent/kafka-protobuf-serializer@7.2.6?file_path=usr%2Fshare%2Fjava%2Fkafka-serde-tools%2Fkafka-protobuf-serializer-7.2.6.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/io.confluent/kafka-protobuf-types@7.2.6?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fkafka-protobuf-types-7.2.6.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/io.confluent/kafka-schema-converter@7.2.6?file_path=usr%2Fshare%2Fjava%2Fkafka-serde-tools%2Fkafka-schema-converter-7.2.6.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/io.confluent/kafka-schema-registry-client@7.2.6?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fkafka-schema-registry-client-7.2.6.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/io.confluent/kafka-schema-registry@7.2.6?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fkafka-schema-registry-7.2.6.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/io.confluent/kafka-schema-serializer@7.2.6?file_path=usr%2Fshare%2Fjava%2Fkafka-serde-tools%2Fkafka-schema-serializer-7.2.6.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/io.confluent/kafka-streams-avro-serde@7.2.6?file_path=usr%2Fshare%2Fjava%2Fkafka-serde-tools%2Fkafka-streams-avro-serde-7.2.6.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/io.confluent/kafka-streams-json-schema-serde@7.2.6?file_path=usr%2Fshare%2Fjava%2Fkafka-serde-tools%2Fkafka-streams-json-schema-serde-7.2.6.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/io.confluent/kafka-streams-protobuf-serde@7.2.6?file_path=usr%2Fshare%2Fjava%2Fkafka-serde-tools%2Fkafka-streams-protobuf-serde-7.2.6.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/io.confluent/logredactor-metrics@1.0.12?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Flogredactor-metrics-1.0.12.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/io.confluent/logredactor@1.0.12?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Flogredactor-1.0.12.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/io.dropwizard.metrics/metrics-core@4.1.12.1?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fmetrics-core-4.1.12.1.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/io.github.classgraph/classgraph@4.8.21?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fclassgraph-4.8.21.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/io.netty/netty-buffer@4.1.86.Final?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fnetty-buffer-4.1.86.Final.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/io.netty/netty-codec@4.1.86.Final?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fnetty-codec-4.1.86.Final.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/io.netty/netty-common@4.1.86.Final?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fnetty-common-4.1.86.Final.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/io.netty/netty-resolver@4.1.86.Final?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fnetty-resolver-4.1.86.Final.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/io.netty/netty-transport@4.1.86.Final?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fnetty-transport-4.1.86.Final.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/io.swagger.core.v3/swagger-annotations@2.1.10?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fswagger-annotations-2.1.10.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/io.swagger.core.v3/swagger-core@2.1.10?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fswagger-core-2.1.10.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/io.swagger.core.v3/swagger-models@2.1.10?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fswagger-models-2.1.10.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/jakarta.activation/jakarta.activation-api@1.2.1?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fjakarta.activation-api-1.2.1.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/jakarta.annotation/jakarta.annotation-api@1.3.5?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fjakarta.annotation-api-1.3.5.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/jakarta.el/jakarta.el-api@4.0.0?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fjakarta.el-api-4.0.0.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/jakarta.validation/jakarta.validation-api@2.0.2?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fjakarta.validation-api-2.0.2.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/jakarta.ws.rs/jakarta.ws.rs-api@2.1.6?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fjakarta.ws.rs-api-2.1.6.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/jakarta.xml.bind/jakarta.xml.bind-api@2.3.2?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fjakarta.xml.bind-api-2.3.2.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/javax.validation/validation-api@2.0.1.Final?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fvalidation-api-2.0.1.Final.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/joda-time/joda-time@2.10.8?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fjoda-time-2.10.8.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/net.sf.jopt-simple/jopt-simple@5.0.4?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fjopt-simple-5.0.4.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/net.sourceforge.argparse4j/argparse4j@0.7.0?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fargparse4j-0.7.0.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.apache.avro/avro@1.11.0?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Favro-1.11.0.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.apache.commons/commons-compress@1.21?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fcommons-compress-1.21.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.apache.commons/commons-lang3@3.7?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fcommons-lang3-3.7.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.apache.kafka/kafka-clients@7.2.6-ccs?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fkafka-clients-7.2.6-ccs.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.apache.kafka/kafka-metadata@7.2.6-ccs?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fkafka-metadata-7.2.6-ccs.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.apache.kafka/kafka-raft@7.2.6-ccs?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fkafka-raft-7.2.6-ccs.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.apache.kafka/kafka-server-common@7.2.6-ccs?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fkafka-server-common-7.2.6-ccs.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.apache.kafka/kafka-storage-api@7.2.6-ccs?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fkafka-storage-api-7.2.6-ccs.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.apache.kafka/kafka-storage@7.2.6-ccs?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fkafka-storage-7.2.6-ccs.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.apache.kafka/kafka-streams@7.2.6-ccs?file_path=usr%2Fshare%2Fjava%2Fkafka-serde-tools%2Fkafka-streams-7.2.6-ccs.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.apache.kafka/kafka_2.13@7.2.6-ccs?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fkafka_2.13-7.2.6-ccs.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.apache.yetus/audience-annotations@0.5.0?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Faudience-annotations-0.5.0.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.apache.zookeeper/zookeeper-jute@3.6.3?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fzookeeper-jute-3.6.3.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.apache.zookeeper/zookeeper@3.6.3?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fzookeeper-3.6.3.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.bitbucket.b_c/jose4j@0.9.3?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fjose4j-0.9.3.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.checkerframework/checker-qual@3.8.0?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fchecker-qual-3.8.0.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.glassfish.hk2.external/jakarta.inject@2.6.1?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fjakarta.inject-2.6.1.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.glassfish.hk2/osgi-resource-locator@1.0.3?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fosgi-resource-locator-1.0.3.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.glassfish.jersey.core/jersey-client@2.36?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fjersey-client-2.36.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.glassfish.jersey.core/jersey-common@2.36?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fjersey-common-2.36.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.glassfish.jersey.core/jersey-server@2.36?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fjersey-server-2.36.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.glassfish.jersey.ext/jersey-bean-validation@2.36?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fjersey-bean-validation-2.36.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.glassfish/jakarta.el@3.0.4?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fjakarta.el-3.0.4.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.hibernate.validator/hibernate-validator@6.1.7.Final?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fhibernate-validator-6.1.7.Final.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.jboss.logging/jboss-logging@3.3.2.Final?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fjboss-logging-3.3.2.Final.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.jctools/jctools-core@3.1.0?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fnetty-common-4.1.86.Final.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.jetbrains.kotlin/kotlin-script-runtime@1.6.0?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fkotlin-script-runtime-1.6.0.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.jetbrains.kotlin/kotlin-scripting-common@1.6.0?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fkotlin-scripting-common-1.6.0.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.jetbrains.kotlin/kotlin-scripting-compiler-embeddable@1.6.0?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fkotlin-scripting-compiler-embeddable-1.6.0.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.jetbrains.kotlin/kotlin-scripting-compiler-impl-embeddable@1.6.0?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fkotlin-scripting-compiler-impl-embeddable-1.6.0.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.jetbrains.kotlin/kotlin-scripting-jvm@1.6.0?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fkotlin-scripting-jvm-1.6.0.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib-common@1.6.0?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fkotlin-stdlib-common-1.6.0.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib-common@1.6.10?file_path=usr%2Fshare%2Fjava%2Fkafka-serde-tools%2Fkotlin-stdlib-common-1.6.10.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib-jdk7@1.6.10?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fkotlin-stdlib-jdk7-1.6.10.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib-jdk8@1.6.10?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fkotlin-stdlib-jdk8-1.6.10.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib@1.6.0?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fkotlin-stdlib-1.6.0.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.jetbrains/annotations@13.0?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fannotations-13.0.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.json/json@20230227?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fjson-20230227.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.lz4/lz4-java@1.8.0?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Flz4-java-1.8.0.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.rocksdb/rocksdbjni@7.1.2?file_path=usr%2Fshare%2Fjava%2Fkafka-serde-tools%2Frocksdbjni-7.1.2.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.scala-lang.modules/scala-collection-compat_2.13@2.6.0?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fscala-collection-compat_2.13-2.6.0.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.scala-lang.modules/scala-java8-compat_2.13@1.0.2?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fscala-java8-compat_2.13-1.0.2.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.scala-lang/scala-library@2.13.10?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fscala-library-2.13.10.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.scala-lang/scala-reflect@2.13.10?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fscala-reflect-2.13.10.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.slf4j/slf4j-api@1.7.36?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fslf4j-api-1.7.36.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.slf4j/slf4j-reload4j@1.7.36?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fslf4j-reload4j-1.7.36.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.xerial.snappy/snappy-java@1.1.10.1?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fsnappy-java-1.1.10.1.jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.yaml/snakeyaml@2.0?file_path=usr%2Fshare%2Fjava%2Fschema-registry%2Fsnakeyaml-2.0.jar",
+      "dependsOn": []
+    }
+  ],
+  "vulnerabilities": []
+}

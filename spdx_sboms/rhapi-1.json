@@ -1,0 +1,2590 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "created": "2023-09-05T20:43:00Z",
+    "creators": [
+      "Organization: Red Hat Product Security (secalert@redhat.com)"
+    ],
+    "licenseListVersion": "3.8"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentDescribes": [
+    "SPDXRef-2860db1a-6fe3-4f78-a3b0-f538e5e941ee"
+  ],
+  "documentNamespace": "https://access.redhat.com/security/data/sbom/beta/spdx/rhapi-1-2860db1a-6fe3-4f78-a3b0-f538e5e941ee",
+  "name": "rhapi-1",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-40988848-551a-45b4-aff9-d8180088e010",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://access.redhat.com/downloads/content/package-browser",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:rpm/redhat/skupper-cli@1.2.0-6.el8?arch=src",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "NOASSERTION",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "ASL-2.0",
+      "name": "skupper-cli",
+      "originator": "NOASSERTION",
+      "packageFileName": "skupper-cli-1.2.0-6.el8.src.rpm",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "skupper-cli-1.2.0-6.el8.src"
+    },
+    {
+      "SPDXID": "SPDXRef-6e42e4ab-df14-4ec7-86ae-d504215c2560",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://access.redhat.com/downloads/content/package-browser",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:rpm/redhat/qpid-proton@0.37.0-2.el8ai?arch=src",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "NOASSERTION",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "ASL-2.0",
+      "name": "qpid-proton",
+      "originator": "NOASSERTION",
+      "packageFileName": "qpid-proton-0.37.0-2.el8ai.src.rpm",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "qpid-proton-0.37.0-2.el8ai.src"
+    },
+    {
+      "SPDXID": "SPDXRef-506dbfa0-98bf-4bf5-b257-7b375b324b21",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://access.redhat.com/downloads/content/package-browser",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:rpm/redhat/libwebsockets@4.3.1-1.el8ai?arch=src",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "NOASSERTION",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "LGPLV2 AND PUBLIC-DOMAIN AND BSD AND MIT AND ZLIB",
+      "name": "libwebsockets",
+      "originator": "NOASSERTION",
+      "packageFileName": "libwebsockets-4.3.1-1.el8ai.src.rpm",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "libwebsockets-4.3.1-1.el8ai.src"
+    },
+    {
+      "SPDXID": "SPDXRef-f2d17ff9-88d7-4550-98ce-06dcb2eda3ac",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://access.redhat.com/downloads/content/package-browser",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:rpm/redhat/skupper-router@2.2.1-3.el8?arch=src",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "NOASSERTION",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "ASL-2.0",
+      "name": "skupper-router",
+      "originator": "NOASSERTION",
+      "packageFileName": "skupper-router-2.2.1-3.el8.src.rpm",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "skupper-router-2.2.1-3.el8.src"
+    },
+    {
+      "SPDXID": "SPDXRef-016ae704-d862-4df2-8f7f-1aceb575b941",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://access.redhat.com/downloads/content/package-browser",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:rpm/redhat/qpid-proton-c@0.37.0-2.el8ai?arch=ppc64le",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "NOASSERTION",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "ASL-2.0",
+      "name": "qpid-proton-c",
+      "originator": "NOASSERTION",
+      "packageFileName": "qpid-proton-c-0.37.0-2.el8ai.ppc64le.rpm",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "qpid-proton-c-0.37.0-2.el8ai.ppc64le"
+    },
+    {
+      "SPDXID": "SPDXRef-0304f20b-4ea4-45e1-8a1a-6f09b13f7f15",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://access.redhat.com/downloads/content/package-browser",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:rpm/redhat/skupper-cli@1.2.0-6.el8?arch=ppc64le",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "NOASSERTION",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "ASL-2.0",
+      "name": "skupper-cli",
+      "originator": "NOASSERTION",
+      "packageFileName": "skupper-cli-1.2.0-6.el8.ppc64le.rpm",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "skupper-cli-1.2.0-6.el8.ppc64le"
+    },
+    {
+      "SPDXID": "SPDXRef-05255637-d539-45ee-9901-30f647201adb",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://access.redhat.com/downloads/content/package-browser",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:rpm/redhat/libwebsockets@4.3.1-1.el8ai?arch=x86_64",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "NOASSERTION",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "LGPLV2 AND PUBLIC-DOMAIN AND BSD AND MIT AND ZLIB",
+      "name": "libwebsockets",
+      "originator": "NOASSERTION",
+      "packageFileName": "libwebsockets-4.3.1-1.el8ai.x86_64.rpm",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "libwebsockets-4.3.1-1.el8ai.x86_64"
+    },
+    {
+      "SPDXID": "SPDXRef-05aa789d-100c-4037-9a3b-31c067eeb303",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://access.redhat.com/downloads/content/package-browser",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:rpm/redhat/qpid-proton-debuginfo@0.37.0-2.el8ai?arch=x86_64",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "NOASSERTION",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "ASL-2.0",
+      "name": "qpid-proton-debuginfo",
+      "originator": "NOASSERTION",
+      "packageFileName": "qpid-proton-debuginfo-0.37.0-2.el8ai.x86_64.rpm",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "qpid-proton-debuginfo-0.37.0-2.el8ai.x86_64"
+    },
+    {
+      "SPDXID": "SPDXRef-0e020c28-7deb-48a7-af73-5ca95ab5ed1d",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:generic/ssl-http2",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "NOASSERTION",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "ssl-http2",
+      "originator": "NOASSERTION",
+      "packageFileName": "NOASSERTION",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "ssl-http2-.noarch"
+    },
+    {
+      "SPDXID": "SPDXRef-0e72d246-e954-4f53-ad54-69b3b881e538",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://access.redhat.com/downloads/content/package-browser",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:rpm/redhat/skupper-router-debuginfo@2.2.1-3.el8?arch=s390x",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "NOASSERTION",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "ASL-2.0",
+      "name": "skupper-router-debuginfo",
+      "originator": "NOASSERTION",
+      "packageFileName": "skupper-router-debuginfo-2.2.1-3.el8.s390x.rpm",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "skupper-router-debuginfo-2.2.1-3.el8.s390x"
+    },
+    {
+      "SPDXID": "SPDXRef-16caa8ef-c0da-4b5e-9969-8d5261616a79",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://access.redhat.com/downloads/content/package-browser",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:rpm/redhat/qpid-proton-debuginfo@0.37.0-2.el8ai?arch=aarch64",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "NOASSERTION",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "ASL-2.0",
+      "name": "qpid-proton-debuginfo",
+      "originator": "NOASSERTION",
+      "packageFileName": "qpid-proton-debuginfo-0.37.0-2.el8ai.aarch64.rpm",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "qpid-proton-debuginfo-0.37.0-2.el8ai.aarch64"
+    },
+    {
+      "SPDXID": "SPDXRef-1d5c0e13-c712-4152-8187-11e8bd7bd1ac",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://access.redhat.com/downloads/content/package-browser",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:rpm/redhat/qpid-proton-cpp-devel@0.37.0-2.el8ai?arch=s390x",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "NOASSERTION",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "ASL-2.0",
+      "name": "qpid-proton-cpp-devel",
+      "originator": "NOASSERTION",
+      "packageFileName": "qpid-proton-cpp-devel-0.37.0-2.el8ai.s390x.rpm",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "qpid-proton-cpp-devel-0.37.0-2.el8ai.s390x"
+    },
+    {
+      "SPDXID": "SPDXRef-27a6f04a-3658-48b8-9d98-8b4688027615",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://access.redhat.com/downloads/content/package-browser",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:rpm/redhat/skupper-router@2.2.1-3.el8?arch=ppc64le",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "NOASSERTION",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "ASL-2.0",
+      "name": "skupper-router",
+      "originator": "NOASSERTION",
+      "packageFileName": "skupper-router-2.2.1-3.el8.ppc64le.rpm",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "skupper-router-2.2.1-3.el8.ppc64le"
+    },
+    {
+      "SPDXID": "SPDXRef-27b5d009-fc2a-4eb1-a406-0123a77753ea",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://access.redhat.com/downloads/content/package-browser",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:rpm/redhat/libwebsockets-devel@4.3.1-1.el8ai?arch=aarch64",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "NOASSERTION",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "LGPLV2 AND PUBLIC-DOMAIN AND BSD AND MIT AND ZLIB",
+      "name": "libwebsockets-devel",
+      "originator": "NOASSERTION",
+      "packageFileName": "libwebsockets-devel-4.3.1-1.el8ai.aarch64.rpm",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "libwebsockets-devel-4.3.1-1.el8ai.aarch64"
+    },
+    {
+      "SPDXID": "SPDXRef-2c604b81-a900-4f2d-9ac6-c79fb2e8eca1",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://access.redhat.com/downloads/content/package-browser",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:rpm/redhat/skupper-router@2.2.1-3.el8?arch=aarch64",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "NOASSERTION",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "ASL-2.0",
+      "name": "skupper-router",
+      "originator": "NOASSERTION",
+      "packageFileName": "skupper-router-2.2.1-3.el8.aarch64.rpm",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "skupper-router-2.2.1-3.el8.aarch64"
+    },
+    {
+      "SPDXID": "SPDXRef-2ee6bfa6-7de7-4e9d-a0be-e228e78dfa9d",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://access.redhat.com/downloads/content/package-browser",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:rpm/redhat/qpid-proton-c-devel@0.37.0-2.el8ai?arch=ppc64le",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "NOASSERTION",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "ASL-2.0",
+      "name": "qpid-proton-c-devel",
+      "originator": "NOASSERTION",
+      "packageFileName": "qpid-proton-c-devel-0.37.0-2.el8ai.ppc64le.rpm",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "qpid-proton-c-devel-0.37.0-2.el8ai.ppc64le"
+    },
+    {
+      "SPDXID": "SPDXRef-2fbdee3b-7156-4592-829a-5bcfc61d0b00",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://access.redhat.com/downloads/content/package-browser",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:rpm/redhat/skupper-router-common@2.2.1-3.el8?arch=noarch",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "NOASSERTION",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "ASL-2.0",
+      "name": "skupper-router-common",
+      "originator": "NOASSERTION",
+      "packageFileName": "skupper-router-common-2.2.1-3.el8.noarch.rpm",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "skupper-router-common-2.2.1-3.el8.noarch"
+    },
+    {
+      "SPDXID": "SPDXRef-35c54c7b-259b-4f1c-8ced-08f85cde4a50",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://access.redhat.com/downloads/content/package-browser",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:rpm/redhat/qpid-proton-c-debuginfo@0.37.0-2.el8ai?arch=ppc64le",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "NOASSERTION",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "ASL-2.0",
+      "name": "qpid-proton-c-debuginfo",
+      "originator": "NOASSERTION",
+      "packageFileName": "qpid-proton-c-debuginfo-0.37.0-2.el8ai.ppc64le.rpm",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "qpid-proton-c-debuginfo-0.37.0-2.el8ai.ppc64le"
+    },
+    {
+      "SPDXID": "SPDXRef-372555e7-3445-49bf-a863-c16105e118fa",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://access.redhat.com/downloads/content/package-browser",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:rpm/redhat/rubygem-qpid_proton@0.37.0-2.el8ai?arch=s390x",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "NOASSERTION",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "ASL-2.0",
+      "name": "rubygem-qpid_proton",
+      "originator": "NOASSERTION",
+      "packageFileName": "rubygem-qpid_proton-0.37.0-2.el8ai.s390x.rpm",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "rubygem-qpid_proton-0.37.0-2.el8ai.s390x"
+    },
+    {
+      "SPDXID": "SPDXRef-37a7889c-085d-45d5-9964-47172ffe6e37",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://access.redhat.com/downloads/content/package-browser",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:rpm/redhat/libwebsockets@4.3.1-1.el8ai?arch=s390x",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "NOASSERTION",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "LGPLV2 AND PUBLIC-DOMAIN AND BSD AND MIT AND ZLIB",
+      "name": "libwebsockets",
+      "originator": "NOASSERTION",
+      "packageFileName": "libwebsockets-4.3.1-1.el8ai.s390x.rpm",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "libwebsockets-4.3.1-1.el8ai.s390x"
+    },
+    {
+      "SPDXID": "SPDXRef-37afc28a-4517-45e2-9d66-ad1349a4ed14",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://access.redhat.com/downloads/content/package-browser",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:rpm/redhat/libwebsockets-debugsource@4.3.1-1.el8ai?arch=aarch64",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "NOASSERTION",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "LGPLV2 AND PUBLIC-DOMAIN AND BSD AND MIT AND ZLIB",
+      "name": "libwebsockets-debugsource",
+      "originator": "NOASSERTION",
+      "packageFileName": "libwebsockets-debugsource-4.3.1-1.el8ai.aarch64.rpm",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "libwebsockets-debugsource-4.3.1-1.el8ai.aarch64"
+    },
+    {
+      "SPDXID": "SPDXRef-385c5cb1-dde9-4ac0-be81-f5498ebd9562",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://access.redhat.com/downloads/content/package-browser",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:rpm/redhat/qpid-proton-cpp-docs@0.37.0-2.el8ai?arch=noarch",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "NOASSERTION",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "ASL-2.0",
+      "name": "qpid-proton-cpp-docs",
+      "originator": "NOASSERTION",
+      "packageFileName": "qpid-proton-cpp-docs-0.37.0-2.el8ai.noarch.rpm",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "qpid-proton-cpp-docs-0.37.0-2.el8ai.noarch"
+    },
+    {
+      "SPDXID": "SPDXRef-3dacc94d-9fa4-4d03-9e5e-50aca5a0e11c",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://access.redhat.com/downloads/content/package-browser",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:rpm/redhat/qpid-proton-tests@0.37.0-2.el8ai?arch=noarch",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "NOASSERTION",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "ASL-2.0",
+      "name": "qpid-proton-tests",
+      "originator": "NOASSERTION",
+      "packageFileName": "qpid-proton-tests-0.37.0-2.el8ai.noarch.rpm",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "qpid-proton-tests-0.37.0-2.el8ai.noarch"
+    },
+    {
+      "SPDXID": "SPDXRef-405c84e7-4142-4f9b-b442-0e35971b143a",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://access.redhat.com/downloads/content/package-browser",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:rpm/redhat/libwebsockets@4.3.1-1.el8ai?arch=aarch64",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "NOASSERTION",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "LGPLV2 AND PUBLIC-DOMAIN AND BSD AND MIT AND ZLIB",
+      "name": "libwebsockets",
+      "originator": "NOASSERTION",
+      "packageFileName": "libwebsockets-4.3.1-1.el8ai.aarch64.rpm",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "libwebsockets-4.3.1-1.el8ai.aarch64"
+    },
+    {
+      "SPDXID": "SPDXRef-451b97b1-039f-4b28-a303-c016f13c0cd1",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://access.redhat.com/downloads/content/package-browser",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:rpm/redhat/qpid-proton-c-devel@0.37.0-2.el8ai?arch=x86_64",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "NOASSERTION",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "ASL-2.0",
+      "name": "qpid-proton-c-devel",
+      "originator": "NOASSERTION",
+      "packageFileName": "qpid-proton-c-devel-0.37.0-2.el8ai.x86_64.rpm",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "qpid-proton-c-devel-0.37.0-2.el8ai.x86_64"
+    },
+    {
+      "SPDXID": "SPDXRef-45a5d17b-8d1c-4341-a07a-85272207cd7b",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://access.redhat.com/downloads/content/package-browser",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:rpm/redhat/qpid-proton-c-devel@0.37.0-2.el8ai?arch=s390x",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "NOASSERTION",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "ASL-2.0",
+      "name": "qpid-proton-c-devel",
+      "originator": "NOASSERTION",
+      "packageFileName": "qpid-proton-c-devel-0.37.0-2.el8ai.s390x.rpm",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "qpid-proton-c-devel-0.37.0-2.el8ai.s390x"
+    },
+    {
+      "SPDXID": "SPDXRef-49c0324a-a7fb-4fcf-b4af-e268b1488693",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://access.redhat.com/downloads/content/package-browser",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:rpm/redhat/rubygem-qpid_proton-debuginfo@0.37.0-2.el8ai?arch=x86_64",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "NOASSERTION",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "ASL-2.0",
+      "name": "rubygem-qpid_proton-debuginfo",
+      "originator": "NOASSERTION",
+      "packageFileName": "rubygem-qpid_proton-debuginfo-0.37.0-2.el8ai.x86_64.rpm",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "rubygem-qpid_proton-debuginfo-0.37.0-2.el8ai.x86_64"
+    },
+    {
+      "SPDXID": "SPDXRef-49c8ebf1-1196-4b39-af3c-9a11920cdc57",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://access.redhat.com/downloads/content/package-browser",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:rpm/redhat/qpid-proton-cpp@0.37.0-2.el8ai?arch=aarch64",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "NOASSERTION",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "ASL-2.0",
+      "name": "qpid-proton-cpp",
+      "originator": "NOASSERTION",
+      "packageFileName": "qpid-proton-cpp-0.37.0-2.el8ai.aarch64.rpm",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "qpid-proton-cpp-0.37.0-2.el8ai.aarch64"
+    },
+    {
+      "SPDXID": "SPDXRef-4d92cda8-d0f5-453e-addc-7a356ddb2ebd",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://access.redhat.com/downloads/content/package-browser",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:rpm/redhat/python3-qpid-proton-debuginfo@0.37.0-2.el8ai?arch=ppc64le",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "NOASSERTION",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "ASL-2.0",
+      "name": "python3-qpid-proton-debuginfo",
+      "originator": "NOASSERTION",
+      "packageFileName": "python3-qpid-proton-debuginfo-0.37.0-2.el8ai.ppc64le.rpm",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "python3-qpid-proton-debuginfo-0.37.0-2.el8ai.ppc64le"
+    },
+    {
+      "SPDXID": "SPDXRef-4e1179e5-fbb8-4225-b4e6-897ab2df3cd9",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://access.redhat.com/downloads/content/package-browser",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:rpm/redhat/qpid-proton-c-debuginfo@0.37.0-2.el8ai?arch=s390x",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "NOASSERTION",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "ASL-2.0",
+      "name": "qpid-proton-c-debuginfo",
+      "originator": "NOASSERTION",
+      "packageFileName": "qpid-proton-c-debuginfo-0.37.0-2.el8ai.s390x.rpm",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "qpid-proton-c-debuginfo-0.37.0-2.el8ai.s390x"
+    },
+    {
+      "SPDXID": "SPDXRef-5178e0d9-0807-4103-b27c-de4cf0bc5c4c",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://access.redhat.com/downloads/content/package-browser",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:rpm/redhat/qpid-proton-debuginfo@0.37.0-2.el8ai?arch=ppc64le",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "NOASSERTION",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "ASL-2.0",
+      "name": "qpid-proton-debuginfo",
+      "originator": "NOASSERTION",
+      "packageFileName": "qpid-proton-debuginfo-0.37.0-2.el8ai.ppc64le.rpm",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "qpid-proton-debuginfo-0.37.0-2.el8ai.ppc64le"
+    },
+    {
+      "SPDXID": "SPDXRef-5271fb5c-45c3-4737-ba44-122093e1ec7e",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://access.redhat.com/downloads/content/package-browser",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:rpm/redhat/libwebsockets-debugsource@4.3.1-1.el8ai?arch=x86_64",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "NOASSERTION",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "LGPLV2 AND PUBLIC-DOMAIN AND BSD AND MIT AND ZLIB",
+      "name": "libwebsockets-debugsource",
+      "originator": "NOASSERTION",
+      "packageFileName": "libwebsockets-debugsource-4.3.1-1.el8ai.x86_64.rpm",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "libwebsockets-debugsource-4.3.1-1.el8ai.x86_64"
+    },
+    {
+      "SPDXID": "SPDXRef-5835007d-06d4-4a39-b147-584ba6b445f2",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://access.redhat.com/downloads/content/package-browser",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:rpm/redhat/qpid-proton-cpp-devel@0.37.0-2.el8ai?arch=ppc64le",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "NOASSERTION",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "ASL-2.0",
+      "name": "qpid-proton-cpp-devel",
+      "originator": "NOASSERTION",
+      "packageFileName": "qpid-proton-cpp-devel-0.37.0-2.el8ai.ppc64le.rpm",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "qpid-proton-cpp-devel-0.37.0-2.el8ai.ppc64le"
+    },
+    {
+      "SPDXID": "SPDXRef-59dce7e9-2b4f-486e-bc3b-68b32dde8fad",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://access.redhat.com/downloads/content/package-browser",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:rpm/redhat/qpid-proton-c@0.37.0-2.el8ai?arch=aarch64",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "NOASSERTION",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "ASL-2.0",
+      "name": "qpid-proton-c",
+      "originator": "NOASSERTION",
+      "packageFileName": "qpid-proton-c-0.37.0-2.el8ai.aarch64.rpm",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "qpid-proton-c-0.37.0-2.el8ai.aarch64"
+    },
+    {
+      "SPDXID": "SPDXRef-5d0841ab-5dba-4acc-a9f8-be37965b0f2e",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://access.redhat.com/downloads/content/package-browser",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:rpm/redhat/skupper-cli@1.2.0-6.el8?arch=s390x",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "NOASSERTION",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "ASL-2.0",
+      "name": "skupper-cli",
+      "originator": "NOASSERTION",
+      "packageFileName": "skupper-cli-1.2.0-6.el8.s390x.rpm",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "skupper-cli-1.2.0-6.el8.s390x"
+    },
+    {
+      "SPDXID": "SPDXRef-5e0ad768-8d95-4200-94e0-0eb67b222afd",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://access.redhat.com/downloads/content/package-browser",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:rpm/redhat/qpid-proton-c-debuginfo@0.37.0-2.el8ai?arch=aarch64",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "NOASSERTION",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "ASL-2.0",
+      "name": "qpid-proton-c-debuginfo",
+      "originator": "NOASSERTION",
+      "packageFileName": "qpid-proton-c-debuginfo-0.37.0-2.el8ai.aarch64.rpm",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "qpid-proton-c-debuginfo-0.37.0-2.el8ai.aarch64"
+    },
+    {
+      "SPDXID": "SPDXRef-614d5a76-2c33-463b-af62-73d18770fe66",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://access.redhat.com/downloads/content/package-browser",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:rpm/redhat/libwebsockets-debuginfo@4.3.1-1.el8ai?arch=ppc64le",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "NOASSERTION",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "LGPLV2 AND PUBLIC-DOMAIN AND BSD AND MIT AND ZLIB",
+      "name": "libwebsockets-debuginfo",
+      "originator": "NOASSERTION",
+      "packageFileName": "libwebsockets-debuginfo-4.3.1-1.el8ai.ppc64le.rpm",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "libwebsockets-debuginfo-4.3.1-1.el8ai.ppc64le"
+    },
+    {
+      "SPDXID": "SPDXRef-62e0e9ab-1e33-4482-a9a8-f7195de651b5",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://access.redhat.com/downloads/content/package-browser",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:rpm/redhat/python-qpid-proton-docs@0.37.0-2.el8ai?arch=noarch",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "NOASSERTION",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "ASL-2.0",
+      "name": "python-qpid-proton-docs",
+      "originator": "NOASSERTION",
+      "packageFileName": "python-qpid-proton-docs-0.37.0-2.el8ai.noarch.rpm",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "python-qpid-proton-docs-0.37.0-2.el8ai.noarch"
+    },
+    {
+      "SPDXID": "SPDXRef-632d9f44-dbf2-450c-a1f9-bd7a962651d3",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://access.redhat.com/downloads/content/package-browser",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:rpm/redhat/qpid-proton-debugsource@0.37.0-2.el8ai?arch=ppc64le",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "NOASSERTION",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "ASL-2.0",
+      "name": "qpid-proton-debugsource",
+      "originator": "NOASSERTION",
+      "packageFileName": "qpid-proton-debugsource-0.37.0-2.el8ai.ppc64le.rpm",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "qpid-proton-debugsource-0.37.0-2.el8ai.ppc64le"
+    },
+    {
+      "SPDXID": "SPDXRef-63e3b679-1b3f-4b2a-b6a6-741577ba1da1",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://access.redhat.com/downloads/content/package-browser",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:rpm/redhat/qpid-proton-c-debuginfo@0.37.0-2.el8ai?arch=x86_64",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "NOASSERTION",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "ASL-2.0",
+      "name": "qpid-proton-c-debuginfo",
+      "originator": "NOASSERTION",
+      "packageFileName": "qpid-proton-c-debuginfo-0.37.0-2.el8ai.x86_64.rpm",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "qpid-proton-c-debuginfo-0.37.0-2.el8ai.x86_64"
+    },
+    {
+      "SPDXID": "SPDXRef-6466508b-8c21-4a16-9c59-f63c8f802011",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://access.redhat.com/downloads/content/package-browser",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:rpm/redhat/python3-qpid-proton@0.37.0-2.el8ai?arch=x86_64",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "NOASSERTION",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "ASL-2.0",
+      "name": "python3-qpid-proton",
+      "originator": "NOASSERTION",
+      "packageFileName": "python3-qpid-proton-0.37.0-2.el8ai.x86_64.rpm",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "python3-qpid-proton-0.37.0-2.el8ai.x86_64"
+    },
+    {
+      "SPDXID": "SPDXRef-652f962c-c23d-4717-9e92-3a4f24b9ffc7",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://access.redhat.com/downloads/content/package-browser",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:rpm/redhat/qpid-proton-c-docs@0.37.0-2.el8ai?arch=noarch",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "NOASSERTION",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "ASL-2.0",
+      "name": "qpid-proton-c-docs",
+      "originator": "NOASSERTION",
+      "packageFileName": "qpid-proton-c-docs-0.37.0-2.el8ai.noarch.rpm",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "qpid-proton-c-docs-0.37.0-2.el8ai.noarch"
+    },
+    {
+      "SPDXID": "SPDXRef-671b9a0d-aee4-497a-814b-751994063eda",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://access.redhat.com/downloads/content/package-browser",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:rpm/redhat/qpid-proton-cpp@0.37.0-2.el8ai?arch=s390x",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "NOASSERTION",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "ASL-2.0",
+      "name": "qpid-proton-cpp",
+      "originator": "NOASSERTION",
+      "packageFileName": "qpid-proton-cpp-0.37.0-2.el8ai.s390x.rpm",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "qpid-proton-cpp-0.37.0-2.el8ai.s390x"
+    },
+    {
+      "SPDXID": "SPDXRef-673b16c4-0f3b-4d94-9043-e4a8fe718b40",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://access.redhat.com/downloads/content/package-browser",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:rpm/redhat/python3-qpid-proton-debuginfo@0.37.0-2.el8ai?arch=aarch64",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "NOASSERTION",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "ASL-2.0",
+      "name": "python3-qpid-proton-debuginfo",
+      "originator": "NOASSERTION",
+      "packageFileName": "python3-qpid-proton-debuginfo-0.37.0-2.el8ai.aarch64.rpm",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "python3-qpid-proton-debuginfo-0.37.0-2.el8ai.aarch64"
+    },
+    {
+      "SPDXID": "SPDXRef-686817ef-85a1-4906-a771-14c3237a5090",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://access.redhat.com/downloads/content/package-browser",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:rpm/redhat/skupper-router-debuginfo@2.2.1-3.el8?arch=x86_64",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "NOASSERTION",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "ASL-2.0",
+      "name": "skupper-router-debuginfo",
+      "originator": "NOASSERTION",
+      "packageFileName": "skupper-router-debuginfo-2.2.1-3.el8.x86_64.rpm",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "skupper-router-debuginfo-2.2.1-3.el8.x86_64"
+    },
+    {
+      "SPDXID": "SPDXRef-6a8f84a5-13ee-42d0-83b4-7fdfa7905b6e",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://access.redhat.com/downloads/content/package-browser",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:rpm/redhat/skupper-router-docs@2.2.1-3.el8?arch=noarch",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "NOASSERTION",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "ASL-2.0",
+      "name": "skupper-router-docs",
+      "originator": "NOASSERTION",
+      "packageFileName": "skupper-router-docs-2.2.1-3.el8.noarch.rpm",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "skupper-router-docs-2.2.1-3.el8.noarch"
+    },
+    {
+      "SPDXID": "SPDXRef-6eb85c6a-88e3-4876-a361-fdd1df869355",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://access.redhat.com/downloads/content/package-browser",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:rpm/redhat/rubygem-qpid_proton@0.37.0-2.el8ai?arch=x86_64",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "NOASSERTION",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "ASL-2.0",
+      "name": "rubygem-qpid_proton",
+      "originator": "NOASSERTION",
+      "packageFileName": "rubygem-qpid_proton-0.37.0-2.el8ai.x86_64.rpm",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "rubygem-qpid_proton-0.37.0-2.el8ai.x86_64"
+    },
+    {
+      "SPDXID": "SPDXRef-7188346a-0a76-4715-80e1-5f8b079db876",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://access.redhat.com/downloads/content/package-browser",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:rpm/redhat/skupper-router@2.2.1-3.el8?arch=x86_64",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "NOASSERTION",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "ASL-2.0",
+      "name": "skupper-router",
+      "originator": "NOASSERTION",
+      "packageFileName": "skupper-router-2.2.1-3.el8.x86_64.rpm",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "skupper-router-2.2.1-3.el8.x86_64"
+    },
+    {
+      "SPDXID": "SPDXRef-7420f9d9-3829-45f4-a293-44b383f4db2f",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://access.redhat.com/downloads/content/package-browser",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:rpm/redhat/skupper-router-debugsource@2.2.1-3.el8?arch=x86_64",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "NOASSERTION",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "ASL-2.0",
+      "name": "skupper-router-debugsource",
+      "originator": "NOASSERTION",
+      "packageFileName": "skupper-router-debugsource-2.2.1-3.el8.x86_64.rpm",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "skupper-router-debugsource-2.2.1-3.el8.x86_64"
+    },
+    {
+      "SPDXID": "SPDXRef-749571b7-0599-4f69-8e88-9aa404080f83",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://access.redhat.com/downloads/content/package-browser",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:rpm/redhat/skupper-router-debugsource@2.2.1-3.el8?arch=s390x",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "NOASSERTION",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "ASL-2.0",
+      "name": "skupper-router-debugsource",
+      "originator": "NOASSERTION",
+      "packageFileName": "skupper-router-debugsource-2.2.1-3.el8.s390x.rpm",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "skupper-router-debugsource-2.2.1-3.el8.s390x"
+    },
+    {
+      "SPDXID": "SPDXRef-769e7322-0e1f-4368-9422-f4b9fc863b99",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://access.redhat.com/downloads/content/package-browser",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:rpm/redhat/qpid-proton-cpp@0.37.0-2.el8ai?arch=ppc64le",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "NOASSERTION",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "ASL-2.0",
+      "name": "qpid-proton-cpp",
+      "originator": "NOASSERTION",
+      "packageFileName": "qpid-proton-cpp-0.37.0-2.el8ai.ppc64le.rpm",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "qpid-proton-cpp-0.37.0-2.el8ai.ppc64le"
+    },
+    {
+      "SPDXID": "SPDXRef-7a0a09d4-70a9-4014-b224-0fd40107a7c7",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://access.redhat.com/downloads/content/package-browser",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:rpm/redhat/qpid-proton-debugsource@0.37.0-2.el8ai?arch=s390x",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "NOASSERTION",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "ASL-2.0",
+      "name": "qpid-proton-debugsource",
+      "originator": "NOASSERTION",
+      "packageFileName": "qpid-proton-debugsource-0.37.0-2.el8ai.s390x.rpm",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "qpid-proton-debugsource-0.37.0-2.el8ai.s390x"
+    },
+    {
+      "SPDXID": "SPDXRef-7b03f557-78c8-4821-8e65-93500556b0f2",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://access.redhat.com/downloads/content/package-browser",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:rpm/redhat/python3-qpid-proton-debuginfo@0.37.0-2.el8ai?arch=x86_64",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "NOASSERTION",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "ASL-2.0",
+      "name": "python3-qpid-proton-debuginfo",
+      "originator": "NOASSERTION",
+      "packageFileName": "python3-qpid-proton-debuginfo-0.37.0-2.el8ai.x86_64.rpm",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "python3-qpid-proton-debuginfo-0.37.0-2.el8ai.x86_64"
+    },
+    {
+      "SPDXID": "SPDXRef-7fd5e40a-964e-4052-81d7-7df1f150295f",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://access.redhat.com/downloads/content/package-browser",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:rpm/redhat/skupper-router-debuginfo@2.2.1-3.el8?arch=ppc64le",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "NOASSERTION",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "ASL-2.0",
+      "name": "skupper-router-debuginfo",
+      "originator": "NOASSERTION",
+      "packageFileName": "skupper-router-debuginfo-2.2.1-3.el8.ppc64le.rpm",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "skupper-router-debuginfo-2.2.1-3.el8.ppc64le"
+    },
+    {
+      "SPDXID": "SPDXRef-82e9aba2-64e8-4105-a981-56bb52bcfd39",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://access.redhat.com/downloads/content/package-browser",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:rpm/redhat/qpid-proton-cpp-debuginfo@0.37.0-2.el8ai?arch=x86_64",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "NOASSERTION",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "ASL-2.0",
+      "name": "qpid-proton-cpp-debuginfo",
+      "originator": "NOASSERTION",
+      "packageFileName": "qpid-proton-cpp-debuginfo-0.37.0-2.el8ai.x86_64.rpm",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "qpid-proton-cpp-debuginfo-0.37.0-2.el8ai.x86_64"
+    },
+    {
+      "SPDXID": "SPDXRef-83bae4b3-be04-4d18-8716-26c97c894cbe",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://access.redhat.com/downloads/content/package-browser",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:rpm/redhat/qpid-proton-cpp-debuginfo@0.37.0-2.el8ai?arch=s390x",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "NOASSERTION",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "ASL-2.0",
+      "name": "qpid-proton-cpp-debuginfo",
+      "originator": "NOASSERTION",
+      "packageFileName": "qpid-proton-cpp-debuginfo-0.37.0-2.el8ai.s390x.rpm",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "qpid-proton-cpp-debuginfo-0.37.0-2.el8ai.s390x"
+    },
+    {
+      "SPDXID": "SPDXRef-888d4181-5181-4632-ac3c-f7634df3ca7c",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://access.redhat.com/downloads/content/package-browser",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:rpm/redhat/rubygem-qpid_proton@0.37.0-2.el8ai?arch=ppc64le",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "NOASSERTION",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "ASL-2.0",
+      "name": "rubygem-qpid_proton",
+      "originator": "NOASSERTION",
+      "packageFileName": "rubygem-qpid_proton-0.37.0-2.el8ai.ppc64le.rpm",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "rubygem-qpid_proton-0.37.0-2.el8ai.ppc64le"
+    },
+    {
+      "SPDXID": "SPDXRef-89dc77b8-52f0-4424-80ec-629bde55ec8a",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://access.redhat.com/downloads/content/package-browser",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:rpm/redhat/qpid-proton-c@0.37.0-2.el8ai?arch=x86_64",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "NOASSERTION",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "ASL-2.0",
+      "name": "qpid-proton-c",
+      "originator": "NOASSERTION",
+      "packageFileName": "qpid-proton-c-0.37.0-2.el8ai.x86_64.rpm",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "qpid-proton-c-0.37.0-2.el8ai.x86_64"
+    },
+    {
+      "SPDXID": "SPDXRef-8dca6c83-78e4-4d73-a1da-549de1516924",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://access.redhat.com/downloads/content/package-browser",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:rpm/redhat/qpid-proton-c@0.37.0-2.el8ai?arch=s390x",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "NOASSERTION",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "ASL-2.0",
+      "name": "qpid-proton-c",
+      "originator": "NOASSERTION",
+      "packageFileName": "qpid-proton-c-0.37.0-2.el8ai.s390x.rpm",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "qpid-proton-c-0.37.0-2.el8ai.s390x"
+    },
+    {
+      "SPDXID": "SPDXRef-8ed392f3-9b79-4aa5-a144-4cbe8cd5ff17",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://access.redhat.com/downloads/content/package-browser",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:rpm/redhat/python3-qpid-proton@0.37.0-2.el8ai?arch=aarch64",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "NOASSERTION",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "ASL-2.0",
+      "name": "python3-qpid-proton",
+      "originator": "NOASSERTION",
+      "packageFileName": "python3-qpid-proton-0.37.0-2.el8ai.aarch64.rpm",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "python3-qpid-proton-0.37.0-2.el8ai.aarch64"
+    },
+    {
+      "SPDXID": "SPDXRef-8f054070-4eae-419b-9710-75d463b115dc",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://access.redhat.com/downloads/content/package-browser",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:rpm/redhat/python3-qpid-proton@0.37.0-2.el8ai?arch=ppc64le",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "NOASSERTION",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "ASL-2.0",
+      "name": "python3-qpid-proton",
+      "originator": "NOASSERTION",
+      "packageFileName": "python3-qpid-proton-0.37.0-2.el8ai.ppc64le.rpm",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "python3-qpid-proton-0.37.0-2.el8ai.ppc64le"
+    },
+    {
+      "SPDXID": "SPDXRef-909ad84a-6a62-4acd-9ddb-be8d64c8d9e6",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://access.redhat.com/downloads/content/package-browser",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:rpm/redhat/qpid-proton-debugsource@0.37.0-2.el8ai?arch=x86_64",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "NOASSERTION",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "ASL-2.0",
+      "name": "qpid-proton-debugsource",
+      "originator": "NOASSERTION",
+      "packageFileName": "qpid-proton-debugsource-0.37.0-2.el8ai.x86_64.rpm",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "qpid-proton-debugsource-0.37.0-2.el8ai.x86_64"
+    },
+    {
+      "SPDXID": "SPDXRef-93c70062-afb3-48c0-9acf-5d8687d0501f",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://access.redhat.com/downloads/content/package-browser",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:rpm/redhat/libwebsockets-devel@4.3.1-1.el8ai?arch=s390x",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "NOASSERTION",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "LGPLV2 AND PUBLIC-DOMAIN AND BSD AND MIT AND ZLIB",
+      "name": "libwebsockets-devel",
+      "originator": "NOASSERTION",
+      "packageFileName": "libwebsockets-devel-4.3.1-1.el8ai.s390x.rpm",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "libwebsockets-devel-4.3.1-1.el8ai.s390x"
+    },
+    {
+      "SPDXID": "SPDXRef-97289beb-5e8f-4596-bb5b-82d8df26b265",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://access.redhat.com/downloads/content/package-browser",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:rpm/redhat/skupper-cli@1.2.0-6.el8?arch=x86_64",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "NOASSERTION",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "ASL-2.0",
+      "name": "skupper-cli",
+      "originator": "NOASSERTION",
+      "packageFileName": "skupper-cli-1.2.0-6.el8.x86_64.rpm",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "skupper-cli-1.2.0-6.el8.x86_64"
+    },
+    {
+      "SPDXID": "SPDXRef-9b330ea3-1c4d-4f75-8360-3aa8ccb2c3bf",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://access.redhat.com/downloads/content/package-browser",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:rpm/redhat/qpid-proton-cpp-debuginfo@0.37.0-2.el8ai?arch=ppc64le",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "NOASSERTION",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "ASL-2.0",
+      "name": "qpid-proton-cpp-debuginfo",
+      "originator": "NOASSERTION",
+      "packageFileName": "qpid-proton-cpp-debuginfo-0.37.0-2.el8ai.ppc64le.rpm",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "qpid-proton-cpp-debuginfo-0.37.0-2.el8ai.ppc64le"
+    },
+    {
+      "SPDXID": "SPDXRef-9df3b959-f693-4e67-a232-cb2de20b2b72",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://access.redhat.com/downloads/content/package-browser",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:rpm/redhat/qpid-proton-c-devel@0.37.0-2.el8ai?arch=aarch64",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "NOASSERTION",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "ASL-2.0",
+      "name": "qpid-proton-c-devel",
+      "originator": "NOASSERTION",
+      "packageFileName": "qpid-proton-c-devel-0.37.0-2.el8ai.aarch64.rpm",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "qpid-proton-c-devel-0.37.0-2.el8ai.aarch64"
+    },
+    {
+      "SPDXID": "SPDXRef-a597749a-f9b8-4e6e-82ca-a90747e64d3f",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://access.redhat.com/downloads/content/package-browser",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:rpm/redhat/rubygem-qpid_proton-debuginfo@0.37.0-2.el8ai?arch=aarch64",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "NOASSERTION",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "ASL-2.0",
+      "name": "rubygem-qpid_proton-debuginfo",
+      "originator": "NOASSERTION",
+      "packageFileName": "rubygem-qpid_proton-debuginfo-0.37.0-2.el8ai.aarch64.rpm",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "rubygem-qpid_proton-debuginfo-0.37.0-2.el8ai.aarch64"
+    },
+    {
+      "SPDXID": "SPDXRef-a9f83502-df3f-487c-a966-4f7f8cfc13a7",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://access.redhat.com/downloads/content/package-browser",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:rpm/redhat/qpid-proton-cpp-devel@0.37.0-2.el8ai?arch=x86_64",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "NOASSERTION",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "ASL-2.0",
+      "name": "qpid-proton-cpp-devel",
+      "originator": "NOASSERTION",
+      "packageFileName": "qpid-proton-cpp-devel-0.37.0-2.el8ai.x86_64.rpm",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "qpid-proton-cpp-devel-0.37.0-2.el8ai.x86_64"
+    },
+    {
+      "SPDXID": "SPDXRef-ac9f5224-9d2a-406c-b338-2d73386beb01",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:generic/sha1-hollerbach",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "NOASSERTION",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "sha1-hollerbach",
+      "originator": "NOASSERTION",
+      "packageFileName": "NOASSERTION",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "sha1-hollerbach-.noarch"
+    },
+    {
+      "SPDXID": "SPDXRef-c0f428e8-53c2-4dd3-9d4b-476df14c0d66",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://access.redhat.com/downloads/content/package-browser",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:rpm/redhat/skupper-router-debugsource@2.2.1-3.el8?arch=aarch64",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "NOASSERTION",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "ASL-2.0",
+      "name": "skupper-router-debugsource",
+      "originator": "NOASSERTION",
+      "packageFileName": "skupper-router-debugsource-2.2.1-3.el8.aarch64.rpm",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "skupper-router-debugsource-2.2.1-3.el8.aarch64"
+    },
+    {
+      "SPDXID": "SPDXRef-c1179853-1a83-4496-b4d7-8b5015fbb4ac",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://access.redhat.com/downloads/content/package-browser",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:rpm/redhat/python3-qpid-proton-debuginfo@0.37.0-2.el8ai?arch=s390x",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "NOASSERTION",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "ASL-2.0",
+      "name": "python3-qpid-proton-debuginfo",
+      "originator": "NOASSERTION",
+      "packageFileName": "python3-qpid-proton-debuginfo-0.37.0-2.el8ai.s390x.rpm",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "python3-qpid-proton-debuginfo-0.37.0-2.el8ai.s390x"
+    },
+    {
+      "SPDXID": "SPDXRef-c13bcdf0-b39d-4a76-9bac-9b93023bf310",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://access.redhat.com/downloads/content/package-browser",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:rpm/redhat/libwebsockets-debugsource@4.3.1-1.el8ai?arch=s390x",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "NOASSERTION",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "LGPLV2 AND PUBLIC-DOMAIN AND BSD AND MIT AND ZLIB",
+      "name": "libwebsockets-debugsource",
+      "originator": "NOASSERTION",
+      "packageFileName": "libwebsockets-debugsource-4.3.1-1.el8ai.s390x.rpm",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "libwebsockets-debugsource-4.3.1-1.el8ai.s390x"
+    },
+    {
+      "SPDXID": "SPDXRef-c37aba0f-e516-43d0-9bad-822fdc4e64f0",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://access.redhat.com/downloads/content/package-browser",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:rpm/redhat/python3-qpid-proton@0.37.0-2.el8ai?arch=s390x",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "NOASSERTION",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "ASL-2.0",
+      "name": "python3-qpid-proton",
+      "originator": "NOASSERTION",
+      "packageFileName": "python3-qpid-proton-0.37.0-2.el8ai.s390x.rpm",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "python3-qpid-proton-0.37.0-2.el8ai.s390x"
+    },
+    {
+      "SPDXID": "SPDXRef-c44e327a-7978-4597-96a1-81ead8a7f5e2",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://access.redhat.com/downloads/content/package-browser",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:rpm/redhat/libwebsockets-debuginfo@4.3.1-1.el8ai?arch=x86_64",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "NOASSERTION",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "LGPLV2 AND PUBLIC-DOMAIN AND BSD AND MIT AND ZLIB",
+      "name": "libwebsockets-debuginfo",
+      "originator": "NOASSERTION",
+      "packageFileName": "libwebsockets-debuginfo-4.3.1-1.el8ai.x86_64.rpm",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "libwebsockets-debuginfo-4.3.1-1.el8ai.x86_64"
+    },
+    {
+      "SPDXID": "SPDXRef-ca08f0b6-865b-476f-b00c-b65cb95b2f87",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://access.redhat.com/downloads/content/package-browser",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:rpm/redhat/qpid-proton-debuginfo@0.37.0-2.el8ai?arch=s390x",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "NOASSERTION",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "ASL-2.0",
+      "name": "qpid-proton-debuginfo",
+      "originator": "NOASSERTION",
+      "packageFileName": "qpid-proton-debuginfo-0.37.0-2.el8ai.s390x.rpm",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "qpid-proton-debuginfo-0.37.0-2.el8ai.s390x"
+    },
+    {
+      "SPDXID": "SPDXRef-ccd74885-e838-4a6a-b7e2-7dde47d098e6",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:generic/base64-decode",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "NOASSERTION",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "base64-decode",
+      "originator": "NOASSERTION",
+      "packageFileName": "NOASSERTION",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "base64-decode-.noarch"
+    },
+    {
+      "SPDXID": "SPDXRef-d1b67cac-8478-42da-92fa-b6d6e91e6fc1",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://access.redhat.com/downloads/content/package-browser",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:rpm/redhat/skupper-cli@1.2.0-6.el8?arch=aarch64",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "NOASSERTION",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "ASL-2.0",
+      "name": "skupper-cli",
+      "originator": "NOASSERTION",
+      "packageFileName": "skupper-cli-1.2.0-6.el8.aarch64.rpm",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "skupper-cli-1.2.0-6.el8.aarch64"
+    },
+    {
+      "SPDXID": "SPDXRef-d3233c9f-b29e-48ee-b98b-29bb20ea408b",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://access.redhat.com/downloads/content/package-browser",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:rpm/redhat/rubygem-qpid_proton-debuginfo@0.37.0-2.el8ai?arch=s390x",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "NOASSERTION",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "ASL-2.0",
+      "name": "rubygem-qpid_proton-debuginfo",
+      "originator": "NOASSERTION",
+      "packageFileName": "rubygem-qpid_proton-debuginfo-0.37.0-2.el8ai.s390x.rpm",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "rubygem-qpid_proton-debuginfo-0.37.0-2.el8ai.s390x"
+    },
+    {
+      "SPDXID": "SPDXRef-d9a54311-d8bc-4c60-9ef5-5006ca84830a",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://access.redhat.com/downloads/content/package-browser",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:rpm/redhat/libwebsockets-devel@4.3.1-1.el8ai?arch=x86_64",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "NOASSERTION",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "LGPLV2 AND PUBLIC-DOMAIN AND BSD AND MIT AND ZLIB",
+      "name": "libwebsockets-devel",
+      "originator": "NOASSERTION",
+      "packageFileName": "libwebsockets-devel-4.3.1-1.el8ai.x86_64.rpm",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "libwebsockets-devel-4.3.1-1.el8ai.x86_64"
+    },
+    {
+      "SPDXID": "SPDXRef-dac95b35-2072-40a1-bc10-483b59d7b4ab",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://access.redhat.com/downloads/content/package-browser",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:rpm/redhat/skupper-router-tools@2.2.1-3.el8?arch=noarch",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "NOASSERTION",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "ASL-2.0",
+      "name": "skupper-router-tools",
+      "originator": "NOASSERTION",
+      "packageFileName": "skupper-router-tools-2.2.1-3.el8.noarch.rpm",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "skupper-router-tools-2.2.1-3.el8.noarch"
+    },
+    {
+      "SPDXID": "SPDXRef-e029019e-0c11-4a54-ab95-7f01500f2cdc",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://access.redhat.com/downloads/content/package-browser",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:rpm/redhat/libwebsockets-debuginfo@4.3.1-1.el8ai?arch=s390x",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "NOASSERTION",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "LGPLV2 AND PUBLIC-DOMAIN AND BSD AND MIT AND ZLIB",
+      "name": "libwebsockets-debuginfo",
+      "originator": "NOASSERTION",
+      "packageFileName": "libwebsockets-debuginfo-4.3.1-1.el8ai.s390x.rpm",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "libwebsockets-debuginfo-4.3.1-1.el8ai.s390x"
+    },
+    {
+      "SPDXID": "SPDXRef-e0a6a26d-0665-47b8-976c-114266c50a4e",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://access.redhat.com/downloads/content/package-browser",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:rpm/redhat/skupper-router-debuginfo@2.2.1-3.el8?arch=aarch64",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "NOASSERTION",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "ASL-2.0",
+      "name": "skupper-router-debuginfo",
+      "originator": "NOASSERTION",
+      "packageFileName": "skupper-router-debuginfo-2.2.1-3.el8.aarch64.rpm",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "skupper-router-debuginfo-2.2.1-3.el8.aarch64"
+    },
+    {
+      "SPDXID": "SPDXRef-e3c94cbe-7c4f-4eef-a514-0390397535da",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://access.redhat.com/downloads/content/package-browser",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:rpm/redhat/skupper-router@2.2.1-3.el8?arch=s390x",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "NOASSERTION",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "ASL-2.0",
+      "name": "skupper-router",
+      "originator": "NOASSERTION",
+      "packageFileName": "skupper-router-2.2.1-3.el8.s390x.rpm",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "skupper-router-2.2.1-3.el8.s390x"
+    },
+    {
+      "SPDXID": "SPDXRef-e3feccef-d256-44dd-9b33-1c55d0baca88",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://access.redhat.com/downloads/content/package-browser",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:rpm/redhat/rubygem-qpid_proton-debuginfo@0.37.0-2.el8ai?arch=ppc64le",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "NOASSERTION",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "ASL-2.0",
+      "name": "rubygem-qpid_proton-debuginfo",
+      "originator": "NOASSERTION",
+      "packageFileName": "rubygem-qpid_proton-debuginfo-0.37.0-2.el8ai.ppc64le.rpm",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "rubygem-qpid_proton-debuginfo-0.37.0-2.el8ai.ppc64le"
+    },
+    {
+      "SPDXID": "SPDXRef-e9b53e48-b0c9-4b97-8ab3-7918aa48821e",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://access.redhat.com/downloads/content/package-browser",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:rpm/redhat/libwebsockets@4.3.1-1.el8ai?arch=ppc64le",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "NOASSERTION",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "LGPLV2 AND PUBLIC-DOMAIN AND BSD AND MIT AND ZLIB",
+      "name": "libwebsockets",
+      "originator": "NOASSERTION",
+      "packageFileName": "libwebsockets-4.3.1-1.el8ai.ppc64le.rpm",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "libwebsockets-4.3.1-1.el8ai.ppc64le"
+    },
+    {
+      "SPDXID": "SPDXRef-e9cdc4e6-5bec-4970-b398-d8976a047453",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://access.redhat.com/downloads/content/package-browser",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:rpm/redhat/libwebsockets-debuginfo@4.3.1-1.el8ai?arch=aarch64",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "NOASSERTION",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "LGPLV2 AND PUBLIC-DOMAIN AND BSD AND MIT AND ZLIB",
+      "name": "libwebsockets-debuginfo",
+      "originator": "NOASSERTION",
+      "packageFileName": "libwebsockets-debuginfo-4.3.1-1.el8ai.aarch64.rpm",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "libwebsockets-debuginfo-4.3.1-1.el8ai.aarch64"
+    },
+    {
+      "SPDXID": "SPDXRef-ef78b7fe-8d43-4eca-bea6-8e95274e5944",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://access.redhat.com/downloads/content/package-browser",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:rpm/redhat/qpid-proton-cpp@0.37.0-2.el8ai?arch=x86_64",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "NOASSERTION",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "ASL-2.0",
+      "name": "qpid-proton-cpp",
+      "originator": "NOASSERTION",
+      "packageFileName": "qpid-proton-cpp-0.37.0-2.el8ai.x86_64.rpm",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "qpid-proton-cpp-0.37.0-2.el8ai.x86_64"
+    },
+    {
+      "SPDXID": "SPDXRef-efbe6025-f790-48f7-8917-ab3c7f84d1a4",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://access.redhat.com/downloads/content/package-browser",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:rpm/redhat/skupper-router-debugsource@2.2.1-3.el8?arch=ppc64le",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "NOASSERTION",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "ASL-2.0",
+      "name": "skupper-router-debugsource",
+      "originator": "NOASSERTION",
+      "packageFileName": "skupper-router-debugsource-2.2.1-3.el8.ppc64le.rpm",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "skupper-router-debugsource-2.2.1-3.el8.ppc64le"
+    },
+    {
+      "SPDXID": "SPDXRef-f3010f92-ae20-4733-be18-b3e02fe0ce75",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://access.redhat.com/downloads/content/package-browser",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:rpm/redhat/libwebsockets-devel@4.3.1-1.el8ai?arch=ppc64le",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "NOASSERTION",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "LGPLV2 AND PUBLIC-DOMAIN AND BSD AND MIT AND ZLIB",
+      "name": "libwebsockets-devel",
+      "originator": "NOASSERTION",
+      "packageFileName": "libwebsockets-devel-4.3.1-1.el8ai.ppc64le.rpm",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "libwebsockets-devel-4.3.1-1.el8ai.ppc64le"
+    },
+    {
+      "SPDXID": "SPDXRef-f46897c3-329c-4134-8584-ca0347d5dc68",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://access.redhat.com/downloads/content/package-browser",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:rpm/redhat/qpid-proton-debugsource@0.37.0-2.el8ai?arch=aarch64",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "NOASSERTION",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "ASL-2.0",
+      "name": "qpid-proton-debugsource",
+      "originator": "NOASSERTION",
+      "packageFileName": "qpid-proton-debugsource-0.37.0-2.el8ai.aarch64.rpm",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "qpid-proton-debugsource-0.37.0-2.el8ai.aarch64"
+    },
+    {
+      "SPDXID": "SPDXRef-f49971c9-f949-4260-9c6f-cb085d3e5f8b",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://access.redhat.com/downloads/content/package-browser",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:rpm/redhat/libwebsockets-debugsource@4.3.1-1.el8ai?arch=ppc64le",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "NOASSERTION",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "LGPLV2 AND PUBLIC-DOMAIN AND BSD AND MIT AND ZLIB",
+      "name": "libwebsockets-debugsource",
+      "originator": "NOASSERTION",
+      "packageFileName": "libwebsockets-debugsource-4.3.1-1.el8ai.ppc64le.rpm",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "libwebsockets-debugsource-4.3.1-1.el8ai.ppc64le"
+    },
+    {
+      "SPDXID": "SPDXRef-f768b698-030e-41d0-8e93-f1f9b95db20b",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://access.redhat.com/downloads/content/package-browser",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:rpm/redhat/qpid-proton-cpp-devel@0.37.0-2.el8ai?arch=aarch64",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "NOASSERTION",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "ASL-2.0",
+      "name": "qpid-proton-cpp-devel",
+      "originator": "NOASSERTION",
+      "packageFileName": "qpid-proton-cpp-devel-0.37.0-2.el8ai.aarch64.rpm",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "qpid-proton-cpp-devel-0.37.0-2.el8ai.aarch64"
+    },
+    {
+      "SPDXID": "SPDXRef-fb1bb7b4-4d54-49e3-b4dd-c6fc804ab067",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://access.redhat.com/downloads/content/package-browser",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:rpm/redhat/rubygem-qpid_proton@0.37.0-2.el8ai?arch=aarch64",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "NOASSERTION",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "ASL-2.0",
+      "name": "rubygem-qpid_proton",
+      "originator": "NOASSERTION",
+      "packageFileName": "rubygem-qpid_proton-0.37.0-2.el8ai.aarch64.rpm",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "rubygem-qpid_proton-0.37.0-2.el8ai.aarch64"
+    },
+    {
+      "SPDXID": "SPDXRef-fc33515a-7999-4109-9ad0-d292150de97d",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://access.redhat.com/downloads/content/package-browser",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:rpm/redhat/qpid-proton-cpp-debuginfo@0.37.0-2.el8ai?arch=aarch64",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "NOASSERTION",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "ASL-2.0",
+      "name": "qpid-proton-cpp-debuginfo",
+      "originator": "NOASSERTION",
+      "packageFileName": "qpid-proton-cpp-debuginfo-0.37.0-2.el8ai.aarch64.rpm",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "qpid-proton-cpp-debuginfo-0.37.0-2.el8ai.aarch64"
+    },
+    {
+      "SPDXID": "SPDXRef-2860db1a-6fe3-4f78-a3b0-f538e5e941ee",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:/a:redhat:application_interconnect:1::el8",
+          "referenceType": "cpe22Type"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:/a:redhat:application_interconnect:1::el9",
+          "referenceType": "cpe22Type"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://www.redhat.com/",
+      "licenseComments": "Licensing information is provided for individual components only at this time.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "rhapi-1",
+      "packageFileName": "NOASSERTION",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "1"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "SPDXRef-40988848-551a-45b4-aff9-d8180088e010",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-0304f20b-4ea4-45e1-8a1a-6f09b13f7f15"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-40988848-551a-45b4-aff9-d8180088e010",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-5d0841ab-5dba-4acc-a9f8-be37965b0f2e"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-40988848-551a-45b4-aff9-d8180088e010",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-97289beb-5e8f-4596-bb5b-82d8df26b265"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-40988848-551a-45b4-aff9-d8180088e010",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-d1b67cac-8478-42da-92fa-b6d6e91e6fc1"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-2860db1a-6fe3-4f78-a3b0-f538e5e941ee",
+      "relationshipType": "PACKAGE_OF",
+      "spdxElementId": "SPDXRef-40988848-551a-45b4-aff9-d8180088e010"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-6e42e4ab-df14-4ec7-86ae-d504215c2560",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-016ae704-d862-4df2-8f7f-1aceb575b941"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-6e42e4ab-df14-4ec7-86ae-d504215c2560",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-05aa789d-100c-4037-9a3b-31c067eeb303"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-6e42e4ab-df14-4ec7-86ae-d504215c2560",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-16caa8ef-c0da-4b5e-9969-8d5261616a79"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-6e42e4ab-df14-4ec7-86ae-d504215c2560",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-1d5c0e13-c712-4152-8187-11e8bd7bd1ac"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-6e42e4ab-df14-4ec7-86ae-d504215c2560",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-2ee6bfa6-7de7-4e9d-a0be-e228e78dfa9d"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-6e42e4ab-df14-4ec7-86ae-d504215c2560",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-35c54c7b-259b-4f1c-8ced-08f85cde4a50"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-6e42e4ab-df14-4ec7-86ae-d504215c2560",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-372555e7-3445-49bf-a863-c16105e118fa"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-6e42e4ab-df14-4ec7-86ae-d504215c2560",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-385c5cb1-dde9-4ac0-be81-f5498ebd9562"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-6e42e4ab-df14-4ec7-86ae-d504215c2560",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-3dacc94d-9fa4-4d03-9e5e-50aca5a0e11c"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-6e42e4ab-df14-4ec7-86ae-d504215c2560",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-451b97b1-039f-4b28-a303-c016f13c0cd1"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-6e42e4ab-df14-4ec7-86ae-d504215c2560",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-45a5d17b-8d1c-4341-a07a-85272207cd7b"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-6e42e4ab-df14-4ec7-86ae-d504215c2560",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-49c0324a-a7fb-4fcf-b4af-e268b1488693"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-6e42e4ab-df14-4ec7-86ae-d504215c2560",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-49c8ebf1-1196-4b39-af3c-9a11920cdc57"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-6e42e4ab-df14-4ec7-86ae-d504215c2560",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-4d92cda8-d0f5-453e-addc-7a356ddb2ebd"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-6e42e4ab-df14-4ec7-86ae-d504215c2560",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-4e1179e5-fbb8-4225-b4e6-897ab2df3cd9"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-6e42e4ab-df14-4ec7-86ae-d504215c2560",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-5178e0d9-0807-4103-b27c-de4cf0bc5c4c"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-6e42e4ab-df14-4ec7-86ae-d504215c2560",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-5835007d-06d4-4a39-b147-584ba6b445f2"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-6e42e4ab-df14-4ec7-86ae-d504215c2560",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-59dce7e9-2b4f-486e-bc3b-68b32dde8fad"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-6e42e4ab-df14-4ec7-86ae-d504215c2560",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-5e0ad768-8d95-4200-94e0-0eb67b222afd"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-6e42e4ab-df14-4ec7-86ae-d504215c2560",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-62e0e9ab-1e33-4482-a9a8-f7195de651b5"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-6e42e4ab-df14-4ec7-86ae-d504215c2560",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-632d9f44-dbf2-450c-a1f9-bd7a962651d3"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-6e42e4ab-df14-4ec7-86ae-d504215c2560",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-63e3b679-1b3f-4b2a-b6a6-741577ba1da1"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-6e42e4ab-df14-4ec7-86ae-d504215c2560",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-6466508b-8c21-4a16-9c59-f63c8f802011"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-6e42e4ab-df14-4ec7-86ae-d504215c2560",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-652f962c-c23d-4717-9e92-3a4f24b9ffc7"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-6e42e4ab-df14-4ec7-86ae-d504215c2560",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-671b9a0d-aee4-497a-814b-751994063eda"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-6e42e4ab-df14-4ec7-86ae-d504215c2560",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-673b16c4-0f3b-4d94-9043-e4a8fe718b40"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-6e42e4ab-df14-4ec7-86ae-d504215c2560",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-6eb85c6a-88e3-4876-a361-fdd1df869355"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-6e42e4ab-df14-4ec7-86ae-d504215c2560",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-769e7322-0e1f-4368-9422-f4b9fc863b99"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-6e42e4ab-df14-4ec7-86ae-d504215c2560",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-7a0a09d4-70a9-4014-b224-0fd40107a7c7"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-6e42e4ab-df14-4ec7-86ae-d504215c2560",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-7b03f557-78c8-4821-8e65-93500556b0f2"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-6e42e4ab-df14-4ec7-86ae-d504215c2560",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-82e9aba2-64e8-4105-a981-56bb52bcfd39"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-6e42e4ab-df14-4ec7-86ae-d504215c2560",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-83bae4b3-be04-4d18-8716-26c97c894cbe"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-6e42e4ab-df14-4ec7-86ae-d504215c2560",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-888d4181-5181-4632-ac3c-f7634df3ca7c"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-6e42e4ab-df14-4ec7-86ae-d504215c2560",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-89dc77b8-52f0-4424-80ec-629bde55ec8a"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-6e42e4ab-df14-4ec7-86ae-d504215c2560",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-8dca6c83-78e4-4d73-a1da-549de1516924"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-6e42e4ab-df14-4ec7-86ae-d504215c2560",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-8ed392f3-9b79-4aa5-a144-4cbe8cd5ff17"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-6e42e4ab-df14-4ec7-86ae-d504215c2560",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-8f054070-4eae-419b-9710-75d463b115dc"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-6e42e4ab-df14-4ec7-86ae-d504215c2560",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-909ad84a-6a62-4acd-9ddb-be8d64c8d9e6"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-6e42e4ab-df14-4ec7-86ae-d504215c2560",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-9b330ea3-1c4d-4f75-8360-3aa8ccb2c3bf"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-6e42e4ab-df14-4ec7-86ae-d504215c2560",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-9df3b959-f693-4e67-a232-cb2de20b2b72"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-6e42e4ab-df14-4ec7-86ae-d504215c2560",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-a597749a-f9b8-4e6e-82ca-a90747e64d3f"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-6e42e4ab-df14-4ec7-86ae-d504215c2560",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-a9f83502-df3f-487c-a966-4f7f8cfc13a7"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-6e42e4ab-df14-4ec7-86ae-d504215c2560",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-c1179853-1a83-4496-b4d7-8b5015fbb4ac"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-6e42e4ab-df14-4ec7-86ae-d504215c2560",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-c37aba0f-e516-43d0-9bad-822fdc4e64f0"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-6e42e4ab-df14-4ec7-86ae-d504215c2560",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-ca08f0b6-865b-476f-b00c-b65cb95b2f87"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-6e42e4ab-df14-4ec7-86ae-d504215c2560",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-d3233c9f-b29e-48ee-b98b-29bb20ea408b"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-6e42e4ab-df14-4ec7-86ae-d504215c2560",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-e3feccef-d256-44dd-9b33-1c55d0baca88"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-6e42e4ab-df14-4ec7-86ae-d504215c2560",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-ef78b7fe-8d43-4eca-bea6-8e95274e5944"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-6e42e4ab-df14-4ec7-86ae-d504215c2560",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-f46897c3-329c-4134-8584-ca0347d5dc68"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-6e42e4ab-df14-4ec7-86ae-d504215c2560",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-f768b698-030e-41d0-8e93-f1f9b95db20b"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-6e42e4ab-df14-4ec7-86ae-d504215c2560",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-fb1bb7b4-4d54-49e3-b4dd-c6fc804ab067"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-6e42e4ab-df14-4ec7-86ae-d504215c2560",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-fc33515a-7999-4109-9ad0-d292150de97d"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-2860db1a-6fe3-4f78-a3b0-f538e5e941ee",
+      "relationshipType": "PACKAGE_OF",
+      "spdxElementId": "SPDXRef-6e42e4ab-df14-4ec7-86ae-d504215c2560"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-506dbfa0-98bf-4bf5-b257-7b375b324b21",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-05255637-d539-45ee-9901-30f647201adb"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-506dbfa0-98bf-4bf5-b257-7b375b324b21",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-0e020c28-7deb-48a7-af73-5ca95ab5ed1d"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-506dbfa0-98bf-4bf5-b257-7b375b324b21",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-27b5d009-fc2a-4eb1-a406-0123a77753ea"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-506dbfa0-98bf-4bf5-b257-7b375b324b21",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-37a7889c-085d-45d5-9964-47172ffe6e37"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-506dbfa0-98bf-4bf5-b257-7b375b324b21",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-37afc28a-4517-45e2-9d66-ad1349a4ed14"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-506dbfa0-98bf-4bf5-b257-7b375b324b21",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-405c84e7-4142-4f9b-b442-0e35971b143a"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-506dbfa0-98bf-4bf5-b257-7b375b324b21",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-5271fb5c-45c3-4737-ba44-122093e1ec7e"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-506dbfa0-98bf-4bf5-b257-7b375b324b21",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-614d5a76-2c33-463b-af62-73d18770fe66"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-506dbfa0-98bf-4bf5-b257-7b375b324b21",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-93c70062-afb3-48c0-9acf-5d8687d0501f"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-506dbfa0-98bf-4bf5-b257-7b375b324b21",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-ac9f5224-9d2a-406c-b338-2d73386beb01"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-506dbfa0-98bf-4bf5-b257-7b375b324b21",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-c13bcdf0-b39d-4a76-9bac-9b93023bf310"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-506dbfa0-98bf-4bf5-b257-7b375b324b21",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-c44e327a-7978-4597-96a1-81ead8a7f5e2"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-506dbfa0-98bf-4bf5-b257-7b375b324b21",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-ccd74885-e838-4a6a-b7e2-7dde47d098e6"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-506dbfa0-98bf-4bf5-b257-7b375b324b21",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-d9a54311-d8bc-4c60-9ef5-5006ca84830a"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-506dbfa0-98bf-4bf5-b257-7b375b324b21",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-e029019e-0c11-4a54-ab95-7f01500f2cdc"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-506dbfa0-98bf-4bf5-b257-7b375b324b21",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-e9b53e48-b0c9-4b97-8ab3-7918aa48821e"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-506dbfa0-98bf-4bf5-b257-7b375b324b21",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-e9cdc4e6-5bec-4970-b398-d8976a047453"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-506dbfa0-98bf-4bf5-b257-7b375b324b21",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-f3010f92-ae20-4733-be18-b3e02fe0ce75"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-506dbfa0-98bf-4bf5-b257-7b375b324b21",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-f49971c9-f949-4260-9c6f-cb085d3e5f8b"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-2860db1a-6fe3-4f78-a3b0-f538e5e941ee",
+      "relationshipType": "PACKAGE_OF",
+      "spdxElementId": "SPDXRef-506dbfa0-98bf-4bf5-b257-7b375b324b21"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-f2d17ff9-88d7-4550-98ce-06dcb2eda3ac",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-0e72d246-e954-4f53-ad54-69b3b881e538"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-f2d17ff9-88d7-4550-98ce-06dcb2eda3ac",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-27a6f04a-3658-48b8-9d98-8b4688027615"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-f2d17ff9-88d7-4550-98ce-06dcb2eda3ac",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-2c604b81-a900-4f2d-9ac6-c79fb2e8eca1"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-f2d17ff9-88d7-4550-98ce-06dcb2eda3ac",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-2fbdee3b-7156-4592-829a-5bcfc61d0b00"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-f2d17ff9-88d7-4550-98ce-06dcb2eda3ac",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-686817ef-85a1-4906-a771-14c3237a5090"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-f2d17ff9-88d7-4550-98ce-06dcb2eda3ac",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-6a8f84a5-13ee-42d0-83b4-7fdfa7905b6e"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-f2d17ff9-88d7-4550-98ce-06dcb2eda3ac",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-7188346a-0a76-4715-80e1-5f8b079db876"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-f2d17ff9-88d7-4550-98ce-06dcb2eda3ac",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-7420f9d9-3829-45f4-a293-44b383f4db2f"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-f2d17ff9-88d7-4550-98ce-06dcb2eda3ac",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-749571b7-0599-4f69-8e88-9aa404080f83"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-f2d17ff9-88d7-4550-98ce-06dcb2eda3ac",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-7fd5e40a-964e-4052-81d7-7df1f150295f"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-f2d17ff9-88d7-4550-98ce-06dcb2eda3ac",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-c0f428e8-53c2-4dd3-9d4b-476df14c0d66"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-f2d17ff9-88d7-4550-98ce-06dcb2eda3ac",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-dac95b35-2072-40a1-bc10-483b59d7b4ab"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-f2d17ff9-88d7-4550-98ce-06dcb2eda3ac",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-e0a6a26d-0665-47b8-976c-114266c50a4e"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-f2d17ff9-88d7-4550-98ce-06dcb2eda3ac",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-e3c94cbe-7c4f-4eef-a514-0390397535da"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-f2d17ff9-88d7-4550-98ce-06dcb2eda3ac",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-efbe6025-f790-48f7-8917-ab3c7f84d1a4"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-2860db1a-6fe3-4f78-a3b0-f538e5e941ee",
+      "relationshipType": "PACKAGE_OF",
+      "spdxElementId": "SPDXRef-f2d17ff9-88d7-4550-98ce-06dcb2eda3ac"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-2860db1a-6fe3-4f78-a3b0-f538e5e941ee",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}

@@ -1,0 +1,371 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "created": "2023-09-05T20:30:00Z",
+    "creators": [
+      "Organization: Red Hat Product Security (secalert@redhat.com)"
+    ],
+    "licenseListVersion": "3.8"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentDescribes": [
+    "SPDXRef-0dcc6c3c-b040-4d39-aee5-97990e765a0f"
+  ],
+  "documentNamespace": "https://access.redhat.com/security/data/sbom/beta/spdx/convert2rhel-7-0dcc6c3c-b040-4d39-aee5-97990e765a0f",
+  "name": "convert2rhel-7",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-326c22fb-57ac-4a49-8bd5-ad1dff3c627e",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://access.redhat.com/downloads/content/package-browser",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:rpm/redhat/convert2rhel@1.3.1-1.el7?arch=src",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "NOASSERTION",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPLV3+",
+      "name": "convert2rhel",
+      "originator": "NOASSERTION",
+      "packageFileName": "convert2rhel-1.3.1-1.el7.src.rpm",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "convert2rhel-1.3.1-1.el7.src"
+    },
+    {
+      "SPDXID": "SPDXRef-13a5306f-4eb5-4c92-b181-3f9b80e14c94",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://pypi.io/packages/source/a/astroid/astroid-2.11.7.tar.gz",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:pypi/astroid@2.11.7",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://pypi.org/project/astroid/2.11.7/",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "astroid",
+      "originator": "NOASSERTION",
+      "packageFileName": "NOASSERTION",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "astroid-2.11.7"
+    },
+    {
+      "SPDXID": "SPDXRef-24ba89d3-d142-4785-a967-f1e79715d2e2",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://access.redhat.com/downloads/content/package-browser",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:rpm/redhat/convert2rhel@1.3.1-1.el7?arch=noarch",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "NOASSERTION",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPLV3+",
+      "name": "convert2rhel",
+      "originator": "NOASSERTION",
+      "packageFileName": "convert2rhel-1.3.1-1.el7.noarch.rpm",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "convert2rhel-1.3.1-1.el7.noarch"
+    },
+    {
+      "SPDXID": "SPDXRef-2c805bc6-3659-4488-b1d0-05909d92618b",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://pypi.io/packages/source/p/pylint/pylint-2.13.4.tar.gz",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:pypi/pylint@2.13.4",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://pypi.org/project/pylint/2.13.4/",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "pylint",
+      "originator": "NOASSERTION",
+      "packageFileName": "NOASSERTION",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "pylint-2.13.4"
+    },
+    {
+      "SPDXID": "SPDXRef-3ae8b5ef-5ccf-454a-80e4-10187e58e385",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://pypi.io/packages/source/a/astroid/astroid-1.6.6.tar.gz",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:pypi/astroid@1.6.6",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://pypi.org/project/astroid/1.6.6/",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "astroid",
+      "originator": "NOASSERTION",
+      "packageFileName": "NOASSERTION",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "astroid-1.6.6"
+    },
+    {
+      "SPDXID": "SPDXRef-43646239-ec99-4420-bf19-a6afafcdc52f",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://pypi.io/packages/source/p/pytest/pytest-7.0.1.tar.gz",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:pypi/pytest@7.0.1",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://pypi.org/project/pytest/7.0.1/",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "pytest",
+      "originator": "NOASSERTION",
+      "packageFileName": "NOASSERTION",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "pytest-7.0.1"
+    },
+    {
+      "SPDXID": "SPDXRef-5841e6be-6cb6-442b-b419-638830295cbf",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://pypi.io/packages/source/p/pytest-cov/pytest-cov-2.12.1.tar.gz",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:pypi/pytest-cov@2.12.1",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://pypi.org/project/pytest-cov/2.12.1/",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "pytest-cov",
+      "originator": "NOASSERTION",
+      "packageFileName": "NOASSERTION",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "pytest-cov-2.12.1"
+    },
+    {
+      "SPDXID": "SPDXRef-8f9c09d3-24ce-464c-bd0c-e6730cdca752",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://pypi.io/packages/source/p/pre-commit/pre-commit-2.17.0.tar.gz",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:pypi/pre-commit@2.17.0",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://pypi.org/project/pre-commit/2.17.0/",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "pre-commit",
+      "originator": "NOASSERTION",
+      "packageFileName": "NOASSERTION",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "pre-commit-2.17.0.noarch"
+    },
+    {
+      "SPDXID": "SPDXRef-9f2d9d65-0b8b-4c3f-9c54-529f02f19abd",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://pypi.io/packages/source/m/mock/mock-3.0.5.tar.gz",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:pypi/mock@3.0.5",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://pypi.org/project/mock/3.0.5/",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "mock",
+      "originator": "NOASSERTION",
+      "packageFileName": "NOASSERTION",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "mock-3.0.5"
+    },
+    {
+      "SPDXID": "SPDXRef-bc30f8b6-e636-456e-b530-4da6394d5b15",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://pypi.io/packages/source/p/pytest-cov/pytest-cov-3.0.0.tar.gz",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:pypi/pytest-cov@3.0.0",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://pypi.org/project/pytest-cov/3.0.0/",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "pytest-cov",
+      "originator": "NOASSERTION",
+      "packageFileName": "NOASSERTION",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "pytest-cov-3.0.0"
+    },
+    {
+      "SPDXID": "SPDXRef-c4564e1d-02d9-4a6f-a8ba-e8c52ef725fd",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://pypi.io/packages/source/p/pytest/pytest-4.6.11.tar.gz",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:pypi/pytest@4.6.11",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://pypi.org/project/pytest/4.6.11/",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "pytest",
+      "originator": "NOASSERTION",
+      "packageFileName": "NOASSERTION",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "pytest-4.6.11"
+    },
+    {
+      "SPDXID": "SPDXRef-fee7cfd4-f55c-4164-96f6-208de2c41f5c",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "https://pypi.io/packages/source/p/pathlib2/pathlib2-2.3.7.post1.tar.gz",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE_MANAGER",
+          "referenceLocator": "pkg:pypi/pathlib2@2.3.7.post1",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://pypi.org/project/pathlib2/2.3.7.post1/",
+      "licenseComments": "Licensing information is automatically generated and may be incomplete or incorrect.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "pathlib2",
+      "originator": "NOASSERTION",
+      "packageFileName": "NOASSERTION",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "pathlib2-2.3.7.post1"
+    },
+    {
+      "SPDXID": "SPDXRef-0dcc6c3c-b040-4d39-aee5-97990e765a0f",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:/a:redhat:convert2rhel::el7",
+          "referenceType": "cpe22Type"
+        }
+      ],
+      "filesAnalyzed": false,
+      "homepage": "https://www.redhat.com/",
+      "licenseComments": "Licensing information is provided for individual components only at this time.",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "convert2rhel-7",
+      "packageFileName": "NOASSERTION",
+      "supplier": "Organization: Red Hat",
+      "versionInfo": "7"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "SPDXRef-326c22fb-57ac-4a49-8bd5-ad1dff3c627e",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-13a5306f-4eb5-4c92-b181-3f9b80e14c94"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-326c22fb-57ac-4a49-8bd5-ad1dff3c627e",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-24ba89d3-d142-4785-a967-f1e79715d2e2"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-326c22fb-57ac-4a49-8bd5-ad1dff3c627e",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-2c805bc6-3659-4488-b1d0-05909d92618b"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-326c22fb-57ac-4a49-8bd5-ad1dff3c627e",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-3ae8b5ef-5ccf-454a-80e4-10187e58e385"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-326c22fb-57ac-4a49-8bd5-ad1dff3c627e",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-43646239-ec99-4420-bf19-a6afafcdc52f"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-326c22fb-57ac-4a49-8bd5-ad1dff3c627e",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-5841e6be-6cb6-442b-b419-638830295cbf"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-326c22fb-57ac-4a49-8bd5-ad1dff3c627e",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-8f9c09d3-24ce-464c-bd0c-e6730cdca752"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-326c22fb-57ac-4a49-8bd5-ad1dff3c627e",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-9f2d9d65-0b8b-4c3f-9c54-529f02f19abd"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-326c22fb-57ac-4a49-8bd5-ad1dff3c627e",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-bc30f8b6-e636-456e-b530-4da6394d5b15"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-326c22fb-57ac-4a49-8bd5-ad1dff3c627e",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-c4564e1d-02d9-4a6f-a8ba-e8c52ef725fd"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-326c22fb-57ac-4a49-8bd5-ad1dff3c627e",
+      "relationshipType": "CONTAINED_BY",
+      "spdxElementId": "SPDXRef-fee7cfd4-f55c-4164-96f6-208de2c41f5c"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-0dcc6c3c-b040-4d39-aee5-97990e765a0f",
+      "relationshipType": "PACKAGE_OF",
+      "spdxElementId": "SPDXRef-326c22fb-57ac-4a49-8bd5-ad1dff3c627e"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-0dcc6c3c-b040-4d39-aee5-97990e765a0f",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2"
+}
